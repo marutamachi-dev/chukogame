@@ -2,23 +2,7 @@
     "rewrites":  [
                      {
                          "destination":  "/index.html",
-                         "source":  "/ranking"
-                     },
-                     {
-                         "destination":  "/index.html",
-                         "source":  "/genres"
-                     },
-                     {
-                         "destination":  "/index.html",
-                         "source":  "/guide"
-                     },
-                     {
-                         "destination":  "/index.html",
-                         "source":  "/games/:path*"
-                     },
-                     {
-                         "destination":  "/index.html",
-                         "source":  "/search"
+                         "source":  "/(.*)"
                      }
                  ]
 }
