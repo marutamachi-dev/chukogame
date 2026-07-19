@@ -1,13 +1,15 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
-import { generatedGames } from "../src/data/generated-catalog.js";
+import { games as gameMaster } from "../src/data/games.js";
 import { fetchRakutenOffers, rakutenConfigured } from "./adapters/rakuten.mjs";
 import { fetchYahooOffers, yahooConfigured } from "./adapters/yahoo-shopping.mjs";
+import { fetchSurugayaOffers } from "./adapters/surugaya.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const sourcePath = resolve(root, "data/source-offers.json");
 const previous = JSON.parse(await readFile(sourcePath, "utf8"));
 const adapters = [
+  { name: "Surugaya", source: "駿河屋", enabled: true, fetch: fetchSurugayaOffers },
   { name: "Rakuten", source: "Rakuten Ichiba", enabled: rakutenConfigured(), fetch: fetchRakutenOffers },
   { name: "Yahoo Shopping", source: "Yahoo! Shopping", enabled: yahooConfigured(), fetch: fetchYahooOffers },
 ];
@@ -24,7 +26,7 @@ const failedKeys = new Set();
 let successfulRequests = 0;
 
 for (const adapter of enabled) {
-  for (const game of generatedGames) {
+  for (const game of gameMaster) {
     try {
       const offers = await adapter.fetch(game);
       refreshed.push(...offers);

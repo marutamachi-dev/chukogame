@@ -37,6 +37,7 @@ export function calculatePlayCost(purchaseOffers, saleOffers) {
 }
 
 function groupKey(offer) {
+  if (offer.slug) return `slug:${offer.slug}`;
   return offer.jan || `${normalizeTitle(offer.title)}:${offer.platform}:${offer.edition}`;
 }
 
@@ -50,7 +51,7 @@ export function buildCatalog(rawOffers, now = new Date().toISOString(), gameMast
     groups.set(key, group);
   }
   for (const game of gameMaster) {
-    const key = game.jan || `${normalizeTitle(game.title)}:Nintendo Switch:standard`;
+    const key = game.id ? `slug:${game.id}` : game.jan || `${normalizeTitle(game.title)}:Nintendo Switch:standard`;
     if (!groups.has(key)) groups.set(key, { purchase: [], sale: [], exemplar: game });
   }
   return [...groups.values()].map((group) => {
