@@ -26,12 +26,7 @@ export async function fetchYahooOffers(game, env = process.env, fetchImpl = fetc
   };
   const janParams = addAffiliate(createParams());
   janParams.set("jan_code", game.jan);
-  let payload = await request(janParams);
-  if (!(payload.hits || []).length) {
-    const titleParams = addAffiliate(createParams());
-    titleParams.set("query", game.title);
-    payload = await request(titleParams);
-  }
+  const payload = await request(janParams);
   return (payload.hits || []).map((item) => ({
     slug: game.id, jan: game.jan, title: item.name, genre: game.genre, cover: game.cover,
     searches: game.searches, platform: "Nintendo Switch", format: "package", edition: "standard",
