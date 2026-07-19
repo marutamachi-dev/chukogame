@@ -5,9 +5,20 @@ import { matchesTitle } from "./lib/game-match.js";
 
 const genres = ["アクション", "RPG", "アドベンチャー", "シミュレーション", "パーティー", "スポーツ", "レース", "パズル", "ホラー", "その他"];
 const rankedGames = () => [...games].filter((game) => playCost(game) !== null).sort((a, b) => playCost(a) - playCost(b));
+const packageImageUrls = {
+  mariokart8dx: "https://www.nintendo.com/jp/switch/aabpa/img/soft/img__package.png",
+  "zelda-totk": "https://upload.wikimedia.org/wikipedia/en/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg",
+  splatoon3: "https://www.nintendo.com/jp/switch/av5ja/assets/images/index/pc/product/img_package.png",
+  "animal-crossing": "https://www.nintendo.com/jp/switch/acbaa/product.png",
+  "pokemon-scarlet": "https://upload.wikimedia.org/wikipedia/en/4/46/Pok%C3%A9mon_Scarlet_and_Violet_cover_art.png",
+  luigi3: "https://www.nintendo.com/jp/switch/ag3ja/img/soft/img__package.png",
+  smash: "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+  kirby: "https://www.nintendo.com/jp/switch/arzga/assets/img/top/img_package_sp.png",
+  momotetsu: "https://www.konami.com/games/momotetsu/world/img/share.jpg",
+};
 function Cover({ game, large = false }) {
   const fallback = `/covers/${game.id}.svg`;
-  const [src, setSrc] = useState(game.imageUrl || fallback);
+  const [src, setSrc] = useState(game.imageUrl || packageImageUrls[game.id] || fallback);
 
   return <div className={`cover cover-${game.cover} ${large ? "cover-large" : ""}`}><img src={src} alt={`${game.title} パッケージ画像`} onError={() => setSrc(fallback)} /></div>;
 }
