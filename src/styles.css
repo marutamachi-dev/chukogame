@@ -89,6 +89,9 @@ main>.formula{max-width:1162px;width:calc(100% - 48px)}
 /* Keep the ranking update label aligned with the page content. */
 .directory-page>.directory-update{margin-left:0;margin-right:auto}
 
+/* Separate the home-page explanation from the price table below it. */
+.price-section > .formula{margin-bottom:16px}
+
 /* Keep the hero packages as a stable three-column row on narrow screens. */
 @media(max-width:580px){
   .hero{height:520px}
