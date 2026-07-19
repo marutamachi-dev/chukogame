@@ -8,8 +8,8 @@ const root = resolve(import.meta.dirname, "..");
 const sourcePath = resolve(root, "data/source-offers.json");
 const previous = JSON.parse(await readFile(sourcePath, "utf8"));
 const adapters = [
-  { name: "Rakuten", enabled: rakutenConfigured(), fetch: fetchRakutenOffers },
-  { name: "Yahoo Shopping", enabled: yahooConfigured(), fetch: fetchYahooOffers },
+  { name: "Rakuten", source: "Rakuten Ichiba", enabled: rakutenConfigured(), fetch: fetchRakutenOffers },
+  { name: "Yahoo Shopping", source: "Yahoo! Shopping", enabled: yahooConfigured(), fetch: fetchYahooOffers },
 ];
 const enabled = adapters.filter((adapter) => adapter.enabled);
 if (!enabled.length) {
@@ -17,16 +17,32 @@ if (!enabled.length) {
   process.exit(0);
 }
 
-const offers = previous.offers.filter((offer) => !["Rakuten Ichiba", "Yahoo! Shopping"].includes(offer.source));
-const failures = [];
-for (const game of generatedGames) {
-  const settled = await Promise.allSettled(enabled.map((adapter) => adapter.fetch(game)));
-  settled.forEach((result, index) => {
-    if (result.status === "fulfilled") offers.push(...result.value);
-    else failures.push(`${enabled[index].name}: ${result.reason.message}`);
-  });
+const delay = (ms) => new Promise((resolveDelay) => setTimeout(resolveDelay, ms));
+const retained = previous.offers.filter((offer) => !adapters.some((adapter) => offer.source === adapter.source));
+const refreshed = [];
+const failedKeys = new Set();
+let successfulRequests = 0;
+
+for (const adapter of enabled) {
+  for (const game of generatedGames) {
+    try {
+      const offers = await adapter.fetch(game);
+      refreshed.push(...offers);
+      successfulRequests += 1;
+    } catch (error) {
+      failedKeys.add(`${adapter.source}:${game.id}`);
+      console.warn(`${adapter.name} ${game.id}: ${error.message}`);
+    }
+    await delay(1100);
+  }
 }
-if (failures.length) console.warn(`Partial refresh failures:\n${failures.join("\n")}`);
-if (!offers.length) throw new Error("Refresh produced no usable offers; previous data is retained.");
+
+if (!successfulRequests) {
+  console.warn("All marketplace requests failed. Keeping the last successful source data.");
+  process.exit(0);
+}
+
+const fallback = previous.offers.filter((offer) => failedKeys.has(`${offer.source}:${offer.slug}`));
+const offers = [...retained, ...refreshed, ...fallback];
 await writeFile(sourcePath, `${JSON.stringify({ updatedAt: new Date().toISOString(), offers }, null, 2)}\n`, "utf8");
-console.log(`Refreshed ${offers.length} source offers from ${enabled.map((adapter) => adapter.name).join(", ")}.`);
+console.log(`Refreshed ${refreshed.length} offers; retained ${fallback.length} offers after failed requests.`);
