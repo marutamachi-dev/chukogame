@@ -70,3 +70,16 @@
 main>.formula{width:calc(100% - 48px)}.related-ranking-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.related-ranking-item{min-width:0;padding:8px 4px;border:1px solid transparent;border-radius:7px;background:transparent;display:flex;flex-direction:column;align-items:center;color:#17181a;text-align:center}.related-ranking-item:hover,.related-ranking-item:focus-visible{border-color:#c51a25;background:#fff6f6;outline:0;transform:translateY(-2px)}.related-ranking-item .rank{margin-bottom:6px}.related-ranking-item .cover{width:58px;height:82px}.related-ranking-title{min-height:40px;margin-top:7px;font-size:13px;font-weight:800;line-height:1.3;overflow-wrap:anywhere}.related-ranking-item>strong{margin-top:3px;font-size:14px}.related-ranking-open{display:inline-flex;align-items:center;gap:2px;margin-top:5px;color:#ad1821;font-size:11px;font-weight:800;white-space:nowrap}@media(max-width:850px){main>.formula{width:calc(100% - 32px)}.related-ranking-grid{grid-template-columns:repeat(5,1fr);gap:5px}.related-ranking-title{font-size:11px}.related-ranking-item .cover{width:50px;height:72px}}@media(max-width:580px){.related-ranking-grid{grid-template-columns:repeat(2,1fr);gap:9px}.related-ranking-title{font-size:13px}.related-ranking-item .cover{width:58px;height:82px}}
 /* Detail formula aligns with the comparison cards. */
 main>.formula{max-width:none;width:calc(100% - 48px)}
+
+/* Mobile directory pages: preserve readable game titles, prices, and genre labels. */
+@media(max-width:580px){
+  .directory-list>button{grid-template-columns:28px 44px minmax(0,1fr) auto;gap:8px;min-height:76px;padding:8px}
+  .directory-list .rank{width:22px;height:22px;font-size:12px}
+  .directory-list .cover{width:42px;height:59px}
+  .directory-list>button>span:nth-child(3){min-width:0;gap:3px}
+  .directory-list>button>span:nth-child(3) strong{font-size:14px;line-height:1.3}
+  .directory-list small{font-size:11px;line-height:1.3}
+  .directory-list>b{font-size:15px;line-height:1;white-space:nowrap}
+  .directory-genres{grid-template-columns:1fr;gap:9px}
+  .directory-genres button{min-height:58px;padding:0 16px;font-size:16px;white-space:nowrap}
+}
