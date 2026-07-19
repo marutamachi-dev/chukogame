@@ -26,6 +26,6 @@ export async function fetchRakutenOffers(game, env = process.env, fetchImpl = fe
     condition: /\u4e2d\u53e4/.test(item.itemName) ? "used-standard" : "unknown",
     inStock: Number(item.availability) === 1, kind: "purchase", source: "Rakuten Ichiba",
     priceWithShipping: Number(item.itemPrice), url: item.affiliateUrl || item.itemUrl,
-    imageUrl: item.mediumImageUrls?.[0]?.imageUrl || item.imageUrl || null,
+    imageUrl: item.mediumImageUrls?.[0]?.imageUrl || item.mediumImageUrls?.[0] || item.imageUrl || null,
   }));
 }
