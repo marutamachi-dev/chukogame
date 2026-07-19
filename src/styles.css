@@ -88,3 +88,13 @@ main>.formula{max-width:1162px;width:calc(100% - 48px)}
 @media(max-width:580px){main>.formula{width:calc(100% - 32px)}}
 /* Keep the ranking update label aligned with the page content. */
 .directory-page>.directory-update{margin-left:0;margin-right:auto}
+
+/* Keep the hero packages as a stable three-column row on narrow screens. */
+@media(max-width:580px){
+  .hero{height:520px}
+  .hero-inner{display:block;padding:24px 16px}
+  .hero-copy{position:relative;z-index:2}
+  .hero-packages{position:absolute;left:50%;right:auto;bottom:18px;width:calc(100% - 32px);height:178px;padding:0;display:flex;align-items:flex-end;justify-content:center;gap:8px;transform:translateX(-50%)}
+  .hero-package,.hero-package-2,.hero-package-3{width:min(28vw,104px);height:auto;aspect-ratio:2 / 3;transform:none}
+  .hero-package img{object-fit:cover}
+}
