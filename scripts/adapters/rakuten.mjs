@@ -14,7 +14,7 @@ export async function fetchRakutenOffers(game, env = process.env, fetchImpl = fe
     formatVersion: "2",
     hits: "30",
     sort: "+itemPrice",
-    elements: "itemName,itemPrice,itemUrl,affiliateUrl,availability",
+    elements: "itemName,itemPrice,itemUrl,affiliateUrl,availability,mediumImageUrls",
   });
   if (env.RAKUTEN_AFFILIATE_ID) params.set("affiliateId", env.RAKUTEN_AFFILIATE_ID);
   const response = await fetchImpl(`${endpoint}?${params}`);
@@ -26,5 +26,6 @@ export async function fetchRakutenOffers(game, env = process.env, fetchImpl = fe
     condition: /\u4e2d\u53e4/.test(item.itemName) ? "used-standard" : "unknown",
     inStock: Number(item.availability) === 1, kind: "purchase", source: "Rakuten Ichiba",
     priceWithShipping: Number(item.itemPrice), url: item.affiliateUrl || item.itemUrl,
+    imageUrl: item.mediumImageUrls?.[0]?.imageUrl || item.imageUrl || null,
   }));
 }

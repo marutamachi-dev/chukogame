@@ -21,3 +21,8 @@ test("groups matching JAN records into one catalog game", () => {
   assert.equal(catalog[0].purchase[0].price, 1200);
   assert.equal(catalog[0].sale[0].price, 900);
 });
+
+test("retains the first available package image URL", () => {
+  const catalog = buildCatalog([{ ...eligible, imageUrl: "https://images.example.com/cover.jpg" }], "2026-07-19T00:00:00.000Z");
+  assert.equal(catalog[0].imageUrl, "https://images.example.com/cover.jpg");
+});

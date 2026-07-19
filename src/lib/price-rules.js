@@ -36,6 +36,7 @@ export function buildCatalog(rawOffers, now = new Date().toISOString()) {
     return {
       id: group.exemplar.slug, jan: group.exemplar.jan ?? null, title: group.exemplar.title,
       genre: group.exemplar.genre, cover: group.exemplar.cover, searches: group.exemplar.searches ?? 0,
+      imageUrl: purchase.find((offer) => offer.imageUrl)?.imageUrl ?? group.exemplar.imageUrl ?? null,
       purchase: purchase.map(({ source, priceWithShipping, url }) => ({ name: source, price: priceWithShipping, url })),
       sale: sale.map(({ source, price, url }) => ({ name: source, price, url })),
       updatedAt: now,

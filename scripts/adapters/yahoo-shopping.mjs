@@ -26,5 +26,6 @@ export async function fetchYahooOffers(game, env = process.env, fetchImpl = fetc
     condition: /\u4e2d\u53e4/.test(item.name) ? "used-standard" : "unknown",
     inStock: item.in_stock !== false, kind: "purchase", source: "Yahoo! Shopping",
     priceWithShipping: Number(item.price), url: item.url,
+    imageUrl: item.image?.medium || item.image?.url || (item.imageId ? `https://item-shopping.c.yimg.jp/i/g/${item.imageId}` : null),
   }));
 }
