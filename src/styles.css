@@ -34,3 +34,8 @@
 .table-game span{min-width:0}
 @media(max-width:850px){.hero-packages{padding-bottom:48px}.table-game{gap:7px}.table-game img{width:58px;height:82px}}
 .table-game .table-detail{margin-left:auto;display:inline-flex;align-items:center;gap:3px;color:#ad1821;font-size:11px;font-weight:800;white-space:nowrap;opacity:.86}.price-row:hover .table-detail,.price-row:focus .table-detail{text-decoration:underline;opacity:1}
+
+.ranking-item{border:1px solid transparent;border-radius:7px;padding:7px 3px 8px;transition:border-color .16s ease,background .16s ease,transform .16s ease}
+.ranking-item:hover,.ranking-item:focus-visible{border-color:#c51a25;background:#fff6f6;outline:0;transform:translateY(-2px)}
+.ranking-open{display:inline-flex;align-items:center;gap:2px;margin-top:5px;color:#ad1821;font-size:11px;font-weight:800;white-space:nowrap}
+.ranking-item:hover .ranking-open,.ranking-item:focus-visible .ranking-open{text-decoration:underline}
