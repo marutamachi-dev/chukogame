@@ -86,3 +86,5 @@ main>.formula{max-width:none;width:calc(100% - 48px)}
 /* Detail formula shares the exact horizontal frame of the comparison cards. */
 main>.formula{max-width:1162px;width:calc(100% - 48px)}
 @media(max-width:580px){main>.formula{width:calc(100% - 32px)}}
+/* Keep the ranking update label aligned with the page content. */
+.directory-page>.directory-update{margin-left:0;margin-right:auto}
