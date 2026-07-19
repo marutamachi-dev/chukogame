@@ -5,7 +5,12 @@ import { matchesTitle } from "./lib/game-match.js";
 
 const genres = ["アクション", "RPG", "アドベンチャー", "シミュレーション", "パーティー", "スポーツ", "レース", "パズル", "ホラー", "その他"];
 const rankedGames = () => [...games].filter((game) => playCost(game) !== null).sort((a, b) => playCost(a) - playCost(b));
-const Cover = ({ game, large = false }) => <div className={`cover cover-${game.cover} ${large ? "cover-large" : ""}`}><span>Nintendo<br/>Switch</span><strong>{game.cover}</strong></div>;
+function Cover({ game, large = false }) {
+  const fallback = `/covers/${game.id}.svg`;
+  const [src, setSrc] = useState(game.imageUrl || fallback);
+
+  return <div className={`cover cover-${game.cover} ${large ? "cover-large" : ""}`}><img src={src} alt={`${game.title} パッケージ画像`} onError={() => setSrc(fallback)} /></div>;
+}
 
 function Header({ onSearch, onNavigate }) {
   const [query, setQuery] = useState("");
