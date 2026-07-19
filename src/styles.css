@@ -27,3 +27,9 @@
 .hero-packages{padding:6px 18px 26px 0}
 @media(max-width:850px){.price-update{margin-left:0}.hero-packages{padding-bottom:34px}}
 @media(max-width:580px){.price-search{width:100%}.hero-packages{padding-bottom:0}}
+/* Compact title cells with clear package thumbnails. */
+.hero-packages{padding-bottom:42px}
+.table-game{display:flex;align-items:center;gap:9px;min-width:0}
+.table-game img{width:27px;height:38px;flex:0 0 auto;border:1px solid #d3d0cc;border-radius:2px;object-fit:cover;box-shadow:0 1px 2px rgba(0,0,0,.14)}
+.table-game span{min-width:0}
+@media(max-width:850px){.hero-packages{padding-bottom:48px}.table-game{gap:7px}.table-game img{width:24px;height:34px}}
