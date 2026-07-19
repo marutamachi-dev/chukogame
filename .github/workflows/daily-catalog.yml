@@ -1,0 +1,42 @@
+name: Daily catalog refresh
+
+on:
+  schedule:
+    # 06:00 JST (UTC+9)
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Refresh marketplace source offers
+        run: npm run refresh:sources
+        env:
+          RAKUTEN_APPLICATION_ID: ${{ secrets.RAKUTEN_APPLICATION_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+          RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
+          YAHOO_SHOPPING_APP_ID: ${{ secrets.YAHOO_SHOPPING_APP_ID }}
+          YAHOO_SHOPPING_AFFILIATE_ID: ${{ secrets.YAHOO_SHOPPING_AFFILIATE_ID }}
+      - run: npm run build:catalog
+      - run: npm test
+      - name: Commit refreshed catalog
+        run: |
+          if git diff --quiet; then
+            echo "No catalog changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/source-offers.json src/data/generated-catalog.js
+          git commit -m "chore: refresh game prices"
+          git push
