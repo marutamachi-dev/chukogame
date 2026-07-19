@@ -83,3 +83,6 @@ main>.formula{max-width:none;width:calc(100% - 48px)}
   .directory-genres{grid-template-columns:1fr;gap:9px}
   .directory-genres button{min-height:58px;padding:0 16px;font-size:16px;white-space:nowrap}
 }
+/* Detail formula shares the exact horizontal frame of the comparison cards. */
+main>.formula{max-width:1162px;width:calc(100% - 48px)}
+@media(max-width:580px){main>.formula{width:calc(100% - 32px)}}
