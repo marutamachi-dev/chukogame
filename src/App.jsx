@@ -83,6 +83,29 @@ export function App() {
     canonical.setAttribute("href", window.location.href);
   }, [location, currentGame]);
 
+  useEffect(() => {
+    const baseUrl = "https://chukogame.vercel.app";
+    const isDetail = location.page === "detail";
+    const path = isDetail ? `/games/${currentGame.id}` : location.page === "ranking" ? "/ranking" : location.page === "genres" ? "/genres" : location.page === "search" ? "/search" : "/";
+    const title = isDetail ? `${currentGame.title}の中古価格・買取価格比較 | 中古ゲーム価格ナビ` : location.page === "ranking" ? "実質プレイ費用が安いSwitchソフトランキング | 中古ゲーム価格ナビ" : location.page === "genres" ? "ジャンルから探す | 中古ゲーム価格ナビ" : "中古ゲーム価格ナビ | Switch中古ソフトの価格比較";
+    const description = isDetail ? `${currentGame.title}の中古販売価格と買取価格の目安を比較。Nintendo Switch国内パッケージ版の実質プレイ費用を確認できます。` : location.page === "ranking" ? "実質プレイ費用が安いNintendo Switch中古ソフトのランキング。買う目安と売る目安の差額を比較できます。" : location.page === "genres" ? "Nintendo Switch中古ソフトをジャンル別に探し、中古価格を比較できます。" : "Nintendo Switch中古ソフトの買う目安と売る目安を比較。実質プレイ費用が分かる中古ゲーム価格比較サイトです。";
+    const canonicalUrl = `${baseUrl}${path}`;
+    const setMeta = (selector, attributes, value) => { let node = document.head.querySelector(selector); if (!node) { node = document.createElement("meta"); Object.entries(attributes).forEach(([key, attributeValue]) => node.setAttribute(key, attributeValue)); document.head.appendChild(node); } node.setAttribute("content", value); };
+    document.title = title;
+    let canonical = document.head.querySelector('link[rel="canonical"]');
+    if (!canonical) { canonical = document.createElement("link"); canonical.setAttribute("rel", "canonical"); document.head.appendChild(canonical); }
+    canonical.setAttribute("href", canonicalUrl);
+    setMeta('meta[name="description"]', { name: "description" }, description);
+    setMeta('meta[name="robots"]', { name: "robots" }, location.page === "search" ? "noindex,follow" : "index,follow");
+    setMeta('meta[property="og:title"]', { property: "og:title" }, title);
+    setMeta('meta[property="og:description"]', { property: "og:description" }, description);
+    setMeta('meta[property="og:url"]', { property: "og:url" }, canonicalUrl);
+    setMeta('meta[property="og:site_name"]', { property: "og:site_name" }, "中古ゲーム価格ナビ");
+    setMeta('meta[name="twitter:card"]', { name: "twitter:card" }, "summary");
+    let structuredData = document.getElementById("seo-json-ld");
+    if (!structuredData) { structuredData = document.createElement("script"); structuredData.id = "seo-json-ld"; structuredData.type = "application/ld+json"; document.head.appendChild(structuredData); }
+    structuredData.textContent = JSON.stringify(isDetail ? { "@context": "https://schema.org", "@type": "VideoGame", name: currentGame.title, sku: currentGame.jan, gamePlatform: "Nintendo Switch", genre: currentGame.genre, inLanguage: "ja-JP" } : { "@context": "https://schema.org", "@type": "WebSite", name: "中古ゲーム価格ナビ", url: baseUrl, inLanguage: "ja-JP" });
+  }, [location, currentGame]);
   const go = (path, { replace = false } = {}) => {
     if (window.location.pathname + window.location.search !== path) {
       window.history[replace ? "replaceState" : "pushState"]({}, "", path);
