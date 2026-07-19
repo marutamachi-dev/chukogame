@@ -20,3 +20,10 @@
 .hero-package-3{transform:perspective(840px) rotateY(3deg) translateY(2px)}
 @media(max-width:850px){.hero{height:320px}.hero-inner{padding:0 26px}.hero-copy p{font-size:26px}.hero-copy h1{font-size:43px}.hero-packages{gap:12px;transform:scale(.78);transform-origin:right center;padding-right:0}.hero-package{width:120px;height:187px}}
 @media(max-width:580px){.hero{height:360px}.hero-inner{padding-top:28px}.hero-copy p{font-size:24px}.hero-copy h1{font-size:40px}.hero-actions{gap:8px}.hero-actions button{min-height:39px;padding:0 11px;font-size:12px}.hero-packages{right:-45px;bottom:-46px;transform:scale(.54);transform-origin:right bottom}.hero-package{width:126px;height:196px}}
+/* Header and price section refinements */
+.site-header nav{margin-left:auto}
+.price-search{width:min(720px,100%)}
+.price-update{width:max-content;max-width:100%;margin:0 0 10px auto;padding:7px 11px;border:1px solid #dfd8d3;border-radius:5px;background:#fff;color:#625a56;font-size:12px;font-weight:800}
+.hero-packages{padding:6px 18px 26px 0}
+@media(max-width:850px){.price-update{margin-left:0}.hero-packages{padding-bottom:34px}}
+@media(max-width:580px){.price-search{width:100%}.hero-packages{padding-bottom:0}}
