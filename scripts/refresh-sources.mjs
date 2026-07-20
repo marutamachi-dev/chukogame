@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { games as gameMaster } from "../src/data/games.js";
+import { normalizeTitle } from "../src/lib/price-rules.js";
 import { fetchRakutenOffers, rakutenConfigured } from "./adapters/rakuten.mjs";
 import { fetchYahooOffers, yahooConfigured } from "./adapters/yahoo-shopping.mjs";
 import { fetchSurugayaOffers } from "./adapters/surugaya.mjs";
@@ -20,7 +21,15 @@ if (!enabled.length) {
 }
 
 const delay = (ms) => new Promise((resolveDelay) => setTimeout(resolveDelay, ms));
-const retained = previous.offers.filter((offer) => !adapters.some((adapter) => offer.source === adapter.source));
+const gameById = new Map(gameMaster.map((game) => [game.id, game]));
+const hasMatchingMasterTitle = (offer) => {
+  if (offer.source !== "Yahoo! Shopping") return true;
+  const game = gameById.get(offer.slug);
+  return Boolean(game && normalizeTitle(offer.title || "").includes(normalizeTitle(game.title)));
+};
+const retained = previous.offers.filter((offer) => (
+  !adapters.some((adapter) => offer.source === adapter.source) && hasMatchingMasterTitle(offer)
+));
 const refreshed = [];
 const failedKeys = new Set();
 let successfulRequests = 0;
@@ -44,7 +53,9 @@ if (!successfulRequests) {
   process.exit(0);
 }
 
-const fallback = previous.offers.filter((offer) => failedKeys.has(`${offer.source}:${offer.slug}`));
+const fallback = previous.offers.filter((offer) => (
+  failedKeys.has(`${offer.source}:${offer.slug}`) && hasMatchingMasterTitle(offer)
+));
 const offers = [...retained, ...refreshed, ...fallback];
 await writeFile(sourcePath, `${JSON.stringify({ updatedAt: new Date().toISOString(), offers }, null, 2)}\n`, "utf8");
 console.log(`Refreshed ${refreshed.length} offers; retained ${fallback.length} offers after failed requests.`);
