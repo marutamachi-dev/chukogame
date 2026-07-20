@@ -1,4 +1,8 @@
 const endpoint = "https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch";
+const normalizeTitle = (value) => value
+  .normalize("NFKC")
+  .toLowerCase()
+  .replace(/[\s\u30fb:\uff1a!\uff01?\uff1f'"\u300c\u300d]/g, "");
 
 export function yahooConfigured(env = process.env) {
   return Boolean(env.YAHOO_SHOPPING_APP_ID);
@@ -30,6 +34,7 @@ export async function fetchYahooOffers(game, env = process.env, fetchImpl = fetc
   const observedAt = new Date().toISOString();
   return (payload.hits || []).filter((item) => (
     String(item.janCode) === String(game.jan)
+    && normalizeTitle(item.name || "").includes(normalizeTitle(game.title))
     && item.condition === "used"
     && item.inStock === true
     && (Number(item.shipping?.code) === 1 || /送料無料/.test(item.shipping?.name || ""))

@@ -18,3 +18,22 @@ test("uses only JAN search results and does not fall back to title search", asyn
   assert.match(requests[0], /jan_code=4900000000000/);
   assert.doesNotMatch(requests[0], /query=/);
 });
+
+test("excludes a different title even when the API reports the same JAN", async () => {
+  const fetchImpl = async () => ({
+    ok: true,
+    json: async () => ({
+      hits: [{
+        janCode: game.jan,
+        name: "Different Switch Game",
+        condition: "used",
+        inStock: true,
+        price: 2150,
+        url: "https://store.example.com/different-game",
+        shipping: { code: 1, name: "送料無料" },
+      }],
+    }),
+  });
+
+  assert.deepEqual(await fetchYahooOffers(game, { YAHOO_SHOPPING_APP_ID: "test" }, fetchImpl), []);
+});
