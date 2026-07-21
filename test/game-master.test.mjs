@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {
-  CHUNK_COUNT, GAME_COUNT, cleanCatalogTitle, hasExcludedProductName, isValidJan, validateGameMaster, splitIntoChunks, selectMasterCandidates,
+  CHUNK_COUNT, GAME_COUNT, MASTER_SORTS, cleanCatalogTitle, hasExcludedProductName, isValidJan, validateGameMaster, splitIntoChunks, selectMasterCandidates,
   requestWithRateLimit,
 } from "../src/lib/game-master.js";
 
@@ -40,6 +40,10 @@ test("validates JAN-13 check digits", () => {
   assert.equal(isValidJan("4902370536485"), true);
   assert.equal(isValidJan("4902370536486"), false);
   assert.equal(isValidJan("123"), false);
+});
+
+test("uses independent official sort orders to widen the candidate pool", () => {
+  assert.deepEqual(MASTER_SORTS, ["-review_count", "-score", "+price", "-price"]);
 });
 
 test("splits exactly 1000 games into twenty stable chunks", () => {

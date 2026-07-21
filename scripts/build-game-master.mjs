@@ -1,7 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import {
-  GAME_COUNT, CHUNK_SIZE, cleanCatalogTitle, hasExcludedProductName, isValidJan,
+  GAME_COUNT, CHUNK_SIZE, MASTER_SORTS, cleanCatalogTitle, hasExcludedProductName, isValidJan,
   requestWithRateLimit, selectMasterCandidates, validateGameMaster,
 } from "../src/lib/game-master.js";
 
@@ -113,13 +113,17 @@ function uniqueProducts(items) {
   }));
 }
 
-const reviewed = await fetchPages("-review_count");
-await delay(1100);
-const recommended = await fetchPages("-score");
+const pagesBySort = new Map();
+for (const sort of MASTER_SORTS) {
+  pagesBySort.set(sort, await fetchPages(sort));
+  if (sort !== MASTER_SORTS.at(-1)) await delay(1100);
+}
+const reviewed = pagesBySort.get("-review_count");
+const recommended = pagesBySort.get("-score");
 const popular = uniqueProducts(reviewed);
 const recent = uniqueProducts([...reviewed, ...recommended])
   .sort((a, b) => String(b.releaseDate || "").localeCompare(String(a.releaseDate || "")));
-const allCandidates = uniqueProducts([...reviewed, ...recommended]);
+const allCandidates = uniqueProducts([...pagesBySort.values()].flat());
 const selected = selectMasterCandidates({
   popular,
   recent,
@@ -151,4 +155,4 @@ const games = selected.map((item, index) => ({
 const errors = validateGameMaster(games);
 if (errors.length) throw new Error(`Generated game master failed validation:\n${errors.join("\n")}`);
 await writeFile(resolve(import.meta.dirname, "../src/data/game-master.json"), `${JSON.stringify(games, null, 2)}\n`, "utf8");
-console.log(`Generated ${games.length} verified Nintendo Switch package titles in 6 chunks.`);
+console.log(`Generated ${games.length} verified Nintendo Switch package titles in ${games.length / CHUNK_SIZE} chunks.`);
