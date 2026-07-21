@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {
-  CHUNK_COUNT, GAME_COUNT, MASTER_SORTS, cleanCatalogTitle, hasExcludedProductName, isValidJan, validateGameMaster, splitIntoChunks, selectMasterCandidates,
+  CHUNK_COUNT, GAME_COUNT, MASTER_QUERIES, MASTER_SORTS, cleanCatalogTitle, hasExcludedProductName, isValidJan, validateGameMaster, splitIntoChunks, selectMasterCandidates,
   requestWithRateLimit,
 } from "../src/lib/game-master.js";
 
@@ -44,6 +44,7 @@ test("validates JAN-13 check digits", () => {
 
 test("uses independent official sort orders to widen the candidate pool", () => {
   assert.deepEqual(MASTER_SORTS, ["-review_count", "-score", "+price", "-price"]);
+  assert.deepEqual(MASTER_QUERIES, ["", "ゲーム", "ソフト"]);
 });
 
 test("splits exactly 1000 games into twenty stable chunks", () => {

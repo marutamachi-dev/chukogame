@@ -2,6 +2,7 @@ export const GAME_COUNT = 1000;
 export const CHUNK_SIZE = 50;
 export const CHUNK_COUNT = GAME_COUNT / CHUNK_SIZE;
 export const MASTER_SORTS = ["-review_count", "-score", "+price", "-price"];
+export const MASTER_QUERIES = ["", "\u30b2\u30fc\u30e0", "\u30bd\u30d5\u30c8"];
 
 export function cleanCatalogTitle(value) {
   return String(value || "")

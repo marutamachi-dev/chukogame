@@ -1,7 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import {
-  GAME_COUNT, CHUNK_SIZE, MASTER_SORTS, cleanCatalogTitle, hasExcludedProductName, isValidJan,
+  GAME_COUNT, CHUNK_SIZE, MASTER_QUERIES, MASTER_SORTS, cleanCatalogTitle, hasExcludedProductName, isValidJan,
   requestWithRateLimit, selectMasterCandidates, validateGameMaster,
 } from "../src/lib/game-master.js";
 
@@ -71,7 +71,7 @@ function eligible(item) {
     && !/(本体|コントローラ|ケース|保護フィルム|攻略本|amiibo|アミーボ)/i.test(item.name);
 }
 
-async function fetchPage(sort, start) {
+async function fetchPage(sort, query, start) {
   const params = new URLSearchParams({
     appid: applicationId,
     genre_category_id: packageCategoryId,
@@ -81,16 +81,17 @@ async function fetchPage(sort, start) {
     condition: "new",
     image_size: "300",
   });
+  if (query) params.set("query", query);
   const requestUrl = `${endpoint}?${params}`;
   const response = await requestWithRateLimit(() => fetch(requestUrl), delay);
   if (!response.ok) throw new Error(`Yahoo Shopping API ${response.status} on ${sort} start ${start}`);
   return (await response.json()).hits || [];
 }
 
-async function fetchPages(sort) {
+async function fetchPages(sort, query) {
   const items = [];
   for (let start = 1; start <= 901; start += 50) {
-    items.push(...await fetchPage(sort, start));
+    items.push(...await fetchPage(sort, query, start));
     if (start < 901) await delay(1100);
   }
   return items.filter(eligible);
@@ -113,17 +114,19 @@ function uniqueProducts(items) {
   }));
 }
 
-const pagesBySort = new Map();
-for (const sort of MASTER_SORTS) {
-  pagesBySort.set(sort, await fetchPages(sort));
-  if (sort !== MASTER_SORTS.at(-1)) await delay(1100);
+const pagesBySearch = new Map();
+for (const query of MASTER_QUERIES) {
+  for (const sort of MASTER_SORTS) {
+    pagesBySearch.set(`${query}:${sort}`, await fetchPages(sort, query));
+    if (query !== MASTER_QUERIES.at(-1) || sort !== MASTER_SORTS.at(-1)) await delay(1100);
+  }
 }
-const reviewed = pagesBySort.get("-review_count");
-const recommended = pagesBySort.get("-score");
+const reviewed = pagesBySearch.get(":-review_count");
+const recommended = pagesBySearch.get(":-score");
 const popular = uniqueProducts(reviewed);
 const recent = uniqueProducts([...reviewed, ...recommended])
   .sort((a, b) => String(b.releaseDate || "").localeCompare(String(a.releaseDate || "")));
-const allCandidates = uniqueProducts([...pagesBySort.values()].flat());
+const allCandidates = uniqueProducts([...pagesBySearch.values()].flat());
 const selected = selectMasterCandidates({
   popular,
   recent,
