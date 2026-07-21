@@ -47,16 +47,18 @@ jobs:
         run: npm test
       - name: Commit refreshed catalog
         run: |
-          if git diff --quiet; then
+          if [ "${{ inputs.build_master }}" = "true" ]; then
+            git add src/data/game-master.json
+            COMMIT_MESSAGE="feat: generate verified 300-title game master"
+          else
+            git add data/source-offers.json src/data/generated-catalog.js
+            COMMIT_MESSAGE="chore: refresh game prices"
+          fi
+          if git diff --cached --quiet; then
             echo "No catalog changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ "${{ inputs.build_master }}" = "true" ]; then
-            git add src/data/game-master.json
-          else
-            git add data/source-offers.json src/data/generated-catalog.js
-          fi
-          git commit -m "chore: refresh game prices"
+          git commit -m "$COMMIT_MESSAGE"
           git push
