@@ -18,6 +18,7 @@ test("excludes bundles, DLC-included editions, and accessories", () => {
   assert.equal(hasExcludedProductName("ポケットモンスター バイオレット+ゼロの秘宝"), true);
   assert.equal(hasExcludedProductName("Pokemon GO Plus+"), true);
   assert.equal(hasExcludedProductName("\u30cb\u30f3\u30c6\u30f3\u30c9\u30fc\u30b9\u30a4\u30c3\u30c72\u30bd\u30d5\u30c8"), true);
+  assert.equal(hasExcludedProductName("Nintendo Switch 2 game"), true);
 });
 
 const game = (index, overrides = {}) => ({
