@@ -86,9 +86,9 @@ async function fetchPage(sort, start) {
 
 async function fetchPages(sort) {
   const items = [];
-  for (let start = 1; start <= 951; start += 50) {
+  for (let start = 1; start <= 901; start += 50) {
     items.push(...await fetchPage(sort, start));
-    if (start < 951) await delay(1100);
+    if (start < 901) await delay(1100);
   }
   return items.filter(eligible);
 }
