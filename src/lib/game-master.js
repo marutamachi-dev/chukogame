@@ -1,0 +1,97 @@
+export const GAME_COUNT = 300;
+export const CHUNK_SIZE = 50;
+export const CHUNK_COUNT = GAME_COUNT / CHUNK_SIZE;
+
+const excludedProductWords = [
+  "switch 2", "switch2", "ダウンロード", "download", "海外版", "輸入版",
+  "限定版", "特装版", "豪華版", "同梱版", "セット", "廉価版", "best price",
+  "コードのみ", "オンラインコード", "追加コンテンツ", "dl版",
+];
+
+export function isValidJan(value) {
+  if (!/^\d{13}$/.test(String(value))) return false;
+  const digits = [...String(value)].map(Number);
+  const sum = digits.slice(0, 12).reduce((total, digit, index) => (
+    total + digit * (index % 2 === 0 ? 1 : 3)
+  ), 0);
+  return (10 - (sum % 10)) % 10 === digits[12];
+}
+
+export function splitIntoChunks(games, chunkSize = CHUNK_SIZE) {
+  return Array.from(
+    { length: Math.ceil(games.length / chunkSize) },
+    (_, index) => games.slice(index * chunkSize, (index + 1) * chunkSize),
+  );
+}
+
+export function hasExcludedProductName(title) {
+  const normalized = String(title).normalize("NFKC").toLowerCase();
+  return excludedProductWords.some((word) => normalized.includes(word));
+}
+
+export function validateGameMaster(
+  games,
+  { expectedCount = GAME_COUNT, expectedChunkSize = CHUNK_SIZE } = {},
+) {
+  const errors = [];
+  if (!Array.isArray(games)) return ["game master must be an array"];
+  if (games.length !== expectedCount) errors.push(`expected ${expectedCount} games, received ${games.length}`);
+
+  const ids = new Set();
+  const jans = new Set();
+  for (const [index, game] of games.entries()) {
+    const prefix = `record ${index}`;
+    for (const field of ["id", "title", "genre", "releaseDate"]) {
+      if (!String(game?.[field] || "").trim()) errors.push(`${prefix}: missing ${field}`);
+    }
+    if (ids.has(game?.id)) errors.push(`${prefix}: duplicate id ${game?.id}`);
+    ids.add(game?.id);
+    if (!isValidJan(game?.jan)) errors.push(`${prefix}: invalid JAN ${game?.jan || ""}`);
+    if (jans.has(game?.jan)) errors.push(`${prefix}: duplicate JAN ${game?.jan}`);
+    jans.add(game?.jan);
+    if (!Array.isArray(game?.aliases)) errors.push(`${prefix}: aliases must be an array`);
+    if (hasExcludedProductName(game?.title)) errors.push(`${prefix}: excluded product ${game?.title}`);
+    if (!/^https:\/\//.test(game?.verification?.sourceUrl || "")) errors.push(`${prefix}: missing verification sourceUrl`);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(game?.verification?.checkedAt || "")) errors.push(`${prefix}: invalid verification checkedAt`);
+    if (!Number.isInteger(game?.chunk) || game.chunk < 0 || game.chunk >= CHUNK_COUNT) errors.push(`${prefix}: invalid chunk`);
+  }
+
+  if (expectedChunkSize != null) {
+    for (let chunk = 0; chunk < CHUNK_COUNT; chunk += 1) {
+      const count = games.filter((game) => game.chunk === chunk).length;
+      if (count !== expectedChunkSize) errors.push(`chunk ${chunk} expected ${expectedChunkSize}, received ${count}`);
+    }
+  }
+  return errors;
+}
+
+export function getGameChunk(games, chunkIndex) {
+  const index = Number(chunkIndex);
+  if (!Number.isInteger(index) || index < 0 || index >= CHUNK_COUNT) {
+    throw new RangeError(`GAME_CHUNK must be an integer from 0 to ${CHUNK_COUNT - 1}`);
+  }
+  return games.filter((game) => game.chunk === index);
+}
+
+export function selectMasterCandidates(
+  { popular = [], recent = [], coverage = [] },
+  { popularCount = 150, recentCount = 60, totalCount = GAME_COUNT } = {},
+) {
+  const selected = [];
+  const seenJans = new Set();
+  const append = (items, limit, selectionGroup) => {
+    let added = 0;
+    for (const item of items) {
+      if (selected.length >= totalCount || added >= limit || seenJans.has(String(item.jan))) continue;
+      seenJans.add(String(item.jan));
+      selected.push({ ...item, selectionGroup });
+      added += 1;
+    }
+  };
+
+  append(popular, popularCount, "popular");
+  append(recent, recentCount, "recent");
+  append(coverage, totalCount - selected.length, "coverage");
+  append([...popular, ...recent], totalCount - selected.length, "coverage");
+  return selected;
+}

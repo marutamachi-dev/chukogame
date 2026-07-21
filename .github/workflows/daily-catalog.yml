@@ -5,6 +5,12 @@ on:
     # 06:00 JST (UTC+9)
     - cron: "0 21 * * *"
   workflow_dispatch:
+    inputs:
+      build_master:
+        description: Build and commit the verified 300-title game master
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -18,7 +24,17 @@ jobs:
         with:
           node-version: 24
       - run: npm ci
+      - name: Build verified 300-title master
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.build_master }}
+        run: npm run build:master
+        env:
+          RAKUTEN_APPLICATION_ID: ${{ secrets.RAKUTEN_APPLICATION_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+      - name: Test generated master
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.build_master }}
+        run: node --test test/game-master.test.mjs
       - name: Refresh marketplace source offers
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.build_master }}
         run: npm run refresh:sources
         env:
           RAKUTEN_APPLICATION_ID: ${{ secrets.RAKUTEN_APPLICATION_ID }}
@@ -26,8 +42,10 @@ jobs:
           RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
           YAHOO_SHOPPING_APP_ID: ${{ secrets.YAHOO_SHOPPING_APP_ID }}
           YAHOO_SHOPPING_AFFILIATE_ID: ${{ secrets.YAHOO_SHOPPING_AFFILIATE_ID }}
-      - run: npm run build:catalog
-      - run: npm test
+      - if: ${{ github.event_name != 'workflow_dispatch' || !inputs.build_master }}
+        run: npm run build:catalog
+      - if: ${{ github.event_name != 'workflow_dispatch' || !inputs.build_master }}
+        run: npm test
       - name: Commit refreshed catalog
         run: |
           if git diff --quiet; then
@@ -36,6 +54,10 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/source-offers.json src/data/generated-catalog.js
+          if [ "${{ inputs.build_master }}" = "true" ]; then
+            git add src/data/game-master.json
+          else
+            git add data/source-offers.json src/data/generated-catalog.js
+          fi
           git commit -m "chore: refresh game prices"
           git push

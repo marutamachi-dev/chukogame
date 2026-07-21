@@ -9,6 +9,7 @@
                     "preview":  "vite preview",
                     "seed:catalog":  "node scripts/seed-raw-offers.mjs",
                     "build:catalog":  "node scripts/build-catalog.mjs",
+                    "build:master":  "node --env-file-if-exists=.env scripts/build-game-master.mjs",
                     "test":  "node --test",
                     "refresh:sources":  "node --env-file-if-exists=.env scripts/refresh-sources.mjs",
                     "update:data":  "npm run refresh:sources \u0026\u0026 npm run build:catalog"
