@@ -95,3 +95,16 @@ export function selectMasterCandidates(
   append([...popular, ...recent], totalCount - selected.length, "coverage");
   return selected;
 }
+
+export async function requestWithRateLimit(
+  request,
+  sleep,
+  { retryDelayMs = 65_000, maxRetries = 2 } = {},
+) {
+  for (let attempt = 0; attempt <= maxRetries; attempt += 1) {
+    const response = await request();
+    if (response.status !== 429 || attempt === maxRetries) return response;
+    await sleep(retryDelayMs);
+  }
+  throw new Error("unreachable rate-limit retry state");
+}

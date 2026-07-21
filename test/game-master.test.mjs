@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import {
   isValidJan, validateGameMaster, splitIntoChunks, selectMasterCandidates,
+  requestWithRateLimit,
 } from "../src/lib/game-master.js";
 
 const game = (index, overrides = {}) => ({
@@ -62,4 +63,16 @@ test("selects popular, recent, then coverage candidates without duplicate JANs",
 
   assert.deepEqual(selected.map((item) => item.jan), ["1", "2", "4", "5", "6"]);
   assert.deepEqual(selected.map((item) => item.selectionGroup), ["popular", "popular", "recent", "coverage", "coverage"]);
+});
+
+test("waits and retries once after a 429 response", async () => {
+  const statuses = [429, 200];
+  const waits = [];
+  const response = await requestWithRateLimit(
+    async () => ({ ok: statuses[0] === 200, status: statuses.shift() }),
+    async (milliseconds) => waits.push(milliseconds),
+    { retryDelayMs: 65_000 },
+  );
+  assert.equal(response.status, 200);
+  assert.deepEqual(waits, [65_000]);
 });

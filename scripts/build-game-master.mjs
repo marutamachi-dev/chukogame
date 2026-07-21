@@ -2,7 +2,7 @@ import { writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import {
   GAME_COUNT, CHUNK_SIZE, hasExcludedProductName, isValidJan,
-  selectMasterCandidates, validateGameMaster,
+  requestWithRateLimit, selectMasterCandidates, validateGameMaster,
 } from "../src/lib/game-master.js";
 
 const applicationId = process.env.YAHOO_SHOPPING_APP_ID;
@@ -79,7 +79,8 @@ async function fetchPage(sort, start) {
     condition: "new",
     image_size: "300",
   });
-  const response = await fetch(`${endpoint}?${params}`);
+  const requestUrl = `${endpoint}?${params}`;
+  const response = await requestWithRateLimit(() => fetch(requestUrl), delay);
   if (!response.ok) throw new Error(`Yahoo Shopping API ${response.status} on ${sort} start ${start}`);
   return (await response.json()).hits || [];
 }
