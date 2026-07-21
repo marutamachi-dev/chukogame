@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {
-  cleanCatalogTitle, isValidJan, validateGameMaster, splitIntoChunks, selectMasterCandidates,
+  cleanCatalogTitle, hasExcludedProductName, isValidJan, validateGameMaster, splitIntoChunks, selectMasterCandidates,
   requestWithRateLimit,
 } from "../src/lib/game-master.js";
 
@@ -9,6 +9,14 @@ test("removes retailer and platform boilerplate from catalog titles", () => {
   assert.equal(cleanCatalogTitle("【新品】NSW マリオカート8デラックス"), "マリオカート8デラックス");
   assert.equal(cleanCatalogTitle("任天堂 (Switch)ピクミン3 デラックス 返品種別B"), "ピクミン3 デラックス");
   assert.equal(cleanCatalogTitle("Switch 星のカービィ ディスカバリー"), "星のカービィ ディスカバリー");
+  assert.equal(cleanCatalogTitle("在庫あり[メール便OK]【新品】【NS】塊魂アンコール[在庫品]"), "塊魂アンコール");
+  assert.equal(cleanCatalogTitle("ゼルダの伝説 ティアーズ オブ ザ キングダム Switch用ソフト(パッケージ版)"), "ゼルダの伝説 ティアーズ オブ ザ キングダム");
+});
+
+test("excludes bundles, DLC-included editions, and accessories", () => {
+  assert.equal(hasExcludedProductName("マリオカート8 デラックス+コース追加パス"), true);
+  assert.equal(hasExcludedProductName("ポケットモンスター バイオレット+ゼロの秘宝"), true);
+  assert.equal(hasExcludedProductName("Pokemon GO Plus+"), true);
 });
 
 const game = (index, overrides = {}) => ({

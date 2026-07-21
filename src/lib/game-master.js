@@ -5,17 +5,27 @@ export const CHUNK_COUNT = GAME_COUNT / CHUNK_SIZE;
 export function cleanCatalogTitle(value) {
   return String(value || "")
     .normalize("NFKC")
+    .replace(/&amp;/gi, "&")
+    .replace(/^\s*(?:在庫あり|即納|新品|ポスト投函[☆★]?送料無料)\s*/u, "")
+    .replace(/[【\[][^】\]]*(?:新品|送料無料|即日|在庫|予約|メール便)[^】\]]*[】\]]/gu, " ")
+    .replace(/[【\[](?:NS|Switch版|在庫品|お取寄せ品)[】\]]/giu, " ")
     .replace(/^\s*[【［\[](?:新品|新作|予約)[^】］\]]*[】］\]]\s*/u, "")
     .replace(/^\s*(?:任天堂|Nintendo)\s*(?=\((?:Switch|NSW)\))/iu, "")
     .replace(/^\s*(?:\((?:Switch|NSW)\)|(?:Switch|NSW))\s*/iu, "")
     .replace(/\s+返品種別[A-Z]\s*$/iu, "")
     .replace(/\s+HAC-[A-Z0-9-]+\s*$/iu, "")
     .replace(/\s+(?:Nintendo Switch )?パッケージ版\s*$/u, "")
+    .replace(/\s*Switch用ソフト\s*\(パッケージ版\)\s*$/iu, "")
+    .replace(/\s*Switch\s*\(パッケージ版\)\s*$/iu, "")
+    .replace(/\s*\[Switch版\]\s*$/iu, "")
+    .replace(/\s*[★☆■]+\s*(?:蔵出し)?\s*[★☆■]*\s*$/u, "")
     .replace(/\s+/g, " ")
     .trim();
 }
 
 const excludedProductWords = [
+  "追加パス", "追加コンテンツ", "ゼロの秘宝", "double pack", "ダブルパック",
+  "本体セット", "同梱版", "pokemon go plus", "amiibo", "コントローラー",
   "switch 2", "switch2", "ダウンロード", "download", "海外版", "輸入版",
   "限定版", "特装版", "豪華版", "同梱版", "セット", "廉価版", "best price",
   "コードのみ", "オンラインコード", "追加コンテンツ", "dl版",
