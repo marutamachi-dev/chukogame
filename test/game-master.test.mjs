@@ -12,7 +12,7 @@ const game = (index, overrides = {}) => ({
   releaseDate: "2024-01-01",
   aliases: [],
   verification: {
-    source: "Rakuten Books Game Search API",
+    source: "Yahoo! Shopping package category API",
     sourceUrl: `https://books.rakuten.co.jp/rb/${index}/`,
     checkedAt: "2026-07-22",
   },

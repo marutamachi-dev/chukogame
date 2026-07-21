@@ -5,13 +5,13 @@ import {
   selectMasterCandidates, validateGameMaster,
 } from "../src/lib/game-master.js";
 
-const applicationId = process.env.RAKUTEN_APPLICATION_ID;
-const accessKey = process.env.RAKUTEN_ACCESS_KEY;
-if (!applicationId || !accessKey) {
-  throw new Error("RAKUTEN_APPLICATION_ID and RAKUTEN_ACCESS_KEY are required to build the game master.");
+const applicationId = process.env.YAHOO_SHOPPING_APP_ID;
+if (!applicationId) {
+  throw new Error("YAHOO_SHOPPING_APP_ID is required to build the game master.");
 }
 
-const endpoint = "https://openapi.rakuten.co.jp/services/api/BooksGame/Search/20170404";
+const endpoint = "https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch";
+const packageCategoryId = "50522";
 const delay = (ms) => new Promise((resolveDelay) => setTimeout(resolveDelay, ms));
 const compact = (value) => String(value || "").normalize("NFKC").trim();
 
@@ -51,7 +51,6 @@ const curatedAliases = [
 function buildAliases(item) {
   const aliases = new Set();
   const title = compact(item.title);
-  if (item.titleKana) aliases.add(compact(item.titleKana));
   const withoutMarks = title.replace(/[™®©]/g, "").replace(/[：:]/g, " ").replace(/\s+/g, " ").trim();
   if (withoutMarks !== title) aliases.add(withoutMarks);
   for (const [pattern, values] of curatedAliases) {
@@ -62,40 +61,66 @@ function buildAliases(item) {
 }
 
 function eligible(item) {
-  return compact(item.hardware) === "Nintendo Switch"
-    && Number(item.limitedFlag) === 0
-    && isValidJan(String(item.jan))
-    && /^https:\/\//.test(item.itemUrl || "")
-    && !hasExcludedProductName(item.title);
+  return Number(item.genreCategory?.id) === Number(packageCategoryId)
+    && item.condition === "new"
+    && isValidJan(String(item.janCode))
+    && /^https:\/\//.test(item.url || "")
+    && !hasExcludedProductName(item.name)
+    && !/(本体|コントローラ|ケース|保護フィルム|攻略本|amiibo|アミーボ)/i.test(item.name);
 }
 
-async function fetchPage(sort, page) {
+async function fetchPage(sort, start) {
   const params = new URLSearchParams({
-    applicationId, accessKey, format: "json", formatVersion: "2",
-    hardware: "Nintendo Switch", booksGenreId: "006", hits: "30", page: String(page),
-    sort, outOfStockFlag: "1",
-    elements: "title,titleKana,hardware,label,jan,salesDate,itemUrl,largeImageUrl,limitedFlag,booksGenreId",
+    appid: applicationId,
+    genre_category_id: packageCategoryId,
+    results: "50",
+    start: String(start),
+    sort,
+    condition: "new",
+    image_size: "300",
   });
   const response = await fetch(`${endpoint}?${params}`);
-  if (!response.ok) throw new Error(`Rakuten Books API ${response.status} on ${sort} page ${page}`);
-  return (await response.json()).items || [];
+  if (!response.ok) throw new Error(`Yahoo Shopping API ${response.status} on ${sort} start ${start}`);
+  return (await response.json()).hits || [];
 }
 
-async function fetchPages(sort, count) {
+async function fetchPages(sort) {
   const items = [];
-  for (let page = 1; page <= count; page += 1) {
-    items.push(...await fetchPage(sort, page));
-    if (page < count) await delay(1100);
+  for (let start = 1; start <= 951; start += 50) {
+    items.push(...await fetchPage(sort, start));
+    if (start < 951) await delay(1100);
   }
   return items.filter(eligible);
 }
 
-const popular = await fetchPages("sales", 20);
-const recent = await fetchPages("-releaseDate", 12);
+function uniqueProducts(items) {
+  const byJan = new Map();
+  for (const item of items) {
+    const jan = String(item.janCode);
+    const current = byJan.get(jan);
+    if (!current || compact(item.name).length < compact(current.name).length) byJan.set(jan, item);
+  }
+  return [...byJan.values()].map((item) => ({
+    ...item,
+    jan: String(item.janCode),
+    title: compact(item.name),
+    salesDate: item.releaseDate || "不明",
+    itemUrl: item.url,
+    largeImageUrl: item.exImage?.url || item.image?.medium || null,
+  }));
+}
+
+const reviewed = await fetchPages("-review_count");
+await delay(1100);
+const recommended = await fetchPages("-score");
+const popular = uniqueProducts(reviewed);
+const recent = uniqueProducts([...reviewed, ...recommended])
+  .sort((a, b) => String(b.releaseDate || "").localeCompare(String(a.releaseDate || "")));
+const allCandidates = uniqueProducts([...reviewed, ...recommended]);
 const selected = selectMasterCandidates({
   popular,
   recent,
-  coverage: [...popular.slice(150), ...recent.slice(60)],
+  coverage: allCandidates,
 });
 if (selected.length !== GAME_COUNT) {
   throw new Error(`Only ${selected.length} eligible unique titles were returned; refusing to publish an incomplete master.`);
@@ -113,7 +138,7 @@ const games = selected.map((item, index) => ({
   searches: GAME_COUNT - index,
   selectionGroup: item.selectionGroup,
   verification: {
-    source: "Rakuten Books Game Search API",
+    source: "Yahoo! Shopping package category API",
     sourceUrl: item.itemUrl,
     checkedAt,
   },
