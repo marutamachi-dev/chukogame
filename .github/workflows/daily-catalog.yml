@@ -11,6 +11,10 @@ on:
         required: false
         type: boolean
         default: false
+      game_chunk:
+        description: Optional price refresh chunk (0-5); blank rotates daily
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -41,6 +45,7 @@ jobs:
           RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
           YAHOO_SHOPPING_APP_ID: ${{ secrets.YAHOO_SHOPPING_APP_ID }}
           YAHOO_SHOPPING_AFFILIATE_ID: ${{ secrets.YAHOO_SHOPPING_AFFILIATE_ID }}
+          GAME_CHUNK: ${{ inputs.game_chunk }}
       - if: ${{ github.event_name != 'workflow_dispatch' || !inputs.build_master }}
         run: npm run build:catalog
       - if: ${{ github.event_name != 'workflow_dispatch' || !inputs.build_master }}

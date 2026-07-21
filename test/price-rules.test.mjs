@@ -27,6 +27,32 @@ test("retains the first available package image URL", () => {
   assert.equal(catalog[0].imageUrl, "https://images.example.com/cover.jpg");
 });
 
+test("keeps master games without prices and copies searchable metadata", () => {
+  const master = [{
+    id: "master-game", jan: "4902370536485", title: "Master Game", genre: "RPG",
+    aliases: ["MG"], releaseDate: "2024-01-01", verification: { sourceUrl: "https://example.com/master" },
+    imageUrl: "https://images.example.com/master.jpg", searches: 10,
+  }];
+  const catalog = buildCatalog([], "2026-07-20T00:00:00.000Z", master);
+  assert.equal(catalog.length, 1);
+  assert.deepEqual(catalog[0].aliases, ["MG"]);
+  assert.equal(catalog[0].purchase.length, 0);
+  assert.equal(catalog[0].releaseDate, "2024-01-01");
+});
+
+test("does not attach an offer whose JAN conflicts with the master", () => {
+  const master = [{ id: "sample", jan: "4902370536485", title: "Sample", genre: "RPG" }];
+  const catalog = buildCatalog([{ ...eligible, jan: "4902370550337" }], "2026-07-20T00:00:00.000Z", master);
+  assert.equal(catalog[0].purchase.length, 0);
+});
+
+test("attaches a legacy-slug offer to the matching master JAN", () => {
+  const master = [{ id: "master-game", jan: "4902370536485", title: "Sample", genre: "RPG" }];
+  const catalog = buildCatalog([{ ...eligible, slug: "legacy-game", jan: "4902370536485" }], "2026-07-20T00:00:00.000Z", master);
+  assert.equal(catalog[0].id, "master-game");
+  assert.equal(catalog[0].purchase[0].price, 1200);
+});
+
 test("does not publish unverified legacy prices", () => {
   assert.equal(isEligibleOffer({ ...eligible, verification: "legacy" }, new Date("2026-07-20T00:00:00.000Z")), false);
   assert.equal(isEligibleOffer({ ...eligible, observedAt: "2026-07-12T00:00:00.000Z" }, new Date("2026-07-20T00:00:00.000Z")), false);

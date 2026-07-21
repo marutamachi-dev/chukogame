@@ -1,9 +1,15 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {
-  isValidJan, validateGameMaster, splitIntoChunks, selectMasterCandidates,
+  cleanCatalogTitle, isValidJan, validateGameMaster, splitIntoChunks, selectMasterCandidates,
   requestWithRateLimit,
 } from "../src/lib/game-master.js";
+
+test("removes retailer and platform boilerplate from catalog titles", () => {
+  assert.equal(cleanCatalogTitle("【新品】NSW マリオカート8デラックス"), "マリオカート8デラックス");
+  assert.equal(cleanCatalogTitle("任天堂 (Switch)ピクミン3 デラックス 返品種別B"), "ピクミン3 デラックス");
+  assert.equal(cleanCatalogTitle("Switch 星のカービィ ディスカバリー"), "星のカービィ ディスカバリー");
+});
 
 const game = (index, overrides = {}) => ({
   id: `game-${index}`,

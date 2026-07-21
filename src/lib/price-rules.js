@@ -44,9 +44,21 @@ function groupKey(offer) {
 export function buildCatalog(rawOffers, now = new Date().toISOString(), gameMaster = []) {
   const nowDate = new Date(now);
   const groups = new Map();
-  for (const offer of rawOffers.filter((offer) => isEligibleOffer(offer, nowDate))) {
-    const key = groupKey(offer);
-    const group = groups.get(key) || { purchase: [], sale: [], exemplar: offer };
+  const masterById = new Map(gameMaster.map((game) => [game.id, game]));
+  const masterByJan = new Map(gameMaster.map((game) => [String(game.jan), game]));
+  for (const offer of rawOffers) {
+    if (!isEligibleOffer(offer, nowDate)) continue;
+    const game = gameMaster.length
+      ? masterById.get(offer.slug) || masterByJan.get(String(offer.jan))
+      : null;
+    if (gameMaster.length) {
+      if (!game || String(offer.jan) !== String(game.jan)) continue;
+      const offerTitle = normalizeTitle(offer.title || "");
+      const gameTitles = [game.title, ...(game.aliases || [])].map(normalizeTitle);
+      if (!gameTitles.some((title) => offerTitle.includes(title) || title.includes(offerTitle))) continue;
+    }
+    const key = game ? `slug:${game.id}` : groupKey(offer);
+    const group = groups.get(key) || { purchase: [], sale: [], exemplar: game || offer };
     group[offer.kind].push(offer);
     groups.set(key, group);
   }
@@ -58,8 +70,10 @@ export function buildCatalog(rawOffers, now = new Date().toISOString(), gameMast
     const purchase = group.purchase.sort((a, b) => a.priceWithShipping - b.priceWithShipping);
     const sale = group.sale.sort((a, b) => b.price - a.price);
     return {
-      id: group.exemplar.slug, jan: group.exemplar.jan ?? null, title: group.exemplar.title,
+      id: group.exemplar.id || group.exemplar.slug, jan: group.exemplar.jan ?? null, title: group.exemplar.title,
       genre: group.exemplar.genre, cover: group.exemplar.cover, searches: group.exemplar.searches ?? 0,
+      aliases: group.exemplar.aliases ?? [], releaseDate: group.exemplar.releaseDate ?? null,
+      verification: group.exemplar.verification ?? null,
       imageUrl: purchase.find((offer) => offer.imageUrl)?.imageUrl ?? group.exemplar.imageUrl ?? null,
       purchase: purchase.map(({ source, priceWithShipping, url }) => ({ name: source, price: priceWithShipping, url })),
       sale: sale.map(({ source, price, url }) => ({ name: source, price, url })),

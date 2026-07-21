@@ -2,6 +2,19 @@ export const GAME_COUNT = 300;
 export const CHUNK_SIZE = 50;
 export const CHUNK_COUNT = GAME_COUNT / CHUNK_SIZE;
 
+export function cleanCatalogTitle(value) {
+  return String(value || "")
+    .normalize("NFKC")
+    .replace(/^\s*[【［\[](?:新品|新作|予約)[^】］\]]*[】］\]]\s*/u, "")
+    .replace(/^\s*(?:任天堂|Nintendo)\s*(?=\((?:Switch|NSW)\))/iu, "")
+    .replace(/^\s*(?:\((?:Switch|NSW)\)|(?:Switch|NSW))\s*/iu, "")
+    .replace(/\s+返品種別[A-Z]\s*$/iu, "")
+    .replace(/\s+HAC-[A-Z0-9-]+\s*$/iu, "")
+    .replace(/\s+(?:Nintendo Switch )?パッケージ版\s*$/u, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 const excludedProductWords = [
   "switch 2", "switch2", "ダウンロード", "download", "海外版", "輸入版",
   "限定版", "特装版", "豪華版", "同梱版", "セット", "廉価版", "best price",

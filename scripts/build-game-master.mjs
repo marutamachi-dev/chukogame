@@ -1,7 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import {
-  GAME_COUNT, CHUNK_SIZE, hasExcludedProductName, isValidJan,
+  GAME_COUNT, CHUNK_SIZE, cleanCatalogTitle, hasExcludedProductName, isValidJan,
   requestWithRateLimit, selectMasterCandidates, validateGameMaster,
 } from "../src/lib/game-master.js";
 
@@ -51,6 +51,8 @@ const curatedAliases = [
 function buildAliases(item) {
   const aliases = new Set();
   const title = compact(item.title);
+  const cleanedTitle = cleanCatalogTitle(title);
+  if (cleanedTitle !== title) aliases.add(title);
   const withoutMarks = title.replace(/[™®©]/g, "").replace(/[：:]/g, " ").replace(/\s+/g, " ").trim();
   if (withoutMarks !== title) aliases.add(withoutMarks);
   for (const [pattern, values] of curatedAliases) {
@@ -130,7 +132,7 @@ if (selected.length !== GAME_COUNT) {
 const checkedAt = new Date().toISOString().slice(0, 10);
 const games = selected.map((item, index) => ({
   id: slugify(item.title, item.jan),
-  title: compact(item.title),
+  title: cleanCatalogTitle(item.title),
   jan: String(item.jan),
   genre: classifyGenre(item.title),
   releaseDate: compact(item.salesDate) || "不明",

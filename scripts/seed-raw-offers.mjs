@@ -1,7 +1,9 @@
 ﻿// One-time helper: transforms visual fixtures into source-offer records.
 import { writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
-import { games } from "../src/data/games.js";
+import rawGameMaster from "../src/data/game-master.json" with { type: "json" };
+
+const games = rawGameMaster.map((game) => ({ ...game, cover: "GM" }));
 
 const offers = games.flatMap((game) => [
   ...game.purchase.map((offer) => ({

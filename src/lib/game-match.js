@@ -7,5 +7,7 @@ export function normalizeGameTitle(value) {
 
 export function matchesTitle(game, query) {
   const normalizedQuery = normalizeGameTitle(query);
-  return !normalizedQuery || normalizeGameTitle(game.title).includes(normalizedQuery);
+  if (!normalizedQuery) return true;
+  return [game.title, ...(game.aliases || [])]
+    .some((value) => normalizeGameTitle(value).includes(normalizedQuery));
 }

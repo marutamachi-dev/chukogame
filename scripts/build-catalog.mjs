@@ -1,7 +1,9 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { buildCatalog } from "../src/lib/price-rules.js";
-import { games as gameMaster } from "../src/data/games.js";
+import rawGameMaster from "../src/data/game-master.json" with { type: "json" };
+
+const gameMaster = rawGameMaster.map((game) => ({ ...game, cover: "GM" }));
 
 const root = resolve(import.meta.dirname, "..");
 const raw = JSON.parse(await readFile(resolve(root, "data/source-offers.json"), "utf8"));
