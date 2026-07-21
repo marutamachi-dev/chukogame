@@ -10,8 +10,7 @@ export const generatedGames = [
     "searches": 298,
     "aliases": [
       "マリカー8",
-      "マリオカート8dx",
-      "【新品】NSW マリオカート8デラックス"
+      "マリオカート8dx"
     ],
     "releaseDate": "1493305200",
     "verification": {
@@ -190,8 +189,7 @@ export const generatedGames = [
     "searches": 300,
     "aliases": [
       "スプラ3",
-      "スプラトゥーン３",
-      "【新品】NSW スプラトゥーン3"
+      "スプラトゥーン３"
     ],
     "releaseDate": "1662649200",
     "verification": {
@@ -275,8 +273,7 @@ export const generatedGames = [
     "searches": 297,
     "aliases": [
       "あつ森",
-      "あつもり",
-      "【新品】NSW あつまれ どうぶつの森"
+      "あつもり"
     ],
     "releaseDate": "1584630000",
     "verification": {
@@ -455,8 +452,7 @@ export const generatedGames = [
     "searches": 274,
     "aliases": [
       "ポケモンSV",
-      "ポケモンスカーレット",
-      "【新品】NSW ポケットモンスター スカーレット"
+      "ポケモンスカーレット"
     ],
     "releaseDate": "1668697200",
     "verification": {
@@ -568,9 +564,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 271,
-    "aliases": [
-      "【新品】Switch ルイージマンション3"
-    ],
+    "aliases": [],
     "releaseDate": "1572447600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -663,8 +657,7 @@ export const generatedGames = [
     "searches": 296,
     "aliases": [
       "スマブラ",
-      "スマブラsp",
-      "【新品】NSW 大乱闘スマッシュブラザーズ SPECIAL"
+      "スマブラsp"
     ],
     "releaseDate": "1544108400",
     "verification": {
@@ -891,9 +884,7 @@ export const generatedGames = [
     "genre": "アクション",
     "cover": "GM",
     "searches": 291,
-    "aliases": [
-      "【新品】Switch 星のカービィ ディスカバリー"
-    ],
+    "aliases": [],
     "releaseDate": "1648134000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -969,9 +960,7 @@ export const generatedGames = [
     "genre": "シミュレーション",
     "cover": "GM",
     "searches": 299,
-    "aliases": [
-      "【新品】Switch 桃太郎電鉄 〜昭和 平成 令和も定番!〜"
-    ],
+    "aliases": [],
     "releaseDate": "1605711600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -990,9 +979,7 @@ export const generatedGames = [
     "genre": "アクション",
     "cover": "GM",
     "searches": 295,
-    "aliases": [
-      "【新品】Switch スーパーマリオ 3Dワールド+フューリーワールド"
-    ],
+    "aliases": [],
     "releaseDate": "1613055600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1030,10 +1017,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 293,
-    "aliases": [
-      "任天堂 (Switch)ピクミン3 デラックス 返品種別B",
-      "任天堂 (Switch)ピクミン3 デラックス"
-    ],
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1052,9 +1036,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 292,
-    "aliases": [
-      "【新品】Switch Pokemon LEGENDS アルセウス"
-    ],
+    "aliases": [],
     "releaseDate": "1643295600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1075,8 +1057,7 @@ export const generatedGames = [
     "searches": 289,
     "aliases": [
       "ポケモンSV",
-      "ポケモンバイオレット",
-      "任天堂 ポケットモンスター バイオレット HAC-P-ALZYA"
+      "ポケモンバイオレット"
     ],
     "releaseDate": "不明",
     "verification": {
@@ -1096,9 +1077,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 288,
-    "aliases": [
-      "【新品】Switch ポケットモンスター ソード"
-    ],
+    "aliases": [],
     "releaseDate": "1573743600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1120,8 +1099,7 @@ export const generatedGames = [
     "aliases": [
       "ブレワイ",
       "ゼルダ ブレワイ",
-      "botw",
-      "【新品】Switch ゼルダの伝説 ブレス オブ ザ ワイルド"
+      "botw"
     ],
     "releaseDate": "1488466800",
     "verification": {
@@ -1160,9 +1138,7 @@ export const generatedGames = [
     "genre": "アクション",
     "cover": "GM",
     "searches": 285,
-    "aliases": [
-      "【新品】NSW スーパーマリオ オデッセイ"
-    ],
+    "aliases": [],
     "releaseDate": "1509030000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1181,9 +1157,7 @@ export const generatedGames = [
     "genre": "アクション",
     "cover": "GM",
     "searches": 284,
-    "aliases": [
-      "【新品】Switch ゼルダ無双 厄災の黙示録"
-    ],
+    "aliases": [],
     "releaseDate": "1605798000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1198,12 +1172,12 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-sports-050136-549263",
     "jan": "4902370549263",
-    "title": "【即日出荷】【新品】Nintendo Switch Sports 050136",
+    "title": "Nintendo Switch Sports 050136",
     "genre": "その他",
     "cover": "GM",
     "searches": 283,
     "aliases": [
-      "【即日出荷】【新品】Nintendo Switch Sports  050136"
+      "【即日出荷】【新品】Nintendo Switch Sports 050136"
     ],
     "releaseDate": "不明",
     "verification": {
@@ -1223,9 +1197,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 282,
-    "aliases": [
-      "【新品】NSW トモダチコレクション わくわく生活"
-    ],
+    "aliases": [],
     "releaseDate": "1776265200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1240,7 +1212,7 @@ export const generatedGames = [
   {
     "id": "pokemon-legends-z-a-switch-553550",
     "jan": "4902370553550",
-    "title": "Pokemon LEGENDS Z-A/ Switch(パッケージ版)",
+    "title": "Pokemon LEGENDS Z-A/",
     "genre": "その他",
     "cover": "GM",
     "searches": 281,
@@ -1263,9 +1235,7 @@ export const generatedGames = [
     "genre": "パーティー",
     "cover": "GM",
     "searches": 280,
-    "aliases": [
-      "【新品】NSW スーパー マリオパーティ ジャンボリー"
-    ],
+    "aliases": [],
     "releaseDate": "1729090800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1284,9 +1254,7 @@ export const generatedGames = [
     "genre": "アクション",
     "cover": "GM",
     "searches": 279,
-    "aliases": [
-      "【新品】Switch スーパーマリオブラザーズ ワンダー"
-    ],
+    "aliases": [],
     "releaseDate": "1697727600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1305,9 +1273,7 @@ export const generatedGames = [
     "genre": "アクション",
     "cover": "GM",
     "searches": 278,
-    "aliases": [
-      "【新品】NSW スーパーマリオメーカー 2"
-    ],
+    "aliases": [],
     "releaseDate": "1561647600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1326,9 +1292,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 277,
-    "aliases": [
-      "【新品】Switch ポケットモンスター シールド"
-    ],
+    "aliases": [],
     "releaseDate": "1573743600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1347,10 +1311,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 276,
-    "aliases": [
-      "任天堂 (Switch)Pikmin 4 返品種別B",
-      "任天堂 (Switch)Pikmin 4"
-    ],
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1369,9 +1330,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 275,
-    "aliases": [
-      "イマジニア (Switch)Fit Boxing 2 -リズム&エクササイズ- 返品種別B"
-    ],
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1386,15 +1345,15 @@ export const generatedGames = [
   {
     "id": "switch-550979",
     "jan": "4902370550979",
-    "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Switch用ソフト(パッケージ版)",
+    "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム",
     "genre": "アクション",
     "cover": "GM",
     "searches": 273,
     "aliases": [
+      "ゼルダの伝説 ティアーズ オブ ザ キングダム Switch用ソフト(パッケージ版)",
       "ティアキン",
       "ゼルダ ティアキン",
-      "totk",
-      "ゼルダの伝説 ティアーズ オブ ザ キングダム  Switch用ソフト(パッケージ版)"
+      "totk"
     ],
     "releaseDate": "不明",
     "verification": {
@@ -1414,9 +1373,7 @@ export const generatedGames = [
     "genre": "シミュレーション",
     "cover": "GM",
     "searches": 272,
-    "aliases": [
-      "【新品】Switch 桃太郎電鉄ワールド 〜地球は希望でまわってる!〜"
-    ],
+    "aliases": [],
     "releaseDate": "1700060400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1435,9 +1392,7 @@ export const generatedGames = [
     "genre": "アクション",
     "cover": "GM",
     "searches": 270,
-    "aliases": [
-      "【新品】Switch マリオゴルフ スーパーラッシュ"
-    ],
+    "aliases": [],
     "releaseDate": "1624546800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1456,9 +1411,7 @@ export const generatedGames = [
     "genre": "RPG",
     "cover": "GM",
     "searches": 269,
-    "aliases": [
-      "【新品】Switch ドラゴンクエストIII そして伝説へ..."
-    ],
+    "aliases": [],
     "releaseDate": "1731510000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1477,9 +1430,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 268,
-    "aliases": [
-      "Switch 世界のアソビ大全51"
-    ],
+    "aliases": [],
     "releaseDate": "1591282800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1498,9 +1449,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 267,
-    "aliases": [
-      "【新品】Switch 鬼滅の刃 ヒノカミ血風譚"
-    ],
+    "aliases": [],
     "releaseDate": "1654700400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1538,9 +1487,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 265,
-    "aliases": [
-      "【新品】NSW 太鼓の達人 ドンダフルフェスティバル"
-    ],
+    "aliases": [],
     "releaseDate": "1663772400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1559,9 +1506,7 @@ export const generatedGames = [
     "genre": "RPG",
     "cover": "GM",
     "searches": 264,
-    "aliases": [
-      "スクウェア・エニックス (Switch)〔通常版〕ドラゴンクエストX 目覚めし五つの種族 オフラインドラゴンクエスト 返品種別B"
-    ],
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1580,9 +1525,7 @@ export const generatedGames = [
     "genre": "RPG",
     "cover": "GM",
     "searches": 263,
-    "aliases": [
-      "【新品】Switch ドラゴンクエストI&II"
-    ],
+    "aliases": [],
     "releaseDate": "1761750000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1601,9 +1544,7 @@ export const generatedGames = [
     "genre": "シミュレーション",
     "cover": "GM",
     "searches": 262,
-    "aliases": [
-      "【新品】NSW 桃太郎電鉄2 〜あなたの町も きっとある〜 東日本編+西日本編"
-    ],
+    "aliases": [],
     "releaseDate": "1762959600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1622,9 +1563,7 @@ export const generatedGames = [
     "genre": "アクション",
     "cover": "GM",
     "searches": 261,
-    "aliases": [
-      "【新品】Switch ペーパーマリオ オリガミキング"
-    ],
+    "aliases": [],
     "releaseDate": "1594911600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1643,9 +1582,7 @@ export const generatedGames = [
     "genre": "パーティー",
     "cover": "GM",
     "searches": 260,
-    "aliases": [
-      "【新品】Switch マリオパーティ スーパースターズ"
-    ],
+    "aliases": [],
     "releaseDate": "1635433200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1664,9 +1601,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 259,
-    "aliases": [
-      "Switch ポケットモンスター ブリリアントダイヤモンド"
-    ],
+    "aliases": [],
     "releaseDate": "1637247600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1685,10 +1620,7 @@ export const generatedGames = [
     "genre": "アクション",
     "cover": "GM",
     "searches": 258,
-    "aliases": [
-      "任天堂 (Switch)星のカービィ Wii デラックス 返品種別B",
-      "任天堂 (Switch)星のカービィ Wii デラックス"
-    ],
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1707,9 +1639,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 257,
-    "aliases": [
-      "【新品】Switch クレヨンしんちゃん「オラと博士の夏休み」〜おわらない七日間の旅〜"
-    ],
+    "aliases": [],
     "releaseDate": "1626274800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1728,9 +1658,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 256,
-    "aliases": [
-      "【新品】Switch 電車でGO! ! はしろう山手線"
-    ],
+    "aliases": [],
     "releaseDate": "1615993200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1749,9 +1677,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 255,
-    "aliases": [
-      "【新品】Switch ふたりで!にゃんこ大戦争"
-    ],
+    "aliases": [],
     "releaseDate": "1606921200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1770,9 +1696,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 254,
-    "aliases": [
-      "【新品】Switch 鬼滅の刃 ヒノカミ血風譚2"
-    ],
+    "aliases": [],
     "releaseDate": "1753974000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1791,10 +1715,7 @@ export const generatedGames = [
     "genre": "スポーツ",
     "cover": "GM",
     "searches": 253,
-    "aliases": [
-      "任天堂 (Switch)マリオテニス エーススーパーマリオ マリオ 返品種別B",
-      "任天堂 (Switch)マリオテニス エーススーパーマリオ マリオ"
-    ],
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1813,9 +1734,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 252,
-    "aliases": [
-      "【新品】Switch やわらかあたま塾 いっしょにあたまのストレッチ"
-    ],
+    "aliases": [],
     "releaseDate": "1638457200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1830,13 +1749,11 @@ export const generatedGames = [
   {
     "id": "ns-548174",
     "jan": "4902370548174",
-    "title": "【NS】ナビつき! つくってわかる はじめてゲームプログラミング[在庫品]",
+    "title": "ナビつき! つくってわかる はじめてゲームプログラミング",
     "genre": "その他",
     "cover": "GM",
     "searches": 251,
-    "aliases": [
-      "【新品】【NS】ナビつき! つくってわかる はじめてゲームプログラミング[在庫品]"
-    ],
+    "aliases": [],
     "releaseDate": "1623337200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1851,7 +1768,7 @@ export const generatedGames = [
   {
     "id": "ok-ns-30-473611",
     "jan": "4582528473611",
-    "title": "在庫あり☆[メール便OK]【新品】【NS】スーパーロボット大戦30★蔵出し★",
+    "title": "☆ スーパーロボット大戦30",
     "genre": "その他",
     "cover": "GM",
     "searches": 250,
@@ -1874,9 +1791,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 249,
-    "aliases": [
-      "【新品】NSW 妖怪ウォッチ4++"
-    ],
+    "aliases": [],
     "releaseDate": "1575471600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1895,9 +1810,7 @@ export const generatedGames = [
     "genre": "RPG",
     "cover": "GM",
     "searches": 248,
-    "aliases": [
-      "スクウェア・エニックス (Switch)ファイナルファンタジー X/ X-2 HD リマスターFF ファイナルファンタジー 返品種別B"
-    ],
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1916,9 +1829,7 @@ export const generatedGames = [
     "genre": "RPG",
     "cover": "GM",
     "searches": 247,
-    "aliases": [
-      "ポケモン (Switch)ポッ拳 POKKEN TOURNAMENT DX 返品種別B"
-    ],
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1937,10 +1848,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 246,
-    "aliases": [
-      "任天堂 (Switch)Xenoblade2(通常版) 返品種別B",
-      "任天堂 (Switch)Xenoblade2(通常版)"
-    ],
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1959,9 +1867,7 @@ export const generatedGames = [
     "genre": "RPG",
     "cover": "GM",
     "searches": 245,
-    "aliases": [
-      "【新品】Switch ドラゴンクエストVII Reimagined"
-    ],
+    "aliases": [],
     "releaseDate": "1770217200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -1980,10 +1886,7 @@ export const generatedGames = [
     "genre": "アクション",
     "cover": "GM",
     "searches": 244,
-    "aliases": [
-      "任天堂 (Switch)ゼルダの伝説 知恵のかりもの 返品種別B",
-      "任天堂 (Switch)ゼルダの伝説 知恵のかりもの"
-    ],
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2002,9 +1905,7 @@ export const generatedGames = [
     "genre": "RPG",
     "cover": "GM",
     "searches": 243,
-    "aliases": [
-      "【新品】NSW スーパーマリオRPG"
-    ],
+    "aliases": [],
     "releaseDate": "1700146800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2017,36 +1918,13 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T17:26:07.689Z"
   },
   {
-    "id": "switch-549027",
-    "jan": "4902370549027",
-    "title": "『ポケットモンスター ブリリアントダイヤモンド・シャイニングパール』ダブルパック",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 242,
-    "aliases": [
-      "Switch 『ポケットモンスター ブリリアントダイヤモンド・シャイニングパール』ダブルパック"
-    ],
-    "releaseDate": "1637247600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/toy24shop/4902370549027.html",
-      "checkedAt": "2026-07-21"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/toy24shop_4902370549027",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T17:26:07.689Z"
-  },
-  {
     "id": "switch-2024-2025-177534",
     "jan": "4988602177534",
     "title": "パワフルプロ野球 2024-2025",
     "genre": "スポーツ",
     "cover": "GM",
-    "searches": 241,
-    "aliases": [
-      "【新品】Switch パワフルプロ野球 2024-2025"
-    ],
+    "searches": 242,
+    "aliases": [],
     "releaseDate": "1721228400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2064,11 +1942,8 @@ export const generatedGames = [
     "title": "Fire Emblem Engage(ファイアーエムブレム エンゲージ) 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 240,
-    "aliases": [
-      "任天堂 (Switch)Fire Emblem Engage(ファイアーエムブレム エンゲージ) 通常版 返品種別B",
-      "任天堂 (Switch)Fire Emblem Engage(ファイアーエムブレム エンゲージ) 通常版"
-    ],
+    "searches": 241,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2086,10 +1961,8 @@ export const generatedGames = [
     "title": "ポケットモンスター シャイニングパール",
     "genre": "その他",
     "cover": "GM",
-    "searches": 239,
-    "aliases": [
-      "Switch ポケットモンスター シャイニングパール"
-    ],
+    "searches": 240,
+    "aliases": [],
     "releaseDate": "1637247600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2107,11 +1980,8 @@ export const generatedGames = [
     "title": "ヨッシークラフトワールド",
     "genre": "その他",
     "cover": "GM",
-    "searches": 238,
-    "aliases": [
-      "任天堂 (Switch)ヨッシークラフトワールド 返品種別B",
-      "任天堂 (Switch)ヨッシークラフトワールド"
-    ],
+    "searches": 239,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2129,11 +1999,8 @@ export const generatedGames = [
     "title": "Xenoblade3(ゼノブレイド3)",
     "genre": "RPG",
     "cover": "GM",
-    "searches": 237,
-    "aliases": [
-      "任天堂 (Switch)Xenoblade3(ゼノブレイド3) 返品種別B",
-      "任天堂 (Switch)Xenoblade3(ゼノブレイド3)"
-    ],
+    "searches": 238,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2151,10 +2018,8 @@ export const generatedGames = [
     "title": "ぷよぷよテトリス2 スペシャルプライス",
     "genre": "パズル",
     "cover": "GM",
-    "searches": 236,
-    "aliases": [
-      "【新品】NSW ぷよぷよテトリス2 スペシャルプライス"
-    ],
+    "searches": 237,
+    "aliases": [],
     "releaseDate": "1668610800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2172,10 +2037,8 @@ export const generatedGames = [
     "title": "ドラゴンクエストXI 過ぎ去りし時を求めて S〔新価格版〕",
     "genre": "RPG",
     "cover": "GM",
-    "searches": 235,
-    "aliases": [
-      "【新品】Switch ドラゴンクエストXI 過ぎ去りし時を求めて S〔新価格版〕"
-    ],
+    "searches": 236,
+    "aliases": [],
     "releaseDate": "1607007600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2193,10 +2056,8 @@ export const generatedGames = [
     "title": "戦国無双4 DX",
     "genre": "アクション",
     "cover": "GM",
-    "searches": 234,
-    "aliases": [
-      "【新品】Switch 戦国無双4 DX"
-    ],
+    "searches": 235,
+    "aliases": [],
     "releaseDate": "1552489200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2211,13 +2072,11 @@ export const generatedGames = [
   {
     "id": "nsw-977430",
     "jan": "4571577977430",
-    "title": "釣りスピリッツ 釣って遊べる水族館 【送料別。メール便・宅配便 配送方法選択】",
+    "title": "釣りスピリッツ 釣って遊べる水族館",
     "genre": "その他",
     "cover": "GM",
-    "searches": 233,
-    "aliases": [
-      "【新品】NSW 釣りスピリッツ 釣って遊べる水族館 【送料別。メール便・宅配便 配送方法選択】"
-    ],
+    "searches": 234,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2235,11 +2094,8 @@ export const generatedGames = [
     "title": "ドンキーコング リターンズ HD",
     "genre": "その他",
     "cover": "GM",
-    "searches": 232,
-    "aliases": [
-      "任天堂 (Switch)ドンキーコング リターンズ HD 返品種別B",
-      "任天堂 (Switch)ドンキーコング リターンズ HD"
-    ],
+    "searches": 233,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2254,10 +2110,10 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-051050-500123",
     "jan": "4570016500123",
-    "title": "【送料無料・即日出荷・新品】Nintendo Switch ウォブリーライフ 051050",
+    "title": "Nintendo Switch ウォブリーライフ 051050",
     "genre": "その他",
     "cover": "GM",
-    "searches": 231,
+    "searches": 232,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
@@ -2273,12 +2129,12 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-543926",
     "jan": "4902370543926",
-    "title": "【送料無料】【新品】 東北大学加齢医学研究所 川島隆太教授監修 脳を鍛える大人のNintendo Switchトレーニング スイッチ【任天堂】",
+    "title": "東北大学加齢医学研究所 川島隆太教授監修 脳を鍛える大人のNintendo Switchトレーニング スイッチ【任天堂】",
     "genre": "その他",
     "cover": "GM",
-    "searches": 230,
+    "searches": 231,
     "aliases": [
-      "【送料無料】【新品】 東北大学加齢医学研究所 川島隆太教授監修 脳を鍛える大人のNintendo Switchトレーニング  スイッチ【任天堂】"
+      "【送料無料】【新品】 東北大学加齢医学研究所 川島隆太教授監修 脳を鍛える大人のNintendo Switchトレーニング スイッチ【任天堂】"
     ],
     "releaseDate": "不明",
     "verification": {
@@ -2297,11 +2153,8 @@ export const generatedGames = [
     "title": "マリオ&ルイージRPG ブラザーシップ!",
     "genre": "RPG",
     "cover": "GM",
-    "searches": 229,
-    "aliases": [
-      "任天堂 (Switch)マリオ&ルイージRPG ブラザーシップ! 返品種別B",
-      "任天堂 (Switch)マリオ&ルイージRPG ブラザーシップ!"
-    ],
+    "searches": 230,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2316,10 +2169,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-356411",
     "jan": "4573173356411",
-    "title": "在庫あり[メール便OK]【新品】【NS】ディズニー ツムツム フェスティバル",
+    "title": "ディズニー ツムツム フェスティバル",
     "genre": "その他",
     "cover": "GM",
-    "searches": 228,
+    "searches": 229,
     "aliases": [],
     "releaseDate": "1570633200",
     "verification": {
@@ -2338,10 +2191,8 @@ export const generatedGames = [
     "title": "ミートピア",
     "genre": "その他",
     "cover": "GM",
-    "searches": 227,
-    "aliases": [
-      "【新品】Switch ミートピア"
-    ],
+    "searches": 228,
+    "aliases": [],
     "releaseDate": "1621522800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2356,13 +2207,11 @@ export const generatedGames = [
   {
     "id": "switch-ebaseball-2022-2022-4-21-174946",
     "jan": "4988602174946",
-    "title": "eBASEBALLパワフルプロ野球2022(2022年4月21日発売)【新品】【ネコポス送料無料】",
+    "title": "eBASEBALLパワフルプロ野球2022(2022年4月21日発売)",
     "genre": "スポーツ",
     "cover": "GM",
-    "searches": 226,
-    "aliases": [
-      "Switch eBASEBALLパワフルプロ野球2022(2022年4月21日発売)【新品】【ネコポス送料無料】"
-    ],
+    "searches": 227,
+    "aliases": [],
     "releaseDate": "1650466800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2380,10 +2229,8 @@ export const generatedGames = [
     "title": "LITTLE NIGHTMARES-リトルナイトメアー Deluxe Edition",
     "genre": "その他",
     "cover": "GM",
-    "searches": 225,
-    "aliases": [
-      "【新品】NSW LITTLE NIGHTMARES-リトルナイトメアー Deluxe Edition"
-    ],
+    "searches": 226,
+    "aliases": [],
     "releaseDate": "1528297200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2401,10 +2248,8 @@ export const generatedGames = [
     "title": "スーパーマリオギャラクシー + スーパーマリオギャラクシー 2",
     "genre": "アクション",
     "cover": "GM",
-    "searches": 224,
-    "aliases": [
-      "【新品】Switch スーパーマリオギャラクシー + スーパーマリオギャラクシー 2"
-    ],
+    "searches": 225,
+    "aliases": [],
     "releaseDate": "1759330800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2422,10 +2267,8 @@ export const generatedGames = [
     "title": "ドンキーコング トロピカルフリーズ",
     "genre": "その他",
     "cover": "GM",
-    "searches": 223,
-    "aliases": [
-      "【新品】Switch ドンキーコング トロピカルフリーズ"
-    ],
+    "searches": 224,
+    "aliases": [],
     "releaseDate": "1525273200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2443,10 +2286,8 @@ export const generatedGames = [
     "title": "ファイアーエムブレム 風花雪月",
     "genre": "その他",
     "cover": "GM",
-    "searches": 222,
-    "aliases": [
-      "【新品】NSW ファイアーエムブレム 風花雪月"
-    ],
+    "searches": 223,
+    "aliases": [],
     "releaseDate": "1564066800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2464,11 +2305,8 @@ export const generatedGames = [
     "title": "マリオvs.ドンキーコング",
     "genre": "アクション",
     "cover": "GM",
-    "searches": 221,
-    "aliases": [
-      "任天堂 (Switch)マリオvs.ドンキーコング 返品種別B",
-      "任天堂 (Switch)マリオvs.ドンキーコング"
-    ],
+    "searches": 222,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2486,10 +2324,8 @@ export const generatedGames = [
     "title": "ヒューマン フォール フラット",
     "genre": "その他",
     "cover": "GM",
-    "searches": 220,
-    "aliases": [
-      "【新品】Switch ヒューマン フォール フラット"
-    ],
+    "searches": 221,
+    "aliases": [],
     "releaseDate": "1593010800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2504,10 +2340,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-344975",
     "jan": "4573173344975",
-    "title": "在庫あり [メール便OK]【新品】【NS】スーパードラゴンボールヒーローズ ワールドミッション★蔵出し★ご注文後のキャンセル不可★",
+    "title": "スーパードラゴンボールヒーローズ ワールドミッション★蔵出し★ご注文後のキャンセル不可",
     "genre": "その他",
     "cover": "GM",
-    "searches": 219,
+    "searches": 220,
     "aliases": [],
     "releaseDate": "1554303600",
     "verification": {
@@ -2526,10 +2362,8 @@ export const generatedGames = [
     "title": "リトルナイトメア 2",
     "genre": "その他",
     "cover": "GM",
-    "searches": 218,
-    "aliases": [
-      "【新品】NSW リトルナイトメア 2"
-    ],
+    "searches": 219,
+    "aliases": [],
     "releaseDate": "1612882800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2544,13 +2378,11 @@ export const generatedGames = [
   {
     "id": "switch-ebaseball-2021-2021-7-8-173987",
     "jan": "4988602173987",
-    "title": "eBASEBALL プロ野球スピリッツ2021 グランドスラム(早期購入特典は有効期限が切れています)(2021年7月8日発売)【新品】",
+    "title": "eBASEBALL プロ野球スピリッツ2021 グランドスラム(早期購入特典は有効期限が切れています)(2021年7月8日発売)",
     "genre": "スポーツ",
     "cover": "GM",
-    "searches": 217,
-    "aliases": [
-      "Switch eBASEBALL プロ野球スピリッツ2021 グランドスラム(早期購入特典は有効期限が切れています)(2021年7月8日発売)【新品】"
-    ],
+    "searches": 218,
+    "aliases": [],
     "releaseDate": "1625670000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2568,10 +2400,8 @@ export const generatedGames = [
     "title": "S リズム天国 ミラクルスターズ",
     "genre": "その他",
     "cover": "GM",
-    "searches": 216,
-    "aliases": [
-      "【新品】NSWS リズム天国 ミラクルスターズ"
-    ],
+    "searches": 217,
+    "aliases": [],
     "releaseDate": "1782918000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2589,10 +2419,8 @@ export const generatedGames = [
     "title": "スクウェア・エニックス (Switch)ロマンシング サガ2 リベンジオブザセブン",
     "genre": "その他",
     "cover": "GM",
-    "searches": 215,
-    "aliases": [
-      "スクウェア・エニックス (Switch)ロマンシング サガ2 リベンジオブザセブン 返品種別B"
-    ],
+    "searches": 216,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2610,10 +2438,8 @@ export const generatedGames = [
     "title": "ときめきメモリアル Girl's Side 4th Heart",
     "genre": "その他",
     "cover": "GM",
-    "searches": 214,
-    "aliases": [
-      "【新品】Switch ときめきメモリアル Girl's Side 4th Heart"
-    ],
+    "searches": 215,
+    "aliases": [],
     "releaseDate": "1635346800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2631,10 +2457,8 @@ export const generatedGames = [
     "title": "妖怪学園Y 〜ワイワイ学園生活〜",
     "genre": "その他",
     "cover": "GM",
-    "searches": 213,
-    "aliases": [
-      "【新品】Switch 妖怪学園Y 〜ワイワイ学園生活〜"
-    ],
+    "searches": 214,
+    "aliases": [],
     "releaseDate": "1608130800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2652,10 +2476,8 @@ export const generatedGames = [
     "title": "レベルファイブ (Switch)ファンタジーライフi グルグルの竜と時をぬすむ少女",
     "genre": "その他",
     "cover": "GM",
-    "searches": 212,
-    "aliases": [
-      "レベルファイブ (Switch)ファンタジーライフi グルグルの竜と時をぬすむ少女 返品種別B"
-    ],
+    "searches": 213,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2673,10 +2495,8 @@ export const generatedGames = [
     "title": "スクウェア・エニックス (Switch)ファイナルファンタジーXII ザ ゾディアック エイジFF ファイナルファンタジー",
     "genre": "RPG",
     "cover": "GM",
-    "searches": 211,
-    "aliases": [
-      "スクウェア・エニックス (Switch)ファイナルファンタジーXII ザ ゾディアック エイジFF ファイナルファンタジー 返品種別B"
-    ],
+    "searches": 212,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2694,10 +2514,8 @@ export const generatedGames = [
     "title": "スクウェア・エニックス (Switch)ドラゴンクエストモンスターズ3 魔族の王子とエルフの旅 通常版",
     "genre": "RPG",
     "cover": "GM",
-    "searches": 210,
-    "aliases": [
-      "スクウェア・エニックス (Switch)ドラゴンクエストモンスターズ3 魔族の王子とエルフの旅 通常版 返品種別B"
-    ],
+    "searches": 211,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2715,10 +2533,8 @@ export const generatedGames = [
     "title": "フリュー (Switch)MODEL Debut2 #nicola/ モデルデビュー2 ニコラ",
     "genre": "その他",
     "cover": "GM",
-    "searches": 209,
-    "aliases": [
-      "フリュー (Switch)MODEL Debut2 #nicola/ モデルデビュー2 ニコラ 返品種別B"
-    ],
+    "searches": 210,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2736,10 +2552,8 @@ export const generatedGames = [
     "title": "バンダイナムコエンターテインメント (Switch)たまごっちのプチプチおみせっち おまちど〜さま!",
     "genre": "その他",
     "cover": "GM",
-    "searches": 208,
-    "aliases": [
-      "バンダイナムコエンターテインメント (Switch)たまごっちのプチプチおみせっち おまちど〜さま! 返品種別B"
-    ],
+    "searches": 209,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2757,10 +2571,8 @@ export const generatedGames = [
     "title": "アトラス (Switch)ペルソナ5 スクランブル ザ ファントム ストライカーズ 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 207,
-    "aliases": [
-      "アトラス (Switch)ペルソナ5 スクランブル ザ ファントム ストライカーズ 通常版 返品種別B"
-    ],
+    "searches": 208,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2775,10 +2587,10 @@ export const generatedGames = [
   {
     "id": "07-30-ok-ns-r-switch-967219",
     "jan": "4571577967219",
-    "title": "【07/30頃入荷分☆】[メール便OK]【新品】【NS】ジョジョの奇妙な冒険 オールスターバトル R [Switch版]",
+    "title": "【07/30頃入荷分☆】 ジョジョの奇妙な冒険 オールスターバトル R",
     "genre": "その他",
     "cover": "GM",
-    "searches": 206,
+    "searches": 207,
     "aliases": [],
     "releaseDate": "1661958000",
     "verification": {
@@ -2797,10 +2609,8 @@ export const generatedGames = [
     "title": "逆転裁判123 成歩堂セレクション",
     "genre": "アドベンチャー",
     "cover": "GM",
-    "searches": 205,
-    "aliases": [
-      "【新品】Switch 逆転裁判123 成歩堂セレクション"
-    ],
+    "searches": 206,
+    "aliases": [],
     "releaseDate": "1550674800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2818,10 +2628,8 @@ export const generatedGames = [
     "title": "ソニックパワード (Switch)鉄道にっぽん!Real Pro 特急走行!名古屋鉄道編",
     "genre": "その他",
     "cover": "GM",
-    "searches": 204,
-    "aliases": [
-      "ソニックパワード (Switch)鉄道にっぽん!Real Pro 特急走行!名古屋鉄道編 返品種別B"
-    ],
+    "searches": 205,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2836,10 +2644,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-342865",
     "jan": "4573173342865",
-    "title": "[メール便OK]【新品】【NS】塊魂アンコール[在庫品]",
+    "title": "塊魂アンコール",
     "genre": "その他",
     "cover": "GM",
-    "searches": 203,
+    "searches": 204,
     "aliases": [],
     "releaseDate": "1545231600",
     "verification": {
@@ -2858,7 +2666,7 @@ export const generatedGames = [
     "title": "『新品』スーパーマリオ 3Dコレクション [Nintendo Switch]",
     "genre": "アクション",
     "cover": "GM",
-    "searches": 202,
+    "searches": 203,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
@@ -2877,10 +2685,8 @@ export const generatedGames = [
     "title": "初音ミク Project DIVA MEGA39’s",
     "genre": "その他",
     "cover": "GM",
-    "searches": 201,
-    "aliases": [
-      "【新品】Switch 初音ミク Project DIVA MEGA39’s"
-    ],
+    "searches": 202,
+    "aliases": [],
     "releaseDate": "1581519600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2898,10 +2704,8 @@ export const generatedGames = [
     "title": "コーエーテクモゲームス (Switch)真・三國無双7 with 猛将伝 DX",
     "genre": "アクション",
     "cover": "GM",
-    "searches": 200,
-    "aliases": [
-      "コーエーテクモゲームス (Switch)真・三國無双7 with 猛将伝 DX 返品種別B"
-    ],
+    "searches": 201,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2916,13 +2720,11 @@ export const generatedGames = [
   {
     "id": "switch-one-piece-4-4-2020-3-26-400617",
     "jan": "4582528400617",
-    "title": "ONE PIECE 海賊無双4(ワンピース海賊無双4)(2020年3月26日発売)【新品】",
+    "title": "ONE PIECE 海賊無双4(ワンピース海賊無双4)(2020年3月26日発売)",
     "genre": "アクション",
     "cover": "GM",
-    "searches": 199,
-    "aliases": [
-      "Switch ONE PIECE 海賊無双4(ワンピース海賊無双4)(2020年3月26日発売)【新品】"
-    ],
+    "searches": 200,
+    "aliases": [],
     "releaseDate": "1585148400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2940,10 +2742,8 @@ export const generatedGames = [
     "title": "Minecraft Dungeons Ultimate Edition",
     "genre": "その他",
     "cover": "GM",
-    "searches": 198,
-    "aliases": [
-      "【新品】Switch Minecraft Dungeons Ultimate Edition"
-    ],
+    "searches": 199,
+    "aliases": [],
     "releaseDate": "1635174000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -2958,10 +2758,10 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-ark-survival-evolved-050602-519018",
     "jan": "4940261519018",
-    "title": "【即日出荷】【新品】Nintendo Switch ARK: Survival Evolved 050602",
+    "title": "Nintendo Switch ARK: Survival Evolved 050602",
     "genre": "その他",
     "cover": "GM",
-    "searches": 197,
+    "searches": 198,
     "aliases": [
       "【即日出荷】【新品】Nintendo Switch ARK Survival Evolved 050602"
     ],
@@ -2982,10 +2782,8 @@ export const generatedGames = [
     "title": "日本コロムビア (Switch)すみっコぐらし 学校生活はじめるんです",
     "genre": "その他",
     "cover": "GM",
-    "searches": 196,
-    "aliases": [
-      "日本コロムビア (Switch)すみっコぐらし 学校生活はじめるんです 返品種別B"
-    ],
+    "searches": 197,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3000,10 +2798,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-sd-for-nintendo-switch-326087",
     "jan": "4573173326087",
-    "title": "在庫あり[メール便OK]【新品】【NS】SDガンダム ジージェネレーション ジェネシス for Nintendo Switch ★蔵出し★",
+    "title": "SDガンダム ジージェネレーション ジェネシス for Nintendo Switch",
     "genre": "その他",
     "cover": "GM",
-    "searches": 195,
+    "searches": 196,
     "aliases": [],
     "releaseDate": "1524668400",
     "verification": {
@@ -3022,10 +2820,8 @@ export const generatedGames = [
     "title": "バンダイナムコエンターテインメント (Switch)みんなのGOLF WORLD",
     "genre": "その他",
     "cover": "GM",
-    "searches": 194,
-    "aliases": [
-      "バンダイナムコエンターテインメント (Switch)みんなのGOLF WORLD 返品種別B"
-    ],
+    "searches": 195,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3040,12 +2836,12 @@ export const generatedGames = [
   {
     "id": "switch-551600",
     "jan": "4902370551600",
-    "title": "超おどる メイド イン ワリオ Switch用ソフト(パッケージ版)",
+    "title": "超おどる メイド イン ワリオ",
     "genre": "その他",
     "cover": "GM",
-    "searches": 193,
+    "searches": 194,
     "aliases": [
-      "超おどる メイド イン ワリオ  Switch用ソフト(パッケージ版)"
+      "超おどる メイド イン ワリオ Switch用ソフト(パッケージ版)"
     ],
     "releaseDate": "不明",
     "verification": {
@@ -3064,11 +2860,8 @@ export const generatedGames = [
     "title": "プリンセスピーチ Showtime!",
     "genre": "その他",
     "cover": "GM",
-    "searches": 192,
-    "aliases": [
-      "任天堂 (Switch)プリンセスピーチ Showtime! 返品種別B",
-      "任天堂 (Switch)プリンセスピーチ Showtime!"
-    ],
+    "searches": 193,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3086,11 +2879,8 @@ export const generatedGames = [
     "title": "ルイージマンション2 HD",
     "genre": "その他",
     "cover": "GM",
-    "searches": 191,
-    "aliases": [
-      "任天堂 (Switch)ルイージマンション2 HD 返品種別B",
-      "任天堂 (Switch)ルイージマンション2 HD"
-    ],
+    "searches": 192,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3108,7 +2898,7 @@ export const generatedGames = [
     "title": "UNDERTALE",
     "genre": "その他",
     "cover": "GM",
-    "searches": 190,
+    "searches": 191,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
@@ -3124,13 +2914,11 @@ export const generatedGames = [
   {
     "id": "switch-ebaseball-2020-2020-7-9-172850",
     "jan": "4988602172850",
-    "title": "eBASEBALLパワフルプロ野球2020(2020年7月9日発売)【新品】【ネコポス送料無料】",
+    "title": "eBASEBALLパワフルプロ野球2020(2020年7月9日発売)",
     "genre": "スポーツ",
     "cover": "GM",
-    "searches": 189,
-    "aliases": [
-      "Switch eBASEBALLパワフルプロ野球2020(2020年7月9日発売)【新品】【ネコポス送料無料】"
-    ],
+    "searches": 190,
+    "aliases": [],
     "releaseDate": "1594220400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3145,10 +2933,10 @@ export const generatedGames = [
   {
     "id": "nsw-4-switch-302946",
     "jan": "4535506302946",
-    "title": "即納 新品 NSW ルーンファクトリー4スペシャル Switch(スイッチ ソフト)",
+    "title": "新品 NSW ルーンファクトリー4スペシャル Switch(スイッチ ソフト)",
     "genre": "その他",
     "cover": "GM",
-    "searches": 188,
+    "searches": 189,
     "aliases": [],
     "releaseDate": "1563980400",
     "verification": {
@@ -3167,10 +2955,8 @@ export const generatedGames = [
     "title": "マーベラス (Switch)牧場物語 Let's!風のグランドバザール",
     "genre": "シミュレーション",
     "cover": "GM",
-    "searches": 187,
-    "aliases": [
-      "マーベラス (Switch)牧場物語 Let's!風のグランドバザール 返品種別B"
-    ],
+    "searches": 188,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3188,10 +2974,8 @@ export const generatedGames = [
     "title": "バンダイナムコエンターテインメント (Switch)ドラゴンボール Sparking! ZERO",
     "genre": "その他",
     "cover": "GM",
-    "searches": 186,
-    "aliases": [
-      "バンダイナムコエンターテインメント (Switch)ドラゴンボール Sparking! ZERO 返品種別B"
-    ],
+    "searches": 187,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3206,10 +2990,10 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-540437",
     "jan": "4902370540437",
-    "title": "【送料無料】【新品】スーパー マリオパーティ -Nintendo Switch 【任天堂】",
+    "title": "スーパー マリオパーティ -Nintendo Switch 【任天堂】",
     "genre": "パーティー",
     "cover": "GM",
-    "searches": 185,
+    "searches": 186,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
@@ -3228,10 +3012,8 @@ export const generatedGames = [
     "title": "ユニコーンオーバーロード",
     "genre": "その他",
     "cover": "GM",
-    "searches": 184,
-    "aliases": [
-      "【新品】NSW ユニコーンオーバーロード"
-    ],
+    "searches": 185,
+    "aliases": [],
     "releaseDate": "1709823600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3249,10 +3031,8 @@ export const generatedGames = [
     "title": "アークシステムワークス (Switch)くにおくん ザ・ワールド クラシックスコレクションくにおくん",
     "genre": "その他",
     "cover": "GM",
-    "searches": 183,
-    "aliases": [
-      "アークシステムワークス (Switch)くにおくん ザ・ワールド クラシックスコレクションくにおくん 返品種別B"
-    ],
+    "searches": 184,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3267,10 +3047,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-x-393667",
     "jan": "4582528393667",
-    "title": "在庫あり [メール便OK]【新品】【NS】スーパーロボット大戦X★蔵出し★",
+    "title": "スーパーロボット大戦X",
     "genre": "その他",
     "cover": "GM",
-    "searches": 182,
+    "searches": 183,
     "aliases": [],
     "releaseDate": "1578582000",
     "verification": {
@@ -3289,10 +3069,8 @@ export const generatedGames = [
     "title": "パワフルプロ野球2026-2027【早期購入特典】DLCチラシ",
     "genre": "スポーツ",
     "cover": "GM",
-    "searches": 181,
-    "aliases": [
-      "【新品】NSW パワフルプロ野球2026-2027【早期購入特典】DLCチラシ"
-    ],
+    "searches": 182,
+    "aliases": [],
     "releaseDate": "1781103600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3310,10 +3088,8 @@ export const generatedGames = [
     "title": "三國志14 with パワーアップキット",
     "genre": "その他",
     "cover": "GM",
-    "searches": 180,
-    "aliases": [
-      "【新品】Switch 三國志14 with パワーアップキット"
-    ],
+    "searches": 181,
+    "aliases": [],
     "releaseDate": "1607526000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3328,10 +3104,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-598982",
     "jan": "4904790598982",
-    "title": "在庫あり[メール便OK]【新品】【NS】プリパラ オールアイドルパーフェ クトステージ!★ 蔵出し★",
+    "title": "プリパラ オールアイドルパーフェ クトステージ!",
     "genre": "その他",
     "cover": "GM",
-    "searches": 179,
+    "searches": 180,
     "aliases": [],
     "releaseDate": "1521644400",
     "verification": {
@@ -3350,10 +3126,8 @@ export const generatedGames = [
     "title": "セガ (Switch)ソニックフロンティア",
     "genre": "その他",
     "cover": "GM",
-    "searches": 178,
-    "aliases": [
-      "セガ (Switch)ソニックフロンティア 返品種別B"
-    ],
+    "searches": 179,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3368,13 +3142,11 @@ export const generatedGames = [
   {
     "id": "switch-the-2018-6-21-998278",
     "jan": "4527823998278",
-    "title": "THE麻雀(ザマージャン)(2018年6月21日発売)【新品】",
+    "title": "THE麻雀(ザマージャン)(2018年6月21日発売)",
     "genre": "その他",
     "cover": "GM",
-    "searches": 177,
-    "aliases": [
-      "Switch THE麻雀(ザマージャン)(2018年6月21日発売)【新品】"
-    ],
+    "searches": 178,
+    "aliases": [],
     "releaseDate": "1529506800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3392,11 +3164,8 @@ export const generatedGames = [
     "title": "進め!キノピオ隊長",
     "genre": "その他",
     "cover": "GM",
-    "searches": 176,
-    "aliases": [
-      "任天堂 (Switch)進め!キノピオ隊長 返品種別B",
-      "任天堂 (Switch)進め!キノピオ隊長"
-    ],
+    "searches": 177,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3414,10 +3183,8 @@ export const generatedGames = [
     "title": "Overcooked! - オーバークック 王国のフルコース -",
     "genre": "その他",
     "cover": "GM",
-    "searches": 175,
-    "aliases": [
-      "【新品】Switch Overcooked! - オーバークック 王国のフルコース -"
-    ],
+    "searches": 176,
+    "aliases": [],
     "releaseDate": "1626793200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3435,10 +3202,8 @@ export const generatedGames = [
     "title": "LEGO シティ アンダーカバー",
     "genre": "その他",
     "cover": "GM",
-    "searches": 174,
-    "aliases": [
-      "【新品】Switch LEGO シティ アンダーカバー"
-    ],
+    "searches": 175,
+    "aliases": [],
     "releaseDate": "1498662000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3456,11 +3221,8 @@ export const generatedGames = [
     "title": "マリオストライカーズ バトルリーグ",
     "genre": "アクション",
     "cover": "GM",
-    "searches": 173,
-    "aliases": [
-      "任天堂 (Switch)マリオストライカーズ バトルリーグ 返品種別B",
-      "任天堂 (Switch)マリオストライカーズ バトルリーグ"
-    ],
+    "searches": 174,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3478,10 +3240,8 @@ export const generatedGames = [
     "title": "タカラトミー (Switch)人生ゲーム for Nintendo Switch",
     "genre": "パーティー",
     "cover": "GM",
-    "searches": 172,
-    "aliases": [
-      "タカラトミー (Switch)人生ゲーム for Nintendo Switch 返品種別B"
-    ],
+    "searches": 173,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3499,10 +3259,8 @@ export const generatedGames = [
     "title": "カプコン (Switch)MARVEL vs. CAPCOM ファイティングコレクション アーケードクラシックス",
     "genre": "その他",
     "cover": "GM",
-    "searches": 171,
-    "aliases": [
-      "カプコン (Switch)MARVEL vs. CAPCOM ファイティングコレクション アーケードクラシックス 返品種別B"
-    ],
+    "searches": 172,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3520,10 +3278,8 @@ export const generatedGames = [
     "title": "ポケモン Switchゲームソフト New ポケモンスナップ",
     "genre": "RPG",
     "cover": "GM",
-    "searches": 170,
-    "aliases": [
-      "ポケモン Switchゲームソフト New ポケモンスナップ HAC-P-ARFTA"
-    ],
+    "searches": 171,
+    "aliases": [],
     "releaseDate": "1619708400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3541,10 +3297,8 @@ export const generatedGames = [
     "title": "バンダイナムコエンターテインメント (Switch)スーパーロボット大戦Y",
     "genre": "その他",
     "cover": "GM",
-    "searches": 169,
-    "aliases": [
-      "バンダイナムコエンターテインメント (Switch)スーパーロボット大戦Y 返品種別B"
-    ],
+    "searches": 170,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3562,10 +3316,8 @@ export const generatedGames = [
     "title": "ネオス (Switch)クレヨンしんちゃん『炭の町のシロ』 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 168,
-    "aliases": [
-      "ネオス (Switch)クレヨンしんちゃん『炭の町のシロ』 通常版 返品種別B"
-    ],
+    "searches": 169,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3583,10 +3335,8 @@ export const generatedGames = [
     "title": "エムツー (Switch)究極タイガーヘリ",
     "genre": "その他",
     "cover": "GM",
-    "searches": 167,
-    "aliases": [
-      "エムツー (Switch)究極タイガーヘリ 返品種別B"
-    ],
+    "searches": 168,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3601,13 +3351,11 @@ export const generatedGames = [
   {
     "id": "switch-2-2020-12-4-010771",
     "jan": "4988601010771",
-    "title": "ドラゴンクエストビルダーズ2 破壊神シドーとからっぽの島 新価格版(2020年12月4日発売)【新品】",
+    "title": "ドラゴンクエストビルダーズ2 破壊神シドーとからっぽの島 新価格版(2020年12月4日発売)",
     "genre": "RPG",
     "cover": "GM",
-    "searches": 166,
-    "aliases": [
-      "Switch ドラゴンクエストビルダーズ2 破壊神シドーとからっぽの島 新価格版(2020年12月4日発売)【新品】"
-    ],
+    "searches": 167,
+    "aliases": [],
     "releaseDate": "1607007600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3625,10 +3373,8 @@ export const generatedGames = [
     "title": "コナミデジタルエンタテインメント (Switch)スーパーボンバーマン R 2",
     "genre": "その他",
     "cover": "GM",
-    "searches": 165,
-    "aliases": [
-      "コナミデジタルエンタテインメント (Switch)スーパーボンバーマン R 2 返品種別B"
-    ],
+    "searches": 166,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3646,10 +3392,8 @@ export const generatedGames = [
     "title": "太閤立志伝V DX",
     "genre": "その他",
     "cover": "GM",
-    "searches": 164,
-    "aliases": [
-      "【新品】Switch 太閤立志伝V DX"
-    ],
+    "searches": 165,
+    "aliases": [],
     "releaseDate": "1652886000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3664,10 +3408,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-2020-the-official-video-game-861520",
     "jan": "4974365861520",
-    "title": "[メール便OK]【新品】【NS】東京2020オリンピック The Official Video Game[在庫品]",
+    "title": "東京2020オリンピック The Official Video Game",
     "genre": "スポーツ",
     "cover": "GM",
-    "searches": 163,
+    "searches": 164,
     "aliases": [],
     "releaseDate": "1563894000",
     "verification": {
@@ -3686,10 +3430,8 @@ export const generatedGames = [
     "title": "テラリア",
     "genre": "その他",
     "cover": "GM",
-    "searches": 162,
-    "aliases": [
-      "【新品】Switch テラリア"
-    ],
+    "searches": 163,
+    "aliases": [],
     "releaseDate": "1576681200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3702,38 +3444,13 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T17:26:07.689Z"
   },
   {
-    "id": "switch-8-2023-10-6-551815",
-    "jan": "4902370551815",
-    "title": "マリオカート8 デラックス+コース追加パス(2023年10月6日発売)【新品】",
-    "genre": "レース",
-    "cover": "GM",
-    "searches": 161,
-    "aliases": [
-      "マリカー8",
-      "マリオカート8dx",
-      "Switch マリオカート8 デラックス+コース追加パス(2023年10月6日発売)【新品】"
-    ],
-    "releaseDate": "1696518000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74920.html",
-      "checkedAt": "2026-07-21"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74920",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T17:26:07.689Z"
-  },
-  {
     "id": "mages-switch-b-131094",
     "jan": "4562412131094",
     "title": "MAGES. (Switch)映画「五等分の花嫁」 〜君と過ごした五つの思い出〜 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 160,
-    "aliases": [
-      "MAGES. (Switch)映画「五等分の花嫁」 〜君と過ごした五つの思い出〜 通常版 返品種別B"
-    ],
+    "searches": 162,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3751,10 +3468,8 @@ export const generatedGames = [
     "title": "バンダイナムコエンターテインメント (Switch)ONE PIECE 海賊無双4 Deluxe Edition",
     "genre": "アクション",
     "cover": "GM",
-    "searches": 159,
-    "aliases": [
-      "バンダイナムコエンターテインメント (Switch)ONE PIECE 海賊無双4 Deluxe Edition 返品種別B"
-    ],
+    "searches": 161,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3772,7 +3487,7 @@ export const generatedGames = [
     "title": "エレクトロニック・アーツ Switchゲームソフト EA SPORTS FC 25",
     "genre": "その他",
     "cover": "GM",
-    "searches": 158,
+    "searches": 160,
     "aliases": [],
     "releaseDate": "1727362800",
     "verification": {
@@ -3791,10 +3506,8 @@ export const generatedGames = [
     "title": "イマジニア (Switch)漢検スマート対策",
     "genre": "その他",
     "cover": "GM",
-    "searches": 157,
-    "aliases": [
-      "イマジニア (Switch)漢検スマート対策 返品種別B"
-    ],
+    "searches": 159,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3809,13 +3522,11 @@ export const generatedGames = [
   {
     "id": "switch-the-2019-4-4-998377",
     "jan": "4527823998377",
-    "title": "THE体感!スポーツパック〜テニス・ボウリング・ゴルフ・ビリヤード〜(2019年4月4日発売)【新品】",
+    "title": "THE体感!スポーツパック〜テニス・ボウリング・ゴルフ・ビリヤード〜(2019年4月4日発売)",
     "genre": "スポーツ",
     "cover": "GM",
-    "searches": 156,
-    "aliases": [
-      "Switch THE体感!スポーツパック〜テニス・ボウリング・ゴルフ・ビリヤード〜(2019年4月4日発売)【新品】"
-    ],
+    "searches": 158,
+    "aliases": [],
     "releaseDate": "1554303600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3830,13 +3541,11 @@ export const generatedGames = [
   {
     "id": "switch-simple-vol-1-the-deluxe-pack-998674",
     "jan": "4527823998674",
-    "title": "SIMPLEシリーズVol.1 THEテーブルゲーム Deluxe Pack〜麻雀・囲碁・将棋・詰将棋・オセロ・カード・花札・二角取り〜【新品【ネコポス送料無料】",
+    "title": "SIMPLEシリーズVol.1 THEテーブルゲーム Deluxe Pack〜麻雀・囲碁・将棋・詰将棋・オセロ・カード・花札・二角取り〜",
     "genre": "その他",
     "cover": "GM",
-    "searches": 155,
-    "aliases": [
-      "Switch SIMPLEシリーズVol.1 THEテーブルゲーム Deluxe Pack〜麻雀・囲碁・将棋・詰将棋・オセロ・カード・花札・二角取り〜【新品【ネコポス送料無料】"
-    ],
+    "searches": 157,
+    "aliases": [],
     "releaseDate": "1645023600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3854,10 +3563,9 @@ export const generatedGames = [
     "title": "Nintendo Labo Toy-Con 03: Drive Kit",
     "genre": "その他",
     "cover": "GM",
-    "searches": 154,
+    "searches": 156,
     "aliases": [
-      "Switch Nintendo Labo Toy-Con 03 Drive Kit",
-      "Switch Nintendo Labo Toy-Con 03: Drive Kit"
+      "Switch Nintendo Labo Toy-Con 03 Drive Kit"
     ],
     "releaseDate": "不明",
     "verification": {
@@ -3876,10 +3584,8 @@ export const generatedGames = [
     "title": "日本コロムビア (Switch)すみっコぐらし つくろう!ステキなすみっコ島",
     "genre": "その他",
     "cover": "GM",
-    "searches": 153,
-    "aliases": [
-      "日本コロムビア (Switch)すみっコぐらし つくろう!ステキなすみっコ島 返品種別B"
-    ],
+    "searches": 155,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3897,10 +3603,8 @@ export const generatedGames = [
     "title": "おすそわける メイド イン ワリオ",
     "genre": "その他",
     "cover": "GM",
-    "searches": 152,
-    "aliases": [
-      "【新品】Switch おすそわける メイド イン ワリオ"
-    ],
+    "searches": 154,
+    "aliases": [],
     "releaseDate": "1631199600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3918,10 +3622,8 @@ export const generatedGames = [
     "title": "マリオ+ラビッツ ギャラクシーバトル",
     "genre": "アクション",
     "cover": "GM",
-    "searches": 151,
-    "aliases": [
-      "【新品】Switch マリオ+ラビッツ ギャラクシーバトル"
-    ],
+    "searches": 153,
+    "aliases": [],
     "releaseDate": "1669906800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3934,15 +3636,51 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T17:26:07.689Z"
   },
   {
+    "id": "switch-b-552119",
+    "jan": "4902370552119",
+    "title": "フォーエバーブルー ルミナス",
+    "genre": "その他",
+    "cover": "GM",
+    "searches": 152,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370552119-54-46584.html",
+      "checkedAt": "2026-07-21"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370552119-54-46584",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-07-21T17:26:07.689Z"
+  },
+  {
+    "id": "switch-s-b-518165",
+    "jan": "4940261518165",
+    "title": "スパイク・チュンソフト (Switch)ダンガンロンパ トリロジーパック + ハッピーダンガンロンパS 超高校級の南国サイコロ合宿",
+    "genre": "その他",
+    "cover": "GM",
+    "searches": 151,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4940261518165-54-46584.html",
+      "checkedAt": "2026-07-21"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4940261518165-54-46584",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-07-21T17:26:07.689Z"
+  },
+  {
     "id": "switch-super-collection-b-290925",
     "jan": "4589889290925",
     "title": "エディア (封入特典付)(Switch)SUPERやのまんCOLLECTION 通常版",
     "genre": "その他",
     "cover": "GM",
     "searches": 150,
-    "aliases": [
-      "エディア (封入特典付)(Switch)SUPERやのまんCOLLECTION 通常版 返品種別B"
-    ],
+    "aliases": [],
     "releaseDate": "1796828400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -3957,7 +3695,7 @@ export const generatedGames = [
   {
     "id": "4-nintendo-switch-012218",
     "jan": "4988601012218",
-    "title": "【送料無料】【新品】ドラゴンクエストモンスターズ4 枯れ木の国のビアンカ・フローラ -Nintendo Switch 【スクウェアエニックス】",
+    "title": "ドラゴンクエストモンスターズ4 枯れ木の国のビアンカ・フローラ -Nintendo Switch 【スクウェアエニックス】",
     "genre": "RPG",
     "cover": "GM",
     "searches": 149,
@@ -3976,7 +3714,7 @@ export const generatedGames = [
   {
     "id": "switch-4-12-012249",
     "jan": "4988601012249",
-    "title": "【特典】Switch ドラゴンクエストモンスターズ4 枯れ木の国のビアンカ・フローラ マスターズ版[スクウェア・エニックス]【送料無料】《12月予約》",
+    "title": "【特典】Switch ドラゴンクエストモンスターズ4 枯れ木の国のビアンカ・フローラ マスターズ版[スクウェア・エニックス] 《12月予約》",
     "genre": "RPG",
     "cover": "GM",
     "searches": 148,
@@ -4037,9 +3775,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 145,
-    "aliases": [
-      "SOFT SOURCE (Switch)HAZEL SKY 返品種別B"
-    ],
+    "aliases": [],
     "releaseDate": "1793199600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4058,9 +3794,7 @@ export const generatedGames = [
     "genre": "RPG",
     "cover": "GM",
     "searches": 144,
-    "aliases": [
-      "スクウェア・エニックス (封入特典付)(Switch)ファイナルファンタジー レゾナンス 返品種別B"
-    ],
+    "aliases": [],
     "releaseDate": "1792594800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4079,9 +3813,7 @@ export const generatedGames = [
     "genre": "その他",
     "cover": "GM",
     "searches": 143,
-    "aliases": [
-      "ピクセル (Switch)ホーギーヒュー 通常版 返品種別B"
-    ],
+    "aliases": [],
     "releaseDate": "1792594800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4101,8 +3833,7 @@ export const generatedGames = [
     "cover": "GM",
     "searches": 142,
     "aliases": [
-      "【新品】26/10/15発売(前日出荷) Switch Castlevania Belmont’s Curse Midnight Edition",
-      "【新品】26/10/15発売(前日出荷) Switch Castlevania: Belmont’s Curse Midnight Edition"
+      "【新品】26/10/15発売(前日出荷) Switch Castlevania Belmont’s Curse Midnight Edition"
     ],
     "releaseDate": "1791990000",
     "verification": {
@@ -4118,12 +3849,12 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-498415",
     "jan": "4580891498415",
-    "title": "新品 Nintendo Switchソフト テイルズ オブ エターニア リマスター",
+    "title": "Nintendo Switchソフト テイルズ オブ エターニア リマスター",
     "genre": "その他",
     "cover": "GM",
     "searches": 141,
     "aliases": [
-      "新品 Nintendo Switchソフト  テイルズ オブ エターニア リマスター"
+      "新品 Nintendo Switchソフト テイルズ オブ エターニア リマスター"
     ],
     "releaseDate": "1791990000",
     "verification": {
@@ -4137,37 +3868,13 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T17:26:07.689Z"
   },
   {
-    "id": "nintendo-switch-toy-story-retro-roundup-toy-story-3-complete-edition-double-pack-030361",
-    "jan": "4595057030361",
-    "title": "新品 Nintendo Switchソフト Toy Story: Retro Roundup! + Toy Story 3 Complete Edition Double Pack",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 140,
-    "aliases": [
-      "新品 Nintendo Switchソフト Toy Story Retro Roundup! + Toy Story 3 Complete Edition Double Pack",
-      "新品 Nintendo Switchソフト  Toy Story: Retro Roundup! + Toy Story 3 Complete Edition Double Pack"
-    ],
-    "releaseDate": "1791990000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/comgstore/1293-4595057030361.html",
-      "checkedAt": "2026-07-21"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/comgstore_1293-4595057030361",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T17:26:07.689Z"
-  },
-  {
     "id": "switch-b-104959",
     "jan": "4965857104959",
     "title": "イマジニア (Switch)ぼくと釣り日記",
     "genre": "その他",
     "cover": "GM",
-    "searches": 139,
-    "aliases": [
-      "イマジニア (Switch)ぼくと釣り日記 返品種別B"
-    ],
+    "searches": 140,
+    "aliases": [],
     "releaseDate": "1791385200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4182,10 +3889,10 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-2-480071",
     "jan": "4595555480071",
-    "title": "【送料無料】[Nintendo Switch]/ゲーム/青鬼2",
+    "title": "[Nintendo Switch]/ゲーム/青鬼2",
     "genre": "その他",
     "cover": "GM",
-    "searches": 138,
+    "searches": 139,
     "aliases": [],
     "releaseDate": "1791385200",
     "verification": {
@@ -4201,10 +3908,10 @@ export const generatedGames = [
   {
     "id": "10-01-ns-boosted-048203",
     "jan": "4571442048203",
-    "title": "オリ特付【10/01発売お届け☆予約】【新品】【NS】むちむちポーク!&ピンクスゥイーツ Boosted ★浅草マッハオリジナル特典マイクロファイバークロス付★",
+    "title": "オリ特付 むちむちポーク!&ピンクスゥイーツ Boosted ★浅草マッハオリジナル特典マイクロファイバークロス付",
     "genre": "その他",
     "cover": "GM",
-    "searches": 137,
+    "searches": 138,
     "aliases": [],
     "releaseDate": "1790780400",
     "verification": {
@@ -4223,10 +3930,8 @@ export const generatedGames = [
     "title": "プロトタイプ (Switch)虹彩都市 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 136,
-    "aliases": [
-      "プロトタイプ (Switch)虹彩都市 通常版 返品種別B"
-    ],
+    "searches": 137,
+    "aliases": [],
     "releaseDate": "1790780400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4241,13 +3946,11 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-2-09-104904",
     "jan": "4965857104904",
-    "title": "ミステリーの歩き方2 人魚伝説殺人事件[イマジニア]《09月予約》",
+    "title": "Nintendo Switch ミステリーの歩き方2 人魚伝説殺人事件[イマジニア]《09月予約》",
     "genre": "アドベンチャー",
     "cover": "GM",
-    "searches": 135,
-    "aliases": [
-      "Nintendo Switch ミステリーの歩き方2 人魚伝説殺人事件[イマジニア]《09月予約》"
-    ],
+    "searches": 136,
+    "aliases": [],
     "releaseDate": "1790694000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4262,12 +3965,12 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-260046",
     "jan": "4510772260046",
-    "title": "新品 Nintendo Switchソフト 神貌のクリファ",
+    "title": "Nintendo Switchソフト 神貌のクリファ",
     "genre": "その他",
     "cover": "GM",
-    "searches": 134,
+    "searches": 135,
     "aliases": [
-      "新品 Nintendo Switchソフト  神貌のクリファ"
+      "新品 Nintendo Switchソフト 神貌のクリファ"
     ],
     "releaseDate": "1790175600",
     "verification": {
@@ -4283,10 +3986,10 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-9-17-051367-653764",
     "jan": "4570164653764",
-    "title": "【送料無料・発売日前日出荷・新品】Nintendo Switch (初回特典付)アナザーエデン ビギンズ (9月17日発売) 051367",
+    "title": "Nintendo Switch (初回特典付)アナザーエデン ビギンズ (9月17日発売) 051367",
     "genre": "その他",
     "cover": "GM",
-    "searches": 133,
+    "searches": 134,
     "aliases": [],
     "releaseDate": "1789570800",
     "verification": {
@@ -4305,10 +4008,8 @@ export const generatedGames = [
     "title": "ブロッコリー (Switch)Le Mirage Mystique 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 132,
-    "aliases": [
-      "ブロッコリー (Switch)Le Mirage Mystique 通常版 返品種別B"
-    ],
+    "searches": 133,
+    "aliases": [],
     "releaseDate": "1789570800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4323,10 +4024,10 @@ export const generatedGames = [
   {
     "id": "09-17-2-nw10108300-133008",
     "jan": "4956027133008",
-    "title": "[09月17日発売予約][ニンテンドースイッチ2ソフト] 空の軌跡 ザ セカンド ウロボロスボックス [NW10108300] *予約特典付",
+    "title": "[ニンテンドースイッチ2ソフト] 空の軌跡 ザ セカンド ウロボロスボックス [NW10108300] *予約特典付",
     "genre": "その他",
     "cover": "GM",
-    "searches": 131,
+    "searches": 132,
     "aliases": [],
     "releaseDate": "1789570800",
     "verification": {
@@ -4345,10 +4046,8 @@ export const generatedGames = [
     "title": "WB Games (Switch)ホグワーツ・レガシー 価格改定版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 130,
-    "aliases": [
-      "WB Games (Switch)ホグワーツ・レガシー 価格改定版 返品種別B"
-    ],
+    "searches": 131,
+    "aliases": [],
     "releaseDate": "1789570800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4366,7 +4065,7 @@ export const generatedGames = [
     "title": "【あみあみ限定特典】Nintendo Switch Afterlove EP[ネオス]《09月予約》",
     "genre": "その他",
     "cover": "GM",
-    "searches": 129,
+    "searches": 130,
     "aliases": [],
     "releaseDate": "1788966000",
     "verification": {
@@ -4385,10 +4084,8 @@ export const generatedGames = [
     "title": "コーエーテクモゲームス (封入特典付)(Switch)三國志14 with パワーアップキット Complete Edition",
     "genre": "その他",
     "cover": "GM",
-    "searches": 128,
-    "aliases": [
-      "コーエーテクモゲームス (封入特典付)(Switch)三國志14 with パワーアップキット Complete Edition 返品種別B"
-    ],
+    "searches": 129,
+    "aliases": [],
     "releaseDate": "1788966000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4406,10 +4103,8 @@ export const generatedGames = [
     "title": "ディースリー・パブリッシャー (Switch)学校であった怖い話と晦-つきこもり 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 127,
-    "aliases": [
-      "ディースリー・パブリッシャー (Switch)学校であった怖い話と晦-つきこもり 通常版 返品種別B"
-    ],
+    "searches": 128,
+    "aliases": [],
     "releaseDate": "1788966000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4427,10 +4122,8 @@ export const generatedGames = [
     "title": "アイディアファクトリー (Joshinオリジナル特典付)(Switch)BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 126,
-    "aliases": [
-      "アイディアファクトリー (Joshinオリジナル特典付)(Switch)BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch 通常版 返品種別B"
-    ],
+    "searches": 127,
+    "aliases": [],
     "releaseDate": "1788966000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4448,7 +4141,7 @@ export const generatedGames = [
     "title": "【特典】Nintendo Switch はしれへべれけEX[グラビティゲームアライズ]《09月予約》",
     "genre": "その他",
     "cover": "GM",
-    "searches": 125,
+    "searches": 126,
     "aliases": [],
     "releaseDate": "1788361200",
     "verification": {
@@ -4467,10 +4160,8 @@ export const generatedGames = [
     "title": "Fangamer Japan (特典付)(Switch)OFF",
     "genre": "その他",
     "cover": "GM",
-    "searches": 124,
-    "aliases": [
-      "Fangamer Japan (特典付)(Switch)OFF 返品種別B"
-    ],
+    "searches": 125,
+    "aliases": [],
     "releaseDate": "1788361200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4488,10 +4179,8 @@ export const generatedGames = [
     "title": "バンダイナムコエンターテインメント (封入特典付)(Switch)キャプテン翼2 WORLD FIGHTERS",
     "genre": "その他",
     "cover": "GM",
-    "searches": 123,
-    "aliases": [
-      "バンダイナムコエンターテインメント (封入特典付)(Switch)キャプテン翼2 WORLD FIGHTERS 返品種別B"
-    ],
+    "searches": 124,
+    "aliases": [],
     "releaseDate": "1787756400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4506,10 +4195,10 @@ export const generatedGames = [
   {
     "id": "2026-8-27-nsw-metal-gear-solid-master-collection-vol-2-amp-dlc-179897",
     "jan": "4988602179897",
-    "title": "【2026年8月27日発売】NSW METAL GEAR SOLID : MASTER COLLECTION Vol.2【早期購入特典】各作品内で使用可能なカムフラージュ&amp;ユニフォームDLC",
+    "title": "【2026年8月27日発売】NSW METAL GEAR SOLID : MASTER COLLECTION Vol.2【早期購入特典】各作品内で使用可能なカムフラージュ&ユニフォームDLC",
     "genre": "その他",
     "cover": "GM",
-    "searches": 122,
+    "searches": 123,
     "aliases": [
       "【2026年8月27日発売】NSW METAL GEAR SOLID MASTER COLLECTION Vol.2【早期購入特典】各作品内で使用可能なカムフラージュ&amp;ユニフォームDLC"
     ],
@@ -4527,10 +4216,10 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-8-27-051333-943610",
     "jan": "4570005943610",
-    "title": "【発売日前日出荷・新品】Nintendo Switch スーパーボンバーマン コレクション (8月27日発売)051333",
+    "title": "Nintendo Switch スーパーボンバーマン コレクション (8月27日発売)051333",
     "genre": "その他",
     "cover": "GM",
-    "searches": 121,
+    "searches": 122,
     "aliases": [],
     "releaseDate": "1787756400",
     "verification": {
@@ -4546,10 +4235,10 @@ export const generatedGames = [
   {
     "id": "08-27-2-10-10-2-hd-pot-p-abpva-012195",
     "jan": "4988601012195",
-    "title": "[08月27日発売予約][ニンテンドースイッチ2ソフト] ファイナルファンタジー10/10-2 HDリマスター [POT-P-ABPVA] *期間限定",
+    "title": "[ニンテンドースイッチ2ソフト] ファイナルファンタジー10/10-2 HDリマスター [POT-P-ABPVA] *期間限定",
     "genre": "RPG",
     "cover": "GM",
-    "searches": 120,
+    "searches": 121,
     "aliases": [],
     "releaseDate": "1787756400",
     "verification": {
@@ -4568,10 +4257,9 @@ export const generatedGames = [
     "title": "MAGES. (Joshinオリジナル特典付)(Switch)STEINS;GATE RE:BOOT(シュタインズゲート リブート) 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 119,
+    "searches": 120,
     "aliases": [
-      "MAGES. (Joshinオリジナル特典付)(Switch)STEINS;GATE RE BOOT(シュタインズゲート リブート) 通常版 返品種別B",
-      "MAGES. (Joshinオリジナル特典付)(Switch)STEINS;GATE RE:BOOT(シュタインズゲート リブート) 通常版 返品種別B"
+      "MAGES. (Joshinオリジナル特典付)(Switch)STEINS;GATE RE BOOT(シュタインズゲート リブート) 通常版 返品種別B"
     ],
     "releaseDate": "1787151600",
     "verification": {
@@ -4590,10 +4278,8 @@ export const generatedGames = [
     "title": "SUNSOFT (特典付)(Switch)ROUTE16 COLLECTION コレクターズBOX",
     "genre": "その他",
     "cover": "GM",
-    "searches": 118,
-    "aliases": [
-      "SUNSOFT (特典付)(Switch)ROUTE16 COLLECTION コレクターズBOX 返品種別B"
-    ],
+    "searches": 119,
+    "aliases": [],
     "releaseDate": "1785942000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4611,7 +4297,7 @@ export const generatedGames = [
     "title": "【2026年7月30日発売・発売日前日発送】NSW ほの暮しの庭",
     "genre": "その他",
     "cover": "GM",
-    "searches": 117,
+    "searches": 118,
     "aliases": [],
     "releaseDate": "1785337200",
     "verification": {
@@ -4630,7 +4316,7 @@ export const generatedGames = [
     "title": "【2026年7月30日発売・発売日前日発送】NSW テニスの王子様 ぎゅ〜っと! ドキドキサバイバル Tie break game",
     "genre": "スポーツ",
     "cover": "GM",
-    "searches": 116,
+    "searches": 117,
     "aliases": [],
     "releaseDate": "1785337200",
     "verification": {
@@ -4649,7 +4335,7 @@ export const generatedGames = [
     "title": "【2026年7月30日発売・発売日前日発送】NSW テニスの王子様 も〜っと 学園祭の王子様 -40 and more...",
     "genre": "スポーツ",
     "cover": "GM",
-    "searches": 115,
+    "searches": 116,
     "aliases": [],
     "releaseDate": "1785337200",
     "verification": {
@@ -4668,10 +4354,8 @@ export const generatedGames = [
     "title": "コナミデジタルエンタテインメント (封入特典付)(Switch)テニスの王子様 ぎゅ〜っと! ドキドキサバイバル Tie break game 無人島満喫エディション",
     "genre": "スポーツ",
     "cover": "GM",
-    "searches": 114,
-    "aliases": [
-      "コナミデジタルエンタテインメント (封入特典付)(Switch)テニスの王子様 ぎゅ〜っと! ドキドキサバイバル Tie break game 無人島満喫エディション 返品種別B"
-    ],
+    "searches": 115,
+    "aliases": [],
     "releaseDate": "1785337200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4689,7 +4373,7 @@ export const generatedGames = [
     "title": "コナミデジタルエンタテインメント(封入特典付)テニスの王子様も〜っと学園祭の王子様-40and more合同学園祭運営委員長からのねぎらいエディション返品種別B",
     "genre": "スポーツ",
     "cover": "GM",
-    "searches": 113,
+    "searches": 114,
     "aliases": [],
     "releaseDate": "1785337200",
     "verification": {
@@ -4705,10 +4389,10 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-7-30-050935-950322",
     "jan": "4580635950322",
-    "title": "【発売日前日出荷・新品】Nintendo Switch カルドセプト ザ ファースト 通常版 (7月30日発売)050935",
+    "title": "Nintendo Switch カルドセプト ザ ファースト 通常版 (7月30日発売)050935",
     "genre": "その他",
     "cover": "GM",
-    "searches": 112,
+    "searches": 113,
     "aliases": [],
     "releaseDate": "1785337200",
     "verification": {
@@ -4724,10 +4408,10 @@ export const generatedGames = [
   {
     "id": "07-30-ktgs-s072-211430",
     "jan": "4988615211430",
-    "title": "[07月30日発売予約][ニンテンドースイッチ ソフト] ブルーリフレクション カルテット 少女たちのキセキ プレミアムボックス [KTGS-S072",
+    "title": "[ニンテンドースイッチ ソフト] ブルーリフレクション カルテット 少女たちのキセキ プレミアムボックス [KTGS-S072",
     "genre": "その他",
     "cover": "GM",
-    "searches": 111,
+    "searches": 112,
     "aliases": [],
     "releaseDate": "1785337200",
     "verification": {
@@ -4746,10 +4430,9 @@ export const generatedGames = [
     "title": "Kakehashi Games (Joshinオリジナル特典付)(Switch)ムーミントロール:冬のぬくもり 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 110,
+    "searches": 111,
     "aliases": [
-      "Kakehashi Games (Joshinオリジナル特典付)(Switch)ムーミントロール 冬のぬくもり 通常版 返品種別B",
-      "Kakehashi Games (Joshinオリジナル特典付)(Switch)ムーミントロール:冬のぬくもり 通常版 返品種別B"
+      "Kakehashi Games (Joshinオリジナル特典付)(Switch)ムーミントロール 冬のぬくもり 通常版 返品種別B"
     ],
     "releaseDate": "1785337200",
     "verification": {
@@ -4768,10 +4451,8 @@ export const generatedGames = [
     "title": "SOFT SOURCE (Switch)Bluey's Quest for the Gold Pen",
     "genre": "その他",
     "cover": "GM",
-    "searches": 109,
-    "aliases": [
-      "SOFT SOURCE (Switch)Bluey's Quest for the Gold Pen 返品種別B"
-    ],
+    "searches": 110,
+    "aliases": [],
     "releaseDate": "1785337200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4789,10 +4470,8 @@ export const generatedGames = [
     "title": "MAGES. (Switch)お隣の天使様にいつの間にか駄目人間にされていた件 Memorial Vacation 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 108,
-    "aliases": [
-      "MAGES. (Switch)お隣の天使様にいつの間にか駄目人間にされていた件 Memorial Vacation 通常版 返品種別B"
-    ],
+    "searches": 109,
+    "aliases": [],
     "releaseDate": "1784732400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4810,10 +4489,8 @@ export const generatedGames = [
     "title": "カルドセプト ビギンズ【早期購入特典】DLC引き換え番号チラシ",
     "genre": "その他",
     "cover": "GM",
-    "searches": 107,
-    "aliases": [
-      "【新品】NSW カルドセプト ビギンズ【早期購入特典】DLC引き換え番号チラシ"
-    ],
+    "searches": 108,
+    "aliases": [],
     "releaseDate": "1784127600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4831,10 +4508,8 @@ export const generatedGames = [
     "title": "亰都ザナドゥ -桜花幻舞-",
     "genre": "その他",
     "cover": "GM",
-    "searches": 106,
-    "aliases": [
-      "【新品】NSW 亰都ザナドゥ -桜花幻舞-"
-    ],
+    "searches": 107,
+    "aliases": [],
     "releaseDate": "1784127600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4852,10 +4527,8 @@ export const generatedGames = [
     "title": "魔法少女ノ魔女裁判 Nintendo Switch 佐賀",
     "genre": "その他",
     "cover": "GM",
-    "searches": 105,
-    "aliases": [
-      "【新品】 魔法少女ノ魔女裁判 Nintendo Switch 佐賀"
-    ],
+    "searches": 106,
+    "aliases": [],
     "releaseDate": "1783522800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -4870,10 +4543,10 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-750396",
     "jan": "4580650750396",
-    "title": "【送料無料】[Nintendo Switch]/ゲーム/フロントミッション ザ・ファースト:リメイク スマートプライス",
+    "title": "[Nintendo Switch]/ゲーム/フロントミッション ザ・ファースト:リメイク スマートプライス",
     "genre": "その他",
     "cover": "GM",
-    "searches": 104,
+    "searches": 105,
     "aliases": [
       "【送料無料】[Nintendo Switch]/ゲーム/フロントミッション ザ・ファースト リメイク スマートプライス"
     ],
@@ -4891,10 +4564,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-480057",
     "jan": "4595555480057",
-    "title": "[メール便OK]【新品】【NS】猫様の脱出 スペシャル・コレクション[在庫品]",
+    "title": "猫様の脱出 スペシャル・コレクション",
     "genre": "その他",
     "cover": "GM",
-    "searches": 103,
+    "searches": 104,
     "aliases": [],
     "releaseDate": "1773846000",
     "verification": {
@@ -4910,10 +4583,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-580722",
     "jan": "4589794580722",
-    "title": "[メール便OK]【新品】【NS】電気街の喫茶店[在庫品]",
+    "title": "電気街の喫茶店",
     "genre": "その他",
     "cover": "GM",
-    "searches": 102,
+    "searches": 103,
     "aliases": [],
     "releaseDate": "1772031600",
     "verification": {
@@ -4929,10 +4602,10 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-154209",
     "jan": "4573608154209",
-    "title": "ポスト投函☆送料無料【新品】Nintendo Switch テイルズ オブ ベルセリア リマスター",
+    "title": "Nintendo Switch テイルズ オブ ベルセリア リマスター",
     "genre": "その他",
     "cover": "GM",
-    "searches": 101,
+    "searches": 102,
     "aliases": [],
     "releaseDate": "1772031600",
     "verification": {
@@ -4948,10 +4621,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-band-star-132053",
     "jan": "4562412132053",
-    "title": "[メール便OK]【新品】【NS】激奏!BAND STAR[在庫品]",
+    "title": "激奏!BAND STAR",
     "genre": "その他",
     "cover": "GM",
-    "searches": 100,
+    "searches": 101,
     "aliases": [],
     "releaseDate": "1765378800",
     "verification": {
@@ -4967,10 +4640,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-vs-switch-999534",
     "jan": "4527823999534",
-    "title": "[メール便OK]【新品】【NS】逃走中 ハンターVS逃走者!キミはどっちで勝利できるか!?[Switch版][在庫品]",
+    "title": "逃走中 ハンターVS逃走者!キミはどっちで勝利できるか!?",
     "genre": "その他",
     "cover": "GM",
-    "searches": 99,
+    "searches": 100,
     "aliases": [],
     "releaseDate": "1764774000",
     "verification": {
@@ -4986,10 +4659,10 @@ export const generatedGames = [
   {
     "id": "ns-switch-051370",
     "jan": "4570101051370",
-    "title": "在庫あり【新品】【NS】魂斗羅アニバーサリーコレクション [Switch版]",
+    "title": "魂斗羅アニバーサリーコレクション",
     "genre": "その他",
     "cover": "GM",
-    "searches": 98,
+    "searches": 99,
     "aliases": [],
     "releaseDate": "1764169200",
     "verification": {
@@ -5005,10 +4678,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-simple-for-nintendo-switch-vol-5-the-999329",
     "jan": "4527823999329",
-    "title": "[メール便OK]【新品】【NS】SIMPLEシリーズ for Nintendo Switch Vol.5 THE ヤンキーブラザー[在庫品]",
+    "title": "SIMPLEシリーズ for Nintendo Switch Vol.5 THE ヤンキーブラザー",
     "genre": "その他",
     "cover": "GM",
-    "searches": 97,
+    "searches": 98,
     "aliases": [],
     "releaseDate": "1764169200",
     "verification": {
@@ -5024,10 +4697,10 @@ export const generatedGames = [
   {
     "id": "ns-r-type-delta-hd-boosted-047916",
     "jan": "4571442047916",
-    "title": "オリ特付【在庫あり】【新品】【NS】R‐Type Delta: HD Boosted ★浅草マッハオリジナル特典アクリルコースター付★",
+    "title": "オリ特付 R‐Type Delta: HD Boosted ★浅草マッハオリジナル特典アクリルコースター付",
     "genre": "その他",
     "cover": "GM",
-    "searches": 96,
+    "searches": 97,
     "aliases": [
       "オリ特付【在庫あり】【新品】【NS】R‐Type Delta HD Boosted ★浅草マッハオリジナル特典アクリルコースター付★"
     ],
@@ -5048,10 +4721,8 @@ export const generatedGames = [
     "title": "2 ドラゴンボール Sparking! ZERO",
     "genre": "その他",
     "cover": "GM",
-    "searches": 95,
-    "aliases": [
-      "【新品】NSW2 ドラゴンボール Sparking! ZERO"
-    ],
+    "searches": 96,
+    "aliases": [],
     "releaseDate": "1762959600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5066,10 +4737,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-339863",
     "jan": "4549767339863",
-    "title": "[メール便OK]【新品】【NS】蟲神器 めざせ!最強の蟲主[在庫品]",
+    "title": "蟲神器 めざせ!最強の蟲主",
     "genre": "その他",
     "cover": "GM",
-    "searches": 94,
+    "searches": 95,
     "aliases": [],
     "releaseDate": "1762959600",
     "verification": {
@@ -5088,7 +4759,7 @@ export const generatedGames = [
     "title": "(送料込み) (追跡番号あり・取寄商品) ニンテンドー/お文具といっしょ ユルっとポチっと遊びましょ/Nintendo Switch ソフト",
     "genre": "その他",
     "cover": "GM",
-    "searches": 93,
+    "searches": 94,
     "aliases": [],
     "releaseDate": "1762959600",
     "verification": {
@@ -5104,10 +4775,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-switch-891555",
     "jan": "4582747891555",
-    "title": "[メール便OK]【新品】【NS】テイルズ オブ エクシリア リマスター[Switch版][在庫品]",
+    "title": "テイルズ オブ エクシリア リマスター",
     "genre": "その他",
     "cover": "GM",
-    "searches": 92,
+    "searches": 93,
     "aliases": [],
     "releaseDate": "1761750000",
     "verification": {
@@ -5123,12 +4794,12 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-104690",
     "jan": "4965857104690",
-    "title": "新品 Nintendo Switchソフト 映画 すみっコぐらし 空の王国とふたりのコ あそぼうキャラクロス",
+    "title": "Nintendo Switchソフト 映画 すみっコぐらし 空の王国とふたりのコ あそぼうキャラクロス",
     "genre": "その他",
     "cover": "GM",
-    "searches": 91,
+    "searches": 92,
     "aliases": [
-      "新品 Nintendo Switchソフト  映画 すみっコぐらし 空の王国とふたりのコ あそぼうキャラクロス"
+      "新品 Nintendo Switchソフト 映画 すみっコぐらし 空の王国とふたりのコ あそぼうキャラクロス"
     ],
     "releaseDate": "1761750000",
     "verification": {
@@ -5142,44 +4813,20 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T17:26:07.689Z"
   },
   {
-    "id": "switch-b-552119",
-    "jan": "4902370552119",
-    "title": "フォーエバーブルー ルミナス",
+    "id": "nintendo-switch-750303",
+    "jan": "4580650750303",
+    "title": "[Nintendo Switch]/ゲーム/トラックドライバー ゴールドエディション",
     "genre": "その他",
     "cover": "GM",
-    "searches": 90,
-    "aliases": [
-      "任天堂 (Switch)フォーエバーブルー ルミナス 返品種別B",
-      "任天堂 (Switch)フォーエバーブルー ルミナス"
-    ],
-    "releaseDate": "不明",
+    "searches": 91,
+    "aliases": [],
+    "releaseDate": "1761145200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370552119-54-46584.html",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/neowing/hac-p-bq4ja.html",
       "checkedAt": "2026-07-21"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370552119-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T17:26:07.689Z"
-  },
-  {
-    "id": "switch-s-b-518165",
-    "jan": "4940261518165",
-    "title": "スパイク・チュンソフト (Switch)ダンガンロンパ トリロジーパック + ハッピーダンガンロンパS 超高校級の南国サイコロ合宿",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 89,
-    "aliases": [
-      "スパイク・チュンソフト (Switch)ダンガンロンパ トリロジーパック + ハッピーダンガンロンパS 超高校級の南国サイコロ合宿 返品種別B"
-    ],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4940261518165-54-46584.html",
-      "checkedAt": "2026-07-21"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4940261518165-54-46584",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/neowing_hac-p-bq4ja",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-07-21T17:26:07.689Z"
@@ -5190,10 +4837,8 @@ export const generatedGames = [
     "title": "イマジニア (Switch)Fit Boxing 3 -Your パーソナルトレーナー-",
     "genre": "その他",
     "cover": "GM",
-    "searches": 88,
-    "aliases": [
-      "イマジニア (Switch)Fit Boxing 3 -Your パーソナルトレーナー- 返品種別B"
-    ],
+    "searches": 90,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5211,7 +4856,7 @@ export const generatedGames = [
     "title": "ペルソナ5 ザ・ロイヤル - Switch",
     "genre": "その他",
     "cover": "GM",
-    "searches": 87,
+    "searches": 89,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
@@ -5230,10 +4875,8 @@ export const generatedGames = [
     "title": "日本一ソフトウェア (Switch)イースIX −Monstrum NOX−イース",
     "genre": "その他",
     "cover": "GM",
-    "searches": 86,
-    "aliases": [
-      "日本一ソフトウェア (Switch)イースIX −Monstrum NOX−イース 返品種別B"
-    ],
+    "searches": 88,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5251,10 +4894,8 @@ export const generatedGames = [
     "title": "アイディアファクトリー (Switch)ニル・アドミラリの天秤 色ドリ撫子 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 85,
-    "aliases": [
-      "アイディアファクトリー (Switch)ニル・アドミラリの天秤 色ドリ撫子 通常版 返品種別B"
-    ],
+    "searches": 87,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5272,10 +4913,8 @@ export const generatedGames = [
     "title": "アイディアファクトリー (Switch)ピオフィオーレの晩鐘 -ricordo- 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 84,
-    "aliases": [
-      "アイディアファクトリー (Switch)ピオフィオーレの晩鐘 -ricordo- 通常版 返品種別B"
-    ],
+    "searches": 86,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5293,10 +4932,9 @@ export const generatedGames = [
     "title": "アイディアファクトリー (Switch)終遠のヴィルシュ −ErroR:salvation− 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 83,
+    "searches": 85,
     "aliases": [
-      "アイディアファクトリー (Switch)終遠のヴィルシュ −ErroR salvation− 通常版 返品種別B",
-      "アイディアファクトリー (Switch)終遠のヴィルシュ −ErroR:salvation− 通常版 返品種別B"
+      "アイディアファクトリー (Switch)終遠のヴィルシュ −ErroR salvation− 通常版 返品種別B"
     ],
     "releaseDate": "不明",
     "verification": {
@@ -5312,10 +4950,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-490018",
     "jan": "4582586490018",
-    "title": "[メール便OK]【新品】【NS】オバケイドロ![在庫品]",
+    "title": "オバケイドロ!",
     "genre": "その他",
     "cover": "GM",
-    "searches": 82,
+    "searches": 84,
     "aliases": [],
     "releaseDate": "1576681200",
     "verification": {
@@ -5334,10 +4972,8 @@ export const generatedGames = [
     "title": "妖怪ウォッチ1 for intendo Switch(レベルファイブ ザ ベスト)",
     "genre": "その他",
     "cover": "GM",
-    "searches": 81,
-    "aliases": [
-      "【新品】Switch 妖怪ウォッチ1 for intendo Switch(レベルファイブ ザ ベスト)"
-    ],
+    "searches": 83,
+    "aliases": [],
     "releaseDate": "1619017200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5352,10 +4988,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-6-520175",
     "jan": "4940261520175",
-    "title": "[メール便OK]【新品】【NS】不思議のダンジョン 風来のシレン6 とぐろ島探検録[在庫品]",
+    "title": "不思議のダンジョン 風来のシレン6 とぐろ島探検録",
     "genre": "その他",
     "cover": "GM",
-    "searches": 80,
+    "searches": 82,
     "aliases": [],
     "releaseDate": "1706108400",
     "verification": {
@@ -5374,7 +5010,7 @@ export const generatedGames = [
     "title": "Nintendo Labo Toy-Con 02: Robot Kit - Switch",
     "genre": "その他",
     "cover": "GM",
-    "searches": 79,
+    "searches": 81,
     "aliases": [
       "Nintendo Labo Toy-Con 02 Robot Kit - Switch"
     ],
@@ -5395,10 +5031,8 @@ export const generatedGames = [
     "title": "もしかして?おばけの射的屋 for Nintendo Switch",
     "genre": "その他",
     "cover": "GM",
-    "searches": 78,
-    "aliases": [
-      "【新品】Switch もしかして?おばけの射的屋 for Nintendo Switch"
-    ],
+    "searches": 80,
+    "aliases": [],
     "releaseDate": "1625065200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5416,10 +5050,8 @@ export const generatedGames = [
     "title": "五等分の花嫁∫∫ 〜夏の思い出も五等分〜",
     "genre": "その他",
     "cover": "GM",
-    "searches": 77,
-    "aliases": [
-      "【新品】Switch 五等分の花嫁∫∫ 〜夏の思い出も五等分〜"
-    ],
+    "searches": 79,
+    "aliases": [],
     "releaseDate": "1616598000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5437,10 +5069,8 @@ export const generatedGames = [
     "title": "ウルトラ怪獣モンスターファーム",
     "genre": "その他",
     "cover": "GM",
-    "searches": 76,
-    "aliases": [
-      "Switch ウルトラ怪獣モンスターファーム"
-    ],
+    "searches": 78,
+    "aliases": [],
     "releaseDate": "1666191600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5458,10 +5088,8 @@ export const generatedGames = [
     "title": "WB Games (Switch)ホグワーツ・レガシー 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 75,
-    "aliases": [
-      "WB Games (Switch)ホグワーツ・レガシー 通常版 返品種別B"
-    ],
+    "searches": 77,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5479,10 +5107,8 @@ export const generatedGames = [
     "title": "カプコン (Switch)大逆転裁判1&2 −成歩堂龍ノ介の冒險と覺悟− 通常版逆転裁判",
     "genre": "アドベンチャー",
     "cover": "GM",
-    "searches": 74,
-    "aliases": [
-      "カプコン (Switch)大逆転裁判1&2 −成歩堂龍ノ介の冒險と覺悟− 通常版逆転裁判 返品種別B"
-    ],
+    "searches": 76,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5500,10 +5126,8 @@ export const generatedGames = [
     "title": "コナミデジタルエンタテインメント (Switch)グラディウス オリジン コレクション 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 73,
-    "aliases": [
-      "コナミデジタルエンタテインメント (Switch)グラディウス オリジン コレクション 通常版 返品種別B"
-    ],
+    "searches": 75,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5521,10 +5145,8 @@ export const generatedGames = [
     "title": "コーエーテクモゲームス (Switch)信長の野望・新生 with パワーアップキット 通常版",
     "genre": "シミュレーション",
     "cover": "GM",
-    "searches": 72,
-    "aliases": [
-      "コーエーテクモゲームス (Switch)信長の野望・新生 with パワーアップキット 通常版 返品種別B"
-    ],
+    "searches": 74,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5539,13 +5161,11 @@ export const generatedGames = [
   {
     "id": "switch-2017-9-28-096419",
     "jan": "4988615096419",
-    "title": "ファイアーエムブレム無双 通常版(2017年9月28日発売)【新品】■",
+    "title": "ファイアーエムブレム無双 通常版(2017年9月28日発売)",
     "genre": "アクション",
     "cover": "GM",
-    "searches": 71,
-    "aliases": [
-      "Switch ファイアーエムブレム無双 通常版(2017年9月28日発売)【新品】■"
-    ],
+    "searches": 73,
+    "aliases": [],
     "releaseDate": "1506524400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5560,10 +5180,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-334730",
     "jan": "4573173334730",
-    "title": "[メール便OK]【新品】【NS】ドラゴンボール ファイターズ[在庫品]",
+    "title": "ドラゴンボール ファイターズ",
     "genre": "その他",
     "cover": "GM",
-    "searches": 70,
+    "searches": 72,
     "aliases": [],
     "releaseDate": "1537974000",
     "verification": {
@@ -5582,10 +5202,8 @@ export const generatedGames = [
     "title": "小学館 (Switch)ドラえもん学習コレクション",
     "genre": "その他",
     "cover": "GM",
-    "searches": 69,
-    "aliases": [
-      "小学館 (Switch)ドラえもん学習コレクション 返品種別B"
-    ],
+    "searches": 71,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5603,10 +5221,8 @@ export const generatedGames = [
     "title": "ワーナー ブラザース ジャパン (Switch)レゴ(R)マーベル スーパー・ヒーローズ2 ザ・ゲームLEGO レゴマーベルスーパーヒーローズ2ザゲーム",
     "genre": "その他",
     "cover": "GM",
-    "searches": 68,
-    "aliases": [
-      "ワーナー ブラザース ジャパン (Switch)レゴ(R)マーベル スーパー・ヒーローズ2 ザ・ゲームLEGO レゴマーベルスーパーヒーローズ2ザゲーム 返品種別B"
-    ],
+    "searches": 70,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5624,10 +5240,8 @@ export const generatedGames = [
     "title": "LEGO ジュラシック・ワールド",
     "genre": "その他",
     "cover": "GM",
-    "searches": 67,
-    "aliases": [
-      "【新品】Switch LEGO ジュラシック・ワールド"
-    ],
+    "searches": 69,
+    "aliases": [],
     "releaseDate": "1574262000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5645,10 +5259,8 @@ export const generatedGames = [
     "title": "二ノ国 白き聖灰の女王 for Nintendo Switch",
     "genre": "その他",
     "cover": "GM",
-    "searches": 66,
-    "aliases": [
-      "【新品】Switch 二ノ国 白き聖灰の女王 for Nintendo Switch"
-    ],
+    "searches": 68,
+    "aliases": [],
     "releaseDate": "1568905200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5663,10 +5275,10 @@ export const generatedGames = [
   {
     "id": "bandai-namco-entertainment-switch-1-amp-2-959993",
     "jan": "4571577959993",
-    "title": "バンダイナムコエンターテインメント BANDAI NAMCO Entertainment Switchゲームソフト 風のクロノア 1&amp;2アンコール",
+    "title": "バンダイナムコエンターテインメント BANDAI NAMCO Entertainment Switchゲームソフト 風のクロノア 1&2アンコール",
     "genre": "その他",
     "cover": "GM",
-    "searches": 65,
+    "searches": 67,
     "aliases": [],
     "releaseDate": "1657119600",
     "verification": {
@@ -5685,10 +5297,8 @@ export const generatedGames = [
     "title": "バンダイナムコエンターテインメント (Switch)ワンス・アポン・ア・塊魂",
     "genre": "その他",
     "cover": "GM",
-    "searches": 64,
-    "aliases": [
-      "バンダイナムコエンターテインメント (Switch)ワンス・アポン・ア・塊魂 返品種別B"
-    ],
+    "searches": 66,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5706,10 +5316,8 @@ export const generatedGames = [
     "title": "LEGO マーベル スーパー・ヒーローズ ザ・ゲーム",
     "genre": "その他",
     "cover": "GM",
-    "searches": 63,
-    "aliases": [
-      "【新品】Switch LEGO マーベル スーパー・ヒーローズ ザ・ゲーム"
-    ],
+    "searches": 65,
+    "aliases": [],
     "releaseDate": "1639580400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5727,10 +5335,8 @@ export const generatedGames = [
     "title": "十三機兵防衛圏",
     "genre": "その他",
     "cover": "GM",
-    "searches": 62,
-    "aliases": [
-      "【新品】Switch 十三機兵防衛圏"
-    ],
+    "searches": 64,
+    "aliases": [],
     "releaseDate": "1649862000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5748,10 +5354,8 @@ export const generatedGames = [
     "title": "奇々怪界 黒マントの謎",
     "genre": "その他",
     "cover": "GM",
-    "searches": 61,
-    "aliases": [
-      "【新品】Switch 奇々怪界 黒マントの謎"
-    ],
+    "searches": 63,
+    "aliases": [],
     "releaseDate": "1650466800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5769,10 +5373,8 @@ export const generatedGames = [
     "title": "日本一ソフトウェア (Switch)魔界戦記ディスガイア6 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 60,
-    "aliases": [
-      "日本一ソフトウェア (Switch)魔界戦記ディスガイア6 通常版 返品種別B"
-    ],
+    "searches": 62,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5790,10 +5392,8 @@ export const generatedGames = [
     "title": "アイディアファクトリー (Switch)薄桜鬼 真改 風華伝 for Nintendo Switch 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 59,
-    "aliases": [
-      "アイディアファクトリー (Switch)薄桜鬼 真改 風華伝 for Nintendo Switch 通常版 返品種別B"
-    ],
+    "searches": 61,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5811,7 +5411,7 @@ export const generatedGames = [
     "title": "ぷよぷよeスポーツ - Switch",
     "genre": "スポーツ",
     "cover": "GM",
-    "searches": 58,
+    "searches": 60,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
@@ -5825,35 +5425,12 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T17:26:07.689Z"
   },
   {
-    "id": "switch-2023-11-3-551709",
-    "jan": "4902370551709",
-    "title": "ポケットモンスター バイオレット+ゼロの秘宝(特典シリアルコード付)(2023年11月3日発売)(ネコポス便不可)【新品】",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 57,
-    "aliases": [
-      "ポケモンSV",
-      "ポケモンバイオレット",
-      "Switch ポケットモンスター バイオレット+ゼロの秘宝(特典シリアルコード付)(2023年11月3日発売)(ネコポス便不可)【新品】"
-    ],
-    "releaseDate": "1698937200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74926.html",
-      "checkedAt": "2026-07-21"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74926",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T17:26:07.689Z"
-  },
-  {
     "id": "nintendo-labo-toy-con-01-variety-kit-538731",
     "jan": "4902370538731",
     "title": "Nintendo Labo Toy-Con 01: Variety Kit",
     "genre": "その他",
     "cover": "GM",
-    "searches": 56,
+    "searches": 59,
     "aliases": [
       "Nintendo Labo Toy-Con 01 Variety Kit"
     ],
@@ -5874,10 +5451,8 @@ export const generatedGames = [
     "title": "Angry Alligator ワニワニ大冒険",
     "genre": "その他",
     "cover": "GM",
-    "searches": 55,
-    "aliases": [
-      "【新品】Switch Angry Alligator ワニワニ大冒険"
-    ],
+    "searches": 58,
+    "aliases": [],
     "releaseDate": "1638975600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5890,34 +5465,13 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T17:26:07.689Z"
   },
   {
-    "id": "nintendo-pokemon-go-plus-368009",
-    "jan": "4521329368009",
-    "title": "【即日発送】【新品】Nintendo 任天堂 Pokemon GO Plus+ ポケモン ゴー プラスプラス ホワイト",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 54,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/densidonya/4521329368009.html",
-      "checkedAt": "2026-07-21"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/densidonya_4521329368009",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T17:26:07.689Z"
-  },
-  {
     "id": "switch-b-191140",
     "jan": "4549767191140",
     "title": "日本コロムビア (Switch)バン!バン!バンディッツ",
     "genre": "その他",
     "cover": "GM",
-    "searches": 53,
-    "aliases": [
-      "日本コロムビア (Switch)バン!バン!バンディッツ 返品種別B"
-    ],
+    "searches": 57,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5935,10 +5489,8 @@ export const generatedGames = [
     "title": "日本コロムビア (Switch)ほねほねザウルスX 超合体!ビルド&バトル",
     "genre": "その他",
     "cover": "GM",
-    "searches": 52,
-    "aliases": [
-      "日本コロムビア (Switch)ほねほねザウルスX 超合体!ビルド&バトル 返品種別B"
-    ],
+    "searches": 56,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5956,10 +5508,8 @@ export const generatedGames = [
     "title": "鉄道にっぽん!Real Pro 特急ロマンスカー!小田急電鉄編",
     "genre": "その他",
     "cover": "GM",
-    "searches": 51,
-    "aliases": [
-      "【新品】Switch 鉄道にっぽん!Real Pro 特急ロマンスカー!小田急電鉄編"
-    ],
+    "searches": 55,
+    "aliases": [],
     "releaseDate": "1702479600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -5974,10 +5524,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-model-debut-nicola-236701",
     "jan": "4562240236701",
-    "title": "在庫あり[メール便OK]【新品】【NS】MODEL Debut #nicola/モデルデビュー ニコラ",
+    "title": "MODEL Debut #nicola/モデルデビュー ニコラ",
     "genre": "その他",
     "cover": "GM",
-    "searches": 50,
+    "searches": 54,
     "aliases": [],
     "releaseDate": "1572534000",
     "verification": {
@@ -5996,10 +5546,8 @@ export const generatedGames = [
     "title": "タイピングクエスト",
     "genre": "その他",
     "cover": "GM",
-    "searches": 49,
-    "aliases": [
-      "【新品】Switch タイピングクエスト"
-    ],
+    "searches": 53,
+    "aliases": [],
     "releaseDate": "1619017200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6014,10 +5562,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-pui-pui-let-s-982694",
     "jan": "4571577982694",
-    "title": "[メール便OK]【新品】【NS】PUI PUI モルカー Let's!モルカーパーティー![お取寄せ品]",
+    "title": "PUI PUI モルカー Let's!モルカーパーティー!",
     "genre": "パーティー",
     "cover": "GM",
-    "searches": 48,
+    "searches": 52,
     "aliases": [],
     "releaseDate": "1639580400",
     "verification": {
@@ -6036,10 +5584,8 @@ export const generatedGames = [
     "title": "グノーシア",
     "genre": "その他",
     "cover": "GM",
-    "searches": 47,
-    "aliases": [
-      "【新品】Switch グノーシア"
-    ],
+    "searches": 51,
+    "aliases": [],
     "releaseDate": "1608130800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6054,10 +5600,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-rpg-mv-trinity-661354",
     "jan": "4582350661354",
-    "title": "[メール便OK]【新品】【NS】RPGツクールMV Trinity[お取寄せ品]",
+    "title": "RPGツクールMV Trinity",
     "genre": "RPG",
     "cover": "GM",
-    "searches": 46,
+    "searches": 50,
     "aliases": [],
     "releaseDate": "1542207600",
     "verification": {
@@ -6073,10 +5619,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-naruto-4-road-to-boruto-403151",
     "jan": "4582528403151",
-    "title": "在庫あり[メール便OK]【新品】【NS】NARUTO-ナルト-疾風伝 ナルティメットストーム4 ROAD TO BORUTO★蔵出し★",
+    "title": "NARUTO-ナルト-疾風伝 ナルティメットストーム4 ROAD TO BORUTO",
     "genre": "その他",
     "cover": "GM",
-    "searches": 45,
+    "searches": 49,
     "aliases": [],
     "releaseDate": "1587567600",
     "verification": {
@@ -6092,10 +5638,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-rise-of-new-champions-423197",
     "jan": "4582528423197",
-    "title": "在庫あり[メール便OK]【新品】【NS】キャプテン翼 RISE OF NEW CHAMPIONS ★蔵出し★",
+    "title": "キャプテン翼 RISE OF NEW CHAMPIONS",
     "genre": "その他",
     "cover": "GM",
-    "searches": 44,
+    "searches": 48,
     "aliases": [],
     "releaseDate": "1598454000",
     "verification": {
@@ -6114,7 +5660,7 @@ export const generatedGames = [
     "title": "8番出口・8番のりば -Switch",
     "genre": "その他",
     "cover": "GM",
-    "searches": 43,
+    "searches": 47,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
@@ -6133,11 +5679,8 @@ export const generatedGames = [
     "title": "ベヨネッタ3(BAYONETTA3) 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 42,
-    "aliases": [
-      "任天堂 (Switch)ベヨネッタ3(BAYONETTA3) 通常版 返品種別B",
-      "任天堂 (Switch)ベヨネッタ3(BAYONETTA3) 通常版"
-    ],
+    "searches": 46,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6152,10 +5695,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-169185",
     "jan": "4904810169185",
-    "title": "在庫あり[メール便OK]【新品】【NS】ゾイドワイルド インフィニティブラスト",
+    "title": "ゾイドワイルド インフィニティブラスト",
     "genre": "その他",
     "cover": "GM",
-    "searches": 41,
+    "searches": 45,
     "aliases": [],
     "releaseDate": "1606316400",
     "verification": {
@@ -6174,10 +5717,8 @@ export const generatedGames = [
     "title": "エレクトロニック・アーツ (Switch)EA SPORTS FC(TM) 26",
     "genre": "その他",
     "cover": "GM",
-    "searches": 40,
-    "aliases": [
-      "エレクトロニック・アーツ (Switch)EA SPORTS FC(TM) 26 返品種別B"
-    ],
+    "searches": 44,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6192,10 +5733,10 @@ export const generatedGames = [
   {
     "id": "fit-boxing-switch-103754",
     "jan": "4965857103754",
-    "title": "Fit Boxing 北斗の拳 Switch用ソフト(パッケージ版)",
+    "title": "Fit Boxing 北斗の拳",
     "genre": "その他",
     "cover": "GM",
-    "searches": 39,
+    "searches": 43,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
@@ -6211,10 +5752,10 @@ export const generatedGames = [
   {
     "id": "nintendo-switch-103785",
     "jan": "4965857103785",
-    "title": "【送料無料】【新品】英検スマート対策 -Nintendo Switch【イマジニア】",
+    "title": "英検スマート対策 -Nintendo Switch【イマジニア】",
     "genre": "その他",
     "cover": "GM",
-    "searches": 38,
+    "searches": 42,
     "aliases": [],
     "releaseDate": "1670425200",
     "verification": {
@@ -6233,10 +5774,8 @@ export const generatedGames = [
     "title": "カプコン (Switch)カプコン ファイティング コレクション2",
     "genre": "その他",
     "cover": "GM",
-    "searches": 37,
-    "aliases": [
-      "カプコン (Switch)カプコン ファイティング コレクション2 返品種別B"
-    ],
+    "searches": 41,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6254,10 +5793,8 @@ export const generatedGames = [
     "title": "スクウェア・エニックス (Switch)ドラゴンクエストビルダーズ アレフガルドを復活せよドラクエ DQB ビルダーズ",
     "genre": "RPG",
     "cover": "GM",
-    "searches": 36,
-    "aliases": [
-      "スクウェア・エニックス (Switch)ドラゴンクエストビルダーズ アレフガルドを復活せよドラクエ DQB ビルダーズ 返品種別B"
-    ],
+    "searches": 40,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6275,10 +5812,8 @@ export const generatedGames = [
     "title": "ライブアライブ",
     "genre": "その他",
     "cover": "GM",
-    "searches": 35,
-    "aliases": [
-      "【新品】Switch ライブアライブ"
-    ],
+    "searches": 39,
+    "aliases": [],
     "releaseDate": "1658415600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6296,10 +5831,8 @@ export const generatedGames = [
     "title": "スクウェア・エニックス (Switch)オクトパストラベラー0",
     "genre": "その他",
     "cover": "GM",
-    "searches": 34,
-    "aliases": [
-      "スクウェア・エニックス (Switch)オクトパストラベラー0 返品種別B"
-    ],
+    "searches": 38,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6314,13 +5847,11 @@ export const generatedGames = [
   {
     "id": "switch-arms-2017-6-16-536553",
     "jan": "4902370536553",
-    "title": "ARMS(アームズ)(2017年6月16日発売)【新品】",
+    "title": "ARMS(アームズ)(2017年6月16日発売)",
     "genre": "その他",
     "cover": "GM",
-    "searches": 33,
-    "aliases": [
-      "Switch ARMS(アームズ)(2017年6月16日発売)【新品】"
-    ],
+    "searches": 37,
+    "aliases": [],
     "releaseDate": "1497538800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6335,10 +5866,10 @@ export const generatedGames = [
   {
     "id": "minecraft-legends-switch-214764",
     "jan": "4549576214764",
-    "title": "Minecraft Legends Switch用ソフト(パッケージ版)",
+    "title": "Minecraft Legends",
     "genre": "その他",
     "cover": "GM",
-    "searches": 32,
+    "searches": 36,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
@@ -6354,13 +5885,12 @@ export const generatedGames = [
   {
     "id": "switch-ace-combat7-skies-unknown-deluxe-edition-7-24-7-11-876262",
     "jan": "4582747876262",
-    "title": "ACE COMBAT7:SKIES UNKNOWN DELUXE EDITION(エースコンバット7:スカイズアンノウン)(24/7/11日発売)【新品】【ポスト投函便送料無料】",
+    "title": "ACE COMBAT7:SKIES UNKNOWN DELUXE EDITION(エースコンバット7:スカイズアンノウン)(24/7/11日発売)",
     "genre": "その他",
     "cover": "GM",
-    "searches": 31,
+    "searches": 35,
     "aliases": [
-      "Switch ACE COMBAT7 SKIES UNKNOWN DELUXE EDITION(エースコンバット7 スカイズアンノウン)(24/7/11日発売)【新品】【ポスト投函便送料無料】",
-      "Switch ACE COMBAT7:SKIES UNKNOWN DELUXE EDITION(エースコンバット7:スカイズアンノウン)(24/7/11日発売)【新品】【ポスト投函便送料無料】"
+      "Switch ACE COMBAT7 SKIES UNKNOWN DELUXE EDITION(エースコンバット7 スカイズアンノウン)(24/7/11日発売)【新品】【ポスト投函便送料無料】"
     ],
     "releaseDate": "1720623600",
     "verification": {
@@ -6376,10 +5906,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-998902",
     "jan": "4527823998902",
-    "title": "[メール便OK]【新品】【NS】ひろがるスカイ!プリキュア ひろがる!パズルコレクション[在庫品]",
+    "title": "ひろがるスカイ!プリキュア ひろがる!パズルコレクション",
     "genre": "パズル",
     "cover": "GM",
-    "searches": 30,
+    "searches": 34,
     "aliases": [],
     "releaseDate": "1691593200",
     "verification": {
@@ -6398,10 +5928,8 @@ export const generatedGames = [
     "title": "アニプレックス (Switch)月姫 −A piece of blue glass moon− 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 29,
-    "aliases": [
-      "アニプレックス (Switch)月姫 −A piece of blue glass moon− 通常版 返品種別B"
-    ],
+    "searches": 33,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6419,10 +5947,8 @@ export const generatedGames = [
     "title": "アニプレックス (Switch)鬼滅の刃 目指せ!最強隊士!",
     "genre": "その他",
     "cover": "GM",
-    "searches": 28,
-    "aliases": [
-      "アニプレックス (Switch)鬼滅の刃 目指せ!最強隊士! 返品種別B"
-    ],
+    "searches": 32,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6440,10 +5966,9 @@ export const generatedGames = [
     "title": "牧場物語 オリーブタウンと希望の大地",
     "genre": "シミュレーション",
     "cover": "GM",
-    "searches": 27,
+    "searches": 31,
     "aliases": [
-      "Switch 牧場物語 オリーブタウンと希望の大地",
-      "Switch   牧場物語 オリーブタウンと希望の大地"
+      "Switch 牧場物語 オリーブタウンと希望の大地"
     ],
     "releaseDate": "1614178800",
     "verification": {
@@ -6462,10 +5987,8 @@ export const generatedGames = [
     "title": "マーベラス (Switch)牧場物語 Welcome!ワンダフルライフ",
     "genre": "シミュレーション",
     "cover": "GM",
-    "searches": 26,
-    "aliases": [
-      "マーベラス (Switch)牧場物語 Welcome!ワンダフルライフ 返品種別B"
-    ],
+    "searches": 30,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6480,10 +6003,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-138602",
     "jan": "4549767138602",
-    "title": "[メール便OK]【新品】【NS】映画すみっコぐらし 青い月夜のまほうのコ ゲームであそぼう! 映画の世界[在庫品]",
+    "title": "映画すみっコぐらし 青い月夜のまほうのコ ゲームであそぼう! 映画の世界",
     "genre": "その他",
     "cover": "GM",
-    "searches": 25,
+    "searches": 29,
     "aliases": [],
     "releaseDate": "1638370800",
     "verification": {
@@ -6502,10 +6025,8 @@ export const generatedGames = [
     "title": "株式会社ゲームスタジオ (Switch)棋士・藤井聡太の将棋トレーニング",
     "genre": "その他",
     "cover": "GM",
-    "searches": 24,
-    "aliases": [
-      "株式会社ゲームスタジオ (Switch)棋士・藤井聡太の将棋トレーニング 返品種別B"
-    ],
+    "searches": 28,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6523,10 +6044,8 @@ export const generatedGames = [
     "title": "レイトン ミステリージャーニー カトリーエイルと大富豪の陰謀DX+",
     "genre": "アドベンチャー",
     "cover": "GM",
-    "searches": 23,
-    "aliases": [
-      "【新品】Switch レイトン ミステリージャーニー カトリーエイルと大富豪の陰謀DX+"
-    ],
+    "searches": 27,
+    "aliases": [],
     "releaseDate": "1625670000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6541,10 +6060,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-shooting-library-vol-1-047206",
     "jan": "4571442047206",
-    "title": "[メール便OK]【新品】【NS】彩京 SHOOTING LIBRARY Vol.1[在庫品]",
+    "title": "彩京 SHOOTING LIBRARY Vol.1",
     "genre": "その他",
     "cover": "GM",
-    "searches": 22,
+    "searches": 26,
     "aliases": [],
     "releaseDate": "1563980400",
     "verification": {
@@ -6560,10 +6079,10 @@ export const generatedGames = [
   {
     "id": "ok-ns-love2-7-047268",
     "jan": "4571442047268",
-    "title": "[メール便OK]【新品】【NS】スーパーリアル麻雀 LOVE2〜7![在庫品]",
+    "title": "スーパーリアル麻雀 LOVE2〜7!",
     "genre": "その他",
     "cover": "GM",
-    "searches": 21,
+    "searches": 25,
     "aliases": [],
     "releaseDate": "1587567600",
     "verification": {
@@ -6582,10 +6101,8 @@ export const generatedGames = [
     "title": "プロトタイプ (Switch)グリザイアの果実・迷宮・楽園 フルパッケージ",
     "genre": "その他",
     "cover": "GM",
-    "searches": 20,
-    "aliases": [
-      "プロトタイプ (Switch)グリザイアの果実・迷宮・楽園 フルパッケージ 返品種別B"
-    ],
+    "searches": 24,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6603,10 +6120,8 @@ export const generatedGames = [
     "title": "文化放送エクステンド (Switch)BUSTAFELLOWS 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 19,
-    "aliases": [
-      "文化放送エクステンド (Switch)BUSTAFELLOWS 通常版 返品種別B"
-    ],
+    "searches": 23,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6621,10 +6136,10 @@ export const generatedGames = [
   {
     "id": "07-30-ok-ns-switch-932555",
     "jan": "4582747932555",
-    "title": "【07/30頃入荷分☆】[メール便OK]【新品】【NS】テイルズ オブ グレイセス エフ リマスター[Switch版]",
+    "title": "【07/30頃入荷分☆】 テイルズ オブ グレイセス エフ リマスター",
     "genre": "その他",
     "cover": "GM",
-    "searches": 18,
+    "searches": 22,
     "aliases": [],
     "releaseDate": "1736953200",
     "verification": {
@@ -6643,10 +6158,8 @@ export const generatedGames = [
     "title": "エムツー (Switch)エスプレイドΨ 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 17,
-    "aliases": [
-      "エムツー (Switch)エスプレイドΨ 通常版 返品種別B"
-    ],
+    "searches": 21,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6664,7 +6177,7 @@ export const generatedGames = [
     "title": "ファミコン探偵?楽部 笑み男 -Switch",
     "genre": "アドベンチャー",
     "cover": "GM",
-    "searches": 16,
+    "searches": 20,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
@@ -6680,13 +6193,11 @@ export const generatedGames = [
   {
     "id": "ns-switch-564923",
     "jan": "4907953564923",
-    "title": "【NS】ポピープレイタイム トリプルパック [Switch版][在庫品]",
+    "title": "ポピープレイタイム トリプルパック",
     "genre": "その他",
     "cover": "GM",
-    "searches": 15,
-    "aliases": [
-      "【新品】【NS】ポピープレイタイム トリプルパック [Switch版][在庫品]"
-    ],
+    "searches": 19,
+    "aliases": [],
     "releaseDate": "1758726000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6704,7 +6215,7 @@ export const generatedGames = [
     "title": "Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ(パッケージ版)",
     "genre": "その他",
     "cover": "GM",
-    "searches": 14,
+    "searches": 18,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
@@ -6723,10 +6234,8 @@ export const generatedGames = [
     "title": "スクウェア・エニックス (Switch)FANTASIAN Neo Dimension(ファンタジアン ネオ ディメンジョン)",
     "genre": "その他",
     "cover": "GM",
-    "searches": 13,
-    "aliases": [
-      "スクウェア・エニックス (Switch)FANTASIAN Neo Dimension(ファンタジアン ネオ ディメンジョン) 返品種別B"
-    ],
+    "searches": 17,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6744,7 +6253,7 @@ export const generatedGames = [
     "title": "パワプロクンポケットR",
     "genre": "その他",
     "cover": "GM",
-    "searches": 12,
+    "searches": 16,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
@@ -6763,10 +6272,8 @@ export const generatedGames = [
     "title": "タイトー (Switch)ダライアス コズミックコレクション",
     "genre": "その他",
     "cover": "GM",
-    "searches": 11,
-    "aliases": [
-      "タイトー (Switch)ダライアス コズミックコレクション 返品種別B"
-    ],
+    "searches": 15,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6784,10 +6291,8 @@ export const generatedGames = [
     "title": "零 〜濡鴉ノ巫女〜",
     "genre": "その他",
     "cover": "GM",
-    "searches": 10,
-    "aliases": [
-      "【新品】Switch 零 〜濡鴉ノ巫女〜"
-    ],
+    "searches": 14,
+    "aliases": [],
     "releaseDate": "1635346800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6805,10 +6310,8 @@ export const generatedGames = [
     "title": "日本一ソフトウェア (Switch)ガレリアの地下迷宮と魔女ノ旅団",
     "genre": "その他",
     "cover": "GM",
-    "searches": 9,
-    "aliases": [
-      "日本一ソフトウェア (Switch)ガレリアの地下迷宮と魔女ノ旅団 返品種別B"
-    ],
+    "searches": 13,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6826,10 +6329,8 @@ export const generatedGames = [
     "title": "アイディアファクトリー (Switch)CLOCK ZERO 〜終焉の一秒〜 Devote 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 8,
-    "aliases": [
-      "アイディアファクトリー (Switch)CLOCK ZERO 〜終焉の一秒〜 Devote 通常版 返品種別B"
-    ],
+    "searches": 12,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6847,10 +6348,8 @@ export const generatedGames = [
     "title": "アイディアファクトリー (Switch)Collar×Malice for Nintendo Switch 通常版",
     "genre": "その他",
     "cover": "GM",
-    "searches": 7,
-    "aliases": [
-      "アイディアファクトリー (Switch)Collar×Malice for Nintendo Switch 通常版 返品種別B"
-    ],
+    "searches": 11,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6865,13 +6364,11 @@ export const generatedGames = [
   {
     "id": "switch-2020-12-3-104737",
     "jan": "4549767104737",
-    "title": "すみっコぐらし おへやのすみでたびきぶんすごろく(2020年12月3日発売)【新品】",
+    "title": "すみっコぐらし おへやのすみでたびきぶんすごろく(2020年12月3日発売)",
     "genre": "パーティー",
     "cover": "GM",
-    "searches": 6,
-    "aliases": [
-      "Switch すみっコぐらし おへやのすみでたびきぶんすごろく(2020年12月3日発売)【新品】"
-    ],
+    "searches": 10,
+    "aliases": [],
     "releaseDate": "1606921200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6889,10 +6386,8 @@ export const generatedGames = [
     "title": "日本コロムビア (Switch)わんニャンペットショップ かわいいペットとふれあう毎日",
     "genre": "その他",
     "cover": "GM",
-    "searches": 5,
-    "aliases": [
-      "日本コロムビア (Switch)わんニャンペットショップ かわいいペットとふれあう毎日 返品種別B"
-    ],
+    "searches": 9,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6907,13 +6402,11 @@ export const generatedGames = [
   {
     "id": "switch-sd-2022-8-25-961729",
     "jan": "4571577961729",
-    "title": "SDガンダム バトルアライアンス(2022年8月25日発売)【新品】■",
+    "title": "SDガンダム バトルアライアンス(2022年8月25日発売)",
     "genre": "その他",
     "cover": "GM",
-    "searches": 4,
-    "aliases": [
-      "Switch SDガンダム バトルアライアンス(2022年8月25日発売)【新品】■"
-    ],
+    "searches": 8,
+    "aliases": [],
     "releaseDate": "1661353200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6928,13 +6421,11 @@ export const generatedGames = [
   {
     "id": "switch-2024-2-1-362767",
     "jan": "4570131362767",
-    "title": "呪術廻戦 戦華双乱 通常版(2024年2月1日発売)【新品】",
+    "title": "呪術廻戦 戦華双乱 通常版(2024年2月1日発売)",
     "genre": "その他",
     "cover": "GM",
-    "searches": 3,
-    "aliases": [
-      "Switch 呪術廻戦 戦華双乱 通常版(2024年2月1日発売)【新品】"
-    ],
+    "searches": 7,
+    "aliases": [],
     "releaseDate": "1706713200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6952,10 +6443,8 @@ export const generatedGames = [
     "title": "マーベラス (Switch)龍の国 ルーンファクトリー",
     "genre": "その他",
     "cover": "GM",
-    "searches": 2,
-    "aliases": [
-      "マーベラス (Switch)龍の国 ルーンファクトリー 返品種別B"
-    ],
+    "searches": 6,
+    "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6973,10 +6462,8 @@ export const generatedGames = [
     "title": "LEGO ワールド 目指せマスタービルダー",
     "genre": "その他",
     "cover": "GM",
-    "searches": 1,
-    "aliases": [
-      "【新品】Switch LEGO ワールド 目指せマスタービルダー"
-    ],
+    "searches": 5,
+    "aliases": [],
     "releaseDate": "1511276400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
@@ -6984,6 +6471,82 @@ export const generatedGames = [
       "checkedAt": "2026-07-21"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4548967347043",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-07-21T17:26:07.689Z"
+  },
+  {
+    "id": "switch-080956",
+    "jan": "4549767080956",
+    "title": "ピカピカナース物語 小児科はいつも大騒ぎ",
+    "genre": "アドベンチャー",
+    "cover": "GM",
+    "searches": 4,
+    "aliases": [],
+    "releaseDate": "1585753200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4549767080956.html",
+      "checkedAt": "2026-07-21"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4549767080956",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-07-21T17:26:07.689Z"
+  },
+  {
+    "id": "switch-b-095820",
+    "jan": "4549767095820",
+    "title": "日本コロムビア (Switch)わんニャンどうぶつ病院 ペットを助けるだいじなお仕事",
+    "genre": "その他",
+    "cover": "GM",
+    "searches": 3,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4549767095820-54-46584.html",
+      "checkedAt": "2026-07-21"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4549767095820-54-46584",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-07-21T17:26:07.689Z"
+  },
+  {
+    "id": "switch-hac-p-bab8a-165851",
+    "jan": "4549767165851",
+    "title": "すみっコぐらし みんなでリズムパーティ Switch",
+    "genre": "パーティー",
+    "cover": "GM",
+    "searches": 2,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/shop-ypp/3799-004380.html",
+      "checkedAt": "2026-07-21"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/shop-ypp_3799-004380",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-07-21T17:26:07.689Z"
+  },
+  {
+    "id": "switch-realpro-b-911487",
+    "jan": "4560221911487",
+    "title": "ソニックパワード (Switch)鉄道にっぽん! RealPro 長距離運転!特急ひのとり 近畿日本鉄道 編",
+    "genre": "その他",
+    "cover": "GM",
+    "searches": 1,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4560221911487-54-40562.html",
+      "checkedAt": "2026-07-21"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4560221911487-54-40562",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-07-21T17:26:07.689Z"
