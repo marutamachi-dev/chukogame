@@ -1,4 +1,4 @@
-export const GAME_COUNT = 300;
+export const GAME_COUNT = 1000;
 export const CHUNK_SIZE = 50;
 export const CHUNK_COUNT = GAME_COUNT / CHUNK_SIZE;
 
@@ -30,6 +30,12 @@ const excludedProductWords = [
   "限定版", "特装版", "豪華版", "同梱版", "セット", "廉価版", "best price",
   "コードのみ", "オンラインコード", "追加コンテンツ", "dl版",
 ];
+const strictExcludedProductWords = [
+  "\u30b9\u30a4\u30c3\u30c72", "\u30cb\u30f3\u30c6\u30f3\u30c9\u30fc\u30b9\u30a4\u30c3\u30c72",
+  "\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9", "\u6d77\u5916\u7248", "\u8f38\u5165\u7248", "\u7279\u5178", "\u9650\u5b9a\u7248",
+  "\u8ffd\u52a0\u30d1\u30b9", "\u8ffd\u52a0\u30b3\u30f3\u30c6\u30f3\u30c4", "\u30bc\u30ed\u306e\u79d8\u5b9d",
+  "\u672c\u4f53\u30bb\u30c3\u30c8", "\u540c\u68b1\u7248", "\u5468\u8fba\u6a5f\u5668", "\u30b3\u30f3\u30c8\u30ed\u30fc\u30e9\u30fc",
+];
 
 export function isValidJan(value) {
   if (!/^\d{13}$/.test(String(value))) return false;
@@ -49,7 +55,7 @@ export function splitIntoChunks(games, chunkSize = CHUNK_SIZE) {
 
 export function hasExcludedProductName(title) {
   const normalized = String(title).normalize("NFKC").toLowerCase();
-  return excludedProductWords.some((word) => normalized.includes(word));
+  return [...excludedProductWords, ...strictExcludedProductWords].some((word) => normalized.includes(word));
 }
 
 export function validateGameMaster(
@@ -98,7 +104,7 @@ export function getGameChunk(games, chunkIndex) {
 
 export function selectMasterCandidates(
   { popular = [], recent = [], coverage = [] },
-  { popularCount = 150, recentCount = 60, totalCount = GAME_COUNT } = {},
+  { popularCount = 500, recentCount = 200, totalCount = GAME_COUNT } = {},
 ) {
   const selected = [];
   const seenJans = new Set();

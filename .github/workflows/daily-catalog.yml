@@ -7,12 +7,12 @@ on:
   workflow_dispatch:
     inputs:
       build_master:
-        description: Build and commit the verified 300-title game master
+        description: Build and commit the verified 1000-title game master
         required: false
         type: boolean
         default: false
       game_chunk:
-        description: Optional price refresh chunk (0-5); blank rotates daily
+        description: Optional price refresh chunk (0-19); blank rotates daily
         required: false
         type: string
 
@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 24
       - run: npm ci
-      - name: Build verified 300-title master
+      - name: Build verified 1000-title master
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.build_master }}
         run: npm run build:master
         env:
@@ -46,15 +46,13 @@ jobs:
           YAHOO_SHOPPING_APP_ID: ${{ secrets.YAHOO_SHOPPING_APP_ID }}
           YAHOO_SHOPPING_AFFILIATE_ID: ${{ secrets.YAHOO_SHOPPING_AFFILIATE_ID }}
           GAME_CHUNK: ${{ inputs.game_chunk }}
-      - if: ${{ github.event_name != 'workflow_dispatch' || !inputs.build_master }}
-        run: npm run build:catalog
-      - if: ${{ github.event_name != 'workflow_dispatch' || !inputs.build_master }}
-        run: npm test
+      - run: npm run build:catalog
+      - run: npm test
       - name: Commit refreshed catalog
         run: |
           if [ "${{ inputs.build_master }}" = "true" ]; then
-            git add src/data/game-master.json
-            COMMIT_MESSAGE="feat: generate verified 300-title game master"
+            git add src/data/game-master.json src/data/generated-catalog.js
+            COMMIT_MESSAGE="feat: generate verified 1000-title game master"
           else
             git add data/source-offers.json src/data/generated-catalog.js
             COMMIT_MESSAGE="chore: refresh game prices"

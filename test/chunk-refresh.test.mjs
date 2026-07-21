@@ -4,13 +4,13 @@ import { mergeChunkOffers, selectRefreshChunk } from "../src/lib/chunk-refresh.j
 
 test("selects an explicit chunk and rejects an invalid chunk", () => {
   assert.equal(selectRefreshChunk("4"), 4);
-  assert.throws(() => selectRefreshChunk("6"), /GAME_CHUNK/);
+  assert.throws(() => selectRefreshChunk("20"), /GAME_CHUNK/);
 });
 
 test("rotates the default chunk deterministically by UTC day", () => {
   const day = new Date("2026-07-22T00:00:00.000Z");
   const next = new Date("2026-07-23T00:00:00.000Z");
-  assert.equal(selectRefreshChunk(undefined, next), (selectRefreshChunk(undefined, day) + 1) % 6);
+  assert.equal(selectRefreshChunk(undefined, next), (selectRefreshChunk(undefined, day) + 1) % 20);
 });
 
 test("updates only the target chunk and retains failed target data", () => {

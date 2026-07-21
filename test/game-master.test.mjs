@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {
-  cleanCatalogTitle, hasExcludedProductName, isValidJan, validateGameMaster, splitIntoChunks, selectMasterCandidates,
+  CHUNK_COUNT, GAME_COUNT, cleanCatalogTitle, hasExcludedProductName, isValidJan, validateGameMaster, splitIntoChunks, selectMasterCandidates,
   requestWithRateLimit,
 } from "../src/lib/game-master.js";
 
@@ -17,6 +17,7 @@ test("excludes bundles, DLC-included editions, and accessories", () => {
   assert.equal(hasExcludedProductName("マリオカート8 デラックス+コース追加パス"), true);
   assert.equal(hasExcludedProductName("ポケットモンスター バイオレット+ゼロの秘宝"), true);
   assert.equal(hasExcludedProductName("Pokemon GO Plus+"), true);
+  assert.equal(hasExcludedProductName("\u30cb\u30f3\u30c6\u30f3\u30c9\u30fc\u30b9\u30a4\u30c3\u30c72\u30bd\u30d5\u30c8"), true);
 });
 
 const game = (index, overrides = {}) => ({
@@ -41,9 +42,11 @@ test("validates JAN-13 check digits", () => {
   assert.equal(isValidJan("123"), false);
 });
 
-test("splits exactly 300 games into six stable chunks", () => {
-  const chunks = splitIntoChunks(Array.from({ length: 300 }, (_, index) => ({ id: `g-${index}` })));
-  assert.deepEqual(chunks.map((chunk) => chunk.length), [50, 50, 50, 50, 50, 50]);
+test("splits exactly 1000 games into twenty stable chunks", () => {
+  const chunks = splitIntoChunks(Array.from({ length: 1000 }, (_, index) => ({ id: `g-${index}` })));
+  assert.equal(GAME_COUNT, 1000);
+  assert.equal(CHUNK_COUNT, 20);
+  assert.deepEqual(chunks.map((chunk) => chunk.length), Array(20).fill(50));
 });
 
 test("rejects duplicate identifiers, invalid records, and excluded editions", () => {

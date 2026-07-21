@@ -101,3 +101,4 @@ main>.formula{max-width:1162px;width:calc(100% - 48px)}
   .hero-package,.hero-package-2,.hero-package-3{width:min(23vw,92px);height:auto;margin:0;aspect-ratio:2 / 3;transform:none}
   .hero-package img{object-fit:cover}
 }
+.ranking-item-collecting{cursor:default;color:#777}.rank-collecting{background:#f2f2f2;border-color:#d0d0d0}.ranking-collecting-icon{width:58px;height:82px;display:grid;place-items:center;border:2px dashed #c9c5c2;border-radius:4px;background:#faf9f7;color:#999;font-size:28px;font-weight:800}
