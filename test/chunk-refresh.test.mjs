@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { mergeChunkOffers, selectRefreshChunk } from "../src/lib/chunk-refresh.js";
+import { mergeChunkOffers, selectRefreshChunk, selectRefreshChunks } from "../src/lib/chunk-refresh.js";
 
 test("selects an explicit chunk and rejects an invalid chunk", () => {
   assert.equal(selectRefreshChunk("4"), 4);
@@ -11,6 +11,10 @@ test("rotates the default chunk deterministically by UTC day", () => {
   const day = new Date("2026-07-22T00:00:00.000Z");
   const next = new Date("2026-07-23T00:00:00.000Z");
   assert.equal(selectRefreshChunk(undefined, next), (selectRefreshChunk(undefined, day) + 1) % 20);
+});
+
+test("selects every chunk for a full backfill", () => {
+  assert.deepEqual(selectRefreshChunks("all"), Array.from({ length: 20 }, (_, index) => index));
 });
 
 test("updates only the target chunk and retains failed target data", () => {

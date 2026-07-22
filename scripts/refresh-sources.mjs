@@ -1,7 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import rawGameMaster from "../src/data/game-master.json" with { type: "json" };
-import { mergeChunkOffers, selectRefreshChunk } from "../src/lib/chunk-refresh.js";
+import { mergeChunkOffers, selectRefreshChunks } from "../src/lib/chunk-refresh.js";
 import { getGameChunk } from "../src/lib/game-master.js";
 import { normalizeTitle } from "../src/lib/price-rules.js";
 import { fetchRakutenOffers, rakutenConfigured } from "./adapters/rakuten.mjs";
@@ -10,8 +10,8 @@ import { fetchSurugayaOffers } from "./adapters/surugaya.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const gameMaster = rawGameMaster.map((game) => ({ ...game, cover: "GM" }));
-const chunkIndex = selectRefreshChunk(process.env.GAME_CHUNK);
-const targetGames = getGameChunk(gameMaster, chunkIndex);
+const chunkIndexes = selectRefreshChunks(process.env.GAME_CHUNK);
+const targetGames = chunkIndexes.flatMap((chunkIndex) => getGameChunk(gameMaster, chunkIndex));
 const sourcePath = resolve(root, "data/source-offers.json");
 const previous = JSON.parse(await readFile(sourcePath, "utf8"));
 const adapters = [
@@ -70,4 +70,4 @@ const offers = mergeChunkOffers({
   enabledSources: enabled.map((adapter) => adapter.source),
 });
 await writeFile(sourcePath, `${JSON.stringify({ updatedAt: new Date().toISOString(), offers }, null, 2)}\n`, "utf8");
-console.log(`Refreshed chunk ${chunkIndex} (${targetGames.length} games) with ${refreshed.length} offers; total retained offers: ${offers.length}.`);
+console.log(`Refreshed chunks ${chunkIndexes.join(",")} (${targetGames.length} games) with ${refreshed.length} offers; total retained offers: ${offers.length}.`);

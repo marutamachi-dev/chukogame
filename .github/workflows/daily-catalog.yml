@@ -12,7 +12,7 @@ on:
         type: boolean
         default: false
       game_chunk:
-        description: Optional price refresh chunk (0-19); blank rotates daily
+        description: Optional price refresh chunk (0-19), all for a full backfill; blank rotates daily
         required: false
         type: string
 

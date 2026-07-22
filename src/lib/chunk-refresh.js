@@ -11,6 +11,13 @@ export function selectRefreshChunk(value, date = new Date()) {
   return Math.floor(date.getTime() / 86_400_000) % CHUNK_COUNT;
 }
 
+export function selectRefreshChunks(value, date = new Date()) {
+  if (String(value).trim().toLowerCase() === "all") {
+    return Array.from({ length: CHUNK_COUNT }, (_, index) => index);
+  }
+  return [selectRefreshChunk(value, date)];
+}
+
 export function mergeChunkOffers({ previous, refreshed, failedKeys, targetGames, enabledSources }) {
   const targetIds = new Set(targetGames.map((game) => game.id));
   const targetJans = new Set(targetGames.map((game) => String(game.jan)));

@@ -3,8 +3,9 @@ import { ArrowRight, Copy, ExternalLink, Gamepad2, Heart, Menu, Search, Share2, 
 import { cheapestBuy, games, highestSale, playCost, updatedAt, yen } from "./data/catalog.js";
 import { matchesTitle } from "./lib/game-match.js";
 import { buildRankingSlots } from "./lib/ranking.js";
+import { buildGenreDirectory } from "./lib/genre-directory.js";
 
-const genres = ["アクション", "RPG", "アドベンチャー", "シミュレーション", "パーティー", "スポーツ", "レース", "パズル", "ホラー", "その他"];
+const genres = buildGenreDirectory(games);
 const rankedGames = () => [...games].filter((game) => playCost(game) !== null).sort((a, b) => playCost(a) - playCost(b));
 const packageImageUrls = {
   mariokart8dx: "/package-images/mariokart8dx.png",
@@ -49,7 +50,7 @@ function CompareCard({ kind, rows }) { const buying = kind === "buy"; return <ar
 function Result({ query, onOpen, onBack }) { const results = games.filter((game) => matchesTitle(game, query) || game.genre === query); return <main className="simple-page"><button className="back" onClick={onBack}>← ホームへ戻る</button><h1>「{query}」の検索結果</h1>{results.length ? <div className="results">{results.map((game) => <button key={game.id} onClick={() => onOpen(game)}><Cover game={game}/><div><strong>{game.title}</strong><span>最安 {yen(cheapestBuy(game))} / 実質プレイ費用 {playCost(game) === null ? "算出できません" : yen(playCost(game))}</span></div><ArrowRight/></button>)}</div> : <p>該当するゲームが見つかりませんでした。</p>}</main>; }
 function DirectoryPage({ kind, onOpen, onBack, onGenre }) {
   if (kind === "ranking") return <main className="directory-page"><button className="back" onClick={onBack}>← ホームへ戻る</button><p className="directory-kicker">Nintendo Switch / 国内パッケージ版</p><h1>実質プレイ費用が安いSwitchソフトランキング</h1><Formula/><div className="directory-update">最終更新: {updatedAt}</div><div className="directory-list">{rankedGames().slice(0, 50).map((game, index) => <button key={game.id} onClick={() => onOpen(game)}><span className={`rank rank-${index + 1}`}>{index + 1}</span><Cover game={game}/><span><strong>{game.title}</strong><small>{game.genre} / 国内パッケージ版</small></span><b>{yen(playCost(game))}</b><span className="directory-open">詳細を見る <ArrowRight size={15}/></span></button>)}</div></main>;
-  if (kind === "genre") return <main className="directory-page"><button className="back" onClick={onBack}>← ホームへ戻る</button><p className="directory-kicker">Nintendo Switch</p><h1>ジャンルから探す</h1><div className="directory-genres">{genres.map((genre) => <button key={genre} onClick={() => onGenre(genre)}><Gamepad2 size={20}/>{genre}<ArrowRight size={16}/></button>)}</div><section className="genre-directory-cta"><div><p>はじめての比較に</p><h2>安く遊べるゲームから探す</h2><span>実質プレイ費用が少ないソフトのランキングから、気になる一本を見つけられます。</span></div><button onClick={() => window.location.assign("/ranking")}>ランキングを見る <ArrowRight size={17}/></button></section></main>;
+  if (kind === "genre") return <main className="directory-page"><button className="back" onClick={onBack}>← ホームへ戻る</button><p className="directory-kicker">Nintendo Switch</p><h1>ジャンルから探す</h1><p className="directory-description">全{games.length}件を、重複なくジャンル別に掲載しています。</p><div className="directory-genres">{genres.map((genre) => <button key={genre.name} onClick={() => onGenre(genre.name)}><Gamepad2 size={20}/><span>{genre.name}<small>{genre.count}件</small></span><ArrowRight size={16}/></button>)}</div><section className="genre-directory-cta"><div><p>はじめての比較に</p><h2>安く遊べるゲームから探す</h2><span>実質プレイ費用が少ないソフトのランキングから、気になる一本を見つけられます。</span></div><button onClick={() => window.location.assign("/ranking")}>ランキングを見る <ArrowRight size={17}/></button></section></main>;
   return <main className="directory-page guide-page"><button className="back" onClick={onBack}>← ホームへ戻る</button><p className="directory-kicker">使い方ガイド</p><h1>中古ゲーム価格ナビの使い方</h1><ol><li>ゲーム名で検索します。</li><li>買う目安と売る目安の価格を比較します。</li><li>実質プレイ費用の目安を確認します。</li></ol><p>価格は通常中古・動作品の参考値です。実際の在庫や買取価格は各リンク先で確認してください。</p></main>;
 }
 function readLocation() {
