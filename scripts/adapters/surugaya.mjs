@@ -23,12 +23,13 @@ export function extractSurugayaOffers(html, game, observedAt = new Date().toISOS
     const price = Number(row.match(new RegExp(`name="kakaku" value="(\\d+)"[^>]*class="kakaku-${detailId}"`))?.[1]);
     const jan = row.match(/\b\d{13}\b/)?.[0] || null;
 
+    const hasMatchingJan = jan && String(jan) === String(game.jan);
     if (
       !detailId
       || !Number.isFinite(price)
       || price <= 0
       || !category.includes("ニンテンドースイッチソフト")
-      || normalizeTitle(title) !== normalizeTitle(game.title)
+      || (!hasMatchingJan && normalizeTitle(title) !== normalizeTitle(game.title))
     ) return [];
 
     const directUrl = `https://www.suruga-ya.jp/kaitori/kaitori_detail/${detailId}`;
