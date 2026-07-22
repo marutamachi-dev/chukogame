@@ -4,6 +4,7 @@ import { cheapestBuy, games, highestSale, playCost, updatedAt, yen } from "./dat
 import { matchesTitle } from "./lib/game-match.js";
 import { buildRankingSlots } from "./lib/ranking.js";
 import { buildGenreDirectory } from "./lib/genre-directory.js";
+import { recordDemandEvent } from "./lib/demand-events.js";
 
 const genres = buildGenreDirectory(games);
 const rankedGames = () => [...games].filter((game) => playCost(game) !== null).sort((a, b) => playCost(a) - playCost(b));
@@ -74,6 +75,12 @@ export function App() {
   }, []);
 
   useEffect(() => {
+    if (location.page === "detail") {
+      recordDemandEvent({ eventType: "view", gameJan: currentGame.jan });
+    }
+  }, [location.page, currentGame.jan]);
+
+  useEffect(() => {
     const title = location.page === "detail" ? `${currentGame.title}の中古価格比較 | 中古ゲーム価格ナビ` : location.page === "ranking" ? "実質プレイ費用ランキング | 中古ゲーム価格ナビ" : location.page === "genres" ? "ジャンルから探す | 中古ゲーム価格ナビ" : "中古ゲーム価格ナビ";
     document.title = title;
     let canonical = document.querySelector('link[rel="canonical"]');
@@ -131,6 +138,8 @@ export function App() {
       setTimeout(() => document.querySelector("#prices")?.scrollIntoView({ behavior: "smooth" }), 0);
       return;
     }
+    const matchingGames = games.filter((game) => matchesTitle(game, term) || game.genre === term);
+    recordDemandEvent({ eventType: matchingGames.length ? "search" : "search_miss", query: term });
     const exactGame = games.find((game) => game.title === term);
     if (exactGame) {
       open(exactGame);
