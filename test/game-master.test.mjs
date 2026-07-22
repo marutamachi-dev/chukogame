@@ -48,11 +48,11 @@ test("uses independent official sort orders to widen the candidate pool", () => 
   assert.deepEqual(MASTER_QUERIES, ["", "ゲーム", "ソフト"]);
 });
 
-test("splits exactly 1000 games into twenty stable chunks", () => {
-  const chunks = splitIntoChunks(Array.from({ length: 1000 }, (_, index) => ({ id: `g-${index}` })));
-  assert.equal(GAME_COUNT, 1000);
-  assert.equal(CHUNK_COUNT, 20);
-  assert.deepEqual(chunks.map((chunk) => chunk.length), Array(20).fill(50));
+test("splits exactly 300 games into six stable chunks", () => {
+  const chunks = splitIntoChunks(Array.from({ length: 300 }, (_, index) => ({ id: `g-${index}` })));
+  assert.equal(GAME_COUNT, 300);
+  assert.equal(CHUNK_COUNT, 6);
+  assert.deepEqual(chunks.map((chunk) => chunk.length), Array(6).fill(50));
 });
 
 test("rejects duplicate identifiers, invalid records, and excluded editions", () => {
