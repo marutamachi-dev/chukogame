@@ -36,6 +36,13 @@ jobs:
       - name: Test generated master
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.build_master }}
         run: node --test test/game-master.test.mjs
+      - name: Rebalance catalog from verified demand
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.build_master }}
+        run: npm run rebalance:catalog
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          YAHOO_SHOPPING_APP_ID: ${{ secrets.YAHOO_SHOPPING_APP_ID }}
       - name: Refresh marketplace source offers
         if: ${{ github.event_name != 'workflow_dispatch' || !inputs.build_master }}
         run: npm run refresh:sources
@@ -45,17 +52,23 @@ jobs:
           RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
           YAHOO_SHOPPING_APP_ID: ${{ secrets.YAHOO_SHOPPING_APP_ID }}
           YAHOO_SHOPPING_AFFILIATE_ID: ${{ secrets.YAHOO_SHOPPING_AFFILIATE_ID }}
-          GAME_CHUNK: ${{ inputs.game_chunk }}
+          GAME_CHUNK: ${{ github.event_name == 'schedule' && 'all' || inputs.game_chunk }}
       - run: npm run build:catalog
       - run: npm test
+      - name: Finalize demand rebalance
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.build_master }}
+        run: npm run finalize:rebalance
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       - name: Commit refreshed catalog
         run: |
           if [ "${{ inputs.build_master }}" = "true" ]; then
             git add src/data/game-master.json src/data/generated-catalog.js
             COMMIT_MESSAGE="feat: generate verified 300-title game master"
           else
-            git add data/source-offers.json src/data/generated-catalog.js
-            COMMIT_MESSAGE="chore: refresh game prices"
+            git add data/source-offers.json src/data/game-master.json src/data/generated-catalog.js
+            COMMIT_MESSAGE="chore: refresh demand-driven game catalog"
           fi
           if git diff --cached --quiet; then
             echo "No catalog changes."
