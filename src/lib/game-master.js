@@ -57,7 +57,7 @@ export function splitIntoChunks(games, chunkSize = CHUNK_SIZE) {
 
 export function hasExcludedProductName(title) {
   const normalized = String(title).normalize("NFKC").toLowerCase();
-  return /switch\s*2|\u30b9\u30a4\u30c3\u30c7?\u30a3?2/.test(normalized)
+  return /switch\s*2|\u30b9\u30a4\u30c3\u30c12/.test(normalized)
     || [...excludedProductWords, ...strictExcludedProductWords].some((word) => normalized.includes(word));
 }
 
