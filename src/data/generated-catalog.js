@@ -6970,25 +6970,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T22:11:15.986Z"
   },
   {
-    "id": "08-27-2-10-10-2-hd-pot-p-abpva-012195",
-    "jan": "4988601012195",
-    "title": "[ニンテンドースイッチ2ソフト] ファイナルファンタジー10/10-2 HDリマスター [POT-P-ABPVA] *期間限定",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 678,
-    "aliases": [],
-    "releaseDate": "1787756400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001110988.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001110988",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
     "id": "08-06-16-sun-rtec-001b-690437",
     "jan": "4907940690437",
     "title": "[ニンテンドースイッチ ソフト] ルート16 コレクション コレクターズボックス [SUN-RTEC-001B]",
@@ -10307,25 +10288,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T22:11:15.986Z"
   },
   {
-    "id": "2-7-pot-p-aavba-012096",
-    "jan": "4988601012096",
-    "title": "[ニンテンドースイッチ2ソフト] ファイナルファンタジー7 リメイク インターグレード [POT-P-AAVBA]",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 504,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001092898.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001092898",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
     "id": "switch-551563",
     "jan": "4902370551563",
     "title": "帰ってきた 名探偵ピカチュウ -Switch",
@@ -10602,25 +10564,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T22:11:15.986Z"
   },
   {
-    "id": "2-7-ver-pot-p-abasb-137539",
-    "jan": "4976219137539",
-    "title": "[ニンテンドースイッチ2ソフト] バイオハザード7 レジデント イービル ゴールドエディション グロテスク Ver. [POT-P-ABASB]",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 489,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001097801.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001097801",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
     "id": "switch-b-271160",
     "jan": "4580206271160",
     "title": "プロトタイプ (Switch)セヴンデイズ あなたとすごす七日間 通常版",
@@ -10711,25 +10654,6 @@ export const generatedGames = [
       "checkedAt": "2026-07-22"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995857096275-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-pot-p-aaexb-193460",
-    "jan": "4988615193460",
-    "title": "[ニンテンドースイッチ2ソフト] 信長の野望 新生 ウィズ パワーアップキット コンプリートエディション [POT-P-AAEXB]",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 483,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001075424.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001075424",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-07-21T22:11:15.986Z"
@@ -14028,25 +13952,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T22:11:15.986Z"
   },
   {
-    "id": "2-2-vol-2-pot-p-aa49a-999626",
-    "jan": "4527823999626",
-    "title": "[ニンテンドースイッチ2ソフト] シンプルシリーズ フォー ニンテンドースイッチ2 Vol.2 ザ ビリヤード [POT-P-AA49A]",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 311,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001100964.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001100964",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
     "id": "switch-relax-classic-seasons-collection-2025-3-27-538114",
     "jan": "4595120538114",
     "title": "ナンプレ Relax&Classic -Seasons Collection-(ナンプレ リラックス&クラシック)(2025年3月27日発売)",
@@ -15240,25 +15145,6 @@ export const generatedGames = [
       "checkedAt": "2026-07-22"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/39way-2nd_39way202553d4062b83",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-ktgs-s0714-211287",
-    "jan": "4988615211287",
-    "title": "[ニンテンドースイッチ2ソフト] ゼルダ無双 封印戦記 トレジャーボックス [KTGS-S0714]",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 248,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001092887.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001092887",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-07-21T22:11:15.986Z"
@@ -17558,25 +17444,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T22:11:15.986Z"
   },
   {
-    "id": "2-10-2026-pot-p-abc5a-211409",
-    "jan": "4988615211409",
-    "title": "[ニンテンドースイッチ2ソフト] ウイニングポスト10 2026 [POT-P-ABC5A]",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 128,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001098194.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001098194",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
     "id": "thq-nordic-switch-aew-fight-forever-b-970205",
     "jan": "4571574970205",
     "title": "THQ Nordic (Switch)AEW: Fight Forever",
@@ -18811,25 +18678,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T22:11:15.986Z"
   },
   {
-    "id": "2-pot-p-aab5a-460420",
-    "jan": "4521329460420",
-    "title": "[ニンテンドースイッチ2ソフト] ぽこ あ ポケモン [POT-P-AAB5A]",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 63,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001097829.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001097829",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
     "id": "switch-game-410235",
     "jan": "4573419410235",
     "title": "アパシー 鳴神学園七不思議 通常版",
@@ -18908,44 +18756,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T22:11:15.986Z"
   },
   {
-    "id": "2-2-tv-nxs-p-a7h-553352",
-    "jan": "4902370553352",
-    "title": "[ニンテンドースイッチ2ソフト] スーパーマリオパーティ ジャンボリー ニンテンドースイッチ2エディション + ジャンボリーTV [NXS-P-A7H",
-    "genre": "パーティー",
-    "cover": "GM",
-    "searches": 58,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001073100.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001073100",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-bee-p-aaaca-553413",
-    "jan": "4902370553413",
-    "title": "[ニンテンドースイッチ2ソフト] ドンキーコング バナンザ [BEE-P-AAACA]",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 57,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001073098.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001073098",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
     "id": "trm-10003-030224",
     "jan": "4595057030224",
     "title": "[ニンテンドースイッチ ソフト] ハローキティ アイランドアドベンチャー ギフトボックスエディション [TRM-10003]",
@@ -18984,48 +18794,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T22:11:15.986Z"
   },
   {
-    "id": "2-2-nxs-p-axn7b-553321",
-    "jan": "4902370553321",
-    "title": "[ニンテンドースイッチ2ソフト] ゼルダの伝説 ティアーズ オブ ザ キングダム ニンテンドースイッチ2エディション [NXS-P-AXN7B]",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 54,
-    "aliases": [
-      "ティアキン",
-      "ゼルダ ティアキン",
-      "totk"
-    ],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001073096.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001073096",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-pot-p-aa2pa-137485",
-    "jan": "4976219137485",
-    "title": "[ニンテンドースイッチ2ソフト] バイオハザード レクイエム 通常版 [POT-P-AA2PA]",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 53,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001097793.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001097793",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
     "id": "cnjs-00004-690390",
     "jan": "4907940690390",
     "title": "[ニンテンドースイッチ ソフト] シティーハンター コレクターズエディション [CNJS-00004]",
@@ -19040,66 +18808,6 @@ export const generatedGames = [
       "checkedAt": "2026-07-22"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001098341",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-pot-p-abx7a-260567",
-    "jan": "4996802260567",
-    "title": "[ニンテンドースイッチ2ソフト] うたわれるもの 白への道標 通常版 [POT-P-ABX7A]",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 51,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001101826.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001101826",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-2-nxs-p-acbad-553901",
-    "jan": "4902370553901",
-    "title": "[ニンテンドースイッチ2ソフト] あつまれ どうぶつの森 ニンテンドースイッチ2エディション [NXS-P-ACBAD]",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 50,
-    "aliases": [
-      "あつ森",
-      "あつもり"
-    ],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001097450.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001097450",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-2-nxs-p-arzgb-553383",
-    "jan": "4902370553383",
-    "title": "[ニンテンドースイッチ2ソフト] 星のカービィ ディスカバリー ニンテンドースイッチ2エディション + スターリーワールド [NXS-P-ARZGB]",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 49,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001073102.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001073102",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-07-21T22:11:15.986Z"
@@ -19124,25 +18832,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T22:11:15.986Z"
   },
   {
-    "id": "2-2-nxs-p-bq2zb-409052",
-    "jan": "4595056409052",
-    "title": "[ニンテンドースイッチ2ソフト] ラヴアールキス エンドレスメモリーズ ニンテンドースイッチ2エディション [NXS-P-BQ2ZB]",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 47,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001100710.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001100710",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
     "id": "switch-104430",
     "jan": "4965857104430",
     "title": "ディズニー ミュージックパレード アンコール",
@@ -19157,29 +18846,6 @@ export const generatedGames = [
       "checkedAt": "2026-07-22"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/light-hikari_4965857104430",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-2-nxs-p-aaaah-553291",
-    "jan": "4902370553291",
-    "title": "[ニンテンドースイッチ2ソフト] ゼルダの伝説 ブレス オブ ザ ワイルド ニンテンドースイッチ2エディション [NXS-P-AAAAH]",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 45,
-    "aliases": [
-      "ブレワイ",
-      "ゼルダ ブレワイ",
-      "botw"
-    ],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001073094.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001073094",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-07-21T22:11:15.986Z"
@@ -19246,25 +18912,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T22:11:15.986Z"
   },
   {
-    "id": "2-2s-pot-p-aagga-870546",
-    "jan": "4974365870546",
-    "title": "[ニンテンドースイッチ2ソフト] ぷよぷよテトリス2S [POT-P-AAGGA]",
-    "genre": "パズル",
-    "cover": "GM",
-    "searches": 41,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001075369.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001075369",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
     "id": "hac-p-bg6ca-489217",
     "jan": "4595121489217",
     "title": "[ニンテンドースイッチ ソフト] エンダーマグノリア ブルームインザミスト 通常版 [HAC-P-BG6CA]",
@@ -19305,44 +18952,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T22:11:15.986Z"
   },
   {
-    "id": "2-bee-p-aagaa-211102",
-    "jan": "4988615211102",
-    "title": "[ニンテンドースイッチ2ソフト] ゼルダ無双 封印戦記 通常版 [BEE-P-AAGAA]",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 38,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001092885.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001092885",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-2-nxs-p-alzlb-553574",
-    "jan": "4902370553574",
-    "title": "[ニンテンドースイッチ2ソフト] ポケモンレジェンズ ゼットエー ニンテンドースイッチ2エディション [NXS-P-ALZLB]",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 37,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001080681.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001080681",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
     "id": "i-ii-iii-hd-remaster-switch-906089",
     "jan": "4984995906089",
     "title": "世界樹の迷宮I・II・III HD REMASTER [通常版]",
@@ -19357,25 +18966,6 @@ export const generatedGames = [
       "checkedAt": "2026-07-22"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/light-hikari_4984995906089",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-2-nxs-p-aq-554113",
-    "jan": "4902370554113",
-    "title": "[ニンテンドースイッチ2ソフト] スーパーマリオブラザーズワンダー ニンテンドースイッチ2エディション + みんなでリンリンパーク [NXS-P-AQ",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 35,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001101637.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001101637",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-07-21T22:11:15.986Z"
@@ -19419,25 +19009,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T22:11:15.986Z"
   },
   {
-    "id": "2-pot-p-aa5pa-137812",
-    "jan": "4976219137812",
-    "title": "[ニンテンドースイッチ2ソフト] プラグマタ 通常版 [POT-P-AA5PA]",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 32,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001099173.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001099173",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
     "id": "hac-p-btf4a-159014",
     "jan": "4595432159014",
     "title": "[ニンテンドースイッチ ソフト] ラブピカルポッピー 通常版 [HAC-P-BTF4A]",
@@ -19452,25 +19023,6 @@ export const generatedGames = [
       "checkedAt": "2026-07-22"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001101832",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-bee-p-aaaea-553932",
-    "jan": "4902370553932",
-    "title": "[ニンテンドースイッチ2ソフト] マリオテニス フィーバー [BEE-P-AAAEA]",
-    "genre": "スポーツ",
-    "cover": "GM",
-    "searches": 30,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001092869.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001092869",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-07-21T22:11:15.986Z"
@@ -19514,44 +19066,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T22:11:15.986Z"
   },
   {
-    "id": "2-2-nxs-p-bg4tm-303950",
-    "jan": "4535506303950",
-    "title": "[ニンテンドースイッチ2ソフト] 牧場物語 レッツ!風のグランドバザール ニンテンドースイッチ2エディション [NXS-P-BG4TM]",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 27,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001075625.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001075625",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-z-pot-p-abaub-137577",
-    "jan": "4976219137577",
-    "title": "[ニンテンドースイッチ2ソフト] バイオハザード ヴィレッジ Zバージョン ゴールドエディション [POT-P-ABAUB]",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 26,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001097803.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001097803",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
     "id": "switch-blackish-house-sidea-retour-b-290659",
     "jan": "4589889290659",
     "title": "エディア (Switch)Blackish House sideA→ -Retour- 通常版",
@@ -19571,25 +19085,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-21T22:11:15.986Z"
   },
   {
-    "id": "2-bee-p-aaaba-553642",
-    "jan": "4902370553642",
-    "title": "[ニンテンドースイッチ2ソフト] カービィのエアライダー [BEE-P-AAABA]",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 24,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001082028.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001082028",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
     "id": "hac-p-ab92c-470014",
     "jan": "4589864470014",
     "title": "[ニンテンドースイッチ ソフト] ケイブストーリー プラス [HAC-P-AB92C]",
@@ -19604,25 +19099,6 @@ export const generatedGames = [
       "checkedAt": "2026-07-22"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40000732799",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "09-04-2-pot-r-abnma-140324",
-    "jan": "4976219140324",
-    "title": "[ニンテンドースイッチ2ソフト] 鬼武者 ウェイ オブ ザ ソード プレミアムデラックスエディション [POT-R-ABNMA",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 22,
-    "aliases": [],
-    "releaseDate": "1788447600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001111015.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001111015",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-07-21T22:11:15.986Z"
@@ -19684,44 +19160,6 @@ export const generatedGames = [
       "checkedAt": "2026-07-22"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/light-hikari_4965857104676",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-1-2-pot-p-aavsa-011976",
-    "jan": "4988601011976",
-    "title": "[ニンテンドースイッチ2ソフト] ドラゴンクエスト1&2 [POT-P-AAVSA]",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 18,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001077516.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001077516",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-2-pot-p-aa3ea-870782",
-    "jan": "4974365870782",
-    "title": "[ニンテンドースイッチ2ソフト] 龍が如く 極2 [POT-P-AA3EA]",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 17,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001081586.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001081586",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-07-21T22:11:15.986Z"
@@ -20011,25 +19449,6 @@ export const generatedGames = [
       "checkedAt": "2026-07-22"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001070188",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-07-21T22:11:15.986Z"
-  },
-  {
-    "id": "2-wild-hearts-s-s-pot-p-aagva-193477",
-    "jan": "4988615193477",
-    "title": "[ニンテンドースイッチ2ソフト] WILD HEARTS S (ワイルドハーツS) [POT-P-AAGVA]",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 1,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001075426.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001075426",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-07-21T22:11:15.986Z"
