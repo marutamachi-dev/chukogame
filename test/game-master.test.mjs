@@ -25,7 +25,7 @@ const game = (index, overrides = {}) => ({
   id: `game-${index}`,
   title: `ゲーム ${index}`,
   jan: `490000000${String(index).padStart(3, "0")}0`,
-  genre: "未分類",
+  genre: "RPG",
   releaseDate: "2024-01-01",
   aliases: [],
   verification: {

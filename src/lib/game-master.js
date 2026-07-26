@@ -1,3 +1,5 @@
+import { isSupportedGenre } from "./genre-classifier.js";
+
 export const GAME_COUNT = 300;
 export const CHUNK_SIZE = 50;
 export const CHUNK_COUNT = GAME_COUNT / CHUNK_SIZE;
@@ -76,6 +78,7 @@ export function validateGameMaster(
     for (const field of ["id", "title", "genre", "releaseDate"]) {
       if (!String(game?.[field] || "").trim()) errors.push(`${prefix}: missing ${field}`);
     }
+    if (!isSupportedGenre(game?.genre)) errors.push(`${prefix}: unsupported genre ${game?.genre || ""}`);
     if (ids.has(game?.id)) errors.push(`${prefix}: duplicate id ${game?.id}`);
     ids.add(game?.id);
     if (!isValidJan(game?.jan)) errors.push(`${prefix}: invalid JAN ${game?.jan || ""}`);
