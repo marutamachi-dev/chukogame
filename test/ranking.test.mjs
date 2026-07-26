@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { buildRankingSlots } from "../src/lib/ranking.js";
+import { buildRankingSlots, buildVerifiedRanking } from "../src/lib/ranking.js";
 
 const game = (id, cost) => ({ id, purchase: cost == null ? [] : [{ price: cost + 100 }], sale: cost == null ? [] : [{ price: 100 }] });
 
@@ -14,4 +14,9 @@ test("always returns ten ranking slots", () => {
 test("does not assign a rank or price to a collecting slot", () => {
   const slot = buildRankingSlots([], 1)[0];
   assert.deepEqual(slot, { status: "collecting" });
+});
+
+test("returns only verified ranking positions up to the requested limit", () => {
+  const slots = buildVerifiedRanking([game("slow", 500), game("fast", 100)], 30);
+  assert.deepEqual(slots.map((slot) => [slot.game.id, slot.rank]), [["fast", 1], ["slow", 2]]);
 });

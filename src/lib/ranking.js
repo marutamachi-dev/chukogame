@@ -8,3 +8,11 @@ export function buildRankingSlots(games, limit = 10) {
     ranked[index] ? { status: "ranked", game: ranked[index], rank: index + 1 } : { status: "collecting" }
   ));
 }
+
+export function buildVerifiedRanking(games, limit) {
+  return [...games]
+    .filter((game) => playCost(game) !== null)
+    .sort((left, right) => playCost(left) - playCost(right))
+    .slice(0, limit)
+    .map((game, index) => ({ game, rank: index + 1 }));
+}
