@@ -57,3 +57,18 @@ test("trims copied credential whitespace before calling Rakuten", async () => {
   assert.equal(params.get("applicationId"), "app");
   assert.equal(params.get("accessKey"), "access");
 });
+
+test("identifies the server-side collector without impersonating a browser", async () => {
+  let headers;
+  await collectRakutenGame(game, {
+    applicationId: "app",
+    accessKey: "access",
+    fetch: async (_url, request = {}) => {
+      headers = request.headers || {};
+      return new Response(JSON.stringify({ items: [] }), { status: 200 });
+    },
+  });
+
+  assert.equal(headers["user-agent"], "chukogame-price-collector/1.0 (+https://chukogame.vercel.app/)");
+  assert.equal(headers.accept, "application/json");
+});

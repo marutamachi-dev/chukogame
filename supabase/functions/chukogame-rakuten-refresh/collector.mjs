@@ -32,7 +32,12 @@ export async function collectRakutenGame(game, { applicationId, accessKey, fetch
     sort: "+itemPrice",
     elements: "itemName,itemPrice,itemUrl,affiliateUrl,availability,mediumImageUrls,postageFlag,itemCode",
   });
-  const response = await fetch(`${endpoint}?${params}`);
+  const response = await fetch(`${endpoint}?${params}`, {
+    headers: {
+      accept: "application/json",
+      "user-agent": "chukogame-price-collector/1.0 (+https://chukogame.vercel.app/)",
+    },
+  });
   if (!response.ok) {
     const detail = await response.json().catch(() => ({}));
     const message = String(detail.error_description || detail.error || detail.errorCode || `Rakuten API returned ${response.status}`);
