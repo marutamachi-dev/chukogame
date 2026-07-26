@@ -34,10 +34,17 @@ function metadata({ path, title, description, schema, image }) {
   ].join("\n    ");
 }
 
-function pageHtml({ path, title, description, schema, image }) {
+function staticGameContent(game) {
+  const purchases = [...(game.purchase || [])].sort((a, b) => a.price - b.price).slice(0, 3);
+  const sales = [...(game.sale || [])].sort((a, b) => b.price - a.price).slice(0, 3);
+  const rows = (items, label) => items.length ? `<ul>${items.map((item) => `<li>${escapeHtml(item.name)}: ${Number(item.price).toLocaleString("ja-JP")}円</li>`).join("")}</ul>` : `<p>現在確認できる${label}価格がありません。</p>`;
+  return `<article><h1>${escapeHtml(game.title)}の中古価格・買取価格比較</h1><p>Nintendo Switch 国内パッケージ版 / JAN: ${escapeHtml(game.jan)}</p><h2>買う先を比較する</h2>${rows(purchases, "販売")}<h2>売る先を比較する</h2>${rows(sales, "買取")}<h2>価格の掲載基準</h2><p>買う目安は送料込み・通常中古品として確認できる販売価格です。売る目安は確認できる参考買取価格です。相場推移は複数販売先の販売価格の中央値を基準にします。</p></article>`;
+}
+function pageHtml({ path, title, description, schema, image, body = "" }) {
   return template
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeHtml(title)}</title>`)
-    .replace("<!-- seo:head -->", metadata({ path, title, description, schema, image }));
+    .replace("<!-- seo:head -->", metadata({ path, title, description, schema, image }))
+    .replace("<div id=\"root\"></div>", `<div id=\"root\">${body}</div>`);
 }
 
 const siteSchema = {
