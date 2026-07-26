@@ -55,8 +55,9 @@ table access.
 
 - Supabase Cron invokes the Edge Function with an internal secret held in
   Vault; the Edge Function rejects public calls without that secret.
-- Function JWT verification remains enabled for external requests. The cron
-  path uses the internal authorization check.
+- Function JWT verification is disabled only because the function implements
+  an exact internal-secret authorization check itself; no browser client
+  receives the secret or access to the endpoint.
 - Rakuten credentials are never logged, returned by the function, committed,
   or copied into GitHub Actions.
 
