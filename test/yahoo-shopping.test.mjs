@@ -33,7 +33,12 @@ test("uses an alias after JAN and formal title have no verified offer", async ()
   const requests = [];
   const offers = await fetchYahooOffers(aliasGame, { YAHOO_SHOPPING_APP_ID: "test" }, async (url) => {
     requests.push(String(url));
-    return { ok: true, json: async () => ({ hits: requests.length === 3 ? [validHit(aliasGame)] : [] }) };
+    return {
+      ok: true,
+      json: async () => ({
+        hits: requests.length === 3 ? [{ ...validHit(aliasGame), name: "Sample Alias Nintendo Switch 中古" }] : [],
+      }),
+    };
   });
 
   assert.equal(offers.length, 1);

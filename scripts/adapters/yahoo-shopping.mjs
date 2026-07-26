@@ -46,7 +46,7 @@ export async function fetchYahooOffers(game, env = process.env, fetchImpl = fetc
 function toVerifiedOffers(items, game, observedAt) {
   return items.filter((item) => (
     String(item.janCode) === String(game.jan)
-    && normalizeTitle(item.name || "").includes(normalizeTitle(game.title))
+    && [game.title, ...(game.aliases || [])].some((title) => normalizeTitle(item.name || "").includes(normalizeTitle(title)))
     && !/switch\s*2/i.test(item.name || "")
     && item.condition === "used"
     && item.inStock === true
