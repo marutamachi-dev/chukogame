@@ -21,6 +21,17 @@ Create a search-entry page for every currently listed Nintendo Switch domestic p
 5. Sale comparison: only verified reference purchase prices. The `最高` label is shown only among the displayed verified prices.
 6. Price-basis disclosure: state that the current `最安` price is the lowest eligible price among the displayed sellers, while price trends use the median of eligible used-price offers across multiple sellers. State that purchase comparisons require confirmed shipping conditions and ordinary used condition; sale values are reference prices, can differ by condition, and show the confirmation time.
 
+## Price-source and history rules
+
+- Start with multiple verified Yahoo! Shopping sellers only. Add other marketplaces or specialist retailers only after the same eligibility and validation rules can be applied.
+- A daily median purchase-price snapshot requires at least three eligible sellers. With fewer than three eligible sellers, do not record a market-trend value for that date.
+- Show a 30-day, 90-day, or 365-day change only when the corresponding amount of observed history exists. Show `価格推移を収集中` independently for each unavailable period.
+- Exclude offers with unconfirmed shipping, unknown condition, overseas packages, download-only editions, implausible prices, or incorrect JAN matching from both the current-price comparison and trend calculation. Record exclusions in a generated administrator report.
+
+## Retired-title handling
+
+- When a title leaves the demand-selected active 300, keep its canonical URL as an archive page rather than returning a 404.
+- The archive page clearly states that it is no longer a daily refresh target, retains its last verified update time, and is excluded from the active-title daily snapshot job.
 ## Explicit exclusions
 
 - Do not fabricate store offers, sale values, price trends, or price-change commentary.
