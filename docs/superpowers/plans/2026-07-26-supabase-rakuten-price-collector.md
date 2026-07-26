@@ -4,7 +4,7 @@
 
 **Goal:** Collect verified Rakuten purchase offers in Supabase and build the static catalog only from the latest successful snapshot.
 
-**Architecture:** A secret-authorized Edge Function writes a private run audit and offer snapshot. Supabase Cron invokes the function daily. GitHub reads the successful snapshot and never calls Rakuten or Surugaya.
+**Architecture:** A secret-authorized Edge Function writes a private run audit and offer snapshot. Six Supabase Cron jobs invoke stable 50-title chunks from 05:00 to 05:50 JST, keeping each run below the 400-second wall-clock limit. GitHub reads the successful snapshots and never calls Rakuten or Surugaya.
 
 **Tech Stack:** Supabase Postgres, Vault, pg_cron, pg_net, Deno Edge Functions, Node.js, @supabase/supabase-js, GitHub Actions.
 
@@ -24,7 +24,7 @@
 - Create: `supabase/migrations/20260726140000_create_chukogame_source_collector.sql`
 - Create: `test/source-collector-schema.test.mjs`
 
-**Interfaces:** Creates `chukogame_source_refresh_runs`, `chukogame_source_refresh_results`, and `chukogame_source_offers`; schedules `chukogame-rakuten-daily` at `0 20 * * *` UTC.
+**Interfaces:** Creates `chukogame_source_refresh_runs`, `chukogame_source_refresh_results`, and `chukogame_source_offers`; schedules `chukogame-rakuten-chunk-0` through `chukogame-rakuten-chunk-5` at 20:00 through 20:50 UTC.
 
 - [ ] **Step 1: Write the failing test**
 
@@ -33,7 +33,8 @@ test("collector tables are private and cron is declared", async () => {
   const sql = await readFile("supabase/migrations/20260726140000_create_chukogame_source_collector.sql", "utf8");
   assert.match(sql, /chukogame_source_refresh_runs/);
   assert.match(sql, /enable row level security/);
-  assert.match(sql, /chukogame-rakuten-daily/);
+  assert.match(sql, /chukogame-rakuten-chunk-0/);
+  assert.match(sql, /chukogame-rakuten-chunk-5/);
 });
 ```
 
@@ -43,7 +44,7 @@ Run `node --test test/source-collector-schema.test.mjs`. Expected: fail because 
 
 - [ ] **Step 3: Implement migration**
 
-Create a run table with source, timestamps, status (`running|succeeded|failed`), requested title count, verified offer/title counts, zero-search count, no-verified-match count, and non-secret error summary. Create a current-offer table keyed by `(source, jan, listing_url)` with title, game id, price, observed time, JSON payload, and run id. Create a per-title result table keyed by `(refresh_run_id, game_id)`. Enable RLS, revoke `anon` and `authenticated`, and grant only `service_role`. Enable `pg_net`, `pg_cron`, and Vault. Store a random `chukogame_collector_secret` in Vault and use it as the `x-collector-secret` header in the cron `net.http_post` call.
+Create a run table with source, timestamps, status (`running|succeeded|failed`), requested title count, verified offer/title counts, zero-search count, no-verified-match count, and non-secret error summary. Create a current-offer table keyed by `(source, jan, listing_url)` with title, game id, price, observed time, JSON payload, and run id. Create a per-title result table keyed by `(refresh_run_id, game_id)`. Enable RLS, revoke `anon` and `authenticated`, and grant only `service_role`. Enable `pg_net`, `pg_cron`, and Vault. Store a random `chukogame_collector_secret` in Vault and create six cron `net.http_post` calls with chunk bodies `0` through `5` at 20:00, 20:10, 20:20, 20:30, 20:40, and 20:50 UTC.
 
 - [ ] **Step 4: Verify GREEN and apply**
 
@@ -150,4 +151,4 @@ Run `node --test test/price-rules.test.mjs test/detail-page.test.mjs` and confir
 
 - [ ] **Step 3: Release verification**
 
-Run all collector chunks, confirm the latest audit succeeded, trigger static sync, deploy Vercel production, and verify the home page, ranking, and one detail page. Commit with `git commit -m "fix: show unavailable trade-in prices safely"`.
+Run all six collector chunks, confirm each daily audit succeeded, trigger static sync, deploy Vercel production, and verify the home page, ranking, and one detail page. Commit with `git commit -m "fix: show unavailable trade-in prices safely"`.

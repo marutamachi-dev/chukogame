@@ -17,8 +17,10 @@ unverified trade-in prices.
   used, in-stock, shipping-included conditions remain unchanged.
 - The function stores raw verified offers, per-title results, and the run
   status in Supabase.
-- A scheduled invocation runs daily. Authentication failure aborts the run;
-  zero-search and no-verified-match results are counted separately.
+- Six scheduled invocations process stable 50-title chunks from 05:00 to 05:50
+  JST. This completes all 300 titles daily while keeping each Edge Function
+  within its 400-second wall-clock limit. Authentication failure aborts that
+  chunk; zero-search and no-verified-match results are counted separately.
 
 ### Static catalog handoff
 
