@@ -54,6 +54,11 @@ jobs:
           YAHOO_SHOPPING_AFFILIATE_ID: ${{ secrets.YAHOO_SHOPPING_AFFILIATE_ID }}
           GAME_CHUNK: ${{ github.event_name == 'schedule' && 'all' || inputs.game_chunk }}
       - run: npm run build:catalog
+      - name: Record verified daily price history
+        run: npm run record:history
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       - run: npm test
       - name: Finalize demand rebalance
         if: ${{ github.event_name != 'workflow_dispatch' || !inputs.build_master }}
