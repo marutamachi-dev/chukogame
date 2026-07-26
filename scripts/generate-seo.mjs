@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { games } from "../src/data/catalog.js";
 import { catalogUpdatedAt } from "../src/data/generated-catalog.js";
+import archivedGames from "../data/game-archives.json" with { type: "json" };
 
 const origin = "https://chukogame.vercel.app";
 const distDir = join(process.cwd(), "dist");
@@ -52,6 +53,11 @@ const siteSchema = {
   },
 };
 
+const archivePages = archivedGames.filter((game) => !games.some((active) => active.id === game.id)).map((game) => ({
+  path: `/games/${game.id}`, title: `${game.title} | 更新対象外アーカイブ | 中古ゲーム価格ナビ`,
+  description: `${game.title}は現在、日次価格更新の対象外です。最終更新対象日: ${game.archivedAt}。`,
+  schema: { "@context": "https://schema.org", "@type": "VideoGame", name: game.title, sku: game.jan, gamePlatform: "Nintendo Switch", inLanguage: "ja-JP" },
+}));
 const pages = [
   { path: "/", title: "中古ゲーム価格ナビ | Switch中古ソフトの価格比較", description: descriptionFor(), schema: siteSchema },
   { path: "/ranking", title: "実質プレイ費用が安いSwitchソフトランキング | 中古ゲーム価格ナビ", description: "実質プレイ費用が安いNintendo Switch中古ソフトのランキング。買う目安と売る目安の差額を比較できます。", schema: { "@context": "https://schema.org", "@type": "CollectionPage", name: "実質プレイ費用が安いSwitchソフトランキング", url: `${origin}/ranking`, inLanguage: "ja-JP" } },
@@ -65,7 +71,7 @@ const pages = [
   })),
 ];
 
-for (const page of pages) {
+for (const page of [...pages, ...archivePages]) {
   const relative = page.path === "/" ? "index.html" : join(page.path.slice(1), "index.html");
   const output = join(distDir, relative);
   await mkdir(dirname(output), { recursive: true });

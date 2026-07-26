@@ -1,0 +1,11 @@
+import { readFile, writeFile } from "node:fs/promises";
+import { resolve } from "node:path";
+const root = resolve(import.meta.dirname, "..");
+const plan = JSON.parse(await readFile(resolve(root, "data/demand-rebalance.json"), "utf8"));
+if (plan.skipped || !plan.replacement.removals.length) process.exit(0);
+const path = resolve(root, "data/game-archives.json");
+const archived = JSON.parse(await readFile(path, "utf8"));
+const existing = new Map(archived.map((game) => [game.id, game]));
+for (const game of plan.replacement.removals) existing.set(game.id, { ...game, archivedAt: plan.today });
+await writeFile(path, `${JSON.stringify([...existing.values()], null, 2)}\n`, "utf8");
+console.log(`Archived ${plan.replacement.removals.length} removed titles.`);
