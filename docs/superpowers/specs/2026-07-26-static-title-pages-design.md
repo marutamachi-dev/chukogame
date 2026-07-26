@@ -16,10 +16,10 @@ Create a search-entry page for every currently listed Nintendo Switch domestic p
 
 1. Title identity: game title, Nintendo Switch domestic package designation, JAN, genre, and price verification timestamp.
 2. Practical play cost: verified cheapest purchase price minus verified highest sale price. If either value is unavailable, show `算出できません` rather than inferring a value.
-3. Price trend: show 30-day, 90-day, and 365-day changes plus a chart only from stored daily observed prices. If sufficient history is absent, show `価格推移を収集中` and do not draw an invented trend or change value.
+3. Price trend: show 30-day, 90-day, and 365-day changes plus a chart only from stored daily observed prices. The daily trend baseline is the median of eligible prices from multiple listed sellers, not a single seller price or the minimum price. If sufficient history or enough eligible seller prices is absent, show `価格推移を収集中` and do not draw an invented trend or change value.
 4. Purchase comparison: only verified, eligible ordinary-used offers. The `最安` label is shown only among offers that satisfy the stated price basis.
 5. Sale comparison: only verified reference purchase prices. The `最高` label is shown only among the displayed verified prices.
-6. Price-basis disclosure: state that purchase comparisons require confirmed shipping conditions and ordinary used condition; sale values are reference prices, can differ by condition, and show the confirmation time.
+6. Price-basis disclosure: state that the current `最安` price is the lowest eligible price among the displayed sellers, while price trends use the median of eligible used-price offers across multiple sellers. State that purchase comparisons require confirmed shipping conditions and ordinary used condition; sale values are reference prices, can differ by condition, and show the confirmation time.
 
 ## Explicit exclusions
 
@@ -35,9 +35,9 @@ Create a search-entry page for every currently listed Nintendo Switch domestic p
 
 ## Data model additions
 
-- Store one verified daily snapshot per active title: observed date, lowest eligible purchase price, highest verified sale price, source counts, and catalog status.
+- Store one verified daily snapshot per active title: observed date, lowest eligible purchase price, median eligible purchase price across multiple sellers, highest verified sale price, eligible seller count, source counts, and catalog status.
 - Keep sufficient historical snapshots for 365-day calculations.
-- Derive 30/90/365 changes from snapshots rather than storing generated summary values.
+- Derive 30/90/365 trend changes from median-purchase-price snapshots rather than storing generated summary values.
 
 ## Daily workflow
 
