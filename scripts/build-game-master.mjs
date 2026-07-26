@@ -4,6 +4,7 @@ import {
   GAME_COUNT, CHUNK_SIZE, MASTER_QUERIES, MASTER_SORTS, cleanCatalogTitle, hasExcludedProductName, isValidJan,
   requestWithRateLimit, selectMasterCandidates, validateGameMaster,
 } from "../src/lib/game-master.js";
+import { classifyGameGenre } from "../src/lib/genre-classifier.js";
 
 const applicationId = process.env.YAHOO_SHOPPING_APP_ID;
 if (!applicationId) {
@@ -21,20 +22,6 @@ function slugify(title, jan) {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
   return `${ascii || "switch-game"}-${String(jan).slice(-6)}`;
-}
-
-function classifyGenre(title) {
-  const rules = [
-    [/(rpg|ロールプレイ|ポケモン|ゼノブレイド|ドラゴンクエスト|ファイナルファンタジー)/i, "RPG"],
-    [/(マリオカート|レース|グランツーリスモ|need for speed)/i, "レース"],
-    [/(スポーツ|サッカー|野球|テニス|フィットネス|オリンピック)/i, "スポーツ"],
-    [/(シミュレーション|牧場|どうぶつの森|桃太郎電鉄|信長の野望)/i, "シミュレーション"],
-    [/(パズル|テトリス|ぷよぷよ|脳トレ)/i, "パズル"],
-    [/(パーティ|すごろく|人生ゲーム|ボードゲーム)/i, "パーティー"],
-    [/(アドベンチャー|探偵|逆転裁判|ミステリー|物語)/i, "アドベンチャー"],
-    [/(アクション|マリオ|ゼルダ|カービィ|スプラトゥーン|無双)/i, "アクション"],
-  ];
-  return rules.find(([pattern]) => pattern.test(title))?.[1] || "その他";
 }
 
 const curatedAliases = [
@@ -141,7 +128,7 @@ const games = selected.map((item, index) => ({
   id: slugify(item.title, item.jan),
   title: cleanCatalogTitle(item.title),
   jan: String(item.jan),
-  genre: classifyGenre(item.title),
+  genre: classifyGameGenre(item.title),
   releaseDate: compact(item.salesDate) || "不明",
   aliases: buildAliases(item),
   imageUrl: item.largeImageUrl || null,
