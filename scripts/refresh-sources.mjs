@@ -5,6 +5,7 @@ import { mergeChunkOffers, selectRefreshChunks, shouldWriteYahooRefresh } from "
 import { getGameChunk } from "../src/lib/game-master.js";
 import { summarizeSourceRefresh, summarizeZeroResultReasons } from "../src/lib/source-refresh-summary.js";
 import { fetchYahooOffers, yahooConfigured } from "./adapters/yahoo-shopping.mjs";
+import { createRateLimitedFetch } from "./lib/rate-limited-fetch.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const gameMaster = rawGameMaster.map((game) => ({ ...game, cover: "GM" }));
@@ -16,6 +17,7 @@ const adapters = [
   { name: "Yahoo Shopping", source: "Yahoo! Shopping", enabled: yahooConfigured(), fetch: fetchYahooOffers },
 ];
 const enabled = adapters.filter((adapter) => adapter.enabled);
+const yahooFetch = createRateLimitedFetch(fetch, { minIntervalMs: 2100, maxRetries: 2 });
 for (const adapter of adapters.filter((adapter) => !adapter.enabled)) {
   console.warn(`[source] ${adapter.name}: disabled because required credentials are not configured.`);
 }
@@ -24,7 +26,6 @@ if (!enabled.length) {
   process.exit(0);
 }
 
-const delay = (ms) => new Promise((resolveDelay) => setTimeout(resolveDelay, ms));
 const refreshed = [];
 const attemptsBySource = new Map(enabled.map((adapter) => [adapter.source, 0]));
 const failuresBySource = new Map(enabled.map((adapter) => [adapter.source, 0]));
@@ -35,7 +36,7 @@ for (const adapter of enabled) {
   for (const game of targetGames) {
     attemptsBySource.set(adapter.source, attemptsBySource.get(adapter.source) + 1);
     try {
-      const result = { offers: await adapter.fetch(game), zeroResultReason: null };
+      const result = { offers: await adapter.fetch(game, process.env, yahooFetch), zeroResultReason: null };
       const { offers, zeroResultReason } = result;
       refreshed.push(...offers);
       if (zeroResultReason) {
@@ -46,7 +47,6 @@ for (const adapter of enabled) {
       failuresBySource.set(adapter.source, failuresBySource.get(adapter.source) + 1);
       console.warn(`${adapter.name} ${game.id}: ${error.message}`);
     }
-    await delay(1100);
   }
 }
 
