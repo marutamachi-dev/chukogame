@@ -4,6 +4,7 @@ import rawGameMaster from "../src/data/game-master.json" with { type: "json" };
 import { mergeChunkOffers, selectRefreshChunks } from "../src/lib/chunk-refresh.js";
 import { getGameChunk } from "../src/lib/game-master.js";
 import { normalizeTitle } from "../src/lib/price-rules.js";
+import { summarizeSourceRefresh } from "../src/lib/source-refresh-summary.js";
 import { fetchRakutenOffers, rakutenConfigured } from "./adapters/rakuten.mjs";
 import { fetchYahooOffers, yahooConfigured } from "./adapters/yahoo-shopping.mjs";
 import { fetchSurugayaOffers } from "./adapters/surugaya.mjs";
@@ -40,15 +41,19 @@ const hasMatchingMasterTitle = (offer) => {
 };
 const refreshed = [];
 const failedKeys = new Set();
+const attemptsBySource = new Map(enabled.map((adapter) => [adapter.source, 0]));
+const failuresBySource = new Map(enabled.map((adapter) => [adapter.source, 0]));
 let successfulRequests = 0;
 
 for (const adapter of enabled) {
   for (const game of targetGames) {
+    attemptsBySource.set(adapter.source, attemptsBySource.get(adapter.source) + 1);
     try {
       const offers = await adapter.fetch(game);
       refreshed.push(...offers);
       successfulRequests += 1;
     } catch (error) {
+      failuresBySource.set(adapter.source, failuresBySource.get(adapter.source) + 1);
       failedKeys.add(`${adapter.source}:${game.id}`);
       failedKeys.add(`${adapter.source}:${game.jan}`);
       console.warn(`${adapter.name} ${game.id}: ${error.message}`);
@@ -70,4 +75,12 @@ const offers = mergeChunkOffers({
   enabledSources: enabled.map((adapter) => adapter.source),
 });
 await writeFile(sourcePath, `${JSON.stringify({ updatedAt: new Date().toISOString(), offers }, null, 2)}\n`, "utf8");
+for (const summary of summarizeSourceRefresh({ adapters, attemptsBySource, failuresBySource, refreshed })) {
+  console.log(`[source] ${summary.name}: requests=${summary.attempts}, failed=${summary.failures}, offers=${summary.offers}, titles=${summary.titles}`);
+  if (summary.failures === summary.attempts) {
+    console.warn(`::warning title=${summary.name} source refresh failed::All ${summary.attempts} requests failed; previous verified data was retained.`);
+  } else if (!summary.offers) {
+    console.warn(`::warning title=${summary.name} source returned no offers::${summary.attempts - summary.failures} requests succeeded but returned no matching offers.`);
+  }
+}
 console.log(`Refreshed chunks ${chunkIndexes.join(",")} (${targetGames.length} games) with ${refreshed.length} offers; total retained offers: ${offers.length}.`);
