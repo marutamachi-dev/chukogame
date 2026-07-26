@@ -18,16 +18,16 @@ export function selectRefreshChunks(value, date = new Date()) {
   return [selectRefreshChunk(value, date)];
 }
 
-export function mergeChunkOffers({ previous, refreshed, failedKeys, targetGames, enabledSources }) {
+export function shouldWriteYahooRefresh({ successfulRequests }) {
+  return successfulRequests > 0;
+}
+
+export function mergeChunkOffers({ previous, refreshed, targetGames, replaceOffer, enabledSources = [] }) {
   const targetIds = new Set(targetGames.map((game) => game.id));
   const targetJans = new Set(targetGames.map((game) => String(game.jan)));
   const enabled = new Set(enabledSources);
   const isTarget = (offer) => targetIds.has(offer.slug) || targetJans.has(String(offer.jan));
-  const retained = previous.filter((offer) => !enabled.has(offer.source) || !isTarget(offer));
-  const fallback = previous.filter((offer) => (
-    enabled.has(offer.source)
-    && isTarget(offer)
-    && (failedKeys.has(`${offer.source}:${offer.slug}`) || failedKeys.has(`${offer.source}:${offer.jan}`))
-  ));
-  return [...retained, ...refreshed, ...fallback];
+  const shouldReplace = replaceOffer || ((offer) => enabled.has(offer.source));
+  const retained = previous.filter((offer) => !isTarget(offer) || !shouldReplace(offer));
+  return [...retained, ...refreshed];
 }

@@ -17,7 +17,7 @@ test("selects every chunk for a full backfill", () => {
   assert.deepEqual(selectRefreshChunks("all"), Array.from({ length: 6 }, (_, index) => index));
 });
 
-test("updates only the target chunk and retains failed target data", () => {
+test("updates only the target chunk and removes replaced target data", () => {
   const previous = [
     { source: "Yahoo", slug: "target", jan: "1", price: 100 },
     { source: "Yahoo", slug: "failed", jan: "2", price: 200 },
@@ -30,5 +30,5 @@ test("updates only the target chunk and retains failed target data", () => {
     targetGames: [{ id: "target", jan: "1" }, { id: "failed", jan: "2" }],
     enabledSources: ["Yahoo"],
   });
-  assert.deepEqual(offers.map((offer) => offer.price).sort((a, b) => a - b), [110, 200, 300, 400]);
+  assert.deepEqual(offers.map((offer) => offer.price).sort((a, b) => a - b), [110, 300, 400]);
 });
