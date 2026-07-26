@@ -1,12 +1,19 @@
 const endpoint = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701";
 const normalize = (value) => value.normalize("NFKC").toLowerCase().replace(/[\s\u30fb:\uff1a!\uff01?\uff1f'"\u300c\u300d]/g, "");
 
+export class RakutenAuthenticationError extends Error {
+  constructor(message) {
+    super(message);
+    this.name = "RakutenAuthenticationError";
+  }
+}
+
 export function rakutenConfigured(env = process.env) {
   return Boolean(env.RAKUTEN_APPLICATION_ID && env.RAKUTEN_ACCESS_KEY);
 }
 
-export async function fetchRakutenOffers(game, env = process.env, fetchImpl = fetch) {
-  if (!rakutenConfigured(env)) return [];
+export async function fetchRakutenOfferResult(game, env = process.env, fetchImpl = fetch) {
+  if (!rakutenConfigured(env)) return { offers: [], zeroResultReason: "not-configured" };
   const params = new URLSearchParams({
     applicationId: env.RAKUTEN_APPLICATION_ID,
     accessKey: env.RAKUTEN_ACCESS_KEY,
@@ -19,10 +26,18 @@ export async function fetchRakutenOffers(game, env = process.env, fetchImpl = fe
   });
   if (env.RAKUTEN_AFFILIATE_ID) params.set("affiliateId", env.RAKUTEN_AFFILIATE_ID);
   const response = await fetchImpl(`${endpoint}?${params}`);
-  if (!response.ok) throw new Error(`Rakuten API returned ${response.status}`);
+  if (!response.ok) {
+    const errorPayload = await response.json().catch(() => ({}));
+    const errorMessage = String(errorPayload.error_description || errorPayload.error || errorPayload.errorCode || `Rakuten API returned ${response.status}`);
+    if (response.status === 401 || response.status === 403 || /application[_-]?id|access[_-]?key|unauthori[sz]ed|auth/i.test(errorMessage)) {
+      throw new RakutenAuthenticationError(`Rakuten API credentials were rejected: ${errorMessage}`);
+    }
+    throw new Error(`Rakuten API returned ${response.status}: ${errorMessage}`);
+  }
   const payload = await response.json();
   const observedAt = new Date().toISOString();
-  return (payload.items || []).filter((item) => (
+  const items = payload.items || [];
+  const offers = items.filter((item) => (
     /中古/.test(item.itemName)
     && /nintendo\s*switch|switch/i.test(item.itemName)
     && normalize(item.itemName).includes(normalize(game.title))
@@ -36,4 +51,12 @@ export async function fetchRakutenOffers(game, env = process.env, fetchImpl = fe
     directUrl: item.itemUrl, verification: "direct-listing", observedAt,
     imageUrl: item.mediumImageUrls?.[0]?.imageUrl || item.mediumImageUrls?.[0] || item.imageUrl || null,
   }));
+  return {
+    offers,
+    zeroResultReason: offers.length ? null : (items.length ? "no-verified-match" : "no-search-results"),
+  };
+}
+
+export async function fetchRakutenOffers(game, env = process.env, fetchImpl = fetch) {
+  return (await fetchRakutenOfferResult(game, env, fetchImpl)).offers;
 }

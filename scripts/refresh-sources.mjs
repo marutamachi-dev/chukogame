@@ -4,8 +4,8 @@ import rawGameMaster from "../src/data/game-master.json" with { type: "json" };
 import { mergeChunkOffers, selectRefreshChunks } from "../src/lib/chunk-refresh.js";
 import { getGameChunk } from "../src/lib/game-master.js";
 import { normalizeTitle } from "../src/lib/price-rules.js";
-import { summarizeSourceRefresh } from "../src/lib/source-refresh-summary.js";
-import { fetchRakutenOffers, rakutenConfigured } from "./adapters/rakuten.mjs";
+import { summarizeSourceRefresh, summarizeZeroResultReasons } from "../src/lib/source-refresh-summary.js";
+import { RakutenAuthenticationError, fetchRakutenOfferResult, rakutenConfigured } from "./adapters/rakuten.mjs";
 import { fetchYahooOffers, yahooConfigured } from "./adapters/yahoo-shopping.mjs";
 import { fetchSurugayaOffers } from "./adapters/surugaya.mjs";
 
@@ -17,10 +17,13 @@ const sourcePath = resolve(root, "data/source-offers.json");
 const previous = JSON.parse(await readFile(sourcePath, "utf8"));
 const adapters = [
   { name: "Surugaya", source: "駿河屋", enabled: true, fetch: fetchSurugayaOffers },
-  { name: "Rakuten", source: "Rakuten Ichiba", enabled: rakutenConfigured(), fetch: fetchRakutenOffers },
+  { name: "Rakuten", source: "Rakuten Ichiba", enabled: rakutenConfigured(), fetchResult: fetchRakutenOfferResult },
   { name: "Yahoo Shopping", source: "Yahoo! Shopping", enabled: yahooConfigured(), fetch: fetchYahooOffers },
 ];
 const enabled = adapters.filter((adapter) => adapter.enabled);
+for (const adapter of adapters.filter((adapter) => !adapter.enabled)) {
+  console.warn(`[source] ${adapter.name}: disabled because required credentials are not configured.`);
+}
 if (!enabled.length) {
   console.log("No marketplace credentials configured. Keeping the last successful source data.");
   process.exit(0);
@@ -43,16 +46,26 @@ const refreshed = [];
 const failedKeys = new Set();
 const attemptsBySource = new Map(enabled.map((adapter) => [adapter.source, 0]));
 const failuresBySource = new Map(enabled.map((adapter) => [adapter.source, 0]));
+const zeroResults = [];
 let successfulRequests = 0;
 
 for (const adapter of enabled) {
   for (const game of targetGames) {
     attemptsBySource.set(adapter.source, attemptsBySource.get(adapter.source) + 1);
     try {
-      const offers = await adapter.fetch(game);
+      const result = adapter.fetchResult
+        ? await adapter.fetchResult(game)
+        : { offers: await adapter.fetch(game), zeroResultReason: null };
+      const { offers, zeroResultReason } = result;
       refreshed.push(...offers);
+      if (zeroResultReason) {
+        zeroResults.push({ source: adapter.source, reason: zeroResultReason, gameId: game.id });
+      }
       successfulRequests += 1;
     } catch (error) {
+      if (error instanceof RakutenAuthenticationError) {
+        throw error;
+      }
       failuresBySource.set(adapter.source, failuresBySource.get(adapter.source) + 1);
       failedKeys.add(`${adapter.source}:${game.id}`);
       failedKeys.add(`${adapter.source}:${game.jan}`);
@@ -82,5 +95,8 @@ for (const summary of summarizeSourceRefresh({ adapters, attemptsBySource, failu
   } else if (!summary.offers) {
     console.warn(`::warning title=${summary.name} source returned no offers::${summary.attempts - summary.failures} requests succeeded but returned no matching offers.`);
   }
+}
+for (const summary of summarizeZeroResultReasons(zeroResults)) {
+  console.log(`[source] ${summary.source}: zero-result reason=${summary.reason}, titles=${summary.titles}`);
 }
 console.log(`Refreshed chunks ${chunkIndexes.join(",")} (${targetGames.length} games) with ${refreshed.length} offers; total retained offers: ${offers.length}.`);

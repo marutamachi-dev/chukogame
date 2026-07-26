@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { summarizeSourceRefresh } from "../src/lib/source-refresh-summary.js";
+import { summarizeSourceRefresh, summarizeZeroResultReasons } from "../src/lib/source-refresh-summary.js";
 
 test("reports each enabled marketplace separately, including a zero-result source", () => {
   const summary = summarizeSourceRefresh({
@@ -22,5 +22,18 @@ test("reports each enabled marketplace separately, including a zero-result sourc
     { name: "Rakuten", source: "Rakuten Ichiba", attempts: 300, failures: 300, offers: 0, titles: 0 },
     { name: "Yahoo Shopping", source: "Yahoo! Shopping", attempts: 300, failures: 0, offers: 2, titles: 1 },
     { name: "Surugaya", source: "駿河屋", attempts: 300, failures: 2, offers: 1, titles: 1 },
+  ]);
+});
+
+test("groups zero-result titles by source and verification reason", () => {
+  const summary = summarizeZeroResultReasons([
+    { source: "Rakuten Ichiba", reason: "no-search-results", gameId: "game-a" },
+    { source: "Rakuten Ichiba", reason: "no-search-results", gameId: "game-b" },
+    { source: "Rakuten Ichiba", reason: "no-verified-match", gameId: "game-c" },
+  ]);
+
+  assert.deepEqual(summary, [
+    { source: "Rakuten Ichiba", reason: "no-search-results", titles: 2 },
+    { source: "Rakuten Ichiba", reason: "no-verified-match", titles: 1 },
   ]);
 });

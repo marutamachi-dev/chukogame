@@ -14,3 +14,15 @@ export function summarizeSourceRefresh({ adapters, attemptsBySource, failuresByS
       };
     });
 }
+
+export function summarizeZeroResultReasons(results) {
+  const grouped = new Map();
+  for (const { source, reason } of results) {
+    const key = `${source}:${reason}`;
+    grouped.set(key, (grouped.get(key) || 0) + 1);
+  }
+  return [...grouped.entries()].map(([key, titles]) => {
+    const separator = key.lastIndexOf(":");
+    return { source: key.slice(0, separator), reason: key.slice(separator + 1), titles };
+  });
+}
