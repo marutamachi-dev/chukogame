@@ -28,15 +28,29 @@ export async function fetchYahooOffers(game, env = process.env, fetchImpl = fetc
     if (!response.ok) throw new Error(`Yahoo Shopping API returned ${response.status}`);
     return response.json();
   };
-  const janParams = addAffiliate(createParams());
-  janParams.set("jan_code", game.jan);
-  const payload = await request(janParams);
   const observedAt = new Date().toISOString();
-  return (payload.hits || []).filter((item) => (
+  const searches = [
+    { jan_code: game.jan },
+    { query: game.title },
+    ...(game.aliases || []).map((query) => ({ query })),
+  ];
+  for (const search of searches) {
+    const params = addAffiliate(createParams());
+    for (const [key, value] of Object.entries(search)) params.set(key, value);
+    const offers = toVerifiedOffers((await request(params)).hits || [], game, observedAt);
+    if (offers.length) return offers;
+  }
+  return [];
+}
+
+function toVerifiedOffers(items, game, observedAt) {
+  return items.filter((item) => (
     String(item.janCode) === String(game.jan)
     && normalizeTitle(item.name || "").includes(normalizeTitle(game.title))
+    && !/switch\s*2/i.test(item.name || "")
     && item.condition === "used"
     && item.inStock === true
+    && Number(item.price) > 0
     && (Number(item.shipping?.code) === 1 || /送料無料/.test(item.shipping?.name || ""))
   )).map((item) => ({
     slug: game.id, jan: game.jan, title: item.name, genre: game.genre, cover: game.cover,
