@@ -19,6 +19,7 @@ export const OTHER_GENRE = "その他";
 // Primary genres are deliberately decided in series/title order. This is a
 // compact, auditable classifier for the catalog; a no-match stays reviewable.
 const rules = [
+  [/(ピクミン|Pikmin)/iu, "アドベンチャー"],
   [/(Minecraft|マインクラフト)/iu, "アドベンチャー"],
   [/(大乱闘スマッシュブラザーズ|ポッ拳|ファイターズ|Sparking!|オールスターバトル|ストリートファイター|鉄拳|ギルティギア|MARVEL vs\. CAPCOM|カプコン ファイティング|ARMS|ナルティメット|異種最強王)/iu, "格闘"],
   [/(スプラトゥーン|グラディウス|ダライアス|彩京 SHOOTING|エスプレイド|デススマイルズ|究極タイガー|コットン|ACE COMBAT|エースコンバット|シューティング LIBRARY)/iu, "シューティング"],
