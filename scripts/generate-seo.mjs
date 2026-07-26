@@ -73,6 +73,7 @@ const pages = [
     path: `/games/${game.id}`,
     title: `${game.title}の中古価格・買取価格比較 | 中古ゲーム価格ナビ`,
     description: descriptionFor(game),
+    body: staticGameContent(game),
     image: `/package-images/${game.id === "zelda-totk" || game.id === "minecraft" || game.id === "momotetsu" || game.id === "smash" ? `${game.id}${game.id === "minecraft" || game.id === "momotetsu" || game.id === "smash" ? ".jpg" : ".jpg"}` : `${game.id}.png`}`,
     schema: { "@context": "https://schema.org", "@type": "VideoGame", name: game.title, sku: game.jan, gamePlatform: "Nintendo Switch", genre: game.genre, inLanguage: "ja-JP" },
   })),
