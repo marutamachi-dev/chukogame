@@ -16,7 +16,6 @@ export async function fetchRakutenOfferResult(game, env = process.env, fetchImpl
   if (!rakutenConfigured(env)) return { offers: [], zeroResultReason: "not-configured" };
   const params = new URLSearchParams({
     applicationId: env.RAKUTEN_APPLICATION_ID,
-    accessKey: env.RAKUTEN_ACCESS_KEY,
     keyword: game.jan || game.title,
     format: "json",
     formatVersion: "2",
@@ -25,7 +24,9 @@ export async function fetchRakutenOfferResult(game, env = process.env, fetchImpl
     elements: "itemName,itemPrice,itemUrl,affiliateUrl,availability,mediumImageUrls,postageFlag",
   });
   if (env.RAKUTEN_AFFILIATE_ID) params.set("affiliateId", env.RAKUTEN_AFFILIATE_ID);
-  const response = await fetchImpl(`${endpoint}?${params}`);
+  const response = await fetchImpl(`${endpoint}?${params}`, {
+    headers: { accessKey: env.RAKUTEN_ACCESS_KEY },
+  });
   if (!response.ok) {
     const errorPayload = await response.json().catch(() => ({}));
     const errorMessage = String(errorPayload.error_description || errorPayload.error || errorPayload.errorCode || `Rakuten API returned ${response.status}`);

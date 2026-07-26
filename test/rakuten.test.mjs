@@ -42,3 +42,16 @@ test("reports a zero-result reason without relaxing purchase conditions", async 
   assert.deepEqual(result.offers, []);
   assert.equal(result.zeroResultReason, "no-search-results");
 });
+
+test("sends the access key in the documented request header", async () => {
+  let request;
+  const fetchImpl = async (url, options) => {
+    request = { url, options };
+    return { ok: true, json: async () => ({ items: [] }) };
+  };
+
+  await fetchRakutenOfferResult(game, credentials, fetchImpl);
+
+  assert.equal(new URL(request.url).searchParams.has("accessKey"), false);
+  assert.equal(request.options.headers.accessKey, credentials.RAKUTEN_ACCESS_KEY);
+});
