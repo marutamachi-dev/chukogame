@@ -13,6 +13,8 @@ const normalizeTitle = (value) => value
   .toLowerCase()
   .replace(/[\s\u30fb:\uff1a!\uff01?\uff1f'"\u300c\u300d]/g, "");
 
+const isSetOrBonusEdition = (title) => /(セット|同梱|特典|限定版|限定\]|限定】|パック|コレクターズ|特装版)/u.test(title);
+
 export function extractSurugayaOffers(html, game, observedAt = new Date().toISOString()) {
   const rows = html.match(/<tr class="listap[\s\S]*?<\/tr>/g) || [];
 
@@ -29,6 +31,7 @@ export function extractSurugayaOffers(html, game, observedAt = new Date().toISOS
       || !Number.isFinite(price)
       || price <= 0
       || !category.includes("ニンテンドースイッチソフト")
+      || isSetOrBonusEdition(title)
       || (!hasMatchingJan && normalizeTitle(title) !== normalizeTitle(game.title))
     ) return [];
 

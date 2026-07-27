@@ -8,3 +8,9 @@ test("defines the components rendered by the home and detail pages", async () =>
   assert.match(source, /function GenreNav\(/);
   assert.match(source, /function ShareBar\(/);
 });
+
+test("shows the top 100 verified games on the ranking page", async () => {
+  const source = await readFile(new URL("../src/App.jsx", import.meta.url), "utf8");
+
+  assert.match(source, /buildVerifiedRanking\(games, 100\)/);
+});

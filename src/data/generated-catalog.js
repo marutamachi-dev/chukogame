@@ -866,11 +866,6 @@ export const generatedGames = [
     "sale": [
       {
         "name": "駿河屋",
-        "price": 5100,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109980264"
-      },
-      {
-        "name": "駿河屋",
         "price": 2600,
         "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002023"
       }
@@ -4785,31 +4780,6 @@ export const generatedGames = [
     "updatedAt": "2026-07-27T16:33:34.605Z"
   },
   {
-    "id": "switch-s-b-518165",
-    "jan": "4940261518165",
-    "title": "スパイク・チュンソフト (Switch)ダンガンロンパ トリロジーパック + ハッピーダンガンロンパS 超高校級の南国サイコロ合宿",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 853,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4940261518165-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4940261518165-54-46584",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2400,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001732"
-      }
-    ],
-    "updatedAt": "2026-07-27T16:33:34.605Z"
-  },
-  {
     "id": "switch-fit-boxing-3-your-b-104454",
     "jan": "4965857104454",
     "title": "イマジニア (Switch)Fit Boxing 3 -Your パーソナルトレーナー-",
@@ -8628,6 +8598,25 @@ export const generatedGames = [
       "checkedAt": "2026-07-22"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/at-field_sw-a-labo-drive",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-07-27T16:33:34.605Z"
+  },
+  {
+    "id": "switch-s-b-518165",
+    "jan": "4940261518165",
+    "title": "スパイク・チュンソフト (Switch)ダンガンロンパ トリロジーパック + ハッピーダンガンロンパS 超高校級の南国サイコロ合宿",
+    "genre": "アドベンチャー",
+    "cover": "GM",
+    "searches": 853,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4940261518165-54-46584.html",
+      "checkedAt": "2026-07-22"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4940261518165-54-46584",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-07-27T16:33:34.605Z"

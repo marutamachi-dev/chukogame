@@ -10,6 +10,13 @@ test("excludes non-standard used offers", () => {
   assert.equal(isEligibleOffer({ ...eligible, format: "download" }), false);
 });
 
+test("excludes a set or bonus item from an already collected listing", () => {
+  assert.equal(
+    isEligibleOffer({ ...eligible, title: "Sample ふせんセット同梱" }, new Date("2026-07-20T00:00:00.000Z")),
+    false,
+  );
+});
+
 test("calculates cost from lowest purchase and highest sale", () => {
   assert.equal(calculatePlayCost([{ priceWithShipping: 1400 }, { priceWithShipping: 1200 }], [{ price: 800 }, { price: 950 }]), 250);
   assert.equal(calculatePlayCost([{ priceWithShipping: 1200 }], []), null);

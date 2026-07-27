@@ -33,3 +33,15 @@ test("excludes items without a published trade-in price", () => {
   const html = row("ニンテンドースイッチソフト", "マリオカート8 デラックス", "4902370536485", "109000004", -1);
   assert.deepEqual(extractSurugayaOffers(html, game), []);
 });
+
+test("excludes a set or limited listing even when it reports the master JAN", () => {
+  const html = row(
+    "ニンテンドースイッチソフト",
+    "マリオカート8 デラックス[特典セット同梱]【Amazon.co.jp限定】",
+    game.jan,
+    "109980264",
+    5100,
+  );
+
+  assert.deepEqual(extractSurugayaOffers(html, game), []);
+});
