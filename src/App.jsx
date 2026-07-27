@@ -23,6 +23,9 @@ const packageImageUrls = {
 function Cover({ game, large = false }) {
   const fallback = `/covers/${game.id}.svg`;
   const [src, setSrc] = useState(packageImageUrls[game.id] || game.imageUrl || fallback);
+  useEffect(() => {
+    setSrc(packageImageUrls[game.id] || game.imageUrl || fallback);
+  }, [game.id, game.imageUrl, fallback]);
 
   return <div className={`cover cover-${game.cover} ${large ? "cover-large" : ""}`}><img src={src} alt={`${game.title} パッケージ画像`} onError={() => setSrc(fallback)} /></div>;
 }
