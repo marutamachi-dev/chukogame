@@ -13,6 +13,8 @@ export async function fetchYahooOffers(game, env = process.env, fetchImpl = fetc
   const createParams = () => new URLSearchParams({
     appid: env.YAHOO_SHOPPING_APP_ID,
     condition: "used",
+    in_stock: "true",
+    shipping: "free",
     sort: "+price",
     results: "30",
   });
@@ -51,13 +53,13 @@ function toVerifiedOffers(items, game, observedAt) {
     && item.condition === "used"
     && item.inStock === true
     && Number(item.price) > 0
-    && (Number(item.shipping?.code) === 1 || /送料無料/.test(item.shipping?.name || ""))
+    && Number(item.shipping?.code) === 2
   )).map((item) => ({
     slug: game.id, jan: game.jan, title: item.name, genre: game.genre, cover: game.cover,
     searches: game.searches, platform: "Nintendo Switch", format: "package", edition: "standard",
     condition: "used-standard",
     inStock: item.inStock === true, kind: "purchase", source: "Yahoo! Shopping",
-    priceWithShipping: Number(item.price), url: item.url,
+    priceWithShipping: Number(item.price), shippingCode: Number(item.shipping.code), url: item.url,
     directUrl: item.url, verification: "direct-listing", observedAt,
     imageUrl: item.image?.medium || item.image?.url || (item.imageId ? `https://item-shopping.c.yimg.jp/i/g/${item.imageId}` : null),
   }));

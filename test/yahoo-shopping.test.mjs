@@ -11,7 +11,7 @@ const validHit = (target = game) => ({
   inStock: true,
   price: 2150,
   url: "https://store.example.com/game",
-  shipping: { code: 1, name: "送料無料" },
+  shipping: { code: 2, name: "送料無料" },
 });
 
 test("retries with the formal title after JAN has no verified offer", async () => {
@@ -43,6 +43,31 @@ test("uses an alias after JAN and formal title have no verified offer", async ()
 
   assert.equal(offers.length, 1);
   assert.equal(new URL(requests[2]).searchParams.get("query"), "Sample Alias");
+});
+
+test("requests only in-stock free-shipping Yahoo offers", async () => {
+  const requests = [];
+  await fetchYahooOffers(game, { YAHOO_SHOPPING_APP_ID: "test" }, async (url) => {
+    requests.push(new URL(url));
+    return { ok: true, json: async () => ({ hits: [] }) };
+  });
+
+  assert.equal(requests[0].searchParams.get("shipping"), "free");
+  assert.equal(requests[0].searchParams.get("in_stock"), "true");
+});
+
+test("rejects settings-none and conditional-free shipping offers", async () => {
+  const offers = await fetchYahooOffers(game, { YAHOO_SHOPPING_APP_ID: "test" }, async () => ({
+    ok: true,
+    json: async () => ({
+      hits: [
+        { ...validHit(), shipping: { code: 1, name: "設定なし" } },
+        { ...validHit(), shipping: { code: 3, name: "条件付き送料無料" } },
+      ],
+    }),
+  }));
+
+  assert.deepEqual(offers, []);
 });
 
 test("excludes a different title even when the API reports the same JAN", async () => {
