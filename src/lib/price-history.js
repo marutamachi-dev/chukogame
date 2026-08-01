@@ -15,7 +15,17 @@ export function trendState(snapshots = [], days) {
   target.setUTCDate(target.getUTCDate() - days);
   const baseline = sorted.find((snapshot) => snapshot.observedOn === target.toISOString().slice(0, 10));
   if (!baseline || !Number.isFinite(baseline.medianPurchasePrice) || !Number.isFinite(latest.medianPurchasePrice)) return { status: "collecting", change: null };
-  return { status: "ready", change: latest.medianPurchasePrice - baseline.medianPurchasePrice };
+  return {
+    status: "ready",
+    change: latest.medianPurchasePrice - baseline.medianPurchasePrice,
+    baselineDate: baseline.observedOn,
+    latestDate: latest.observedOn,
+  };
+}
+
+export function formatTrendDate(date) {
+  const [, month, day] = String(date).split("-");
+  return `${Number(month)}/${Number(day)}`;
 }
 
 export function observedDateInJst(now = new Date()) {
@@ -31,7 +41,13 @@ const TREND_PERIODS = [
 ];
 
 export function buildTrendPeriods(snapshots = []) {
-  return TREND_PERIODS.map(({ label, days }) => ({ label, days, ...trendState(snapshots, days) }));
+  return TREND_PERIODS.map(({ label, days }) => {
+    const state = trendState(snapshots, days);
+    const comparisonLabel = state.status === "ready"
+      ? `${label}（比較日 ${formatTrendDate(state.baselineDate)} → ${formatTrendDate(state.latestDate)}）`
+      : label;
+    return { label: comparisonLabel, days, ...state };
+  });
 }
 
 export function groupHistorySnapshots(rows = [], activeJans = new Set()) {
