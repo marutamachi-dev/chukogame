@@ -59,6 +59,11 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      - name: Export verified price history for detail pages
+        run: npm run export:history
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       - run: npm test
       - name: Finalize demand rebalance
         if: ${{ github.event_name != 'workflow_dispatch' || !inputs.build_master }}
@@ -72,7 +77,7 @@ jobs:
             git add src/data/game-master.json src/data/generated-catalog.js
             COMMIT_MESSAGE="feat: generate verified 300-title game master"
           else
-            git add data/source-offers.json data/game-archives.json src/data/game-master.json src/data/generated-catalog.js
+            git add data/source-offers.json data/game-archives.json src/data/game-master.json src/data/generated-catalog.js src/data/price-history.js
             COMMIT_MESSAGE="chore: refresh demand-driven game catalog"
           fi
           if git diff --cached --quiet; then

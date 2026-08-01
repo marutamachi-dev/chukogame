@@ -15,7 +15,8 @@
                     "test":  "node --test",
                     "refresh:sources":  "node --env-file-if-exists=.env scripts/refresh-sources.mjs",
                     "update:data":  "npm run refresh:sources \u0026\u0026 npm run build:catalog",
-                    "record:history":  "node --env-file-if-exists=.env scripts/record-price-history.mjs"
+                    "record:history":  "node --env-file-if-exists=.env scripts/record-price-history.mjs",
+                    "export:history":  "node --env-file-if-exists=.env scripts/export-price-history.mjs"
                 },
     "dependencies":  {
                          "@supabase/supabase-js":  "2.110.8",

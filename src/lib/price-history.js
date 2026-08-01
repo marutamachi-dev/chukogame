@@ -17,3 +17,25 @@ export function trendState(snapshots = [], days) {
   if (!baseline || !Number.isFinite(baseline.medianPurchasePrice) || !Number.isFinite(latest.medianPurchasePrice)) return { status: "collecting", change: null };
   return { status: "ready", change: latest.medianPurchasePrice - baseline.medianPurchasePrice };
 }
+
+const TREND_PERIODS = [
+  { label: "直近7日", days: 7 },
+  { label: "直近14日", days: 14 },
+  { label: "直近28日", days: 28 },
+];
+
+export function buildTrendPeriods(snapshots = []) {
+  return TREND_PERIODS.map(({ label, days }) => ({ label, days, ...trendState(snapshots, days) }));
+}
+
+export function groupHistorySnapshots(rows = [], activeJans = new Set()) {
+  const grouped = {};
+  for (const row of rows) {
+    const jan = String(row.game_jan);
+    const medianPurchasePrice = Number(row.median_purchase_price);
+    if (!activeJans.has(jan) || !row.observed_on || !Number.isFinite(medianPurchasePrice)) continue;
+    (grouped[jan] ||= []).push({ observedOn: row.observed_on, medianPurchasePrice });
+  }
+  for (const snapshots of Object.values(grouped)) snapshots.sort((a, b) => a.observedOn.localeCompare(b.observedOn));
+  return grouped;
+}

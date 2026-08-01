@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { medianPurchasePrice, trendState } from "../src/lib/price-history.js";
+import { buildTrendPeriods, groupHistorySnapshots, medianPurchasePrice, trendState } from "../src/lib/price-history.js";
 
 test("uses the middle valid seller price as a market trend baseline", () => {
   assert.equal(medianPurchasePrice([{ price: 4980 }, { price: 5180 }, { price: 5400 }]), 5180);
@@ -14,4 +14,33 @@ test("does not create a trend baseline from fewer than three sellers", () => {
 test("shows collecting until the required price history exists", () => {
   assert.deepEqual(trendState([], 30), { status: "collecting", change: null });
   assert.deepEqual(trendState([{ observedOn: "2026-06-26", medianPurchasePrice: 5000 }, { observedOn: "2026-07-26", medianPurchasePrice: 4680 }], 30), { status: "ready", change: -320 });
+});
+
+test("builds 7, 14, and 28 day results from verified history", () => {
+  const snapshots = [
+    { observedOn: "2026-07-01", medianPurchasePrice: 5000 },
+    { observedOn: "2026-07-08", medianPurchasePrice: 4900 },
+    { observedOn: "2026-07-15", medianPurchasePrice: 4700 },
+    { observedOn: "2026-07-22", medianPurchasePrice: 4700 },
+    { observedOn: "2026-07-29", medianPurchasePrice: 4800 },
+  ];
+
+  assert.deepEqual(buildTrendPeriods(snapshots), [
+    { label: "直近7日", days: 7, status: "ready", change: 100 },
+    { label: "直近14日", days: 14, status: "ready", change: 100 },
+    { label: "直近28日", days: 28, status: "ready", change: -200 },
+  ]);
+});
+
+test("groups only active verified history by JAN for the browser payload", () => {
+  assert.deepEqual(groupHistorySnapshots([
+    { game_jan: "490", observed_on: "2026-07-29", median_purchase_price: "4800.00" },
+    { game_jan: "490", observed_on: "2026-07-22", median_purchase_price: "4700.00" },
+    { game_jan: "999", observed_on: "2026-07-29", median_purchase_price: "1000.00" },
+  ], new Set(["490"])), {
+    "490": [
+      { observedOn: "2026-07-22", medianPurchasePrice: 4700 },
+      { observedOn: "2026-07-29", medianPurchasePrice: 4800 },
+    ],
+  });
 });

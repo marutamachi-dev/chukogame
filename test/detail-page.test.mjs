@@ -7,7 +7,5 @@ test("detail pages disclose collecting price-trend status and median basis", () 
   assert.match(app, /中古相場の推移/);
   assert.match(app, /価格推移を収集中/);
   assert.match(app, /中央値/);
-  assert.match(app, /直近7日/);
-  assert.match(app, /直近14日/);
-  assert.match(app, /直近28日/);
+  assert.match(app, /buildTrendPeriods\(priceHistoryByJan/);
 });
