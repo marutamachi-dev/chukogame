@@ -105,3 +105,17 @@ main>.formula{max-width:1162px;width:calc(100% - 48px)}
  .directory-genres button>span{display:flex;flex-direction:column;align-items:flex-start;gap:3px}.directory-genres button small{color:#746d69;font-size:12px;font-weight:700}
 
 .trend-panel{max-width:1162px;margin:32px auto 0;padding:18px 22px;border:1px solid #ddd7d3;border-radius:9px;background:#fff}.trend-panel h2{margin:0;font-size:21px}.trend-basis,.trend-note{font-size:12px;color:#716964;line-height:1.7}.trend-periods{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.trend-period{padding:14px;border:1px solid #eaded8;border-radius:7px;background:#fff}.trend-period span{display:block;font-size:13px;font-weight:800}.trend-period b{display:block;margin-top:8px;color:#9a121c;font-size:17px}@media(max-width:580px){.trend-panel{margin:26px 16px 0;padding:15px}.trend-periods{grid-template-columns:1fr;gap:8px}}
+
+/* Keep the comparison table focused on the two verified price types. */
+.table-wrap table{min-width:680px}
+.price-col-game{width:52%}
+.price-col-store{width:16%}
+.price-col-cost{width:16%}
+
+/* Mobile navigation is an explicit, keyboard-accessible menu. */
+.mobile-menu{position:absolute;top:calc(100% + 8px);right:16px;z-index:20;width:min(260px,calc(100vw - 32px));display:grid;gap:2px;padding:8px;border:1px solid #ded9d6;border-radius:8px;background:#fff;box-shadow:0 10px 24px rgba(33,25,22,.18)}
+.mobile-menu button{width:100%;padding:12px;border:0;border-radius:5px;background:#fff;text-align:left;color:#24262a;font-weight:800}
+.mobile-menu button:hover,.mobile-menu button:focus-visible{background:#fff1f1;color:#bb1824;outline:0}
+@media(min-width:851px){.mobile-menu{display:none}}
+@media(max-width:850px){.menu-button{width:40px;height:40px;place-items:center;border-radius:6px}.menu-button:hover,.menu-button:focus-visible{background:#fff1f1;color:#bb1824;outline:0}}
+@media(max-width:580px){.table-wrap table{min-width:620px}.price-col-game{width:48%}.price-col-store{width:18%}.price-col-cost{width:16%}}
