@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { buildTrendPeriods, groupHistorySnapshots, medianPurchasePrice, trendState } from "../src/lib/price-history.js";
+import { buildTrendPeriods, groupHistorySnapshots, medianPurchasePrice, observedDateInJst, trendState } from "../src/lib/price-history.js";
 
 test("uses the middle valid seller price as a market trend baseline", () => {
   assert.equal(medianPurchasePrice([{ price: 4980 }, { price: 5180 }, { price: 5400 }]), 5180);
@@ -43,4 +43,9 @@ test("groups only active verified history by JAN for the browser payload", () =>
       { observedOn: "2026-07-29", medianPurchasePrice: 4800 },
     ],
   });
+});
+
+test("records the daily snapshot using the Japan calendar date", () => {
+  assert.equal(observedDateInJst(new Date("2026-08-01T17:00:00Z")), "2026-08-02");
+  assert.equal(observedDateInJst(new Date("2026-08-01T14:59:59Z")), "2026-08-01");
 });

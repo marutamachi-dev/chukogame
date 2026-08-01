@@ -18,6 +18,12 @@ export function trendState(snapshots = [], days) {
   return { status: "ready", change: latest.medianPurchasePrice - baseline.medianPurchasePrice };
 }
 
+export function observedDateInJst(now = new Date()) {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Tokyo", year: "numeric", month: "2-digit", day: "2-digit",
+  }).format(now);
+}
+
 const TREND_PERIODS = [
   { label: "直近7日", days: 7 },
   { label: "直近14日", days: 14 },

@@ -1,11 +1,11 @@
 import { createClient } from "@supabase/supabase-js";
 import { generatedGames } from "../src/data/generated-catalog.js";
-import { medianPurchasePrice } from "../src/lib/price-history.js";
+import { medianPurchasePrice, observedDateInJst } from "../src/lib/price-history.js";
 
 const url = process.env.SUPABASE_URL;
 const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
 if (!url || !key) throw new Error("SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are required");
-const observedOn = new Date().toISOString().slice(0, 10);
+const observedOn = observedDateInJst();
 const rows = generatedGames.flatMap((game) => {
   const prices = (game.purchase || []).map(({ price }) => ({ price })).filter(({ price }) => Number.isFinite(price));
   const median = medianPurchasePrice(prices);
