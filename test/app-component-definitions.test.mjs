@@ -31,3 +31,21 @@ test("provides an expandable mobile navigation menu", async () => {
   assert.match(source, /aria-expanded=\{mobileMenuOpen\}/);
   assert.match(source, /mobile-menu/);
 });
+
+test("turns the home price table into non-scrolling mobile cards", async () => {
+  const [source, styles] = await Promise.all([
+    readFile(new URL("../src/App.jsx", import.meta.url), "utf8"),
+    readFile(new URL("../src/styles.css", import.meta.url), "utf8"),
+  ]);
+
+  assert.match(source, /mobile-price-list/);
+  assert.match(styles, /\.mobile-price-list\{display:grid/);
+});
+
+test("uses compact two-column ranking cards on phones", async () => {
+  const styles = await readFile(new URL("../src/styles.css", import.meta.url), "utf8");
+
+  assert.match(styles, /\.ranking-section \.ranking-grid\{grid-template-columns:repeat\(2,minmax\(0,1fr\)\)/);
+  assert.match(styles, /\.ranking-section \.ranking-item\{display:grid/);
+  assert.match(styles, /\.ranking-section \.ranking-open\{display:none/);
+});
