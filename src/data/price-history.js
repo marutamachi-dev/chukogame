@@ -250,156 +250,42 @@ export const priceHistoryByJan = {
       "medianPurchasePrice": 5500
     }
   ],
-  "4988602173222": [
+  "4534530136718": [
     {
       "observedOn": "2026-07-26",
-      "medianPurchasePrice": 4100
+      "medianPurchasePrice": 4202
     },
     {
       "observedOn": "2026-07-27",
-      "medianPurchasePrice": 4100
+      "medianPurchasePrice": 4346
     },
     {
       "observedOn": "2026-07-28",
-      "medianPurchasePrice": 4100
+      "medianPurchasePrice": 4346
     },
     {
       "observedOn": "2026-07-29",
-      "medianPurchasePrice": 4100
+      "medianPurchasePrice": 4346
     },
     {
       "observedOn": "2026-07-30",
-      "medianPurchasePrice": 4100
+      "medianPurchasePrice": 4346
     },
     {
       "observedOn": "2026-07-31",
-      "medianPurchasePrice": 4228
+      "medianPurchasePrice": 4400
     },
     {
       "observedOn": "2026-08-01",
-      "medianPurchasePrice": 4356
+      "medianPurchasePrice": 4400
     },
     {
       "observedOn": "2026-08-02",
-      "medianPurchasePrice": 4356
+      "medianPurchasePrice": 4400
     },
     {
       "observedOn": "2026-08-03",
-      "medianPurchasePrice": 4356
-    }
-  ],
-  "4549576094113": [
-    {
-      "observedOn": "2026-07-26",
-      "medianPurchasePrice": 3614
-    },
-    {
-      "observedOn": "2026-07-27",
-      "medianPurchasePrice": 3707
-    },
-    {
-      "observedOn": "2026-07-28",
-      "medianPurchasePrice": 3707
-    },
-    {
-      "observedOn": "2026-07-29",
-      "medianPurchasePrice": 3800
-    },
-    {
-      "observedOn": "2026-07-30",
-      "medianPurchasePrice": 3800
-    },
-    {
-      "observedOn": "2026-07-31",
-      "medianPurchasePrice": 3707
-    },
-    {
-      "observedOn": "2026-08-01",
-      "medianPurchasePrice": 3707
-    },
-    {
-      "observedOn": "2026-08-02",
-      "medianPurchasePrice": 3707
-    },
-    {
-      "observedOn": "2026-08-03",
-      "medianPurchasePrice": 3707
-    }
-  ],
-  "4988615142192": [
-    {
-      "observedOn": "2026-07-26",
-      "medianPurchasePrice": 4518
-    },
-    {
-      "observedOn": "2026-07-27",
-      "medianPurchasePrice": 5550
-    },
-    {
-      "observedOn": "2026-07-28",
-      "medianPurchasePrice": 5009
-    },
-    {
-      "observedOn": "2026-07-29",
-      "medianPurchasePrice": 5009
-    },
-    {
-      "observedOn": "2026-07-30",
-      "medianPurchasePrice": 5009
-    },
-    {
-      "observedOn": "2026-07-31",
-      "medianPurchasePrice": 5383
-    },
-    {
-      "observedOn": "2026-08-01",
-      "medianPurchasePrice": 5383
-    },
-    {
-      "observedOn": "2026-08-02",
-      "medianPurchasePrice": 5383
-    },
-    {
-      "observedOn": "2026-08-03",
-      "medianPurchasePrice": 5009
-    }
-  ],
-  "4902370543896": [
-    {
-      "observedOn": "2026-07-26",
-      "medianPurchasePrice": 3267
-    },
-    {
-      "observedOn": "2026-07-27",
-      "medianPurchasePrice": 3267
-    },
-    {
-      "observedOn": "2026-07-28",
-      "medianPurchasePrice": 3267
-    },
-    {
-      "observedOn": "2026-07-29",
-      "medianPurchasePrice": 3267
-    },
-    {
-      "observedOn": "2026-07-30",
-      "medianPurchasePrice": 3267
-    },
-    {
-      "observedOn": "2026-07-31",
-      "medianPurchasePrice": 3283.5
-    },
-    {
-      "observedOn": "2026-08-01",
-      "medianPurchasePrice": 3267
-    },
-    {
-      "observedOn": "2026-08-02",
-      "medianPurchasePrice": 3267
-    },
-    {
-      "observedOn": "2026-08-03",
-      "medianPurchasePrice": 3267
+      "medianPurchasePrice": 4400
     }
   ],
   "4988602176490": [
@@ -440,42 +326,496 @@ export const priceHistoryByJan = {
       "medianPurchasePrice": 4400
     }
   ],
-  "4534530136718": [
+  "4902370543896": [
     {
       "observedOn": "2026-07-26",
-      "medianPurchasePrice": 4202
+      "medianPurchasePrice": 3267
     },
     {
       "observedOn": "2026-07-27",
-      "medianPurchasePrice": 4346
+      "medianPurchasePrice": 3267
     },
     {
       "observedOn": "2026-07-28",
-      "medianPurchasePrice": 4346
+      "medianPurchasePrice": 3267
     },
     {
       "observedOn": "2026-07-29",
-      "medianPurchasePrice": 4346
+      "medianPurchasePrice": 3267
     },
     {
       "observedOn": "2026-07-30",
-      "medianPurchasePrice": 4346
+      "medianPurchasePrice": 3267
     },
     {
       "observedOn": "2026-07-31",
-      "medianPurchasePrice": 4400
+      "medianPurchasePrice": 3283.5
     },
     {
       "observedOn": "2026-08-01",
-      "medianPurchasePrice": 4400
+      "medianPurchasePrice": 3267
     },
     {
       "observedOn": "2026-08-02",
-      "medianPurchasePrice": 4400
+      "medianPurchasePrice": 3267
     },
     {
       "observedOn": "2026-08-03",
-      "medianPurchasePrice": 4400
+      "medianPurchasePrice": 3267
+    }
+  ],
+  "4988615142192": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4518
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 5550
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 5009
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 5009
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 5009
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 5383
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 5383
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 5383
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 5009
+    }
+  ],
+  "4549576094113": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 3614
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 3707
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 3707
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 3800
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 3800
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 3707
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 3707
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 3707
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3707
+    }
+  ],
+  "4988602173222": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4100
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 4100
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 4100
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 4100
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4100
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4228
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4356
+    }
+  ],
+  "4580650750129": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4066
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4356
+    }
+  ],
+  "4535506303110": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 1671
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 1740
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 1740
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 1740
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 1734
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 1740
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 1740
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 1740
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 1740
+    }
+  ],
+  "4527823998902": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 1740
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 2672
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 2672
+    }
+  ],
+  "4535506303233": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 1900
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 2680
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 2680
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 2680
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 2680
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 2290
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 2290
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 2290
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 2680
+    }
+  ],
+  "4549767138602": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 1815
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 1980
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 1980
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 1980
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 1980
+    }
+  ],
+  "4571237661198": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4719
+    }
+  ],
+  "4549767080956": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 2399.5
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3025
+    }
+  ],
+  "4571577994680": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4268
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4356
+    }
+  ],
+  "4988601011464": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 3600.5
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 3509
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 3509
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 3509
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 3690.5
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 3690.5
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 3690.5
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 3690.5
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3690.5
+    }
+  ],
+  "4988615168321": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4444
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 4518
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 4518
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 4518
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4518
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4534
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4534
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4518
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4437
     }
   ],
   "4902370550559": [
@@ -486,44 +826,6 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 4350
-    }
-  ],
-  "4902370549454": [
-    {
-      "observedOn": "2026-07-26",
-      "medianPurchasePrice": 4961
-    },
-    {
-      "observedOn": "2026-07-27",
-      "medianPurchasePrice": 5170.5
-    },
-    {
-      "observedOn": "2026-07-28",
-      "medianPurchasePrice": 5170.5
-    },
-    {
-      "observedOn": "2026-07-29",
-      "medianPurchasePrice": 4961
-    },
-    {
-      "observedOn": "2026-07-30",
-      "medianPurchasePrice": 4961
-    },
-    {
-      "observedOn": "2026-07-31",
-      "medianPurchasePrice": 4961
-    },
-    {
-      "observedOn": "2026-08-01",
-      "medianPurchasePrice": 4961
-    },
-    {
-      "observedOn": "2026-08-02",
-      "medianPurchasePrice": 4961
-    },
-    {
-      "observedOn": "2026-08-03",
-      "medianPurchasePrice": 4961
     }
   ],
   "4902370543889": [
@@ -564,40 +866,168 @@ export const priceHistoryByJan = {
       "medianPurchasePrice": 4864.5
     }
   ],
-  "4902370551891": [
+  "4902370549454": [
     {
       "observedOn": "2026-07-26",
-      "medianPurchasePrice": 3880.5
+      "medianPurchasePrice": 4961
     },
     {
       "observedOn": "2026-07-27",
-      "medianPurchasePrice": 3985
+      "medianPurchasePrice": 5170.5
     },
     {
       "observedOn": "2026-07-28",
-      "medianPurchasePrice": 3985
+      "medianPurchasePrice": 5170.5
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 4961
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4961
     },
     {
       "observedOn": "2026-07-31",
-      "medianPurchasePrice": 4356
+      "medianPurchasePrice": 4961
     },
     {
       "observedOn": "2026-08-01",
-      "medianPurchasePrice": 4356
+      "medianPurchasePrice": 4961
     },
     {
       "observedOn": "2026-08-02",
-      "medianPurchasePrice": 4356
+      "medianPurchasePrice": 4961
     },
     {
       "observedOn": "2026-08-03",
-      "medianPurchasePrice": 4356
+      "medianPurchasePrice": 4961
     }
   ],
-  "4582528436494": [
+  "4571442047442": [
     {
       "observedOn": "2026-07-26",
-      "medianPurchasePrice": 2785
+      "medianPurchasePrice": 2080
+    }
+  ],
+  "4988615163975": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 3872
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 3872
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 3872
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 3872
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 3872
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 3872
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 3872
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 3872
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3872
+    }
+  ],
+  "4988615163685": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4699.5
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4719
+    }
+  ],
+  "4571442047268": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4970
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 4970
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 4970
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 4970
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4970
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4970
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4970
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4970
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4970
+    }
+  ],
+  "4902370538731": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 2044.5
     }
   ],
   "4571577977430": [
@@ -636,6 +1066,48 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 5730
+    }
+  ],
+  "4562412130844": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 2148
+    }
+  ],
+  "4902370551891": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 3880.5
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 3985
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 3985
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4356
+    }
+  ],
+  "4582528436494": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 2785
     }
   ],
   "4570016501113": [
@@ -788,44 +1260,6 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 3268
-    }
-  ],
-  "4988602179248": [
-    {
-      "observedOn": "2026-07-26",
-      "medianPurchasePrice": 6980
-    },
-    {
-      "observedOn": "2026-07-27",
-      "medianPurchasePrice": 6980
-    },
-    {
-      "observedOn": "2026-07-28",
-      "medianPurchasePrice": 6980
-    },
-    {
-      "observedOn": "2026-07-29",
-      "medianPurchasePrice": 6980
-    },
-    {
-      "observedOn": "2026-07-30",
-      "medianPurchasePrice": 6980
-    },
-    {
-      "observedOn": "2026-07-31",
-      "medianPurchasePrice": 6980
-    },
-    {
-      "observedOn": "2026-08-01",
-      "medianPurchasePrice": 6980
-    },
-    {
-      "observedOn": "2026-08-02",
-      "medianPurchasePrice": 6980
-    },
-    {
-      "observedOn": "2026-08-03",
-      "medianPurchasePrice": 6980
     }
   ],
   "4902370550337": [
@@ -1540,6 +1974,44 @@ export const priceHistoryByJan = {
       "medianPurchasePrice": 3267
     }
   ],
+  "4988602179248": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 6980
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 6980
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 6980
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 6980
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 6980
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 6980
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 6980
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 6980
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 6980
+    }
+  ],
   "4902370536058": [
     {
       "observedOn": "2026-07-26",
@@ -1614,6 +2086,28 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 5894
+    }
+  ],
+  "4904810169185": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 5110
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 5110
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 5110
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 5110
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 5110
     }
   ],
   "4902370539073": [
@@ -2150,6 +2644,182 @@ export const priceHistoryByJan = {
       "medianPurchasePrice": 4580
     }
   ],
+  "4988615168413": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4288
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 4066
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 4066
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 4066
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4066
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4288
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4288
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4288
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4288
+    }
+  ],
+  "4974365861520": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 1815
+    }
+  ],
+  "4940261516512": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4279.5
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4719
+    }
+  ],
+  "4902370548426": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 3125
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 3267
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 3258.5
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 3258.5
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 3267
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 3267
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 3267
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3267
+    }
+  ],
+  "4902370550887": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 2864
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 2922
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 2922
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 2922
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 2922
+    }
+  ],
+  "4902370552119": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 3500
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 3508.5
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 3508.5
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 3508.5
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 3508.5
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 3508.5
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 3508.5
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 3509
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3509
+    }
+  ],
   "4940261520175": [
     {
       "observedOn": "2026-07-26",
@@ -2184,10 +2854,390 @@ export const priceHistoryByJan = {
       "medianPurchasePrice": 4719
     }
   ],
+  "4549767126197": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 4324
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 4324
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 4324
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4324
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4324
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4324
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4324
+    }
+  ],
+  "4571577996486": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 3267
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 3412
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 3412
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 3399
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 3399
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 3267
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 3267
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 3267
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3267
+    }
+  ],
+  "4573173334730": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3025
+    }
+  ],
+  "4548967433906": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3025
+    }
+  ],
+  "4984995905259": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4378
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 4378
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 4378
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 4356
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4378
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4378
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4378
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4378
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4378
+    }
+  ],
+  "4988635000090": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4719
+    }
+  ],
+  "4573564400020": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4950
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 4950
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 4950
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 4950
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4950
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4950
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4950
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4950
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4950
+    }
+  ],
+  "4582350661354": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 2850
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 3201
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 3201
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 3201
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 3201
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 3100.5
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 3100.5
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 3100.5
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3201
+    }
+  ],
+  "4582528403151": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 3872
+    }
+  ],
+  "4582528423197": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 4020
+    }
+  ],
   "4582586490018": [
     {
       "observedOn": "2026-07-26",
       "medianPurchasePrice": 1450
+    }
+  ],
+  "4965857103754": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 5445
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 5500
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 5500
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 5500
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 5500
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 5445
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 5445
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 5445
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 5445
+    }
+  ],
+  "4988601011259": [
+    {
+      "observedOn": "2026-07-26",
+      "medianPurchasePrice": 3267
+    },
+    {
+      "observedOn": "2026-07-27",
+      "medianPurchasePrice": 3781
+    },
+    {
+      "observedOn": "2026-07-28",
+      "medianPurchasePrice": 3781
+    },
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 3781
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 3619
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 3799.5
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 3799.5
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 3619
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3619
     }
   ],
   "4902370537789": [
@@ -2596,6 +3646,32 @@ export const priceHistoryByJan = {
       "medianPurchasePrice": 5000
     }
   ],
+  "4974365861896": [
+    {
+      "observedOn": "2026-07-29",
+      "medianPurchasePrice": 3872
+    },
+    {
+      "observedOn": "2026-07-30",
+      "medianPurchasePrice": 4426
+    },
+    {
+      "observedOn": "2026-07-31",
+      "medianPurchasePrice": 4426
+    },
+    {
+      "observedOn": "2026-08-01",
+      "medianPurchasePrice": 4426
+    },
+    {
+      "observedOn": "2026-08-02",
+      "medianPurchasePrice": 4426
+    },
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4426
+    }
+  ],
   "4549576187037": [
     {
       "observedOn": "2026-07-30",
@@ -2628,6 +3704,30 @@ export const priceHistoryByJan = {
       "medianPurchasePrice": 5681
     }
   ],
+  "4902370552300": [
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3232
+    }
+  ],
+  "4580618552222": [
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4961
+    }
+  ],
+  "4580206271009": [
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 7908
+    }
+  ],
+  "4940261519032": [
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 2189
+    }
+  ],
   "4995506005160": [
     {
       "observedOn": "2026-08-03",
@@ -2638,12 +3738,6 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 3509
-    }
-  ],
-  "4902370551952": [
-    {
-      "observedOn": "2026-08-03",
-      "medianPurchasePrice": 3872
     }
   ],
   "4580717790747": [
@@ -2658,12 +3752,6 @@ export const priceHistoryByJan = {
       "medianPurchasePrice": 4050
     }
   ],
-  "4582747932555": [
-    {
-      "observedOn": "2026-08-03",
-      "medianPurchasePrice": 3743
-    }
-  ],
   "4573419410440": [
     {
       "observedOn": "2026-08-03",
@@ -2674,12 +3762,6 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 5445
-    }
-  ],
-  "4589686364041": [
-    {
-      "observedOn": "2026-08-03",
-      "medianPurchasePrice": 4744
     }
   ],
   "4988615193354": [
@@ -2700,10 +3782,16 @@ export const priceHistoryByJan = {
       "medianPurchasePrice": 3840
     }
   ],
-  "4902370552300": [
+  "4902370551952": [
     {
       "observedOn": "2026-08-03",
-      "medianPurchasePrice": 3232
+      "medianPurchasePrice": 3872
+    }
+  ],
+  "4582747932555": [
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3743
     }
   ],
   "4988615114403": [
@@ -2716,6 +3804,36 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 4880
+    }
+  ],
+  "4527823999251": [
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3267
+    }
+  ],
+  "4589794580227": [
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3267
+    }
+  ],
+  "4549767339863": [
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4961
+    }
+  ],
+  "5060528036696": [
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3872
+    }
+  ],
+  "4589794580708": [
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3872
     }
   ]
 };
