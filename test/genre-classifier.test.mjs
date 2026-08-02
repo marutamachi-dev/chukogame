@@ -8,6 +8,8 @@ test("classifies representative Switch titles into a single primary genre", () =
   assert.equal(classifyGameGenre("Minecraft"), "アドベンチャー");
   assert.equal(classifyGameGenre("ポケットモンスター スカーレット"), "RPG");
   assert.equal(classifyGameGenre("太鼓の達人 ドンダフルフェスティバル"), "音楽・リズム");
+  assert.equal(classifyGameGenre("Cyberpunk 2077 Ultimate Edition"), "RPG");
+  assert.equal(classifyGameGenre("unknown Switch 2 package", "アクション"), "アクション");
 });
 
 test("accepts only the published genre vocabulary", () => {

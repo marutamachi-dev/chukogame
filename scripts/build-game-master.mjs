@@ -137,7 +137,7 @@ const games = selected.map((item, index) => ({
   title: cleanCatalogTitle(item.title),
   platform: item.platform,
   jan: String(item.jan),
-  genre: classifyGameGenre(item.title),
+  genre: classifyGameGenre(item.title, item.platform === "Nintendo Switch 2" ? "アクション" : undefined),
   releaseDate: compact(item.salesDate) || "不明",
   aliases: buildAliases(item),
   imageUrl: item.largeImageUrl || null,
