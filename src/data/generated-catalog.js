@@ -2,12 +2,13 @@
 export const catalogUpdatedAt = "2026-08-01T22:19:07.875Z";
 export const generatedGames = [
   {
-    "id": "nsw-3-550337",
+    "id": "switch-3-550337",
     "jan": "4902370550337",
     "title": "スプラトゥーン3",
     "genre": "シューティング",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 1000,
+    "searches": 250,
     "aliases": [
       "スプラ3",
       "スプラトゥーン３"
@@ -15,8 +16,8 @@ export const generatedGames = [
     "releaseDate": "1662649200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370550337.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370550337.html",
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_219073287-219",
     "purchase": [
@@ -93,10 +94,11 @@ export const generatedGames = [
   {
     "id": "nsw-8-536485",
     "jan": "4902370536485",
-    "title": "マリオカート8デラックス",
+    "title": "マリオカート8 デラックス",
     "genre": "レース",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 998,
+    "searches": 248,
     "aliases": [
       "マリカー8",
       "マリオカート8dx"
@@ -104,8 +106,8 @@ export const generatedGames = [
     "releaseDate": "1493305200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/uptwo-store/4902370536485.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370536485.html",
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/vivoage_260723sk030381",
     "purchase": [
@@ -274,8 +276,9 @@ export const generatedGames = [
     "jan": "4902370545319",
     "title": "あつまれ どうぶつの森",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 997,
+    "searches": 247,
     "aliases": [
       "あつ森",
       "あつもり"
@@ -284,7 +287,7 @@ export const generatedGames = [
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370545319.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0013074975",
     "purchase": [
@@ -449,12 +452,13 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "nsw-special-540734",
+    "id": "switch-special-540734",
     "jan": "4902370540734",
     "title": "大乱闘スマッシュブラザーズ SPECIAL",
     "genre": "格闘",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 996,
+    "searches": 246,
     "aliases": [
       "スマブラ",
       "スマブラsp"
@@ -462,8 +466,8 @@ export const generatedGames = [
     "releaseDate": "1544108400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/uptwo-store/4902370540734.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370540734.html",
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_116054477-223",
     "purchase": [
@@ -547,14 +551,15 @@ export const generatedGames = [
     "jan": "4902370547115",
     "title": "スーパーマリオ 3Dワールド+フューリーワールド",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 995,
+    "searches": 245,
     "aliases": [],
     "releaseDate": "1613055600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370547115.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350008178",
     "purchase": [
@@ -608,14 +613,15 @@ export const generatedGames = [
     "jan": "4902370543278",
     "title": "リングフィット アドベンチャー",
     "genre": "スポーツ",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 994,
+    "searches": 244,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/esdigital/10824342.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013022210",
     "purchase": [
@@ -729,14 +735,15 @@ export const generatedGames = [
     "jan": "4902370546941",
     "title": "ピクミン3 デラックス",
     "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 993,
+    "searches": 243,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370546941-54-40560.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013172142",
     "purchase": [
@@ -805,14 +812,15 @@ export const generatedGames = [
     "jan": "4902370549034",
     "title": "Pokemon LEGENDS アルセウス",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 992,
+    "searches": 242,
     "aliases": [],
     "releaseDate": "1643295600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370549034.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/osprr-y_cc0101-00066",
     "purchase": [
@@ -911,14 +919,15 @@ export const generatedGames = [
     "jan": "4902370549454",
     "title": "星のカービィ ディスカバリー",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 991,
+    "searches": 241,
     "aliases": [],
     "releaseDate": "1648134000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370549454.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/vivoage_260727sk110322",
     "purchase": [
@@ -958,21 +967,22 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "hac-p-alzya-550559",
+    "id": "nsw-550559",
     "jan": "4902370550559",
-    "title": "任天堂 ポケットモンスター バイオレット",
+    "title": "ポケットモンスター バイオレット",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 989,
+    "searches": 239,
     "aliases": [
       "ポケモンSV",
       "ポケモンバイオレット"
     ],
-    "releaseDate": "不明",
+    "releaseDate": "1668697200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/sake-premoa/4902370550559.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370550559.html",
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/next-hands-2_08021105mt",
     "purchase": [
@@ -996,14 +1006,15 @@ export const generatedGames = [
     "jan": "4902370543889",
     "title": "ポケットモンスター ソード",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 988,
+    "searches": 238,
     "aliases": [],
     "releaseDate": "1573743600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370543889.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013015418",
     "purchase": [
@@ -1077,8 +1088,9 @@ export const generatedGames = [
     "jan": "4902370536058",
     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 987,
+    "searches": 237,
     "aliases": [
       "ブレワイ",
       "ゼルダ ブレワイ",
@@ -1088,7 +1100,7 @@ export const generatedGames = [
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370536058.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0012538372",
     "purchase": [
@@ -1197,14 +1209,15 @@ export const generatedGames = [
     "jan": "4902370539073",
     "title": "星のカービィ スターアライズ",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 986,
+    "searches": 236,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/esdigital/10766679.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0012726263",
     "purchase": [
@@ -1283,14 +1296,15 @@ export const generatedGames = [
     "jan": "4902370537789",
     "title": "スーパーマリオ オデッセイ",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 985,
+    "searches": 235,
     "aliases": [],
     "releaseDate": "1509030000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370537789.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_78310663-237",
     "purchase": [
@@ -1359,14 +1373,15 @@ export const generatedGames = [
     "jan": "4902370553963",
     "title": "トモダチコレクション わくわく生活",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 982,
+    "searches": 233,
     "aliases": [],
     "releaseDate": "1776265200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370553963.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0020810919",
     "purchase": [
@@ -1440,14 +1455,15 @@ export const generatedGames = [
     "jan": "4902370553550",
     "title": "Pokemon LEGENDS Z-A/",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 981,
+    "searches": 231,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/live2/4902370553550.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0020675764",
     "purchase": [
@@ -1476,14 +1492,15 @@ export const generatedGames = [
     "jan": "4902370552430",
     "title": "スーパー マリオパーティ ジャンボリー",
     "genre": "パーティー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 980,
+    "searches": 230,
     "aliases": [],
     "releaseDate": "1729090800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370552430.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/uptwo-store/4902370552430.html",
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350012229",
     "purchase": [
@@ -1513,18 +1530,19 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-551587",
+    "id": "nsw-551587",
     "jan": "4902370551587",
     "title": "スーパーマリオブラザーズ ワンダー",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 979,
+    "searches": 229,
     "aliases": [],
     "releaseDate": "1697727600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online/4902370551587.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370551587.html",
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0013801766",
     "purchase": [
@@ -1609,52 +1627,22 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "nsw-2-542868",
+    "id": "switch-2-542868",
     "jan": "4902370542868",
-    "title": "スーパーマリオメーカー 2",
+    "title": "スーパーマリオメーカー2(新品)",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 978,
+    "searches": 228,
     "aliases": [],
     "releaseDate": "1561647600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370542868.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/famicom-plaza/954921906.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0012958721",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3840,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012958721.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3840,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012958721.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350004861.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4156,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350005419.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4939,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001231686.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4961,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019242648.html"
-      }
-    ],
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/famicom-plaza_954921906",
+    "purchase": [],
     "sale": [
       {
         "name": "駿河屋",
@@ -1665,40 +1653,26 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-pikmin-4-b-551150",
+    "id": "nsw-pikmin-4-4-551150",
     "jan": "4902370551150",
-    "title": "Pikmin 4",
+    "title": "Pikmin 4 (ピクミン 4)",
     "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 976,
+    "searches": 226,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1689865200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370551150-54-40560.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370551150.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline_0020076342",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/vivoage_260703sk030234",
     "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4961,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0020076342.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4961,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020076342.html"
-      },
       {
         "name": "Yahoo! Shopping",
         "price": 5106,
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260703sk030234.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5403,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109002740001.html"
       },
       {
         "name": "Yahoo! Shopping",
@@ -1720,14 +1694,15 @@ export const generatedGames = [
     "jan": "4965857103327",
     "title": "イマジニア (Switch)Fit Boxing 2 -リズム&エクササイズ-",
     "genre": "音楽・リズム",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 975,
+    "searches": 225,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4965857103327-54-46585.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4965857103327-54-46585",
     "purchase": [],
@@ -1745,8 +1720,9 @@ export const generatedGames = [
     "jan": "4902370550542",
     "title": "ポケットモンスター スカーレット",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 974,
+    "searches": 224,
     "aliases": [
       "ポケモンSV",
       "ポケモンスカーレット"
@@ -1755,7 +1731,7 @@ export const generatedGames = [
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370550542.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013601421",
     "purchase": [
@@ -1830,23 +1806,23 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-550979",
+    "id": "nsw-550979",
     "jan": "4902370550979",
     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 973,
+    "searches": 223,
     "aliases": [
-      "ゼルダの伝説 ティアーズ オブ ザ キングダム Switch用ソフト(パッケージ版)",
       "ティアキン",
       "ゼルダ ティアキン",
       "totk"
     ],
-    "releaseDate": "不明",
+    "releaseDate": "1683817200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/light-hikari/4902370550979.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370550979.html",
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0013709576",
     "purchase": [
@@ -1940,14 +1916,15 @@ export const generatedGames = [
     "jan": "4902370543964",
     "title": "ルイージマンション3",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 971,
+    "searches": 221,
     "aliases": [],
     "releaseDate": "1572447600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370543964.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350006676",
     "purchase": [
@@ -2012,18 +1989,19 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-547948",
+    "id": "nsw-547948",
     "jan": "4902370547948",
     "title": "マリオゴルフ スーパーラッシュ",
     "genre": "スポーツ",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 970,
+    "searches": 220,
     "aliases": [],
     "releaseDate": "1624546800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370547948.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/uptwo-store/4902370547948.html",
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0013291176",
     "purchase": [
@@ -2077,14 +2055,15 @@ export const generatedGames = [
     "jan": "4988601011822",
     "title": "ドラゴンクエストIII そして伝説へ...",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 969,
+    "searches": 219,
     "aliases": [],
     "releaseDate": "1731510000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988601011822.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline_0020417230",
     "purchase": [
@@ -2133,14 +2112,15 @@ export const generatedGames = [
     "jan": "4902370545784",
     "title": "世界のアソビ大全51",
     "genre": "テーブル・学習",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 968,
+    "searches": 205,
     "aliases": [],
     "releaseDate": "1591282800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/toy24shop/4902370545784.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/vivoage_260721sk380380",
     "purchase": [
@@ -2184,14 +2164,15 @@ export const generatedGames = [
     "jan": "4571577970691",
     "title": "太鼓の達人 ドンダフルフェスティバル",
     "genre": "音楽・リズム",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 965,
+    "searches": 216,
     "aliases": [],
     "releaseDate": "1663772400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4571577970691.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013561773",
     "purchase": [
@@ -2246,18 +2227,45 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-i-ii-011969",
+    "id": "switch-x-011143",
+    "jan": "4988601011143",
+    "title": "ドラゴンクエストX 目覚めし五つの種族 オフライン",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 214,
+    "aliases": [],
+    "releaseDate": "1663167600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988601011143.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4988601011143",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1700,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001863"
+      }
+    ],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nsw-i-ii-011969",
     "jan": "4988601011969",
     "title": "ドラゴンクエストI&II",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 963,
+    "searches": 213,
     "aliases": [],
     "releaseDate": "1761750000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988601011969.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4988601011969.html",
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0014126356",
     "purchase": [
@@ -2306,14 +2314,15 @@ export const generatedGames = [
     "jan": "4902370546026",
     "title": "ペーパーマリオ オリガミキング",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 961,
+    "searches": 211,
     "aliases": [],
     "releaseDate": "1594911600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370546026.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013129386",
     "purchase": [
@@ -2343,57 +2352,22 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-548433",
+    "id": "switch-2021-10-29-548433",
     "jan": "4902370548433",
-    "title": "マリオパーティ スーパースターズ",
+    "title": "マリオパーティ スーパースターズ(2021年10月29日発売)",
     "genre": "パーティー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 960,
+    "searches": 210,
     "aliases": [],
     "releaseDate": "1635433200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370548433.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74055.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013354094",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3232,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013354094.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3500,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnaokichi%2Fsw-sf-hd-003.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3871,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350007867.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3872,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019735120.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3872,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019735120.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4169,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001234002.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4780,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkawase-shop%2F1771848376-196.html"
-      }
-    ],
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74055",
+    "purchase": [],
     "sale": [
       {
         "name": "駿河屋",
@@ -2408,14 +2382,15 @@ export const generatedGames = [
     "jan": "4902370548983",
     "title": "ポケットモンスター ブリリアントダイヤモンド",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 959,
+    "searches": 209,
     "aliases": [],
     "releaseDate": "1637247600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/toy24shop/4902370548983.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/vivoage_260723sk230077",
     "purchase": [
@@ -2464,14 +2439,15 @@ export const generatedGames = [
     "jan": "4902370550870",
     "title": "星のカービィ Wii デラックス",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 958,
+    "searches": 208,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370550870-54-40560.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0013654884",
     "purchase": [
@@ -2525,14 +2501,15 @@ export const generatedGames = [
     "jan": "4988601010863",
     "title": "電車でGO! ! はしろう山手線",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 956,
+    "searches": 206,
     "aliases": [],
     "releaseDate": "1615993200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988601010863.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_94064185-94",
     "purchase": [
@@ -2566,14 +2543,15 @@ export const generatedGames = [
     "jan": "4589769383518",
     "title": "ふたりで!にゃんこ大戦争",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 955,
+    "searches": 204,
     "aliases": [],
     "releaseDate": "1606921200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4589769383518.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350014762",
     "purchase": [
@@ -2612,14 +2590,15 @@ export const generatedGames = [
     "jan": "4534530157089",
     "title": "鬼滅の刃 ヒノカミ血風譚2",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 954,
+    "searches": 202,
     "aliases": [],
     "releaseDate": "1753974000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4534530157089.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0014103660",
     "purchase": [
@@ -2668,14 +2647,15 @@ export const generatedGames = [
     "jan": "4902370549133",
     "title": "やわらかあたま塾 いっしょにあたまのストレッチ",
     "genre": "テーブル・学習",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 952,
+    "searches": 194,
     "aliases": [],
     "releaseDate": "1638457200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370549133.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013387764",
     "purchase": [
@@ -2709,14 +2689,15 @@ export const generatedGames = [
     "jan": "4902370548174",
     "title": "ナビつき! つくってわかる はじめてゲームプログラミング",
     "genre": "テーブル・学習",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 951,
+    "searches": 200,
     "aliases": [],
     "releaseDate": "1623337200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4902370548174.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013338828",
     "purchase": [
@@ -2750,14 +2731,15 @@ export const generatedGames = [
     "jan": "4571237661068",
     "title": "妖怪ウォッチ4++",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 949,
+    "searches": 198,
     "aliases": [],
     "releaseDate": "1575471600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4571237661068.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019351460",
     "purchase": [
@@ -2786,14 +2768,15 @@ export const generatedGames = [
     "jan": "4988601010276",
     "title": "スクウェア・エニックス (Switch)ファイナルファンタジー X/ X-2 HD リマスターFF ファイナルファンタジー",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 948,
+    "searches": 197,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601010276-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601010276-54-40561",
     "purchase": [],
@@ -2811,14 +2794,15 @@ export const generatedGames = [
     "jan": "4521329226064",
     "title": "ポケモン (Switch)ポッ拳 POKKEN TOURNAMENT DX",
     "genre": "格闘",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 947,
+    "searches": 196,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4521329226064-54-46582.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4521329226064-54-46582",
     "purchase": [],
@@ -2836,14 +2820,15 @@ export const generatedGames = [
     "jan": "4988601012072",
     "title": "ドラゴンクエストVII Reimagined",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 945,
+    "searches": 193,
     "aliases": [],
     "releaseDate": "1770217200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988601012072.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/suruga-ya_109004653001",
     "purchase": [
@@ -2917,14 +2902,15 @@ export const generatedGames = [
     "jan": "4902370552409",
     "title": "ゼルダの伝説 知恵のかりもの",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 944,
+    "searches": 192,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370552409-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0013988382",
     "purchase": [
@@ -3003,14 +2989,15 @@ export const generatedGames = [
     "jan": "4902370551648",
     "title": "スーパーマリオRPG",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 943,
+    "searches": 191,
     "aliases": [],
     "releaseDate": "1700146800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370551648.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013819935",
     "purchase": [
@@ -3054,14 +3041,15 @@ export const generatedGames = [
     "jan": "4902370549003",
     "title": "ポケットモンスター シャイニングパール",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 940,
+    "searches": 188,
     "aliases": [],
     "releaseDate": "1637247600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/toy24shop/4902370549003.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013370784",
     "purchase": [
@@ -3110,14 +3098,15 @@ export const generatedGames = [
     "jan": "4902370542400",
     "title": "ヨッシークラフトワールド",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 939,
+    "searches": 187,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370542400-54-40560.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0012899926",
     "purchase": [
@@ -3161,14 +3150,15 @@ export const generatedGames = [
     "jan": "4974365862831",
     "title": "ぷよぷよテトリス2 スペシャルプライス",
     "genre": "パズル",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 937,
+    "searches": 185,
     "aliases": [],
     "releaseDate": "1668610800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4974365862831.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019902080",
     "purchase": [
@@ -3202,14 +3192,15 @@ export const generatedGames = [
     "jan": "4988615114557",
     "title": "戦国無双4 DX",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 935,
+    "searches": 184,
     "aliases": [],
     "releaseDate": "1552489200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615114557.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0012899843",
     "purchase": [
@@ -3248,14 +3239,15 @@ export const generatedGames = [
     "jan": "4571577977430",
     "title": "釣りスピリッツ 釣って遊べる水族館",
     "genre": "スポーツ",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 934,
+    "searches": 183,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1666796400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/champnet758/4571577977430.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4571577977430.html",
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019892336",
     "purchase": [
@@ -3300,45 +3292,19 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "nintendo-switch-543926",
-    "jan": "4902370543926",
-    "title": "東北大学加齢医学研究所 川島隆太教授監修 脳を鍛える大人のNintendo Switchトレーニング スイッチ【任天堂】",
-    "genre": "テーブル・学習",
-    "cover": "GM",
-    "searches": 931,
-    "aliases": [
-      "【送料無料】【新品】 東北大学加齢医学研究所 川島隆太教授監修 脳を鍛える大人のNintendo Switchトレーニング スイッチ【任天堂】"
-    ],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/llhat/4902370543926.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/llhat_4902370543926",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1300,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000765"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-rpg-b-552461",
+    "id": "nsw-rpg-552461",
     "jan": "4902370552461",
     "title": "マリオ&ルイージRPG ブラザーシップ!",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 930,
+    "searches": 155,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1730905200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370552461-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370552461.html",
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0014003744",
     "purchase": [
@@ -3367,14 +3333,15 @@ export const generatedGames = [
     "jan": "4573173356411",
     "title": "ディズニー ツムツム フェスティバル",
     "genre": "パーティー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 929,
+    "searches": 180,
     "aliases": [],
     "releaseDate": "1570633200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573173356411.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013001893",
     "purchase": [
@@ -3408,14 +3375,15 @@ export const generatedGames = [
     "jan": "4902370553611",
     "title": "スーパーマリオギャラクシー + スーパーマリオギャラクシー 2",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 925,
+    "searches": 178,
     "aliases": [],
     "releaseDate": "1759330800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370553611.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350013120",
     "purchase": [
@@ -3459,14 +3427,15 @@ export const generatedGames = [
     "jan": "4902370542684",
     "title": "ファイアーエムブレム 風花雪月",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 923,
+    "searches": 174,
     "aliases": [],
     "releaseDate": "1564066800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370542684.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/vivoage_260721sk380373",
     "purchase": [
@@ -3490,14 +3459,15 @@ export const generatedGames = [
     "jan": "4902370551877",
     "title": "マリオvs.ドンキーコング",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 922,
+    "searches": 173,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370551877-54-46585.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350011439",
     "purchase": [
@@ -3536,14 +3506,15 @@ export const generatedGames = [
     "jan": "4571237661242",
     "title": "レベルファイブ (Switch)ファンタジーライフi グルグルの竜と時をぬすむ少女",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 914,
+    "searches": 164,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4571237661242-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4571237661242-54-40561",
     "purchase": [],
@@ -3561,14 +3532,15 @@ export const generatedGames = [
     "jan": "4988601010283",
     "title": "スクウェア・エニックス (Switch)ファイナルファンタジーXII ザ ゾディアック エイジFF ファイナルファンタジー",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 913,
+    "searches": 162,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601010283-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601010283-54-40561",
     "purchase": [],
@@ -3586,14 +3558,15 @@ export const generatedGames = [
     "jan": "4562240236879",
     "title": "フリュー (Switch)MODEL Debut2 #nicola/ モデルデビュー2 ニコラ",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 911,
+    "searches": 160,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4562240236879-54-40562.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4562240236879-54-40562",
     "purchase": [],
@@ -3611,14 +3584,15 @@ export const generatedGames = [
     "jan": "4976219000093",
     "title": "逆転裁判123 成歩堂セレクション",
     "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 907,
+    "searches": 154,
     "aliases": [],
     "releaseDate": "1550674800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4976219000093.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0012884397",
     "purchase": [
@@ -3652,14 +3626,15 @@ export const generatedGames = [
     "jan": "4560221911357",
     "title": "ソニックパワード (Switch)鉄道にっぽん!Real Pro 特急走行!名古屋鉄道編",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 906,
+    "searches": 153,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4560221911357-54-46585.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4560221911357-54-46585",
     "purchase": [],
@@ -3677,14 +3652,15 @@ export const generatedGames = [
     "jan": "4573173342865",
     "title": "塊魂アンコール",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 905,
+    "searches": 152,
     "aliases": [],
     "releaseDate": "1545231600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573173342865.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0012856373",
     "purchase": [
@@ -3704,66 +3680,21 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-project-diva-mega39-s-861896",
-    "jan": "4974365861896",
-    "title": "初音ミク Project DIVA MEGA39’s",
-    "genre": "音楽・リズム",
-    "cover": "GM",
-    "searches": 903,
-    "aliases": [],
-    "releaseDate": "1581519600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4974365861896.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/thrifty_sega-hac-p-atpta-2840",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3200,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fthrifty%2Fsega-hac-p-atpta-2840.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3872,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019384412.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350005790.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5040,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000807001.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2200,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000807"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-7-with-dx-b-114403",
+    "id": "switch-7-with-dx-114403",
     "jan": "4988615114403",
-    "title": "コーエーテクモゲームス (Switch)真・三國無双7 with 猛将伝 DX",
+    "title": "真・三國無双7 with 猛将伝 DX",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 902,
+    "searches": 149,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1545836400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988615114403-54-40560.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615114403.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988615114403-54-40560",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4988615114403",
     "purchase": [],
     "sale": [
       {
@@ -3779,14 +3710,15 @@ export const generatedGames = [
     "jan": "4549576187037",
     "title": "Minecraft Dungeons Ultimate Edition",
     "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 900,
+    "searches": 147,
     "aliases": [],
     "releaseDate": "1635174000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4549576187037.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013424295",
     "purchase": [
@@ -3821,43 +3753,19 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-b-069920",
-    "jan": "4549767069920",
-    "title": "日本コロムビア (Switch)すみっコぐらし 学校生活はじめるんです",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 898,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4549767069920-54-46585.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4549767069920-54-46585",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1100,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000574"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
     "id": "ok-ns-sd-for-nintendo-switch-326087",
     "jan": "4573173326087",
     "title": "SDガンダム ジージェネレーション ジェネシス for Nintendo Switch",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 897,
+    "searches": 145,
     "aliases": [],
     "releaseDate": "1524668400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573173326087.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0012735499",
     "purchase": [
@@ -3897,20 +3805,21 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-golf-world-b-139091",
+    "id": "golf-world-switch-hac-p-blt8a-139091",
     "jan": "4573608139091",
-    "title": "バンダイナムコエンターテインメント (Switch)みんなのGOLF WORLD",
+    "title": "みんなのGOLF WORLD 【Switch】",
     "genre": "スポーツ",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 896,
+    "searches": 171,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4573608139091-54-40564.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/yamada-denki/2820782012.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4573608139091-54-40564",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/yamada-denki_2820782012",
     "purchase": [],
     "sale": [
       {
@@ -3926,8 +3835,9 @@ export const generatedGames = [
     "jan": "4902370551600",
     "title": "超おどる メイド イン ワリオ",
     "genre": "パーティー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 895,
+    "searches": 143,
     "aliases": [
       "超おどる メイド イン ワリオ Switch用ソフト(パッケージ版)"
     ],
@@ -3935,7 +3845,7 @@ export const generatedGames = [
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/light-hikari/4902370551600.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013819883",
     "purchase": [
@@ -3979,14 +3889,15 @@ export const generatedGames = [
     "jan": "4902370551938",
     "title": "ルイージマンション2 HD",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 893,
+    "searches": 150,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370551938-54-40560.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/cokotokyo_14060",
     "purchase": [
@@ -4025,14 +3936,15 @@ export const generatedGames = [
     "jan": "4573608194168",
     "title": "バンダイナムコエンターテインメント (Switch)ドラゴンボール Sparking! ZERO",
     "genre": "格闘",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 889,
+    "searches": 144,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4573608194168-54-46582.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4573608194168-54-46582",
     "purchase": [],
@@ -4046,43 +3958,19 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "nintendo-switch-540437",
-    "jan": "4902370540437",
-    "title": "スーパー マリオパーティ -Nintendo Switch 【任天堂】",
-    "genre": "パーティー",
-    "cover": "GM",
-    "searches": 888,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/llhat/4902370540437.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/llhat_4902370540437",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2600,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000251"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
     "id": "nsw-906423",
     "jan": "4984995906423",
     "title": "ユニコーンオーバーロード",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 887,
+    "searches": 139,
     "aliases": [],
     "releaseDate": "1709823600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4984995906423.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_223042062-223",
     "purchase": [
@@ -4131,14 +4019,15 @@ export const generatedGames = [
     "jan": "4510772180160",
     "title": "アークシステムワークス (Switch)くにおくん ザ・ワールド クラシックスコレクションくにおくん",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 886,
+    "searches": 138,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4510772180160-54-40560.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4510772180160-54-40560",
     "purchase": [],
@@ -4156,14 +4045,15 @@ export const generatedGames = [
     "jan": "4582528393667",
     "title": "スーパーロボット大戦X",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 885,
+    "searches": 137,
     "aliases": [],
     "releaseDate": "1578582000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4582528393667.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline_0019369784",
     "purchase": [
@@ -4197,14 +4087,15 @@ export const generatedGames = [
     "jan": "4988615142215",
     "title": "三國志14 with パワーアップキット",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 884,
+    "searches": 136,
     "aliases": [],
     "releaseDate": "1607526000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615142215.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013204988",
     "purchase": [
@@ -4253,14 +4144,15 @@ export const generatedGames = [
     "jan": "4904790598982",
     "title": "プリパラ オールアイドルパーフェ クトステージ!",
     "genre": "音楽・リズム",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 883,
+    "searches": 135,
     "aliases": [],
     "releaseDate": "1521644400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4904790598982.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350005718",
     "purchase": [
@@ -4299,14 +4191,15 @@ export const generatedGames = [
     "jan": "4974365862879",
     "title": "セガ (Switch)ソニックフロンティア",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 882,
+    "searches": 134,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4974365862879-54-40560.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4974365862879-54-40560",
     "purchase": [],
@@ -4324,14 +4217,15 @@ export const generatedGames = [
     "jan": "4902370539806",
     "title": "進め!キノピオ隊長",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 880,
+    "searches": 132,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370539806-54-46585.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019081456",
     "purchase": [
@@ -4385,14 +4279,15 @@ export const generatedGames = [
     "jan": "4580555480060",
     "title": "Overcooked! - オーバークック 王国のフルコース -",
     "genre": "パーティー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 879,
+    "searches": 131,
     "aliases": [],
     "releaseDate": "1626793200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4580555480060.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4580555480060",
     "purchase": [],
@@ -4410,14 +4305,15 @@ export const generatedGames = [
     "jan": "4548967324754",
     "title": "LEGO シティ アンダーカバー",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 878,
+    "searches": 130,
     "aliases": [],
     "releaseDate": "1498662000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4548967324754.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0018866624",
     "purchase": [
@@ -4441,14 +4337,15 @@ export const generatedGames = [
     "jan": "4589508180071",
     "title": "UNDERTALE",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 877,
+    "searches": 129,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/esdigital/10785918.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350012661",
     "purchase": [
@@ -4487,14 +4384,15 @@ export const generatedGames = [
     "jan": "4902370549799",
     "title": "マリオストライカーズ バトルリーグ",
     "genre": "スポーツ",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 876,
+    "searches": 128,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370549799-54-40564.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019838131",
     "purchase": [
@@ -4518,14 +4416,15 @@ export const generatedGames = [
     "jan": "4904810930822",
     "title": "タカラトミー (Switch)人生ゲーム for Nintendo Switch",
     "genre": "パーティー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 875,
+    "searches": 127,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4904810930822-54-46585.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4904810930822-54-46585",
     "purchase": [],
@@ -4543,14 +4442,15 @@ export const generatedGames = [
     "jan": "4976219130165",
     "title": "カプコン (Switch)MARVEL vs. CAPCOM ファイティングコレクション アーケードクラシックス",
     "genre": "格闘",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 874,
+    "searches": 126,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4976219130165-54-46582.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4976219130165-54-46582",
     "purchase": [],
@@ -4564,508 +4464,48 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-y-b-139060",
-    "jan": "4573608139060",
-    "title": "バンダイナムコエンターテインメント (Switch)スーパーロボット大戦Y",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 872,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4573608139060-54-40562.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4573608139060-54-40562",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2100,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004387"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-270128",
-    "jan": "4589664270128",
-    "title": "エムツー (Switch)究極タイガーヘリ",
-    "genre": "シューティング",
-    "cover": "GM",
-    "searches": 870,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4589664270128-54-46581.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4589664270128-54-46581",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 3500,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001726"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-v-dx-168413",
-    "jan": "4988615168413",
-    "title": "太閤立志伝V DX",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 867,
-    "aliases": [],
-    "releaseDate": "1652886000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615168413.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013479005",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4066,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013479005.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4066,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013479005.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4510,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019823892.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4510,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019823892.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2200,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002084"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "ok-ns-2020-the-official-video-game-861520",
-    "jan": "4974365861520",
-    "title": "東京2020オリンピック The Official Video Game",
-    "genre": "スポーツ",
-    "cover": "GM",
-    "searches": 866,
-    "aliases": [],
-    "releaseDate": "1563894000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4974365861520.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350013688",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1680,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350013688.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1683,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260723sk120195.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 700,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000554"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-516512",
-    "jan": "4940261516512",
-    "title": "テラリア",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 865,
-    "aliases": [],
-    "releaseDate": "1576681200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4940261516512.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013029811",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3840,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013029811.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3840,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013029811.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019351595.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019351595.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6060,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000781001.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 3200,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000781"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-one-piece-4-deluxe-edition-b-328350",
-    "jan": "4570131328350",
-    "title": "バンダイナムコエンターテインメント (Switch)ONE PIECE 海賊無双4 Deluxe Edition",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 863,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4570131328350-54-40560.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4570131328350-54-40560",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2600,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003083"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-103778",
-    "jan": "4965857103778",
-    "title": "イマジニア (Switch)漢検スマート対策",
-    "genre": "テーブル・学習",
-    "cover": "GM",
-    "searches": 861,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4965857103778-54-46586.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4965857103778-54-46586",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2300,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002495"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-319926",
-    "jan": "4549767319926",
-    "title": "日本コロムビア (Switch)すみっコぐらし つくろう!ステキなすみっコ島",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 857,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4549767319926-54-40562.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4549767319926-54-40562",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2300,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004625"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-548426",
-    "jan": "4902370548426",
-    "title": "おすそわける メイド イン ワリオ",
-    "genre": "パーティー",
-    "cover": "GM",
-    "searches": 856,
-    "aliases": [],
-    "releaseDate": "1631199600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370548426.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013338305",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2983,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013338305.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3250,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fthrifty%2Fnintendo-hac-p-aw7na-2839.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3267,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019722926.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260722sk110693.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4080,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdaichugame%2Famazon9004.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1200,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001673"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-550887",
-    "jan": "4902370550887",
-    "title": "マリオ+ラビッツ ギャラクシーバトル",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 855,
-    "aliases": [],
-    "releaseDate": "1669906800",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370550887.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/vivoage_260729rm400362",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2673,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260729rm400362.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2922,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350014557.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2983,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013620945.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1300,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002453"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-552119",
-    "jan": "4902370552119",
-    "title": "フォーエバーブルー ルミナス",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 854,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370552119-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013928766",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3390,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013928766.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3390,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013928766.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3508,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350012597.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3509,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020289144.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3509,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0020289144.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5310,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhotmeteor%2Fb0cw5lz8f1-a175icbmlj62t4-20260503.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5324,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260718rm310063.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1400,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003555"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-fit-boxing-3-your-b-104454",
-    "jan": "4965857104454",
-    "title": "イマジニア (Switch)Fit Boxing 3 -Your パーソナルトレーナー-",
-    "genre": "音楽・リズム",
-    "cover": "GM",
-    "searches": 852,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4965857104454-54-46583.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4965857104454-54-46583",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 3600,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004005"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-5-b-905648",
-    "jan": "4984995905648",
-    "title": "アトラス (Switch)ペルソナ5 ザ・ロイヤル",
+    "id": "nsw-1-for-nintendo-switch-661174",
+    "jan": "4571237661174",
+    "title": "妖怪ウォッチ1 for Nintendo Switch レベルファイブ ザ ベスト",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 851,
+    "searches": 146,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1619017200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4984995905648-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4571237661174.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4984995905648-54-40561",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4571237661174",
     "purchase": [],
     "sale": [
       {
         "name": "駿河屋",
-        "price": 1800,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002298"
+        "price": 1500,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001500"
       }
     ],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "ok-ns-6-520175",
+    "id": "switch-6-2024-1-25-520175",
     "jan": "4940261520175",
-    "title": "不思議のダンジョン 風来のシレン6 とぐろ島探検録",
+    "title": "不思議のダンジョン 風来のシレン6 とぐろ島探検録(2024年1月25日発売)",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 845,
+    "searches": 17,
     "aliases": [],
     "releaseDate": "1706108400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4940261520175.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74930.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0013857468",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4066,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013857468.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4292,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013857468.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0020201490.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020201490.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4829,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001234473.html"
-      }
-    ],
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74930",
+    "purchase": [],
     "sale": [
       {
         "name": "駿河屋",
@@ -5076,679 +4516,21 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-for-nintendo-switch-126197",
-    "jan": "4549767126197",
-    "title": "もしかして?おばけの射的屋 for Nintendo Switch",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 843,
-    "aliases": [],
-    "releaseDate": "1625065200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4549767126197.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline_0019647948",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019647948.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019647948.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1500,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001573"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-996486",
-    "jan": "4571577996486",
-    "title": "ウルトラ怪獣モンスターファーム",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 841,
-    "aliases": [],
-    "releaseDate": "1666191600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/toy24shop/4571577996486.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350009378",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3265,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350009378.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3267,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019892306.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3267,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019892306.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3399,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001229447.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3480,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdaichugame%2Famazon20260723001.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1200,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002348"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "ok-ns-334730",
-    "jan": "4573173334730",
-    "title": "ドラゴンボール ファイターズ",
-    "genre": "格闘",
-    "cover": "GM",
-    "searches": 835,
-    "aliases": [],
-    "releaseDate": "1537974000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573173334730.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350007336",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350007336.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3025,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019109856.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3025,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019109856.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3232,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012817030.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1200,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000266"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-712581",
-    "jan": "4510347712581",
-    "title": "小学館 (Switch)ドラえもん学習コレクション",
-    "genre": "テーブル・学習",
-    "cover": "GM",
-    "searches": 834,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4510347712581-54-46586.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4510347712581-54-46586",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2100,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001326"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-lego-433906",
-    "jan": "4548967433906",
-    "title": "LEGO ジュラシック・ワールド",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 832,
-    "aliases": [],
-    "releaseDate": "1574262000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4548967433906.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013015424",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2735,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013015424.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3025,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019334851.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3025,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019334851.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1500,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000700"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-for-nintendo-switch-661006",
-    "jan": "4571237661006",
-    "title": "二ノ国 白き聖灰の女王 for Nintendo Switch",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 831,
-    "aliases": [],
-    "releaseDate": "1568905200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4571237661006.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/kawase-shop_1771986290-345",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5680,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkawase-shop%2F1771986290-345.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6280,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000623001.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2600,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000623"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-198562",
-    "jan": "4573608198562",
-    "title": "バンダイナムコエンターテインメント (Switch)ワンス・アポン・ア・塊魂",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 829,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4573608198562-54-40560.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4573608198562-54-40560",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2000,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004577"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-lego-862619",
-    "jan": "4974365862619",
-    "title": "LEGO マーベル スーパー・ヒーローズ ザ・ゲーム",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 828,
-    "aliases": [],
-    "releaseDate": "1639580400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4974365862619.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350014370",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350014370.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3267,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019761743.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1300,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001842"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-905259",
-    "jan": "4984995905259",
-    "title": "十三機兵防衛圏",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 827,
-    "aliases": [],
-    "releaseDate": "1649862000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4984995905259.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019810253",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019810253.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019810253.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4400,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350008594.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4580,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fcokotokyo%2F13156.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2100,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001955"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-000090",
-    "jan": "4988635000090",
-    "title": "奇々怪界 黒マントの謎",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 825,
-    "aliases": [],
-    "releaseDate": "1650466800",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988635000090.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019810242",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3960,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019810242.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001236378.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5160,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109002031001.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2400,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002031"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-angry-alligator-495238",
-    "jan": "0797776495238",
-    "title": "Angry Alligator ワニワニ大冒険",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 820,
-    "aliases": [],
-    "releaseDate": "1638975600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/0797776495238.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/ank-shop_1782490765-2570",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1780,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fank-shop%2F1782490765-2570.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1000,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001841"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-191140",
-    "jan": "4549767191140",
-    "title": "日本コロムビア (Switch)バン!バン!バンディッツ",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 819,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4549767191140-54-46581.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4549767191140-54-46581",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2700,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003948"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-x-b-318370",
-    "jan": "4549767318370",
-    "title": "日本コロムビア (Switch)ほねほねザウルスX 超合体!ビルド&バトル",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 818,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4549767318370-54-40562.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4549767318370-54-40562",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2100,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003996"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-220021",
-    "jan": "4571556220021",
-    "title": "タイピングクエスト",
-    "genre": "テーブル・学習",
-    "cover": "GM",
-    "searches": 815,
-    "aliases": [],
-    "releaseDate": "1619017200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4571556220021.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019613178",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019613178.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1700,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001510"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-400020",
-    "jan": "4573564400020",
-    "title": "グノーシア",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 813,
-    "aliases": [],
-    "releaseDate": "1608130800",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4573564400020.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_231007418-231",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4400,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F231007418-231.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4950,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019546941.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4950,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019546941.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5072,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109001242001.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2500,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001242"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "ok-ns-rpg-mv-trinity-661354",
-    "jan": "4582350661354",
-    "title": "RPGツクールMV Trinity",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 812,
-    "aliases": [],
-    "releaseDate": "1542207600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4582350661354.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350012857",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2375,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350012857.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2740,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkawase-shop%2F1771771488-2570.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3000,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fcokotokyo%2F11209.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3201,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhotmeteor%2Fb07fvypyt4-a2df11tv9jytcw-20260503.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3379,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhotmeteor%2Fb07fvypyt4-a3u1uds21elxk6-20260503.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4184,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhotmeteor%2Fb07fvypyt4-a3ptx32l87r79h-20260503.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1300,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000305"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "ok-ns-naruto-4-road-to-boruto-403151",
-    "jan": "4582528403151",
-    "title": "NARUTO-ナルト-疾風伝 ナルティメットストーム4 ROAD TO BORUTO",
-    "genre": "格闘",
-    "cover": "GM",
-    "searches": 811,
-    "aliases": [],
-    "releaseDate": "1587567600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4582528403151.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019433365",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3872,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019433365.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2100,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000840"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "ok-ns-rise-of-new-champions-423197",
-    "jan": "4582528423197",
-    "title": "キャプテン翼 RISE OF NEW CHAMPIONS",
-    "genre": "スポーツ",
-    "cover": "GM",
-    "searches": 810,
-    "aliases": [],
-    "releaseDate": "1598454000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4582528423197.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019493066",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019493066.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1600,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001049"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "ok-ns-490018",
+    "id": "switch-490018",
     "jan": "4582586490018",
     "title": "オバケイドロ!",
     "genre": "パズル",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 809,
+    "searches": 163,
     "aliases": [],
     "releaseDate": "1576681200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4582586490018.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4582586490018.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4582586490018",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4582586490018",
     "purchase": [],
     "sale": [
       {
@@ -5760,1303 +4542,27 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "ok-ns-8-8-580685",
-    "jan": "4589794580685",
-    "title": "8番出口・8番のりば",
-    "genre": "パズル",
-    "cover": "GM",
-    "searches": 808,
-    "aliases": [],
-    "releaseDate": "1732719600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4589794580685.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0020417189",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3025,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020417189.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1500,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004003"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "ok-ns-169185",
-    "jan": "4904810169185",
-    "title": "ゾイドワイルド インフィニティブラスト",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 806,
-    "aliases": [],
-    "releaseDate": "1606316400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4904810169185.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019542707",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019542707.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5110,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109001181001.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5710,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkawase-shop%2F1771771483-2463.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2300,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001181"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "fit-boxing-switch-103754",
-    "jan": "4965857103754",
-    "title": "Fit Boxing 北斗の拳",
-    "genre": "音楽・リズム",
-    "cover": "GM",
-    "searches": 804,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/light-hikari/4965857103754.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013620192",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4970,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013620192.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4970,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013620192.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5440,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350011326.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5445,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019915788.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5445,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019915788.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5500,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fcokotokyo%2F11218.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5800,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fworldplus01%2Fhokutonoken.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6039,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001204228.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2000,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002454"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "nintendo-switch-103785",
-    "jan": "4965857103785",
-    "title": "英検スマート対策 -Nintendo Switch【イマジニア】",
-    "genre": "テーブル・学習",
-    "cover": "GM",
-    "searches": 803,
-    "aliases": [],
-    "releaseDate": "1670425200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/llhat/4965857103785.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/llhat_4965857103785",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1900,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002496"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-2-b-132695",
-    "jan": "4976219132695",
-    "title": "カプコン (Switch)カプコン ファイティング コレクション2",
-    "genre": "格闘",
-    "cover": "GM",
-    "searches": 802,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4976219132695-54-46582.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4976219132695-54-46582",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2400,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004295"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-011259",
-    "jan": "4988601011259",
-    "title": "ライブアライブ",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 800,
-    "aliases": [],
-    "releaseDate": "1658415600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988601011259.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/vivoage_260722sk150230",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3076,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260722sk150230.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3267,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019851168.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3619,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001235110.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fcokotokyo%2F12485.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4090,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkawase-shop%2F1771771473-2399.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 900,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002087"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-0-b-012041",
-    "jan": "4988601012041",
-    "title": "スクウェア・エニックス (Switch)オクトパストラベラー0",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 799,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601012041-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601012041-54-40561",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2200,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004580"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "ok-ns-998902",
-    "jan": "4527823998902",
-    "title": "ひろがるスカイ!プリキュア ひろがる!パズルコレクション",
-    "genre": "パズル",
-    "cover": "GM",
-    "searches": 795,
-    "aliases": [],
-    "releaseDate": "1691593200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4527823998902.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013765873",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1740,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013765873.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2319,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260714sk490385.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1000,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002973"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-303233",
-    "jan": "4535506303233",
-    "title": "牧場物語 オリーブタウンと希望の大地",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 792,
-    "aliases": [],
-    "releaseDate": "1614178800",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4535506303233.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013233782",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1740,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013233782.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350013561.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2280,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350012422.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2290,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkawase-shop%2F1771608561-1569.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2290,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftnk-store7154%2F20240526153002-00150us.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3080,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fcokotokyo%2F13067.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3500,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fworldplus01%2Fmakiba.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3729,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001232142.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 600,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001307"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-welcome-b-303516",
-    "jan": "4535506303516",
-    "title": "マーベラス (Switch)牧場物語 Welcome!ワンダフルライフ",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 791,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4535506303516-54-40562.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4535506303516-54-40562",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1300,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002457"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "ok-ns-138602",
-    "jan": "4549767138602",
-    "title": "映画すみっコぐらし 青い月夜のまほうのコ ゲームであそぼう! 映画の世界",
+    "id": "switch-552300",
+    "jan": "4902370552300",
+    "title": "ファミコン探偵倶楽部 笑み男",
     "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 790,
+    "searches": 40,
     "aliases": [],
-    "releaseDate": "1638370800",
+    "releaseDate": "1724857200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4549767138602.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/toy24shop/4902370552300.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/kawase-shop_1771771475-2448",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1420,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkawase-shop%2F1771771475-2448.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350007939.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1989,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013387760.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 400,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001824"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-dx-661198",
-    "jan": "4571237661198",
-    "title": "レイトン ミステリージャーニー カトリーエイルと大富豪の陰謀DX+",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 788,
-    "aliases": [],
-    "releaseDate": "1625670000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4571237661198.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350014287",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4292,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350014287.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019647952.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019647952.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2200,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001611"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-270873",
-    "jan": "4580206270873",
-    "title": "プロトタイプ (Switch)グリザイアの果実・迷宮・楽園 フルパッケージ",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 784,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4580206270873-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4580206270873-54-46584",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 3500,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000664"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-fit-boxing-feat-b-104287",
-    "jan": "4965857104287",
-    "title": "イマジニア (Switch)Fit Boxing feat. 初音ミク ‐ミクといっしょにエクササイズ‐",
-    "genre": "音楽・リズム",
-    "cover": "GM",
-    "searches": 778,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4965857104287-54-40564.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4965857104287-54-40564",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2400,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003256"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-004422",
-    "jan": "4995506004422",
-    "title": "日本一ソフトウェア (Switch)ガレリアの地下迷宮と魔女ノ旅団",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 773,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995506004422-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995506004422-54-40561",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2900,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001789"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-126210",
-    "jan": "4549767126210",
-    "title": "日本コロムビア (Switch)わんニャンペットショップ かわいいペットとふれあう毎日",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 769,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4549767126210-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4549767126210-54-46584",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1100,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001555"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-080956",
-    "jan": "4549767080956",
-    "title": "ピカピカナース物語 小児科はいつも大騒ぎ",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 764,
-    "aliases": [],
-    "releaseDate": "1585753200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4549767080956.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013085979",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1989,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013085979.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2110,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkawase-shop%2F1771772161-5731.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3025,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019433055.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3025,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019433055.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3230,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fworldplus01%2Fgame83.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1000,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000888"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-095820",
-    "jan": "4549767095820",
-    "title": "日本コロムビア (Switch)わんニャンどうぶつ病院 ペットを助けるだいじなお仕事",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 763,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4549767095820-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4549767095820-54-46584",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 900,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001012"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-165851",
-    "jan": "4549767165851",
-    "title": "日本コロムビア (Switch)すみっコぐらし みんなでリズムパーティ",
-    "genre": "音楽・リズム",
-    "cover": "GM",
-    "searches": 762,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4549767165851-54-46583.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4549767165851-54-46583",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/toy24shop_4902370552300",
     "purchase": [],
     "sale": [
       {
         "name": "駿河屋",
         "price": 1400,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002416"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-realpro-b-911487",
-    "jan": "4560221911487",
-    "title": "ソニックパワード (Switch)鉄道にっぽん! RealPro 長距離運転!特急ひのとり 近畿日本鉄道 編",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 761,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4560221911487-54-40562.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4560221911487-54-40562",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 4200,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004626"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-i-ii-hd-remaster-b-296840",
-    "jan": "4570131296840",
-    "title": "バンダイナムコエンターテインメント (Switch)バテン・カイトス I & II HD Remaster",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 760,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4570131296840-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4570131296840-54-40561",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2000,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003041"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-ii-all-in-one-edition-b-661235",
-    "jan": "4571237661235",
-    "title": "レベルファイブ (Switch)二ノ国II レヴァナントキングダム All In One Edition",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 759,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4571237661235-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4571237661235-54-40561",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1700,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001632"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-967165",
-    "jan": "4571577967165",
-    "title": "バンダイナムコエンターテインメント (Switch)デジモンサヴァイブ",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 756,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4571577967165-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4571577967165-54-40561",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 600,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002183"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-994680",
-    "jan": "4571577994680",
-    "title": "ドラえもん のび太の牧場物語 大自然の王国とみんなの家",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 755,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/light-hikari/4571577994680.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350011768",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4180,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350011768.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019902069.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5160,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109002377001.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2300,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002377"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "hades-nintendo-switch-supergiant-180125",
-    "jan": "4589508180125",
-    "title": "HADES(ハデス)-Nintendo Switch【SuperGiant】",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 751,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/llhat/4589508180125.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/llhat_4589508180125",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1600,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001749"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "playism-switch-deeeer-simulator-b-580227",
-    "jan": "4589794580227",
-    "title": "PLAYISM (Switch)ごく普通の鹿のゲーム DEEEER Simulator 鹿フル装備エディション",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 749,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4589794580227-54-40560.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4589794580227-54-40560",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1200,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001790"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-4-b-862077",
-    "jan": "4974365862077",
-    "title": "セガ (Switch)戦場のヴァルキュリア4 新価格版",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 746,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4974365862077-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4974365862077-54-40561",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1000,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001165"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-011396",
-    "jan": "4988601011396",
-    "title": "スクウェア・エニックス (Switch)ニーア オートマタ ジ エンド オブ ヨルハ エディション",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 744,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601011396-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601011396-54-40561",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1700,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002297"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-011464",
-    "jan": "4988601011464",
-    "title": "タクティクスオウガ リボーン",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 743,
-    "aliases": [],
-    "releaseDate": "1668092400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988601011464.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline_0019902068",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3509,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019902068.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3509,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019902068.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3872,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350010315.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fcokotokyo%2F14081.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1600,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002369"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-168321",
-    "jan": "4988615168321",
-    "title": "ファイアーエムブレム無双 風花雪月",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 739,
-    "aliases": [],
-    "releaseDate": "1655996400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615168321.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0013528787",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4292,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013528787.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019838127.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4518,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013528787.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4550,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350008675.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5734,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftnk-store7154%2F20240525202814-01458us.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2400,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002089"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-004019",
-    "jan": "4995506004019",
-    "title": "日本一ソフトウェア (Switch)探偵撲滅",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 737,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995506004019-54-40562.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995506004019-54-40562",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1600,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001461"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-5-303110",
-    "jan": "4535506303110",
-    "title": "ルーンファクトリー5",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 720,
-    "aliases": [],
-    "releaseDate": "1621436400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4535506303110.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/vivoage_260722sk090318",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1436,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260722sk090318.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1728,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350007199.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1740,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013281397.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2170,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkawase-shop%2F1771771473-2401.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2800,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fcokotokyo%2F11391.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 350,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001308"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-326382",
-    "jan": "4549767326382",
-    "title": "日本コロムビア (Switch)ひみつのアイプリ あつめて!シークレットメモリーズ",
-    "genre": "音楽・リズム",
-    "cover": "GM",
-    "searches": 717,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4549767326382-54-46583.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4549767326382-54-46583",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1800,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004072"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-339863",
-    "jan": "4549767339863",
-    "title": "日本コロムビア (Switch)蟲神器 めざせ!最強の蟲主",
-    "genre": "テーブル・学習",
-    "cover": "GM",
-    "searches": 716,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4549767339863-54-46585.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4549767339863-54-46585",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1500,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004616"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "ok-ns-4-0-781710",
-    "jan": "4562106781710",
-    "title": "大戦略パーフェクト4.0",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 714,
-    "aliases": [],
-    "releaseDate": "1537369200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4562106781710.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019109788",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 7139,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019109788.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 7530,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000096001.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 3300,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000096"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-236930",
-    "jan": "4562240236930",
-    "title": "フリュー (Switch)聖塔神記 トリニティトリガー",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 712,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4562240236930-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4562240236930-54-40561",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 900,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002246"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "dramatic-create-switch-dreams-of-the-revenants-edition-b-151533",
-    "jan": "4580302151533",
-    "title": "dramatic create (Switch)ファタモルガーナの館 -DREAMS OF THE REVENANTS EDITION-",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 704,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4580302151533-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4580302151533-54-46584",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 3600,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001376"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-750129",
-    "jan": "4580650750129",
-    "title": "フロントミッション・ザ・ファースト:リメイク",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 703,
-    "aliases": [
-      "フロントミッション・ザ・ファースト リメイク Switch用ソフト(パッケージ版)"
-    ],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/light-hikari/4580650750129.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0013728881",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3840,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013728881.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4066,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013728881.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020057822.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0020057822.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5489,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001233191.html"
-      }
-    ],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 1700,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002826"
-      }
-    ],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "3goo-switch-wrc-b-090847",
-    "jan": "4589857090847",
-    "title": "3goo (Switch)WRCジェネレーションズ",
-    "genre": "レース",
-    "cover": "GM",
-    "searches": 702,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4589857090847-54-40563.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4589857090847-54-40563",
-    "purchase": [],
-    "sale": [
-      {
-        "name": "駿河屋",
-        "price": 2600,
-        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002485"
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003900"
       }
     ],
     "updatedAt": "2026-08-01T22:19:07.875Z"
@@ -7066,14 +4572,15 @@ export const generatedGames = [
     "jan": "4988602173222",
     "title": "桃太郎電鉄 〜昭和 平成 令和も定番!〜",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 999,
+    "searches": 249,
     "aliases": [],
     "releaseDate": "1605711600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988602173222.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_233014098-233",
     "purchase": [
@@ -7121,14 +4628,15 @@ export const generatedGames = [
     "jan": "4549576094113",
     "title": "Minecraft",
     "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 990,
+    "searches": 240,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/esdigital/10777938.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0012770330",
     "purchase": [
@@ -7171,14 +4679,15 @@ export const generatedGames = [
     "jan": "4988615142192",
     "title": "ゼルダ無双 厄災の黙示録",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 984,
+    "searches": 234,
     "aliases": [],
     "releaseDate": "1605798000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615142192.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013189538",
     "purchase": [
@@ -7241,14 +4750,15 @@ export const generatedGames = [
     "jan": "4902370543896",
     "title": "ポケットモンスター シールド",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 977,
+    "searches": 227,
     "aliases": [],
     "releaseDate": "1573743600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370543896.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013015417",
     "purchase": [
@@ -7296,14 +4806,15 @@ export const generatedGames = [
     "jan": "4988602176490",
     "title": "桃太郎電鉄ワールド 〜地球は希望でまわってる!〜",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 972,
+    "searches": 222,
     "aliases": [],
     "releaseDate": "1700060400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online/4988602176490.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_78311317-237",
     "purchase": [
@@ -7371,14 +4882,15 @@ export const generatedGames = [
     "jan": "4534530136718",
     "title": "鬼滅の刃 ヒノカミ血風譚",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 967,
+    "searches": 218,
     "aliases": [],
     "releaseDate": "1654700400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4534530136718.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013497471",
     "purchase": [
@@ -7426,14 +4938,15 @@ export const generatedGames = [
     "jan": "4988602179248",
     "title": "桃太郎電鉄2 〜あなたの町も きっとある〜 東日本編+西日本編",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 962,
+    "searches": 212,
     "aliases": [],
     "releaseDate": "1762959600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4988602179248.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0014139552",
     "purchase": [
@@ -7486,14 +4999,15 @@ export const generatedGames = [
     "jan": "4580635950049",
     "title": "クレヨンしんちゃん「オラと博士の夏休み」〜おわらない七日間の旅〜",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 957,
+    "searches": 207,
     "aliases": [],
     "releaseDate": "1626274800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4580635950049.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013309403",
     "purchase": [
@@ -7511,14 +5025,15 @@ export const generatedGames = [
     "jan": "4988602177534",
     "title": "パワフルプロ野球 2024-2025",
     "genre": "スポーツ",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 942,
+    "searches": 190,
     "aliases": [],
     "releaseDate": "1721228400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988602177534.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0020331704",
     "purchase": [
@@ -7561,14 +5076,15 @@ export const generatedGames = [
     "jan": "4902370550351",
     "title": "Xenoblade3(ゼノブレイド3)",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 938,
+    "searches": 186,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370550351-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/vivoage_260727sk300240",
     "purchase": [
@@ -7586,14 +5102,15 @@ export const generatedGames = [
     "jan": "4902370552492",
     "title": "ドンキーコング リターンズ HD",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 933,
+    "searches": 182,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370552492-54-40560.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0014023093",
     "purchase": [
@@ -7651,14 +5168,15 @@ export const generatedGames = [
     "jan": "4902370547924",
     "title": "ミートピア",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 928,
+    "searches": 179,
     "aliases": [],
     "releaseDate": "1621522800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370547924.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350014841",
     "purchase": [
@@ -7686,14 +5204,15 @@ export const generatedGames = [
     "jan": "4902370539370",
     "title": "ドンキーコング トロピカルフリーズ",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 924,
+    "searches": 175,
     "aliases": [],
     "releaseDate": "1525273200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370539370.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350004122",
     "purchase": [
@@ -7741,14 +5260,15 @@ export const generatedGames = [
     "jan": "4570016501113",
     "title": "ヒューマン フォール フラット",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 921,
+    "searches": 172,
     "aliases": [],
     "releaseDate": "1593010800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4570016501113.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline_0019466968",
     "purchase": [
@@ -7771,14 +5291,15 @@ export const generatedGames = [
     "jan": "4582528436494",
     "title": "リトルナイトメア 2",
     "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 919,
+    "searches": 169,
     "aliases": [],
     "releaseDate": "1612882800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4582528436494.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline_0019577351",
     "purchase": [
@@ -7801,14 +5322,15 @@ export const generatedGames = [
     "jan": "4988602174267",
     "title": "ときめきメモリアル Girl's Side 4th Heart",
     "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 916,
+    "searches": 166,
     "aliases": [],
     "releaseDate": "1635346800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988602174267.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/kawase-shop_1779826415-3135",
     "purchase": [
@@ -7826,14 +5348,15 @@ export const generatedGames = [
     "jan": "4571237661105",
     "title": "妖怪学園Y 〜ワイワイ学園生活〜",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 915,
+    "searches": 165,
     "aliases": [],
     "releaseDate": "1608130800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4571237661105.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019546944",
     "purchase": [
@@ -7847,18 +5370,19 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-showtime-b-551891",
+    "id": "nsw-showtime-551891",
     "jan": "4902370551891",
     "title": "プリンセスピーチ Showtime!",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 894,
+    "searches": 142,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1711033200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370551891-54-40560.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370551891.html",
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline_0020246680",
     "purchase": [
@@ -7882,75 +5406,19 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-130844",
-    "jan": "4562412130844",
-    "title": "五等分の花嫁∫∫ 〜夏の思い出も五等分〜",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 842,
-    "aliases": [],
-    "releaseDate": "1616598000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4562412130844.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013250502",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2237,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013250502.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2237,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350007086.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "nintendo-labo-toy-con-01-variety-kit-538731",
-    "jan": "4902370538731",
-    "title": "Nintendo Labo Toy-Con 01: Variety Kit",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 821,
-    "aliases": [
-      "Nintendo Labo Toy-Con 01 Variety Kit"
-    ],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/at-field/sw-a-labo-variety.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019013725",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3509,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019013725.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
     "id": "switch-real-pro-911395",
     "jan": "4560221911395",
     "title": "鉄道にっぽん!Real Pro 特急ロマンスカー!小田急電鉄編",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 817,
+    "searches": 11,
     "aliases": [],
     "releaseDate": "1702479600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4560221911395.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0020182180",
     "purchase": [
@@ -7964,217 +5432,1036 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "ok-ns-love2-7-047268",
-    "jan": "4571442047268",
-    "title": "スーパーリアル麻雀 LOVE2〜7!",
-    "genre": "テーブル・学習",
-    "cover": "GM",
-    "searches": 786,
-    "aliases": [],
-    "releaseDate": "1587567600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4571442047268.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013085905",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4970,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013085905.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4970,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013085905.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6050,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019433376.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-163685",
-    "jan": "4988615163685",
-    "title": "零 〜濡鴉ノ巫女〜",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 774,
-    "aliases": [],
-    "releaseDate": "1635346800",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615163685.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350007954",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4680,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350007954.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019735111.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019735111.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-2-163975",
-    "jan": "4988615163975",
-    "title": "ソフィーのアトリエ2 〜不思議な夢の錬金術士〜",
+    "id": "switch2-pokemon-legends-z-a-nintendo-switch-2-edition-b-553574",
+    "jan": "4902370553574",
+    "title": "ポケモン (Switch2)Pokemon LEGENDS Z-A Nintendo Switch 2 Edition",
     "genre": "RPG",
+    "platform": "Nintendo Switch 2",
     "cover": "GM",
-    "searches": 740,
+    "searches": 300,
     "aliases": [],
-    "releaseDate": "1645628400",
+    "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615163975.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370553574-54-73630.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline_0019785632",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3872,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019785632.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3872,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019785632.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4000,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F219072446-237.html"
-      }
-    ],
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370553574-54-73630",
+    "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-viii-lacrimosa-of-dana-002787",
-    "jan": "4995506002787",
-    "title": "イースVIII -Lacrimosa of DANA-",
-    "genre": "RPG",
+    "id": "2-nintendo-switch-2-edition-179231",
+    "jan": "4988602179231",
+    "title": "『新品』桃太郎電鉄2 〜あなたの町も きっとある〜 Nintendo Switch 2 Edition 東日本編+西日本編",
+    "genre": "シミュレーション",
+    "platform": "Nintendo Switch 2",
     "cover": "GM",
-    "searches": 738,
+    "searches": 299,
     "aliases": [],
-    "releaseDate": "1530111600",
+    "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4995506002787.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/noahshoping/4988602179231.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/suruga-ya_109000160001",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 7030,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000160001.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 7139,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019066767.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 7780,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkawase-shop%2F1779826459-3273.html"
-      }
-    ],
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/noahshoping_4988602179231",
+    "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "ok-ns-047442",
-    "jan": "4571442047442",
-    "title": "アイドル雀士スーチーパイ サターントリビュート",
-    "genre": "テーブル・学習",
+    "id": "switch2-b-553642",
+    "jan": "4902370553642",
+    "title": "任天堂 (Switch2)カービィのエアライダー",
+    "genre": "レース",
+    "platform": "Nintendo Switch 2",
     "cover": "GM",
-    "searches": 708,
+    "searches": 298,
     "aliases": [],
-    "releaseDate": "1670425200",
+    "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4571442047442.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370553642-54-73635.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013620999",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1740,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013620999.html"
-      }
-    ],
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370553642-54-73635",
+    "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "ok-ns-one-piece-r-316866",
-    "jan": "4573173316866",
-    "title": "ONE PIECE アンリミテッドワールドR デラックスエディション",
+    "id": "switch2-b-553413",
+    "jan": "4902370553413",
+    "title": "任天堂 (Switch2)ドンキーコング バナンザ",
     "genre": "アクション",
+    "platform": "Nintendo Switch 2",
     "cover": "GM",
-    "searches": 707,
+    "searches": 297,
     "aliases": [],
-    "releaseDate": "1503500400",
+    "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573173316866.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370553413-54-73632.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0018898967",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3267,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0018898967.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3267,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0018898967.html"
-      }
-    ],
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370553413-54-73632",
+    "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "nintendo-switch-sports-050136-549263",
-    "jan": "4902370549263",
-    "title": "Nintendo Switch Sports 050136",
-    "genre": "スポーツ",
+    "id": "switch2-b-553260",
+    "jan": "4902370553260",
+    "title": "任天堂 (Switch2)マリオカート ワールド",
+    "genre": "レース",
+    "platform": "Nintendo Switch 2",
     "cover": "GM",
-    "searches": 983,
+    "searches": 296,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370553260-54-73635.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370553260-54-73635",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-b-211102",
+    "jan": "4988615211102",
+    "title": "コーエーテクモゲームス (Switch2)ゼルダ無双 封印戦記 通常版",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 295,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988615211102-54-73632.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988615211102-54-73632",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-nintendo-switch-2-edition-tv-b-553352",
+    "jan": "4902370553352",
+    "title": "任天堂 (Switch2)スーパー マリオパーティ ジャンボリー Nintendo Switch 2 Edition + ジャンボリーTV",
+    "genre": "パーティー",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 294,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370553352-54-73639.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370553352-54-73639",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-nintendo-switch-2-edition-b-553291",
+    "jan": "4902370553291",
+    "title": "任天堂 (Switch2)ゼルダの伝説 ブレス オブ ザ ワイルド Nintendo Switch 2 Edition",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 293,
     "aliases": [
-      "【即日出荷】【新品】Nintendo Switch Sports 050136"
+      "ブレワイ",
+      "ゼルダ ブレワイ",
+      "botw"
     ],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/gamedarake-store/4902370549263.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370553291-54-73632.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/gamedarake-store_4902370549263",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370553291-54-73632",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-nintendo-switch-2-edition-b-553901",
+    "jan": "4902370553901",
+    "title": "任天堂 (Switch2)あつまれ どうぶつの森 Nintendo Switch 2 Edition",
+    "genre": "シミュレーション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 292,
+    "aliases": [
+      "あつ森",
+      "あつもり"
+    ],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370553901-54-73639.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370553901-54-73639",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-b-553932",
+    "jan": "4902370553932",
+    "title": "任天堂 (Switch2)マリオテニス フィーバー",
+    "genre": "スポーツ",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 291,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370553932-54-73634.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370553932-54-73634",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-nintendo-switch-2-edition-b-553321",
+    "jan": "4902370553321",
+    "title": "任天堂 (Switch2)ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch 2 Edition",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 290,
+    "aliases": [
+      "ティアキン",
+      "ゼルダ ティアキン",
+      "totk"
+    ],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370553321-54-73632.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370553321-54-73632",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-3-b-137744",
+    "jan": "4976219137744",
+    "title": "カプコン (Switch2)モンスターハンターストーリーズ3 〜運命の双竜〜",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 289,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4976219137744-54-73630.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4976219137744-54-73630",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-nintendo-switch-2-edition-b-182387",
+    "jan": "4573608182387",
+    "title": "バンダイナムコエンターテインメント (Switch2)たまごっちのプチプチおみせっち おまちど〜さま! Nintendo Switch 2 Edition",
+    "genre": "シミュレーション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 288,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4573608182387-54-73639.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4573608182387-54-73639",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-ea-sports-fc-tm-26-b-024824",
+    "jan": "4938833024824",
+    "title": "エレクトロニック・アーツ (Switch2)EA SPORTS FC(TM) 26",
+    "genre": "スポーツ",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 287,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4938833024824-54-73632.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4938833024824-54-73632",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-0-b-012058",
+    "jan": "4988601012058",
+    "title": "スクウェア・エニックス (Switch2)オクトパストラベラー0",
+    "genre": "RPG",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 286,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601012058-54-73630.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601012058-54-73630",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-4-nintendo-switch-2-edition-b-553727",
+    "jan": "4902370553727",
+    "title": "任天堂 (Switch2)メトロイドプライム4 ビヨンド Nintendo Switch 2 Edition",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 285,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370553727-54-73631.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370553727-54-73631",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-i-nintendo-switch-2-edition-b-661303",
+    "jan": "4571237661303",
+    "title": "レベルファイブ (Switch2)ファンタジーライフi グルグルの竜と時をぬすむ少女 Nintendo Switch 2 Edition",
+    "genre": "RPG",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 284,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4571237661303-54-73630.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4571237661303-54-73630",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-2s-b-870546",
+    "jan": "4974365870546",
+    "title": "セガ (Switch2)ぷよぷよテトリス2S",
+    "genre": "パズル",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 283,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4974365870546-54-73639.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4974365870546-54-73639",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-b-137812",
+    "jan": "4976219137812",
+    "title": "カプコン (Switch2)プラグマタ 通常版",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 282,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4976219137812-54-73632.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4976219137812-54-73632",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-3-b-908489",
+    "jan": "4984995908489",
+    "title": "アトラス (Switch2)ペルソナ3 リロード",
+    "genre": "RPG",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 281,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4984995908489-54-73630.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4984995908489-54-73630",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-0-director-s-cut-b-870584",
+    "jan": "4974365870584",
+    "title": "セガ (Switch2)龍が如く0 誓いの場所 Director's Cut",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 280,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4974365870584-54-73632.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4974365870584-54-73632",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-nintendo-switch-2-edition-b-303936",
+    "jan": "4535506303936",
+    "title": "マーベラス (Switch2)龍の国 ルーンファクトリー Nintendo Switch 2 Edition",
+    "genre": "RPG",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 279,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4535506303936-54-73630.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4535506303936-54-73630",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "u-i-switch2-b-030415",
+    "jan": "4595057030415",
+    "title": "U&Iエンターテイメントジャパン (Switch2)ソーラーパンク:天空の島",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 278,
+    "aliases": [
+      "U&Iエンターテイメントジャパン (Switch2)ソーラーパンク 天空の島 返品種別B"
+    ],
+    "releaseDate": "1790780400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4595057030415-54-40562.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4595057030415-54-40562",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "minecraft-dungeons-ii-ii-nintendo-switch-2-299433",
+    "jan": "4549576299433",
+    "title": "Minecraft Dungeons II(マインクラフト ダンジョンズ II) -Nintendo Switch 2【日本マイクロソフト】",
+    "genre": "アドベンチャー",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 277,
+    "aliases": [],
+    "releaseDate": "1790694000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/llhat/4549576299433.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/llhat_4549576299433",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "shinobi-nintendo-switch-2-870980",
+    "jan": "4974365870980",
+    "title": "SHINOBI 復讐の斬撃 -Nintendo Switch 2【セガ】",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 276,
+    "aliases": [],
+    "releaseDate": "1790175600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/llhat/4974365871079.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/llhat_4974365871079",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "star-fox-nintendo-switch-2-554328",
+    "jan": "4902370554328",
+    "title": "『新品』Star Fox (スターフォックス) [Nintendo Switch 2 専用]",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 275,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/noahshoping/4902370554328.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/noahshoping_4902370554328",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-b-005825",
+    "jan": "4995506005825",
+    "title": "日本一ソフトウェア (Switch2)ほの暮しの庭",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 274,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995506005825-54-73638.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995506005825-54-73638",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nintendo-switch-2-554359",
+    "jan": "4902370554359",
+    "title": "『新品』スプラトゥーン レイダース [Nintendo Switch 2 専用]",
+    "genre": "シューティング",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 273,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/noahshoping/4902370554359.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/noahshoping_4902370554359",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-origins-b-211270",
+    "jan": "4988615211270",
+    "title": "コーエーテクモゲームス (Switch2)真・三國無双 ORIGINS",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 272,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988615211270-54-73632.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988615211270-54-73632",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-6-years-1-2-b-133814",
+    "jan": "4976219133814",
+    "title": "カプコン (Switch2)ストリートファイター6 Years 1-2 ファイターズエディション",
+    "genre": "格闘",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 271,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4976219133814-54-73633.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4976219133814-54-73633",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "h2-interactive-switch2-b-216305",
+    "jan": "8809459216305",
+    "title": "H2 INTERACTIVE (Switch2)ヒットマン ワールド・オブ・アサシネーション - シグネチャーエディション",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 270,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/8809459216305-54-73655.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_8809459216305-54-73655",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "2-10-2026-pot-p-abc5a-211409",
+    "jan": "4988615211409",
+    "title": "[ニンテンドースイッチ2ソフト] ウイニングポスト10 2026 [POT-P-ABC5A]",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 269,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001098194.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001098194",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "vii-reimagined-nintendo-switch-2-012089",
+    "jan": "4988601012089",
+    "title": "『新品』ドラゴンクエストVII Reimagined [Nintendo Switch 2 専用]",
+    "genre": "RPG",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 268,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/noahshoping/4988601012089.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/noahshoping_4988601012089",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "z-version-nintendo-switch-2-137577",
+    "jan": "4976219137577",
+    "title": "『新品』バイオハザード ヴィレッジ Z Version ゴールドエディション [Nintendo Switch 2 専用]",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 267,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/noahshoping/4976219137577.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/noahshoping_4976219137577",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "2-7-ver-pot-p-abasb-137539",
+    "jan": "4976219137539",
+    "title": "[ニンテンドースイッチ2ソフト] バイオハザード7 レジデント イービル ゴールドエディション グロテスク Ver. [POT-P-ABASB]",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 266,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001097801.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001097801",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-b-870744",
+    "jan": "4974365870744",
+    "title": "セガ (Switch2)龍が如く 極",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 265,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4974365870744-54-73632.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4974365870744-54-73632",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-2-b-870782",
+    "jan": "4974365870782",
+    "title": "セガ (Switch2)龍が如く 極2",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 264,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4974365870782-54-73632.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4974365870782-54-73632",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-b-870713",
+    "jan": "4974365870713",
+    "title": "セガ (Switch2)ツーポイントミュージアム",
+    "genre": "シミュレーション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 263,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4974365870713-54-73638.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4974365870713-54-73638",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-3-b-193970",
+    "jan": "4573608193970",
+    "title": "バンダイナムコエンターテインメント (Switch2)リトルナイトメア3",
+    "genre": "アドベンチャー",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 262,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4573608193970-54-73637.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4573608193970-54-73637",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "epic-games-switch2-fortnite-darkfire-ice-bandle-b-030231",
+    "jan": "4595057030231",
+    "title": "EPIC GAMES (Switch2)FORTNITE DARKFIRE & ICE BANDLE (オンライン専用)",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 261,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4595057030231-54-73631.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4595057030231-54-73631",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nintendo-switch-2-4521329460420-460420",
+    "jan": "4521329460420",
+    "title": "メール便配送 新品未開封品 Nintendo【Switch 2】 ぽこ あ ポケモン パッケージ版 4521329460420",
+    "genre": "RPG",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 260,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/digitalisland/4521329460420.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/digitalisland_4521329460420",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-path-of-the-goddess-b-133838",
+    "jan": "4976219133838",
+    "title": "カプコン (Switch2)祇(くにつがみ):Path of the Goddess",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 259,
+    "aliases": [
+      "カプコン (Switch2)祇(くにつがみ) Path of the Goddess 返品種別B"
+    ],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4976219133838-54-73632.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4976219133838-54-73632",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "split-fiction-nintendo-switch-2-r-logi-024800",
+    "jan": "4938833024800",
+    "title": "Split Fiction [Nintendo Switch 2 専用][ラッピング不可] R-LOGI",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 258,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/sokuteikiya/4938833024800.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/sokuteikiya_4938833024800",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-simple-vol-1-the-999619",
+    "jan": "4527823999619",
+    "title": "2 SIMPLEシリーズ Vol.1 THE 麻雀",
+    "genre": "テーブル・学習",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 257,
+    "aliases": [],
+    "releaseDate": "1775055600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online/4527823999619.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online_4527823999619",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch2-simple-vol-2-the-999626",
+    "jan": "4527823999626",
+    "title": "2 SIMPLEシリーズ Vol.2 THE ビリヤード",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 256,
+    "aliases": [],
+    "releaseDate": "1775055600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online/4527823999626.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online_4527823999626",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nintendo-switch-2-178814",
+    "jan": "4988602178814",
+    "title": "『新品』サバイバルキッズ [Nintendo Switch 2 専用]",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 255,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/noahshoping/4988602178814.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/noahshoping_4988602178814",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "26-09-24-switch2-shinobi-871079",
+    "jan": "4974365871079",
+    "title": "26/09/24発売(前日出荷) Switch2 SHINOBI 復讐の斬撃",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 254,
+    "aliases": [],
+    "releaseDate": "1790175600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online/4974365871079.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online_4974365871079",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "shadow-labyrinth-switch-2-edition-nintendo-switch-2-r-logi-182394",
+    "jan": "4573608182394",
+    "title": "Shadow Labyrinth Switch 2 Edition [Nintendo Switch 2][ラッピング不可] R-LOGI",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 253,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/sokuteikiya/4573608182394.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/sokuteikiya_4573608182394",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "2-ktgs-s0714-211287",
+    "jan": "4988615211287",
+    "title": "[ニンテンドースイッチ2ソフト] ゼルダ無双 封印戦記 トレジャーボックス [KTGS-S0714]",
+    "genre": "アクション",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 252,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001092887.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001092887",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "26-12-03-switch2-4-012256",
+    "jan": "4988601012256",
+    "title": "26/12/03発売 Switch2 ドラゴンクエストモンスターズ4 枯れ木の国のビアンカ・フローラ マスターズ版",
+    "genre": "RPG",
+    "platform": "Nintendo Switch 2",
+    "cover": "GM",
+    "searches": 251,
+    "aliases": [],
+    "releaseDate": "1796223600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988601012256.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4988601012256",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nintendo-switch-sports-r-logi-549263",
+    "jan": "4902370549263",
+    "title": "任天堂 Nintendo Switch Sports【ラッピング対応可】 R-LOGI",
+    "genre": "スポーツ",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 232,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/sokutei/4902370549263.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/sokutei_4902370549263",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
@@ -8184,14 +6471,15 @@ export const generatedGames = [
     "jan": "4902370541281",
     "title": "任天堂 New スーパーマリオブラザーズ U デラックス(パッケージ版)Switch用ソフト",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 966,
+    "searches": 217,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/light-hikari/4902370541281.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/light-hikari_4902370541281",
     "purchase": [],
@@ -8199,20 +6487,41 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-x-b-011143",
-    "jan": "4988601011143",
-    "title": "スクウェア・エニックス (Switch)〔通常版〕ドラゴンクエストX 目覚めし五つの種族 オフラインドラゴンクエスト",
-    "genre": "RPG",
+    "id": "nsws-554298",
+    "jan": "4902370554298",
+    "title": "S リズム天国 ミラクルスターズ",
+    "genre": "音楽・リズム",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 964,
+    "searches": 215,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1782918000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601011143-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370554298.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601011143-54-40561",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4902370554298",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nsw-xi-s-010825",
+    "jan": "4988601010825",
+    "title": "ドラゴンクエストXI 過ぎ去りし時を求めて S(新価格版)",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 203,
+    "aliases": [],
+    "releaseDate": "1607007600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4988601010825.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4988601010825",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
@@ -8222,14 +6531,15 @@ export const generatedGames = [
     "jan": "4902370539455",
     "title": "マリオテニス エーススーパーマリオ マリオ",
     "genre": "スポーツ",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 953,
+    "searches": 201,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370539455-54-40564.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370539455-54-40564",
     "purchase": [],
@@ -8241,14 +6551,15 @@ export const generatedGames = [
     "jan": "4582528473611",
     "title": "☆ スーパーロボット大戦30",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 950,
+    "searches": 199,
     "aliases": [],
     "releaseDate": "1635346800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4582528473611.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4582528473611",
     "purchase": [],
@@ -8260,14 +6571,15 @@ export const generatedGames = [
     "jan": "4902370537741",
     "title": "Xenoblade2(通常版)",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 946,
+    "searches": 195,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370537741-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370537741-54-40561",
     "purchase": [],
@@ -8279,35 +6591,17 @@ export const generatedGames = [
     "jan": "4902370550825",
     "title": "Fire Emblem Engage(ファイアーエムブレム エンゲージ) 通常版",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 941,
+    "searches": 189,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370550825-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370550825-54-40561",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-xi-s-010825",
-    "jan": "4988601010825",
-    "title": "ドラゴンクエストXI 過ぎ去りし時を求めて S〔新価格版〕",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 936,
-    "aliases": [],
-    "releaseDate": "1607007600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988601010825.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4988601010825",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
@@ -8317,14 +6611,15 @@ export const generatedGames = [
     "jan": "4570016500123",
     "title": "Nintendo Switch ウォブリーライフ 051050",
     "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 932,
+    "searches": 181,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/gamedarake03/4570016500123.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/gamedarake03_4570016500123",
     "purchase": [],
@@ -8336,14 +6631,15 @@ export const generatedGames = [
     "jan": "4988602174946",
     "title": "eBASEBALLパワフルプロ野球2022(2022年4月21日発売)",
     "genre": "スポーツ",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 927,
+    "searches": 177,
     "aliases": [],
     "releaseDate": "1650466800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74247.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74247",
     "purchase": [],
@@ -8355,14 +6651,15 @@ export const generatedGames = [
     "jan": "4573173328111",
     "title": "LITTLE NIGHTMARES-リトルナイトメアー Deluxe Edition",
     "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 926,
+    "searches": 176,
     "aliases": [],
     "releaseDate": "1528297200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4573173328111.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4573173328111",
     "purchase": [],
@@ -8374,14 +6671,15 @@ export const generatedGames = [
     "jan": "4573173344975",
     "title": "スーパードラゴンボールヒーローズ ワールドミッション★蔵出し★ご注文後のキャンセル不可",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 920,
+    "searches": 170,
     "aliases": [],
     "releaseDate": "1554303600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573173344975.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4573173344975",
     "purchase": [],
@@ -8389,20 +6687,23 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "nsws-554298",
-    "jan": "4902370554298",
-    "title": "S リズム天国 ミラクルスターズ",
-    "genre": "音楽・リズム",
+    "id": "nsw-ark-survival-evolved-519018",
+    "jan": "4940261519018",
+    "title": "ARK: Survival Evolved(アーク:サバイバル エボルブド)",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 918,
-    "aliases": [],
-    "releaseDate": "1782918000",
+    "searches": 168,
+    "aliases": [
+      "【新品】NSW ARK Survival Evolved(アーク サバイバル エボルブド)"
+    ],
+    "releaseDate": "1677164400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370554298.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4940261519018.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4902370554298",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4940261519018",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
@@ -8412,14 +6713,15 @@ export const generatedGames = [
     "jan": "4988601011785",
     "title": "スクウェア・エニックス (Switch)ロマンシング サガ2 リベンジオブザセブン",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 917,
+    "searches": 167,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601011785-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601011785-54-40561",
     "purchase": [],
@@ -8431,14 +6733,15 @@ export const generatedGames = [
     "jan": "4988601011594",
     "title": "スクウェア・エニックス (Switch)ドラゴンクエストモンスターズ3 魔族の王子とエルフの旅 通常版",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 912,
+    "searches": 161,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601011594-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601011594-54-40561",
     "purchase": [],
@@ -8450,14 +6753,15 @@ export const generatedGames = [
     "jan": "4573608133846",
     "title": "バンダイナムコエンターテインメント (Switch)たまごっちのプチプチおみせっち おまちど〜さま!",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 910,
+    "searches": 159,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4573608133846-54-46585.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4573608133846-54-46585",
     "purchase": [],
@@ -8469,14 +6773,15 @@ export const generatedGames = [
     "jan": "4984995903804",
     "title": "アトラス (Switch)ペルソナ5 スクランブル ザ ファントム ストライカーズ 通常版",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 909,
+    "searches": 158,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4984995903804-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4984995903804-54-40561",
     "purchase": [],
@@ -8484,20 +6789,41 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "07-30-ok-ns-r-switch-967219",
+    "id": "ok-ns-r-switch-967219",
     "jan": "4571577967219",
-    "title": "【07/30頃入荷分☆】 ジョジョの奇妙な冒険 オールスターバトル R",
+    "title": "ジョジョの奇妙な冒険 オールスターバトル R",
     "genre": "格闘",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 908,
+    "searches": 157,
     "aliases": [],
     "releaseDate": "1661958000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4571577967219.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4571577967219",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nsw-pikmin-1-2-1-2-551624",
+    "jan": "4902370551624",
+    "title": "Pikmin 1+2 (ピクミン 1+2)",
+    "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 156,
+    "aliases": [],
+    "releaseDate": "1695308400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370551624.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4902370551624",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
@@ -8507,14 +6833,15 @@ export const generatedGames = [
     "jan": "4902370546057",
     "title": "『新品』スーパーマリオ 3Dコレクション [Nintendo Switch]",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 904,
+    "searches": 151,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/noahshoping/4902370546057.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/noahshoping_4902370546057",
     "purchase": [],
@@ -8526,37 +6853,17 @@ export const generatedGames = [
     "jan": "4582528400617",
     "title": "ONE PIECE 海賊無双4(ワンピース海賊無双4)(2020年3月26日発売)",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 901,
+    "searches": 148,
     "aliases": [],
     "releaseDate": "1585148400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/73567.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_73567",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "nintendo-switch-ark-survival-evolved-050602-519018",
-    "jan": "4940261519018",
-    "title": "Nintendo Switch ARK: Survival Evolved 050602",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 899,
-    "aliases": [
-      "【即日出荷】【新品】Nintendo Switch ARK Survival Evolved 050602"
-    ],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/gamedarake-store/4940261519018.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/gamedarake-store_4940261519018",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
@@ -8566,35 +6873,17 @@ export const generatedGames = [
     "jan": "4988602172850",
     "title": "eBASEBALLパワフルプロ野球2020(2020年7月9日発売)",
     "genre": "スポーツ",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 892,
+    "searches": 141,
     "aliases": [],
     "releaseDate": "1594220400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/193/73654.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/193_73654",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "nsw-4-switch-302946",
-    "jan": "4535506302946",
-    "title": "新品 NSW ルーンファクトリー4スペシャル Switch(スイッチ ソフト)",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 891,
-    "aliases": [],
-    "releaseDate": "1563980400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/crux-store/4535506302946.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/crux-store_4535506302946",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
@@ -8604,14 +6893,15 @@ export const generatedGames = [
     "jan": "4535506303905",
     "title": "マーベラス (Switch)牧場物語 Let's!風のグランドバザール",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 890,
+    "searches": 140,
     "aliases": [],
     "releaseDate": "不明",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4535506303905-54-40562.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4535506303905-54-40562",
     "purchase": [],
@@ -8623,14 +6913,15 @@ export const generatedGames = [
     "jan": "4527823998278",
     "title": "THE麻雀(ザマージャン)(2018年6月21日発売)",
     "genre": "テーブル・学習",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 881,
+    "searches": 133,
     "aliases": [],
     "releaseDate": "1529506800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/193/73117.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/193_73117",
     "purchase": [],
@@ -8638,1168 +6929,1373 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-new-hac-p-arfta-327242",
-    "jan": "4521329327242",
-    "title": "ポケモン Switchゲームソフト New ポケモンスナップ",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 873,
-    "aliases": [],
-    "releaseDate": "1619708400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/y-kojima/4521329327242.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/y-kojima_4521329327242",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-950124",
-    "jan": "4580635950124",
-    "title": "ネオス (Switch)クレヨンしんちゃん『炭の町のシロ』 通常版",
+    "id": "onion-games-switch-stray-children-treasure-box-b-540029",
+    "jan": "4570093540029",
+    "title": "Onion Games (Switch)Stray Children TREASURE BOX (初回限定生産)",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 871,
+    "searches": 125,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1796828400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4580635950124-54-46584.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4570093540029-54-40561.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4580635950124-54-46584",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4570093540029-54-40561",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-2-2020-12-4-010771",
-    "jan": "4988601010771",
-    "title": "ドラゴンクエストビルダーズ2 破壊神シドーとからっぽの島 新価格版(2020年12月4日発売)",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 869,
-    "aliases": [],
-    "releaseDate": "1607007600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/193/73829.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/193_73829",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-r-2-b-175943",
-    "jan": "4988602175943",
-    "title": "コナミデジタルエンタテインメント (Switch)スーパーボンバーマン R 2",
-    "genre": "パズル",
-    "cover": "GM",
-    "searches": 868,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988602175943-54-40560.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988602175943-54-40560",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "mages-switch-b-131094",
-    "jan": "4562412131094",
-    "title": "MAGES. (Switch)映画「五等分の花嫁」 〜君と過ごした五つの思い出〜 通常版",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 864,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4562412131094-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4562412131094-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-ea-sports-fc-25-024701",
-    "jan": "4938833024701",
-    "title": "エレクトロニック・アーツ Switchゲームソフト EA SPORTS FC 25",
-    "genre": "スポーツ",
-    "cover": "GM",
-    "searches": 862,
-    "aliases": [],
-    "releaseDate": "1727362800",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/y-kojima/4938833024701.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/y-kojima_4938833024701",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-the-2019-4-4-998377",
-    "jan": "4527823998377",
-    "title": "THE体感!スポーツパック〜テニス・ボウリング・ゴルフ・ビリヤード〜(2019年4月4日発売)",
-    "genre": "スポーツ",
-    "cover": "GM",
-    "searches": 860,
-    "aliases": [],
-    "releaseDate": "1554303600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/73340.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_73340",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-simple-vol-1-the-deluxe-pack-998674",
-    "jan": "4527823998674",
-    "title": "SIMPLEシリーズVol.1 THEテーブルゲーム Deluxe Pack〜麻雀・囲碁・将棋・詰将棋・オセロ・カード・花札・二角取り〜",
-    "genre": "テーブル・学習",
-    "cover": "GM",
-    "searches": 859,
-    "aliases": [],
-    "releaseDate": "1645023600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/193/74227.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/193_74227",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-nintendo-labo-toy-con-03-drive-kit-539639",
-    "jan": "4902370539639",
-    "title": "Nintendo Labo Toy-Con 03: Drive Kit",
-    "genre": "レース",
-    "cover": "GM",
-    "searches": 858,
-    "aliases": [
-      "Switch Nintendo Labo Toy-Con 03 Drive Kit"
-    ],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/at-field/sw-a-labo-drive.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/at-field_sw-a-labo-drive",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-s-b-518165",
-    "jan": "4940261518165",
-    "title": "スパイク・チュンソフト (Switch)ダンガンロンパ トリロジーパック + ハッピーダンガンロンパS 超高校級の南国サイコロ合宿",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 853,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4940261518165-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4940261518165-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-ix-monstrum-nox-b-004255",
-    "jan": "4995506004255",
-    "title": "日本一ソフトウェア (Switch)イースIX −Monstrum NOX−イース",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 850,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995506004255-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995506004255-54-40561",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-095681",
-    "jan": "4995857095681",
-    "title": "アイディアファクトリー (Switch)ニル・アドミラリの天秤 色ドリ撫子 通常版",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 849,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995857095681-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995857095681-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-ricordo-b-096138",
-    "jan": "4995857096138",
-    "title": "アイディアファクトリー (Switch)ピオフィオーレの晩鐘 -ricordo- 通常版",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 848,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995857096138-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995857096138-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-error-salvation-b-096893",
-    "jan": "4995857096893",
-    "title": "アイディアファクトリー (Switch)終遠のヴィルシュ −ErroR:salvation− 通常版",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 847,
-    "aliases": [
-      "アイディアファクトリー (Switch)終遠のヴィルシュ −ErroR salvation− 通常版 返品種別B"
-    ],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995857096893-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995857096893-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-1-for-intendo-switch-661174",
-    "jan": "4571237661174",
-    "title": "妖怪ウォッチ1 for intendo Switch(レベルファイブ ザ ベスト)",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 846,
-    "aliases": [],
-    "releaseDate": "1619017200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4571237661174.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4571237661174",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "nintendo-labo-toy-con-02-robot-kit-switch-538762",
-    "jan": "4902370538762",
-    "title": "Nintendo Labo Toy-Con 02: Robot Kit - Switch",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 844,
-    "aliases": [
-      "Nintendo Labo Toy-Con 02 Robot Kit - Switch"
-    ],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/at-field/sw-a-labo-robot.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/at-field_sw-a-labo-robot",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "wb-games-switch-b-863050",
-    "jan": "4974365863050",
-    "title": "WB Games (Switch)ホグワーツ・レガシー 通常版",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 840,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4974365863050-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4974365863050-54-40561",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-1-2-b-118484",
-    "jan": "4976219118484",
-    "title": "カプコン (Switch)大逆転裁判1&2 −成歩堂龍ノ介の冒險と覺悟− 通常版逆転裁判",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 839,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4976219118484-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4976219118484-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-178647",
-    "jan": "4988602178647",
-    "title": "コナミデジタルエンタテインメント (Switch)グラディウス オリジン コレクション 通常版",
-    "genre": "シューティング",
-    "cover": "GM",
-    "searches": 838,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988602178647-54-46581.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988602178647-54-46581",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-with-b-183812",
-    "jan": "4988615183812",
-    "title": "コーエーテクモゲームス (Switch)信長の野望・新生 with パワーアップキット 通常版",
+    "id": "nintendo-switch-realpro-xross-over-10-911524",
+    "jan": "4560221911524",
+    "title": "Nintendo Switch 鉄道にっぽん! RealPro 立体都市交通!XROSS OVER 名古屋 編[ソニックパワード] 《10月予約》",
     "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 837,
+    "searches": 124,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1793199600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988615183812-54-40562.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/amiami/game-0034708.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988615183812-54-40562",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/amiami_game-0034708",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-2017-9-28-096419",
-    "jan": "4988615096419",
-    "title": "ファイアーエムブレム無双 通常版(2017年9月28日発売)",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 836,
-    "aliases": [],
-    "releaseDate": "1506524400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/193/73028.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/193_73028",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-r-2-lego-2-b-343618",
-    "jan": "4548967343618",
-    "title": "ワーナー ブラザース ジャパン (Switch)レゴ(R)マーベル スーパー・ヒーローズ2 ザ・ゲームLEGO レゴマーベルスーパーヒーローズ2ザゲーム",
+    "id": "nintendo-switch-dream-of-the-stray-dreamer-phoenixx-10-027638",
+    "jan": "4595643027638",
+    "title": "Nintendo Switch 幻想少女大戦 - DREAM OF THE STRAY DREAMER -[Phoenixx] 《10月予約》",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 833,
+    "searches": 123,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1793199600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4548967343618-54-40560.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/amiami/game-0034736.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4548967343618-54-40560",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/amiami_game-0034736",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "bandai-namco-entertainment-switch-1-amp-2-959993",
-    "jan": "4571577959993",
-    "title": "バンダイナムコエンターテインメント BANDAI NAMCO Entertainment Switchゲームソフト 風のクロノア 1&2アンコール",
-    "genre": "パズル",
-    "cover": "GM",
-    "searches": 830,
-    "aliases": [],
-    "releaseDate": "1657119600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/y-kojima/4571577959993.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/y-kojima_4571577959993",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-2026-2027-b-180015",
-    "jan": "4988602180015",
-    "title": "コナミデジタルエンタテインメント (Switch)パワフルプロ野球2026-2027",
-    "genre": "スポーツ",
-    "cover": "GM",
-    "searches": 826,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988602180015-54-40564.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988602180015-54-40564",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-6-b-003678",
-    "jan": "4995506003678",
-    "title": "日本一ソフトウェア (Switch)魔界戦記ディスガイア6 通常版",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 824,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995506003678-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995506003678-54-40561",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-for-nintendo-switch-b-095643",
-    "jan": "4995857095643",
-    "title": "アイディアファクトリー (Switch)薄桜鬼 真改 風華伝 for Nintendo Switch 通常版",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 823,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995857095643-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995857095643-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-e-b-861599",
-    "jan": "4974365861599",
-    "title": "セガゲームス (Switch)ぷよぷよeスポーツ",
-    "genre": "パズル",
-    "cover": "GM",
-    "searches": 822,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4974365861599-54-46585.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4974365861599-54-46585",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "ok-ns-model-debut-nicola-236701",
-    "jan": "4562240236701",
-    "title": "MODEL Debut #nicola/モデルデビュー ニコラ",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 816,
-    "aliases": [],
-    "releaseDate": "1572534000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4562240236701.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4562240236701",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "ok-ns-pui-pui-let-s-982694",
-    "jan": "4571577982694",
-    "title": "PUI PUI モルカー Let's!モルカーパーティー!",
-    "genre": "パーティー",
-    "cover": "GM",
-    "searches": 814,
-    "aliases": [],
-    "releaseDate": "1639580400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4571577982694.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4571577982694",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-3-bayonetta3-b-550634",
-    "jan": "4902370550634",
-    "title": "ベヨネッタ3(BAYONETTA3) 通常版",
+    "id": "switch-b-750419",
+    "jan": "4580650750419",
+    "title": "レイニーフロッグ (Switch)ファーミング・キャンプ",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 807,
+    "searches": 122,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1792594800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370550634-54-40560.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4580650750419-54-40562.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370550634-54-40560",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4580650750419-54-40562",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-ea-sports-fc-tm-26-b-024763",
-    "jan": "4938833024763",
-    "title": "エレクトロニック・アーツ (Switch)EA SPORTS FC(TM) 26",
-    "genre": "スポーツ",
+    "id": "switch-b-169161",
+    "jan": "4595643169161",
+    "title": "ピクセル (Switch)ホーギーヒュー 通常版",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 805,
+    "searches": 121,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1792594800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4938833024763-54-40564.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4595643169161-54-46581.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4938833024763-54-40564",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4595643169161-54-46581",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-dqb-b-010023",
-    "jan": "4988601010023",
-    "title": "スクウェア・エニックス (Switch)ドラゴンクエストビルダーズ アレフガルドを復活せよドラクエ DQB ビルダーズ",
-    "genre": "RPG",
+    "id": "10-15-hac-p-bv2ka-180961",
+    "jan": "4988602180961",
+    "title": "[ニンテンドースイッチ ソフト] キャッスルヴァニア ベルモンドカース ミッドナイトエディション [HAC-P-BV2KA]",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 801,
+    "searches": 120,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1791990000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601010023-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001112659.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601010023-54-40561",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001112659",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-arms-2017-6-16-536553",
-    "jan": "4902370536553",
-    "title": "ARMS(アームズ)(2017年6月16日発売)",
-    "genre": "格闘",
+    "id": "switch-b-104959",
+    "jan": "4965857104959",
+    "title": "イマジニア (Switch)ぼくと釣り日記",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 798,
+    "searches": 119,
     "aliases": [],
-    "releaseDate": "1497538800",
+    "releaseDate": "1791385200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/73015.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4965857104959-54-40561.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_73015",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4965857104959-54-40561",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-minecraft-legends-2023-4-19-214764",
-    "jan": "4549576214764",
-    "title": "Minecraft Legends(マインクラフトレジェンズ)(2023年4月19日発売)",
-    "genre": "アドベンチャー",
+    "id": "switch-b-224878",
+    "jan": "4988611224878",
+    "title": "タイトー (Switch)レインボー★パラソルコレクション",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 797,
+    "searches": 118,
     "aliases": [],
-    "releaseDate": "1681830000",
+    "releaseDate": "1791385200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74630.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988611224878-54-40560.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74630",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988611224878-54-40560",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-ace-combat7-skies-unknown-deluxe-edition-7-24-7-11-876262",
-    "jan": "4582747876262",
-    "title": "ACE COMBAT7:SKIES UNKNOWN DELUXE EDITION(エースコンバット7:スカイズアンノウン)(24/7/11日発売)",
-    "genre": "シューティング",
+    "id": "10-08-ok-ns-2-480071",
+    "jan": "4595555480071",
+    "title": "青鬼2",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 796,
+    "searches": 117,
+    "aliases": [],
+    "releaseDate": "1791385200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4595555480071.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4595555480071",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nintendo-switch-sullyland-nursery-rhyme-099719",
+    "jan": "4995857099719",
+    "title": "[Nintendo Switch]/ゲーム/Sullyland Nursery Rhyme [通常版]",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 116,
+    "aliases": [],
+    "releaseDate": "1790780400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/neowing/hac-p-bqbba.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/neowing_hac-p-bqbba",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nintendo-switch-653764",
+    "jan": "4570164653764",
+    "title": "Nintendo Switchソフト アナザーエデン ビギンズ(通常版)",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 115,
     "aliases": [
-      "Switch ACE COMBAT7 SKIES UNKNOWN DELUXE EDITION(エースコンバット7 スカイズアンノウン)(24/7/11日発売)【新品】【ポスト投函便送料無料】"
+      "新品 Nintendo Switchソフト アナザーエデン ビギンズ(通常版)"
     ],
-    "releaseDate": "1720623600",
+    "releaseDate": "1789570800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/79120.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/comgstore/1293-4570164653764.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_79120",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/comgstore_1293-4570164653764",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-a-piece-of-blue-glass-moon-b-130518",
-    "jan": "4534530130518",
-    "title": "アニプレックス (Switch)月姫 −A piece of blue glass moon− 通常版",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 794,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4534530130518-54-44309.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4534530130518-54-44309",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-148643",
-    "jan": "4534530148643",
-    "title": "アニプレックス (Switch)鬼滅の刃 目指せ!最強隊士!",
+    "id": "switch-b-999787",
+    "jan": "4527823999787",
+    "title": "ディースリー・パブリッシャー (Switch)学校であった怖い話と晦-つきこもり 通常版",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 793,
+    "searches": 114,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1788966000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4534530148643-54-46585.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4527823999787-54-46584.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4534530148643-54-46585",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4527823999787-54-46584",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-b-050011",
-    "jan": "4570005050011",
-    "title": "株式会社ゲームスタジオ (Switch)棋士・藤井聡太の将棋トレーニング",
-    "genre": "テーブル・学習",
+    "id": "09-10-ok-ns-14-with-complete-edition-switch-211515",
+    "jan": "4988615211515",
+    "title": "三國志14 with パワーアップキット Complete Edition",
+    "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 789,
+    "searches": 113,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1788966000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4570005050011-54-46585.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4988615211515.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4570005050011-54-46585",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4988615211515",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-shooting-library-vol-1-b-047206",
-    "jan": "4571442047206",
-    "title": "シティコネクション (Switch)彩京 SHOOTING LIBRARY Vol.1 通常版",
-    "genre": "シューティング",
+    "id": "ok-ns-40-and-more-179583",
+    "jan": "4988602179583",
+    "title": "テニスの王子様 も〜っと 学園祭の王子様 -40 and more...",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 787,
+    "searches": 112,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1785337200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4571442047206-54-46581.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4988602179583.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4571442047206-54-46581",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4988602179583",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "nsw2-sparking-zero-199743",
-    "jan": "4573608199743",
-    "title": "2 ドラゴンボール Sparking! ZERO",
-    "genre": "格闘",
+    "id": "ok-ns-tie-break-game-179606",
+    "jan": "4988602179606",
+    "title": "テニスの王子様 ぎゅ〜っと! ドキドキサバイバル Tie break game",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 785,
+    "searches": 111,
     "aliases": [],
-    "releaseDate": "1762959600",
+    "releaseDate": "1785337200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4573608199743.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4988602179606.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4573608199743",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4988602179606",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-bustafellows-b-260680",
-    "jan": "4582494260680",
-    "title": "文化放送エクステンド (Switch)BUSTAFELLOWS 通常版",
+    "id": "nintendo-switch-005771",
+    "jan": "4995506005771",
+    "title": "Nintendo Switchソフト ほの暮しの庭",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 110,
+    "aliases": [
+      "新品 Nintendo Switchソフト ほの暮しの庭"
+    ],
+    "releaseDate": "1785337200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/comgstore/1293-4995506005771.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/comgstore_1293-4995506005771",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "blue-reflection-quartet-nintendo-switch-211478",
+    "jan": "4988615211478",
+    "title": "BLUE REFLECTION Quartet: 少女たちのキセキ Nintendo Switch 佐賀",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 109,
+    "aliases": [
+      "【新品】 BLUE REFLECTION Quartet 少女たちのキセキ Nintendo Switch 佐賀"
+    ],
+    "releaseDate": "1785337200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/akaikumasan/4988615211478.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/akaikumasan_4988615211478",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "outbound-nintendo-switch-jan-4974365863975-a20211-863975",
+    "jan": "4974365863975",
+    "title": "Outbound アウトバウンド Nintendo Switch ニンテンドースイッチ ゲームソフト JAN:4974365863975 ≡A20211",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 108,
+    "aliases": [
+      "Outbound アウトバウンド Nintendo Switch ニンテンドースイッチ ゲームソフト JAN 4974365863975 ≡A20211"
+    ],
+    "releaseDate": "1785250800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/thrift-webshop/a-044-a20211.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_a-044-a20211",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nsw-memorial-vacation-132138",
+    "jan": "4562412132138",
+    "title": "お隣の天使様にいつの間にか駄目人間にされていた件 Memorial Vacation",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 107,
+    "aliases": [],
+    "releaseDate": "1784732400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4562412132138.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4562412132138",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-70-p-x-switch-132049",
+    "jan": "4582486132049",
+    "title": "70年代風ロボットアニメ ゲッP-X",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 106,
+    "aliases": [],
+    "releaseDate": "1784127600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4582486132049.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4582486132049",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nsw-179866",
+    "jan": "4988602179866",
+    "title": "がんばれゴエモン大集合!",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 105,
+    "aliases": [],
+    "releaseDate": "1782918000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4988602179866.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4988602179866",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-original-410488",
+    "jan": "4573419410488",
+    "title": "エルミナージュ ORIGINAL〜闇の巫女と神々の指輪〜★フェイスロード用データ「ドラゴニュート男」付",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 104,
+    "aliases": [],
+    "releaseDate": "1776870000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573419410488.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4573419410488",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-137782",
+    "jan": "4976219137782",
+    "title": "流星のロックマン パーフェクトコレクション",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 103,
+    "aliases": [],
+    "releaseDate": "1774537200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4976219137782.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4976219137782",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-480057",
+    "jan": "4595555480057",
+    "title": "猫様の脱出 スペシャル・コレクション",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 102,
+    "aliases": [],
+    "releaseDate": "1773846000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4595555480057.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4595555480057",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ns-r-type-tactics-i-ii-cosmos-switch-640221",
+    "jan": "4589531640221",
+    "title": "R‐TYPE TACTICS I・II COSMOS プレミアムボックス",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 101,
+    "aliases": [],
+    "releaseDate": "1773241200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4589531640221.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4589531640221",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-580722",
+    "jan": "4589794580722",
+    "title": "電気街の喫茶店",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 100,
+    "aliases": [],
+    "releaseDate": "1772031600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4589794580722.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4589794580722",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nintendo-switch-sanabi-a-haunted-day-100788",
+    "jan": "8809030100788",
+    "title": "[Nintendo Switch]/ゲーム/SANABI: A Haunted Day(サンナビ ア・ホーンテッド・デイ)",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 99,
+    "aliases": [
+      "【送料無料】[Nintendo Switch]/ゲーム/SANABI A Haunted Day(サンナビ ア・ホーンテッド・デイ)"
+    ],
+    "releaseDate": "1772031600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/neowing/hac-p-a9q9d.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/neowing_hac-p-a9q9d",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-neogeo-vol-9-154104",
+    "jan": "4964808154104",
+    "title": "アケアカNEOGEO セレクション Vol.9",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 98,
+    "aliases": [],
+    "releaseDate": "1765983600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4964808154104.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4964808154104",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "metal-slug-tactics-nintendo-switch-snk-154968",
+    "jan": "4964808154968",
+    "title": "METAL SLUG TACTICS(メタル スラッグ タクティクス) -Nintendo Switch【SNK】",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 97,
+    "aliases": [],
+    "releaseDate": "1765378800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/llhat/4964808154968.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/llhat_4964808154968",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-band-star-132053",
+    "jan": "4562412132053",
+    "title": "激奏!BAND STAR",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 96,
+    "aliases": [],
+    "releaseDate": "1765378800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4562412132053.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4562412132053",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nsw-4-553697",
+    "jan": "4902370553697",
+    "title": "メトロイドプライム4 ビヨンド",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 95,
+    "aliases": [],
+    "releaseDate": "1764774000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370553697.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4902370553697",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-vs-switch-999534",
+    "jan": "4527823999534",
+    "title": "逃走中 ハンターVS逃走者!キミはどっちで勝利できるか!?",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 94,
+    "aliases": [],
+    "releaseDate": "1764774000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4527823999534.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4527823999534",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ns-switch-051370",
+    "jan": "4570101051370",
+    "title": "魂斗羅アニバーサリーコレクション",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 93,
+    "aliases": [],
+    "releaseDate": "1764169200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4570101051370.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4570101051370",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-neogeo-vol-7-154005",
+    "jan": "4964808154005",
+    "title": "アケアカNEOGEO セレクション Vol.7",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 92,
+    "aliases": [],
+    "releaseDate": "1762354800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4964808154005.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4964808154005",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nintendo-switch-104690",
+    "jan": "4965857104690",
+    "title": "Nintendo Switchソフト 映画 すみっコぐらし 空の王国とふたりのコ あそぼうキャラクロス",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 91,
+    "aliases": [
+      "新品 Nintendo Switchソフト 映画 すみっコぐらし 空の王国とふたりのコ あそぼうキャラクロス"
+    ],
+    "releaseDate": "1761750000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/comgstore/1293-4965857104690.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/comgstore_1293-4965857104690",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nintendo-switch-750303",
+    "jan": "4580650750303",
+    "title": "[Nintendo Switch]/ゲーム/トラックドライバー ゴールドエディション",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 90,
+    "aliases": [],
+    "releaseDate": "1761145200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/neowing/hac-p-bq4ja.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/neowing_hac-p-bq4ja",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nsw-3-157101",
+    "jan": "4573608157101",
+    "title": "リトルナイトメア3",
     "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 783,
+    "searches": 89,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1760022000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4582494260680-54-46584.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4573608157101.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4582494260680-54-46584",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4573608157101",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "07-30-ok-ns-switch-932555",
+    "id": "ns-193354",
+    "jan": "4988615193354",
+    "title": "紅の錬金術士と白の守護者 〜レスレリアーナのアトリエ〜",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 88,
+    "aliases": [],
+    "releaseDate": "1758812400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4988615193354.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4988615193354",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ns-switch-564923",
+    "jan": "4907953564923",
+    "title": "ポピープレイタイム トリプルパック",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 87,
+    "aliases": [],
+    "releaseDate": "1758726000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4907953564923.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4907953564923",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-kai-switch-047794",
+    "jan": "4571442047794",
+    "title": "まものろKAI! 〜まもるクンは呪われてしまった!〜",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 86,
+    "aliases": [],
+    "releaseDate": "1758726000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4571442047794.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4571442047794",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-290697",
+    "jan": "4589889290697",
+    "title": "天使の詩〜白き翼の祈り〜",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 85,
+    "aliases": [],
+    "releaseDate": "1758121200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4589889290697.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4589889290697",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nintendo-switch-vol-2-048043",
+    "jan": "4571442048043",
+    "title": "Nintendo Switch 東亜プラン アーケードコレクション VOL 2",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 84,
+    "aliases": [],
+    "releaseDate": "1756306800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/ramkins/4571442048043.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/ramkins_4571442048043",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-dig-rock-documentary-of-youthful-sounds-098224",
+    "jan": "4995857098224",
+    "title": "DIG−ROCK −Documentary of Youthful Sounds−",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 83,
+    "aliases": [],
+    "releaseDate": "1756306800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4995857098224.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4995857098224",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-neogeo-vol-6-153954",
+    "jan": "4964808153954",
+    "title": "アケアカNEOGEO セレクション Vol.6",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 82,
+    "aliases": [],
+    "releaseDate": "1754492400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4964808153954.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4964808153954",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-224175",
+    "jan": "4988611224175",
+    "title": "オペレーション・ナイトストライカーズ 通常版",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 81,
+    "aliases": [],
+    "releaseDate": "1754492400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4988611224175.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4988611224175",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-364041",
+    "jan": "4589686364041",
+    "title": "コットンリブート ハイテンション!",
+    "genre": "シューティング",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 80,
+    "aliases": [],
+    "releaseDate": "1753887600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4589686364041.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4589686364041",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "gamesourceentertai-switch-tevi-hac-p-bezza-046417",
+    "jan": "4580694046417",
+    "title": "GAMESOURCEENTERTAI Switchゲームソフト TEVI",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 79,
+    "aliases": [],
+    "releaseDate": "1752678000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/y-kojima/4580694046417.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/y-kojima_4580694046417",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-20-521158",
+    "jan": "4940261521158",
+    "title": "なつもん! 20世紀の夏休み + ゆうやけの島とラジオ局",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 78,
+    "aliases": [],
+    "releaseDate": "1752073200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4940261521158.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4940261521158",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-169086",
+    "jan": "4595643169086",
+    "title": "歌と森の妖怪屋敷",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 77,
+    "aliases": [],
+    "releaseDate": "1752073200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4595643169086.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4595643169086",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "tozaigames-switch-vol-3-hac-p-bndcb-640145",
+    "jan": "4571551640145",
+    "title": "TOZAIGAMES Switchゲームソフト アイレムコレクションVol.3",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 76,
+    "aliases": [],
+    "releaseDate": "1752073200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/y-kojima/4571551640145.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/y-kojima_4571551640145",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-ssb-switch-240471",
+    "jan": "4570077240471",
+    "title": "マスターオブモンスターズSSB",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 75,
+    "aliases": [],
+    "releaseDate": "1750863600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4570077240471.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4570077240471",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-bitter-smile-608814",
+    "jan": "4935066608814",
+    "title": "bitter smile.",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 74,
+    "aliases": [],
+    "releaseDate": "1750863600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066608814.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066608814",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-i-ii-switch-047985",
+    "jan": "4571442047985",
+    "title": "ファーランドサーガ I&II サターントリビュート",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 73,
+    "aliases": [],
+    "releaseDate": "1750863600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4571442047985.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4571442047985",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-410440",
+    "jan": "4573419410440",
+    "title": "イルベロスウォンプ ハッピートゥギャザー",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 72,
+    "aliases": [],
+    "releaseDate": "1749049200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573419410440.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4573419410440",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-608777",
+    "jan": "4935066608777",
+    "title": "その日の獣には、",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 71,
+    "aliases": [],
+    "releaseDate": "1748444400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066608777.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066608777",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-047947",
+    "jan": "4571442047947",
+    "title": "スチーム・ハーツ&アドヴァンスト ヴァリアブル・ジオ サターントリビュート",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 70,
+    "aliases": [],
+    "releaseDate": "1748444400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4571442047947.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4571442047947",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-333588",
+    "jan": "4571331333588",
+    "title": "ルナーク",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 69,
+    "aliases": [],
+    "releaseDate": "1748444400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4571331333588.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4571331333588",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-608302",
+    "jan": "4935066608302",
+    "title": "世界征服彼女",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 68,
+    "aliases": [],
+    "releaseDate": "1747839600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066608302.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066608302",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-250047",
+    "jan": "4510772250047",
+    "title": "テクノス ザ・ワールド くにおくん & アーケードコレクション",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 67,
+    "aliases": [],
+    "releaseDate": "1745420400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4510772250047.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4510772250047",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-neogeo-vol-3-153305",
+    "jan": "4964808153305",
+    "title": "アケアカNEOGEO セレクション Vol.3",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 66,
+    "aliases": [],
+    "releaseDate": "1744210800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4964808153305.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4964808153305",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-neogeo-vol-4-153350",
+    "jan": "4964808153350",
+    "title": "アケアカNEOGEO セレクション Vol.4",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 65,
+    "aliases": [],
+    "releaseDate": "1744210800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4964808153350.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4964808153350",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-608678",
+    "jan": "4935066608678",
+    "title": "刹那にかける恋はなび",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 64,
+    "aliases": [],
+    "releaseDate": "1743001200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066608678.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066608678",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-920580",
+    "jan": "4510347920580",
+    "title": "ぶっとバード スペシャルエディション",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 63,
+    "aliases": [],
+    "releaseDate": "1742396400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4510347920580.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4510347920580",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-2-switch-608036",
+    "jan": "4935066608036",
+    "title": "幻想牢獄のカレイドスコープ2",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 62,
+    "aliases": [],
+    "releaseDate": "1741878000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066608036.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066608036",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nsw-178159",
+    "jan": "4988602178159",
+    "title": "遊戯王 アーリーデイズコレクション",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 61,
+    "aliases": [],
+    "releaseDate": "1740582000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4988602178159.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4988602178159",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-simple-for-nintendo-switch-vol-4-the-4-999350",
+    "jan": "4527823999350",
+    "title": "SIMPLEシリーズ for Nintendo Switch Vol.4 THE 密室からの脱出 世にも奇妙な4つの話",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 60,
+    "aliases": [],
+    "releaseDate": "1739372400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4527823999350.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4527823999350",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-608395",
+    "jan": "4935066608395",
+    "title": "スウィートカフェコレクション〜ショコラ・パルフェ・シュクレ〜",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 59,
+    "aliases": [],
+    "releaseDate": "1737558000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066608395.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066608395",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-932555",
     "jan": "4582747932555",
-    "title": "【07/30頃入荷分☆】 テイルズ オブ グレイセス エフ リマスター",
+    "title": "テイルズ オブ グレイセス エフ リマスター",
     "genre": "RPG",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 782,
+    "searches": 58,
     "aliases": [],
     "releaseDate": "1736953200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4582747932555.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4582747932555",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-270050",
-    "jan": "4589664270050",
-    "title": "エムツー (Switch)エスプレイドΨ 通常版",
-    "genre": "シューティング",
-    "cover": "GM",
-    "searches": 781,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4589664270050-54-46581.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4589664270050-54-46581",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-552300",
-    "jan": "4902370552300",
-    "title": "ファミコン探偵倶楽部 笑み男 通常版",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 780,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370552300-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4902370552300-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "poppy-playtime-nintendo-switch-hac-p-bmtka-564923",
-    "jan": "4907953564923",
-    "title": "ポピー プレイタイム Poppy Playtime トリプルパック Nintendo Switch ニンテンドー スイッチ ソフト パッケージ版 新品未開封",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 779,
-    "aliases": [],
-    "releaseDate": "1758726000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/whitemocha/4907953564923.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/whitemocha_4907953564923",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-fantasian-neo-dimension-b-011884",
-    "jan": "4988601011884",
-    "title": "スクウェア・エニックス (Switch)FANTASIAN Neo Dimension(ファンタジアン ネオ ディメンジョン)",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 777,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601011884-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601011884-54-40561",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-r-174441",
-    "jan": "4988602174441",
-    "title": "コナミデジタルエンタテインメント Switchゲームソフト パワプロクンポケットR",
-    "genre": "スポーツ",
-    "cover": "GM",
-    "searches": 776,
-    "aliases": [],
-    "releaseDate": "1637766000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/y-kojima/4988602174441.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/y-kojima_4988602174441",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-238776",
-    "jan": "4988611238776",
-    "title": "タイトー (Switch)ダライアス コズミックコレクション",
-    "genre": "シューティング",
-    "cover": "GM",
-    "searches": 775,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988611238776-54-46581.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988611238776-54-46581",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-clock-zero-devote-b-096114",
-    "jan": "4995857096114",
-    "title": "アイディアファクトリー (Switch)CLOCK ZERO 〜終焉の一秒〜 Devote 通常版",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 772,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995857096114-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995857096114-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-collar-malice-for-nintendo-switch-b-096398",
-    "jan": "4995857096398",
-    "title": "アイディアファクトリー (Switch)Collar×Malice for Nintendo Switch 通常版",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 771,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995857096398-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995857096398-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-2020-12-3-104737",
-    "jan": "4549767104737",
-    "title": "すみっコぐらし おへやのすみでたびきぶんすごろく(2020年12月3日発売)",
-    "genre": "パーティー",
-    "cover": "GM",
-    "searches": 770,
-    "aliases": [],
-    "releaseDate": "1606921200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/193/73785.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/193_73785",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-sd-2022-8-25-961729",
-    "jan": "4571577961729",
-    "title": "SDガンダム バトルアライアンス(2022年8月25日発売)",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 768,
-    "aliases": [],
-    "releaseDate": "1661353200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74371.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74371",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-2024-2-1-362767",
-    "jan": "4570131362767",
-    "title": "呪術廻戦 戦華双乱 通常版(2024年2月1日発売)",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 767,
-    "aliases": [],
-    "releaseDate": "1706713200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74954.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74954",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-303875",
-    "jan": "4535506303875",
-    "title": "マーベラス (Switch)龍の国 ルーンファクトリー",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 766,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4535506303875-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4535506303875-54-40561",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-lego-347043",
-    "jan": "4548967347043",
-    "title": "LEGO ワールド 目指せマスタービルダー",
-    "genre": "アクション",
-    "cover": "GM",
-    "searches": 765,
-    "aliases": [],
-    "releaseDate": "1511276400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4548967347043.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4548967347043",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "nsw-vi-2018-12-06-478049",
-    "jan": "4571304478049",
-    "title": "シドマイヤーズ シヴィライゼーション VI【2018年12月06日発売】",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 758,
-    "aliases": [],
-    "releaseDate": "1544022000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/crux2/4571304478049.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/crux2_4571304478049",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "07-22-ok-ns-i-ii-047299",
-    "jan": "4571442047299",
-    "title": "【07/22頃入荷分☆】 デススマイルズ I・II",
-    "genre": "シューティング",
-    "cover": "GM",
-    "searches": 757,
-    "aliases": [],
-    "releaseDate": "1639580400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4571442047299.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4571442047299",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "ok-ns-355346",
-    "jan": "4573173355346",
-    "title": "ドラえもん のび太の牧場物語 ★蔵出し特価",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 754,
-    "aliases": [],
-    "releaseDate": "1560351600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573173355346.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4573173355346",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-601047",
-    "jan": "4580287601047",
-    "title": "エクスペリエンス(Switch)モンスターを倒して強い剣や鎧を手にしなさい。死んでも諦めずに強くなりなさい。勇者隊が魔王を倒すその日を信じています。返品種別B",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 753,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4580287601047-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4580287601047-54-40561",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "hac-p-a5etm-890854",
-    "jan": "4580546890854",
-    "title": "[ニンテンドースイッチ ソフト] スイカゲーム スペシャルエディション [HAC-P-A5ETM]",
-    "genre": "パズル",
-    "cover": "GM",
-    "searches": 752,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/outletplaza/40001056781.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/outletplaza_40001056781",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "beep-switch-b-362047",
-    "jan": "4589686362047",
-    "title": "BEEP (Switch)コットン リブート! 通常版",
-    "genre": "シューティング",
-    "cover": "GM",
-    "searches": 750,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4589686362047-54-46581.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4589686362047-54-46581",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
@@ -9809,14 +8305,15 @@ export const generatedGames = [
     "jan": "4907940690369",
     "title": "ギミック! 2 (国内版)",
     "genre": "パズル",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 748,
+    "searches": 57,
     "aliases": [],
     "releaseDate": "1734534000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4907940690369.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4907940690369",
     "purchase": [],
@@ -9824,349 +8321,323 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-b-519032",
-    "jan": "4940261519032",
-    "title": "スパイク・チュンソフト (Switch)超探偵事件簿 レインコード",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 747,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4940261519032-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4940261519032-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-094894",
-    "jan": "4976219094894",
-    "title": "カプコン (Switch)大神 絶景版",
+    "id": "nsw-608210",
+    "jan": "4935066608210",
+    "title": "罪ノ光ランデヴー",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 745,
+    "searches": 56,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1734534000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4976219094894-54-46584.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4935066608210.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4976219094894-54-46584",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4935066608210",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-b-011587",
-    "jan": "4988601011587",
-    "title": "スクウェア・エニックス (Switch)インフィニティ ストラッシュ ドラゴンクエスト ダイの大冒険",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 742,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601011587-54-40561.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601011587-54-40561",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-8-empires-b-163623",
-    "jan": "4988615163623",
-    "title": "コーエーテクモゲームス (Switch)真・三國無双8 Empires 通常版",
+    "id": "ok-ns-1-2-switch-999336",
+    "jan": "4527823999336",
+    "title": "どこかで見た“あのゲー”ムたちを棒人間で作ってみたけれど、果たしてあなたはクリアできるのか?1+2",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 741,
+    "searches": 55,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1734534000",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988615163623-54-40560.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4527823999336.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988615163623-54-40560",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4527823999336",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-3-b-004231",
-    "jan": "4995506004231",
-    "title": "日本一ソフトウェア (Switch)真 流行り神3",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 736,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995506004231-54-44309.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995506004231-54-44309",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-trap-of-musk-b-096251",
-    "jan": "4995857096251",
-    "title": "アイディアファクトリー (Switch)蛇香のライラ 〜Trap of MUSK〜 通常版",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 735,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995857096251-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995857096251-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-episodio1926-1926-b-096664",
-    "jan": "4995857096664",
-    "title": "アイディアファクトリー (Switch)ピオフィオーレの晩鐘 −Episodio1926− 通常版ピオフィ ピオフィ1926",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 734,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995857096664-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995857096664-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-b-096688",
-    "jan": "4995857096688",
-    "title": "アイディアファクトリー (Switch)ビルシャナ戦姫 〜源平飛花夢想〜 通常版",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 733,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995857096688-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995857096688-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-charademaniacs-for-nintendo-switch-b-096954",
-    "jan": "4995857096954",
-    "title": "アイディアファクトリー (Switch)CharadeManiacs for Nintendo Switch 通常版",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 732,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4995857096954-54-46584.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4995857096954-54-46584",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-diabolic-lovers-grand-edition-for-nintendo-switch-096350",
-    "jan": "4995857096350",
-    "title": "DIABOLIC LOVERS GRAND EDITION for Nintendo Switch 通常版(ディアボリックラヴァーズグランドエディション)",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 731,
-    "aliases": [],
-    "releaseDate": "1574262000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/73503.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_73503",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-2019-11-7-073194",
-    "jan": "4549767073194",
-    "title": "映画すみっコぐらし とびだす絵本とひみつのコ ゲームであそぼう!絵本の世界(2019年11月7日発売)",
-    "genre": "アドベンチャー",
-    "cover": "GM",
-    "searches": 730,
-    "aliases": [],
-    "releaseDate": "1573052400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/73525.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_73525",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-finc-home-fit-2020-10-29-480053",
-    "jan": "4580555480053",
-    "title": "FiNC HOME FiT(フィンクホームフィット)(2020年10月29日発売)",
+    "id": "ok-ns-neogeo-vol-1-152506",
+    "jan": "4964808152506",
+    "title": "アケアカNEOGEO セレクション Vol.1",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 729,
+    "searches": 54,
     "aliases": [],
-    "releaseDate": "1603897200",
+    "releaseDate": "1733929200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/73768.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4964808152506.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_73768",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4964808152506",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-need-for-speed-hot-pursuit-remastered-2020-11-13-023551",
-    "jan": "4938833023551",
-    "title": "Need for Speed:Hot Pursuit Remastered(ニードフォースピード ホットパースートリマスター)(オンライン必須)(2020年11月13日発売)",
-    "genre": "レース",
+    "id": "nintendo-switch-neogeo-vol-2-152605",
+    "jan": "4964808152605",
+    "title": "[Nintendo Switch]/ゲーム/アケアカNEOGEO セレクション Vol.2",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 728,
+    "searches": 53,
+    "aliases": [],
+    "releaseDate": "1733929200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/neowing/hac-p-bk45a.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/neowing_hac-p-bk45a",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-knight-vs-giant-switch-333441",
+    "jan": "4571331333441",
+    "title": "Knight vs Giant:アーサー王と壊れた聖剣",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 52,
     "aliases": [
-      "Switch Need for Speed Hot Pursuit Remastered(ニードフォースピード ホットパースートリマスター)(オンライン必須)(2020年11月13日発売)【新品】"
+      "[メール便OK]【新品】【NS】Knight vs Giant アーサー王と壊れた聖剣[Switch版][お取寄せ品]"
     ],
-    "releaseDate": "1605193200",
+    "releaseDate": "1733929200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/73819.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4571331333441.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_73819",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4571331333441",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-z-18-2022-1-13-518202",
-    "jan": "4940261518202",
-    "title": "ダイイングライト プラチナエディション(Z指定:18才以上対象)(2022年1月13日発売)",
+    "id": "ok-ns-under-defeat-switch-047756",
+    "jan": "4571442047756",
+    "title": "UNDER DEFEAT",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 727,
-    "aliases": [
-      "Switch ダイイングライト プラチナエディション(Z指定 18才以上対象)(2022年1月13日発売)【新品】【ネコポス送料無料】"
-    ],
-    "releaseDate": "1641999600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/193/74156.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/193_74156",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-among-us-crewmate-editon-2021-12-16-213434",
-    "jan": "8809459213434",
-    "title": "Among Us:Crewmate Editon(アモングアス クルーメイトエディション)(2021年12月16日発売)",
-    "genre": "パーティー",
-    "cover": "GM",
-    "searches": 726,
-    "aliases": [
-      "Switch Among Us Crewmate Editon(アモングアス クルーメイトエディション)(2021年12月16日発売)【新品】"
-    ],
-    "releaseDate": "1639580400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74218.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74218",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-2022-12-15-165899",
-    "jan": "4549767165899",
-    "title": "異種最強王図鑑 バトルコロシアム(2022年12月15日発売)",
-    "genre": "格闘",
-    "cover": "GM",
-    "searches": 725,
+    "searches": 51,
     "aliases": [],
-    "releaseDate": "1671030000",
+    "releaseDate": "1733324400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74517.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4571442047756.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74517",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4571442047756",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-1-2-switch-2023-6-30-551389",
-    "jan": "4902370551389",
-    "title": "エブリバディ 1-2-Switch!(2023年6月30日発売)",
-    "genre": "パーティー",
+    "id": "ok-ns-ex-collection-607961",
+    "jan": "4935066607961",
+    "title": "戦国†恋姫EX〜COLLECTION〜",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 724,
+    "searches": 50,
     "aliases": [],
-    "releaseDate": "1688050800",
+    "releaseDate": "1732719600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74786.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066607961.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74786",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066607961",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-ea-sports-fc24-ea-fc24-2023-9-29-024510",
-    "jan": "4938833024510",
-    "title": "EA SPORTS FC24(EAスポーツFC24)(2023年9月29日発売)",
-    "genre": "スポーツ",
+    "id": "ok-ns-2-999312",
+    "jan": "4527823999312",
+    "title": "ドラゴンドリル 小2コレクション",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 723,
+    "searches": 49,
     "aliases": [],
-    "releaseDate": "1695913200",
+    "releaseDate": "1732719600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74844.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4527823999312.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74844",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4527823999312",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-607909",
+    "jan": "4935066607909",
+    "title": "ハイスピードエトワール パドックストーリーズ",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 48,
+    "aliases": [],
+    "releaseDate": "1732114800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066607909.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066607909",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-240147",
+    "jan": "4510772240147",
+    "title": "ダウンタウンスペシャル くにおくんの三国志だよ満員御礼!!",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 47,
+    "aliases": [],
+    "releaseDate": "1730905200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4510772240147.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4510772240147",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-farmagia-switch-303820",
+    "jan": "4535506303820",
+    "title": "FARMAGIA(ファーマギア)",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 46,
+    "aliases": [],
+    "releaseDate": "1730386800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4535506303820.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4535506303820",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-boosted-switch-047831",
+    "jan": "4571442047831",
+    "title": "ウルフファング・スカルファング サターントリビュート Boosted",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 45,
+    "aliases": [],
+    "releaseDate": "1730300400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4571442047831.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4571442047831",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-607879",
+    "jan": "4935066607879",
+    "title": "ジュエリー・ハーツ・アカデミア",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 44,
+    "aliases": [],
+    "releaseDate": "1729695600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066607879.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066607879",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-607800",
+    "jan": "4935066607800",
+    "title": "制服カノジョ まよいごエンゲージ",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 43,
+    "aliases": [],
+    "releaseDate": "1727276400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066607800.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066607800",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch-3-520687",
+    "jan": "4940261520687",
+    "title": "スパイクチュンソフト Switchゲームソフト かまいたちの夜×3",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 42,
+    "aliases": [],
+    "releaseDate": "1726671600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/y-kojima/4940261520687.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/y-kojima_4940261520687",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-born-of-bread-switch-333489",
+    "jan": "4571331333489",
+    "title": "Born of Bread",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 41,
+    "aliases": [],
+    "releaseDate": "1726671600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4571331333489.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4571331333489",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
@@ -10176,14 +8647,15 @@ export const generatedGames = [
     "jan": "4582747891760",
     "title": "ガンダムブレイカー4 通常版(2024年8月29日発売)",
     "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 722,
+    "searches": 39,
     "aliases": [],
     "releaseDate": "1724857200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
       "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/79195.html",
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_79195",
     "purchase": [],
@@ -10191,214 +8663,729 @@ export const generatedGames = [
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "truck-amp-logistics-simulator-amp-nintendo-switch-ver-144810",
-    "jan": "4015918144810",
-    "title": "Truck & Logistics Simulator トラック & ロジスティクス シュミレーター Nintendo switch ニンテンドー スイッチ ソフト 日本語対応 輸入ver.",
-    "genre": "シミュレーション",
+    "id": "ok-ns-switch-607497",
+    "jan": "4935066607497",
+    "title": "ゴーヘルゴー つきおとしてこ",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 721,
-    "aliases": [
-      "Truck &amp; Logistics Simulator トラック &amp; ロジスティクス シュミレーター Nintendo switch ニンテンドー スイッチ ソフト 日本語対応 輸入ver."
-    ],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/yms-online/nin-trulog.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/yms-online_nin-trulog",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-3-b-303547",
-    "jan": "4535506303547",
-    "title": "マーベラス (Switch)ルーンファクトリー3スペシャル 通常版",
-    "genre": "RPG",
-    "cover": "GM",
-    "searches": 719,
+    "searches": 38,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1724857200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4535506303547-54-40562.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066607497.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4535506303547-54-40562",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066607497",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-155043",
-    "jan": "4549767155043",
-    "title": "日本コロムビア Switchゲームソフト げっし〜ず みんなでちょこまか村づくり",
-    "genre": "シミュレーション",
+    "id": "nsw-607602",
+    "jan": "4935066607602",
+    "title": "恋にはあまえが必要です",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 718,
+    "searches": 37,
     "aliases": [],
-    "releaseDate": "1659538800",
+    "releaseDate": "1723042800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/y-kojima/4549767155043.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4935066607602.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/y-kojima_4549767155043",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4935066607602",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-realpro-b-911470",
-    "jan": "4560221911470",
-    "title": "ソニックパワード (Switch)鉄道にっぽん!RealPro 東京−神奈川! 東急電鉄 編",
-    "genre": "シミュレーション",
+    "id": "ok-ns-x-607701",
+    "jan": "4935066607701",
+    "title": "戦国 恋姫X 〜乙女絢爛☆戦国絵巻〜 北条家騒乱編",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 715,
+    "searches": 36,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1721833200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4560221911470-54-40562.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066607701.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4560221911470-54-40562",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066607701",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-monark-b-236787",
-    "jan": "4562240236787",
-    "title": "フリュー (Switch)モナーク/ Monark 通常版",
-    "genre": "RPG",
+    "id": "ok-ns-091349",
+    "jan": "4589857091349",
+    "title": "ホットラップ レーシング",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 713,
+    "searches": 35,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1721833200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4562240236787-54-40561.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4589857091349.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4562240236787-54-40561",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4589857091349",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "mages-switch-anonymous-code-b-131056",
-    "jan": "4562412131056",
-    "title": "MAGES. (Switch)ANONYMOUS;CODE(アノニマスコード) 通常版",
-    "genre": "アドベンチャー",
+    "id": "switch-another-memory-hac-p-bf9aa-098248",
+    "jan": "4995857098248",
+    "title": "アイディアファクトリー Switchゲームソフト 夏空のモノローグ 〜Another Memory〜",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 711,
+    "searches": 34,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1721833200",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4562412131056-54-46584.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/y-kojima/4995857098248.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4562412131056-54-46584",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/y-kojima_4995857098248",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "nintendo-switch-661129",
-    "jan": "4571237661129",
-    "title": "【任天堂】Nintendo Switch メガトン級ムサシ/爆買/爆買",
-    "genre": "シミュレーション",
+    "id": "nsw-nintendo-world-championships-552133",
+    "jan": "4902370552133",
+    "title": "Nintendo World Championships ファミコン世界大会",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 710,
+    "searches": 33,
     "aliases": [],
-    "releaseDate": "不明",
+    "releaseDate": "1721228400",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/toreneko/4571237661129.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370552133.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/toreneko_4571237661129",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4902370552133",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
   },
   {
-    "id": "switch-shooting-library-vol-2-b-047220",
-    "jan": "4571442047220",
-    "title": "シティコネクション (Switch)彩京 SHOOTING LIBRARY Vol.2 通常版",
+    "id": "switch-ace-combat7-skies-unknown-deluxe-edition-7-24-7-11-876262",
+    "jan": "4582747876262",
+    "title": "ACE COMBAT7:SKIES UNKNOWN DELUXE EDITION(エースコンバット7:スカイズアンノウン)(24/7/11日発売)",
     "genre": "シューティング",
+    "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 709,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4571442047220-54-46581.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4571442047220-54-46581",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "bandai-namco-entertainment-switch-342827",
-    "jan": "4573173342827",
-    "title": "バンダイナムコエンターテインメント BANDAI NAMCO Entertainment SWITCHゲームソフト",
-    "genre": "その他",
-    "cover": "GM",
-    "searches": 706,
-    "aliases": [],
-    "releaseDate": "1543417200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/y-kojima/4573173342827.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/y-kojima_4573173342827",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "ok-ns-t-348089",
-    "jan": "4573173348089",
-    "title": "スーパーロボット大戦T 通常版",
-    "genre": "シミュレーション",
-    "cover": "GM",
-    "searches": 705,
-    "aliases": [],
-    "releaseDate": "1553007600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573173348089.html",
-      "checkedAt": "2026-07-22"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4573173348089",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-01T22:19:07.875Z"
-  },
-  {
-    "id": "switch-racer-b-980070",
-    "jan": "4589871980070",
-    "title": "コトブキソリューション (Switch)スーパー・ストリート: Racer",
-    "genre": "レース",
-    "cover": "GM",
-    "searches": 701,
+    "searches": 32,
     "aliases": [
-      "コトブキソリューション (Switch)スーパー・ストリート Racer 返品種別B"
+      "Switch ACE COMBAT7 SKIES UNKNOWN DELUXE EDITION(エースコンバット7 スカイズアンノウン)(24/7/11日発売)【新品】【ポスト投函便送料無料】"
     ],
-    "releaseDate": "不明",
+    "releaseDate": "1720623600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4589871980070-54-40563.html",
-      "checkedAt": "2026-07-22"
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/79120.html",
+      "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4589871980070-54-40563",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_79120",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-656113",
+    "jan": "4595122656113",
+    "title": "リードオンリーメモリーズ:ニューロダイバー",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 31,
+    "aliases": [
+      "[メール便OK]【新品】【NS】リードオンリーメモリーズ ニューロダイバー[Switch版][在庫品]"
+    ],
+    "releaseDate": "1720018800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4595122656113.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4595122656113",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-863388",
+    "jan": "4974365863388",
+    "title": "スーパーモンキーボール バナナランブル",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 30,
+    "aliases": [],
+    "releaseDate": "1719241200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4974365863388.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4974365863388",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-motogp-24-switch-790747",
+    "jan": "4580717790747",
+    "title": "MotoGP 24",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 29,
+    "aliases": [],
+    "releaseDate": "1718204400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4580717790747.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4580717790747",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nsw-rpg-551952",
+    "jan": "4902370551952",
+    "title": "ペーパーマリオRPG",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 28,
+    "aliases": [],
+    "releaseDate": "1716390000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370551952.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4902370551952",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-2-earth-defense-force-world-brothers-switch-999220",
+    "jan": "4527823999220",
+    "title": "四角い地球に再びシカク現る!?デジボク地球防衛軍2 EARTH DEFENSE FORCE:WORLD BROTHERS",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 27,
+    "aliases": [
+      "[メール便OK]【新品】【NS】四角い地球に再びシカク現る!?デジボク地球防衛軍2 EARTH DEFENSE FORCE WORLD BROTHERS[Switch版][在庫品]"
+    ],
+    "releaseDate": "1716390000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4527823999220.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4527823999220",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-607350",
+    "jan": "4935066607350",
+    "title": "けもの道 ガーリッシュスクエア",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 26,
+    "aliases": [],
+    "releaseDate": "1713970800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066607350.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066607350",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-slave-zero-x-switch-760589",
+    "jan": "4580695760589",
+    "title": "SLAVE ZERO X",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 25,
+    "aliases": [],
+    "releaseDate": "1712761200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4580695760589.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4580695760589",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-priministar-switch-607411",
+    "jan": "4935066607411",
+    "title": "PriministAr -プライミニスター-",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 24,
+    "aliases": [],
+    "releaseDate": "1711551600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066607411.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066607411",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-ambitious-mission-switch-607237",
+    "jan": "4935066607237",
+    "title": "AMBITIOUS MISSION",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 23,
+    "aliases": [],
+    "releaseDate": "1710946800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066607237.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066607237",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-another-adventurer-nightmare-feast-232571",
+    "jan": "4582692232571",
+    "title": "ゴブリンスレイヤー -ANOTHER ADVENTURER- NIGHTMARE FEAST",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 22,
+    "aliases": [],
+    "releaseDate": "1709132400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4582692232571.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4582692232571",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-2-690253",
+    "jan": "4907940690253",
+    "title": "へべれけ2",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 21,
+    "aliases": [],
+    "releaseDate": "1709132400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4907940690253.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4907940690253",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nsw-bar-005160",
+    "jan": "4995506005160",
+    "title": "BAR ステラアビス",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 20,
+    "aliases": [],
+    "releaseDate": "1709132400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4995506005160.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4995506005160",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-cx-1-2-replay-364037",
+    "jan": "4570131364037",
+    "title": "ゲームセンターCX 有野の挑戦状 1+2 REPLAY",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 19,
+    "aliases": [],
+    "releaseDate": "1708527600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4570131364037.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4570131364037",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "switch-2024-2-1-362767",
+    "jan": "4570131362767",
+    "title": "呪術廻戦 戦華双乱 通常版(2024年2月1日発売)",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 18,
+    "aliases": [],
+    "releaseDate": "1706713200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74954.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74954",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-ssb-switch-240280",
+    "jan": "4570077240280",
+    "title": "天下統一SSB",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 16,
+    "aliases": [],
+    "releaseDate": "1706108400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4570077240280.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4570077240280",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-605783",
+    "jan": "4935066605783",
+    "title": "すだまリレイシヨン 通常版",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 15,
+    "aliases": [],
+    "releaseDate": "1706108400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066605783.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066605783",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-i-switch-607299",
+    "jan": "4935066607299",
+    "title": "どっちのiが好きですか?",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 14,
+    "aliases": [],
+    "releaseDate": "1706108400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066607299.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066607299",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-2045-switch-606636",
+    "jan": "4935066606636",
+    "title": "2045、月より。",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 13,
+    "aliases": [],
+    "releaseDate": "1703084400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066606636.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066606636",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-spy-family-operation-diary-switch-357428",
+    "jan": "4570131357428",
+    "title": "SPY×FAMILY OPERATION DIARY(スパイファミリー オペレーションダイアリー)",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 12,
+    "aliases": [],
+    "releaseDate": "1703084400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4570131357428.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4570131357428",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "nsw-003591",
+    "jan": "4535520003591",
+    "title": "螺旋麗嬢 スパイラルお嬢様 超髪のマキナ",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 10,
+    "aliases": [],
+    "releaseDate": "1701874800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4535520003591.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/updra_4535520003591",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-next-summit-switch-605592",
+    "jan": "4935066605592",
+    "title": "ヤマノススメ Next Summit 〜あの山に、もう一度〜",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 9,
+    "aliases": [],
+    "releaseDate": "1701874800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066605592.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066605592",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-gravity-circuit-switch-333373",
+    "jan": "4571331333373",
+    "title": "Gravity Circuit",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 8,
+    "aliases": [],
+    "releaseDate": "1701270000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4571331333373.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4571331333373",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-re-d-cherish-switch-606575",
+    "jan": "4935066606575",
+    "title": "RE:D Cherish!",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 7,
+    "aliases": [
+      "[メール便OK]【新品】【NS】RE D Cherish! [Switch版][在庫品]"
+    ],
+    "releaseDate": "1700578800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066606575.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066606575",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-191089",
+    "jan": "4549767191089",
+    "title": "映画 すみっコぐらし ツギハギ工場のふしぎなコ ゲームであそぼう! 映画の世界",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 6,
+    "aliases": [],
+    "releaseDate": "1700060400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4549767191089.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4549767191089",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-airtwister-switch-747380",
+    "jan": "4260650747380",
+    "title": "AirTwister",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 5,
+    "aliases": [],
+    "releaseDate": "1699542000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4260650747380.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4260650747380",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-50-998919",
+    "jan": "4527823998919",
+    "title": "ふしぎ駄菓子屋 銭天堂 ふしぎ駄菓子ばなし50選",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 4,
+    "aliases": [],
+    "releaseDate": "1699455600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4527823998919.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4527823998919",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-switch-606513",
+    "jan": "4935066606513",
+    "title": "白刃きらめく恋しらべ",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 3,
+    "aliases": [],
+    "releaseDate": "1698246000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4935066606513.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4935066606513",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-hhg-710862",
+    "jan": "4580102710862",
+    "title": "HHG 女神の終焉",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 2,
+    "aliases": [],
+    "releaseDate": "1698246000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4580102710862.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4580102710862",
+    "purchase": [],
+    "sale": [],
+    "updatedAt": "2026-08-01T22:19:07.875Z"
+  },
+  {
+    "id": "ok-ns-hot-wheels-unleashed-2-turbocharged-790679",
+    "jan": "4580717790679",
+    "title": "HOT WHEELS UNLEASHED 2 Turbocharged",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 1,
+    "aliases": [],
+    "releaseDate": "1697641200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4580717790679.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4580717790679",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-01T22:19:07.875Z"
