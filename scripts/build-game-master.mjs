@@ -137,7 +137,10 @@ const games = selected.map((item, index) => ({
   title: cleanCatalogTitle(item.title),
   platform: item.platform,
   jan: String(item.jan),
-  genre: classifyGameGenre(item.title, item.platform === "Nintendo Switch 2" ? "アクション" : undefined),
+  // The official package feed has no reliable game-genre field. A valid package
+  // title that is not covered by a series rule is broadly classified as action
+  // instead of being concentrated in the unhelpful "その他" bucket.
+  genre: classifyGameGenre(item.title, "アクション"),
   releaseDate: compact(item.salesDate) || "不明",
   aliases: buildAliases(item),
   imageUrl: item.largeImageUrl || null,
