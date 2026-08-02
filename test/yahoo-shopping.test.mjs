@@ -117,3 +117,23 @@ test("accepts a Switch 2 result only for a Switch 2 title", async () => {
   assert.equal(offers.length, 1);
   assert.equal(offers[0].platform, "Nintendo Switch 2");
 });
+
+test("accepts a verified Switch 2 listing when the catalog title has a Switch2 annotation", async () => {
+  const annotatedGame = {
+    ...game,
+    jan: "4902370553574",
+    title: "ポケモン (Switch2)Pokemon LEGENDS Z-A Nintendo Switch 2 Edition",
+    platform: "Nintendo Switch 2",
+  };
+  const offers = await fetchYahooOffers(annotatedGame, { YAHOO_SHOPPING_APP_ID: "test" }, async () => ({
+    ok: true,
+    json: async () => ({
+      hits: [{
+        ...validHit(annotatedGame),
+        name: "Pokemon LEGENDS Z-A Nintendo Switch 2 Edition 中古",
+      }],
+    }),
+  }));
+
+  assert.equal(offers.length, 1);
+});

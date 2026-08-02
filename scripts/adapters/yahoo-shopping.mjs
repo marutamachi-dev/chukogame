@@ -4,6 +4,15 @@ const normalizeTitle = (value) => value
   .toLowerCase()
   .replace(/[\s\u30fb:\uff1a!\uff01?\uff1f'"\u300c\u300d]/g, "");
 
+const titleVariants = (game) => [game.title, ...(game.aliases || [])]
+  .flatMap((title) => [
+    title,
+    String(title).replace(/^\s*ポケモン\s*\(switch\s*2\)\s*/iu, ""),
+    String(title).replace(/^\s*\(switch\s*2\)\s*/iu, ""),
+  ])
+  .map(normalizeTitle)
+  .filter((title, index, titles) => title.length >= 8 && titles.indexOf(title) === index);
+
 export function yahooConfigured(env = process.env) {
   return Boolean(env.YAHOO_SHOPPING_APP_ID);
 }
@@ -48,9 +57,10 @@ export async function fetchYahooOffers(game, env = process.env, fetchImpl = fetc
 function toVerifiedOffers(items, game, observedAt) {
   const platform = game.platform || "Nintendo Switch";
   const isSwitch2Listing = (title) => /switch(?: |　)*2|\u30b9\u30a4\u30c3\u30c12/iu.test(title || "");
+  const verifiedTitles = titleVariants(game);
   return items.filter((item) => (
     String(item.janCode) === String(game.jan)
-    && [game.title, ...(game.aliases || [])].some((title) => normalizeTitle(item.name || "").includes(normalizeTitle(title)))
+    && verifiedTitles.some((title) => normalizeTitle(item.name || "").includes(title))
     && (platform === "Nintendo Switch 2" ? isSwitch2Listing(item.name) : !isSwitch2Listing(item.name))
     && item.condition === "used"
     && item.inStock === true

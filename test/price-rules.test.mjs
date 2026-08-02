@@ -22,6 +22,13 @@ test("calculates cost from lowest purchase and highest sale", () => {
   assert.equal(calculatePlayCost([{ priceWithShipping: 1200 }], []), null);
 });
 
+test("keeps a recent verified trade-in price after purchase prices expire", () => {
+  const now = new Date("2026-08-03T00:00:00.000Z");
+  const observedAt = "2026-07-26T10:00:00.000Z";
+  assert.equal(isEligibleOffer({ ...eligible, observedAt }, now), false);
+  assert.equal(isEligibleOffer({ ...eligible, kind: "sale", price: 900, priceWithShipping: undefined, observedAt }, now), true);
+});
+
 test("groups matching JAN records into one catalog game", () => {
   const catalog = buildCatalog([eligible, { ...eligible, kind: "sale", price: 900, priceWithShipping: undefined }], "2026-07-20T00:00:00.000Z");
   assert.equal(catalog.length, 1);

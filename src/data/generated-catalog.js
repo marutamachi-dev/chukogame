@@ -77,58 +77,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109002171001.html"
       }
     ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-173222",
-    "jan": "4988602173222",
-    "title": "桃太郎電鉄 〜昭和 平成 令和も定番!〜",
-    "genre": "シミュレーション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 249,
-    "aliases": [],
-    "releaseDate": "1605711600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988602173222.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_233014098-233",
-    "purchase": [
+    "sale": [
       {
-        "name": "Yahoo! Shopping",
-        "price": 4100,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F233014098-233.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4100,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F67705234-67.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019529839.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019529839.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4580,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350006849.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5159,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001235981.html"
+        "name": "駿河屋",
+        "price": 3800,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002171"
       }
     ],
-    "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -302,7 +257,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F92123235-92.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2100,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000004"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -476,7 +437,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260723sk160158.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2400,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000913"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -560,7 +527,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019164363.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 3300,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000290"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -601,7 +574,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109001187001.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2600,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001187"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -702,7 +681,18 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fentameoukoku%2F16802.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1400,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000746"
+      },
+      {
+        "name": "駿河屋",
+        "price": 750,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000855"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -763,7 +753,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhotmeteor%2Fb08fc9zrw1-a1xmwmvqcbt2o4-20260503.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2500,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001149"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -854,7 +850,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fentameoukoku%2F17149.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1800,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001774"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -900,58 +902,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109002023001.html"
       }
     ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "minecraft-094113",
-    "jan": "4549576094113",
-    "title": "Minecraft",
-    "genre": "アドベンチャー",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 240,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/esdigital/10777938.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0012770330",
-    "purchase": [
+    "sale": [
       {
-        "name": "Yahoo! Shopping",
-        "price": 3390,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012770330.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3580,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350011403.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3614,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012770330.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3800,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350005809.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3872,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019073638.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4772,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260729sk180701.html"
+        "name": "駿河屋",
+        "price": 2600,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002023"
       }
     ],
-    "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -1120,7 +1077,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001231369.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1700,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002362"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -1171,7 +1134,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhotmeteor%2Fb07v3kk93x-a239xfcid7vyp8-20260503.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1900,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000649"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -1276,7 +1245,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000001001.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 3300,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000001"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -1352,7 +1327,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001229585.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2100,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000124"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -1418,68 +1399,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000073001.html"
       }
     ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-142192",
-    "jan": "4988615142192",
-    "title": "ゼルダ無双 厄災の黙示録",
-    "genre": "アクション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 234,
-    "aliases": [],
-    "releaseDate": "1605798000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615142192.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013189538",
-    "purchase": [
+    "sale": [
       {
-        "name": "Yahoo! Shopping",
-        "price": 4518,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013189538.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4518,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350006623.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4518,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350013240.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4518,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013189538.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5500,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F78311092-239.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5600,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F223039836-223.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5600,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F92124947-92.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6080,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fcokotokyo%2F11202.html"
+        "name": "駿河屋",
+        "price": 2700,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000073"
       }
     ],
-    "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -1555,7 +1481,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F94064810-94.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 4100,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004895"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -1586,7 +1518,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020675764.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2100,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004550"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -1627,7 +1565,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhotmeteor%2Fb0d7gqrt8r-a30guso4e60h4p-20260503.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2700,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003814"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -1713,63 +1657,39 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260707sk400246.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2300,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003047"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
-    "id": "switch-543896",
-    "jan": "4902370543896",
-    "title": "ポケットモンスター シールド",
-    "genre": "RPG",
+    "id": "switch-2-542868",
+    "jan": "4902370542868",
+    "title": "スーパーマリオメーカー2(新品)",
+    "genre": "アクション",
     "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 227,
+    "searches": 228,
     "aliases": [],
-    "releaseDate": "1573743600",
+    "releaseDate": "1561647600",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370543896.html",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/famicom-plaza/954921906.html",
       "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013015417",
-    "purchase": [
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/famicom-plaza_954921906",
+    "purchase": [],
+    "sale": [
       {
-        "name": "Yahoo! Shopping",
-        "price": 2983,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013015417.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3256,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260729sk500527.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3267,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019334835.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3267,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350006897.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3300,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnaokichi%2Fsw-sf-hd-001.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3780,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350005411.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3850,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnext-hands-2%2F08021104mt.html"
+        "name": "駿河屋",
+        "price": 1900,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000558"
       }
     ],
-    "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -1795,7 +1715,39 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260703sk030234.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2200,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002740"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-fit-boxing-2-b-103327",
+    "jan": "4965857103327",
+    "title": "イマジニア (Switch)Fit Boxing 2 -リズム&エクササイズ-",
+    "genre": "音楽・リズム",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 225,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4965857103327-54-46585.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4965857103327-54-46585",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 700,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001225"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -1869,7 +1821,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001230644.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1800,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002361"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -1964,83 +1922,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhotmeteor%2Fb0bv94kxfr-a1aer6bjo66r9w-20260503.html"
       }
     ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-176490",
-    "jan": "4988602176490",
-    "title": "桃太郎電鉄ワールド 〜地球は希望でまわってる!〜",
-    "genre": "シミュレーション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 222,
-    "aliases": [],
-    "releaseDate": "1700060400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online/4988602176490.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_78311317-237",
-    "purchase": [
+    "sale": [
       {
-        "name": "Yahoo! Shopping",
-        "price": 4200,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F78311317-237.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4292,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013819930.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020157293.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0020157293.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4400,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F105040266-105.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4400,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F108200391-237.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4400,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350011204.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4400,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F39258389-237.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4400,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F49319060-237.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4400,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F92123233-92.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4518,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013819930.html"
+        "name": "駿河屋",
+        "price": 3400,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002738"
       }
     ],
-    "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -2106,7 +1994,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhotmeteor%2Fb07vdhjy2j-a1aer6bjo66r9w-20260503.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2700,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000675"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -2157,7 +2051,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019636619.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1500,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001473"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -2203,63 +2103,65 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F92126058-92.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1600,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003819"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
-    "id": "switch-136718",
-    "jan": "4534530136718",
-    "title": "鬼滅の刃 ヒノカミ血風譚",
-    "genre": "アクション",
+    "id": "switch-51-545784",
+    "jan": "4902370545784",
+    "title": "世界のアソビ大全51",
+    "genre": "テーブル・学習",
     "platform": "Nintendo Switch",
     "cover": "GM",
-    "searches": 218,
+    "searches": 205,
     "aliases": [],
-    "releaseDate": "1654700400",
+    "releaseDate": "1591282800",
     "verification": {
       "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4534530136718.html",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/toy24shop/4902370545784.html",
       "checkedAt": "2026-08-02"
     },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013497471",
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/vivoage_260721sk380380",
     "purchase": [
       {
         "name": "Yahoo! Shopping",
-        "price": 3232,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013497471.html"
+        "price": 3944,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260721sk380380.html"
       },
       {
         "name": "Yahoo! Shopping",
-        "price": 3980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350014231.html"
+        "price": 3949,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001237116.html"
       },
       {
         "name": "Yahoo! Shopping",
-        "price": 4292,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350009344.html"
+        "price": 4356,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019466905.html"
       },
       {
         "name": "Yahoo! Shopping",
-        "price": 4400,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F38061054-38.html"
+        "price": 4356,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019466905.html"
       },
       {
         "name": "Yahoo! Shopping",
-        "price": 4580,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350008661.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019838140.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019838140.html"
+        "price": 4380,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350007929.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2300,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000987"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -2310,7 +2212,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F39258050-237.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2400,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002289"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -2366,7 +2274,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260724sk060364.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1700,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001863"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -2412,53 +2326,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fcokotokyo%2F13106.html"
       }
     ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "nsw-2-179248",
-    "jan": "4988602179248",
-    "title": "桃太郎電鉄2 〜あなたの町も きっとある〜 東日本編+西日本編",
-    "genre": "シミュレーション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 212,
-    "aliases": [],
-    "releaseDate": "1762959600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4988602179248.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_228020758-228",
-    "purchase": [
+    "sale": [
       {
-        "name": "Yahoo! Shopping",
-        "price": 6980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F228020758-228.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F45119894-231.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F63188490-237.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F92124626-92.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 7139,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020703919.html"
+        "name": "駿河屋",
+        "price": 2200,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004457"
       }
     ],
-    "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -2494,7 +2368,39 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsumahoselect%2F4902370546026-t.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1900,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001036"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-2021-10-29-548433",
+    "jan": "4902370548433",
+    "title": "マリオパーティ スーパースターズ(2021年10月29日発売)",
+    "genre": "パーティー",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 210,
+    "aliases": [],
+    "releaseDate": "1635433200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74055.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74055",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2200,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001674"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -2545,7 +2451,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350007819.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1200,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001772"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -2606,33 +2518,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001219388.html"
       }
     ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-950049",
-    "jan": "4580635950049",
-    "title": "クレヨンしんちゃん「オラと博士の夏休み」〜おわらない七日間の旅〜",
-    "genre": "アクション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 207,
-    "aliases": [],
-    "releaseDate": "1626274800",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4580635950049.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013309403",
-    "purchase": [
+    "sale": [
       {
-        "name": "Yahoo! Shopping",
-        "price": 2983,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013309403.html"
+        "name": "駿河屋",
+        "price": 2200,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002458"
       }
     ],
-    "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -2668,53 +2560,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001233712.html"
       }
     ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-51-545784",
-    "jan": "4902370545784",
-    "title": "世界のアソビ大全51",
-    "genre": "テーブル・学習",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 205,
-    "aliases": [],
-    "releaseDate": "1591282800",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/toy24shop/4902370545784.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/vivoage_260721sk380380",
-    "purchase": [
+    "sale": [
       {
-        "name": "Yahoo! Shopping",
-        "price": 3944,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260721sk380380.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3949,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001237116.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019466905.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019466905.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4380,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350007929.html"
+        "name": "駿河屋",
+        "price": 2800,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001381"
       }
     ],
-    "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -2755,38 +2607,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fworldplus01%2Fnyanko.html"
       }
     ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "nsw-xi-s-010825",
-    "jan": "4988601010825",
-    "title": "ドラゴンクエストXI 過ぎ去りし時を求めて S(新価格版)",
-    "genre": "RPG",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 203,
-    "aliases": [],
-    "releaseDate": "1607007600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4988601010825.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013204803",
-    "purchase": [
+    "sale": [
       {
-        "name": "Yahoo! Shopping",
-        "price": 4744,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013204803.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4744,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013204803.html"
+        "name": "駿河屋",
+        "price": 900,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001234"
       }
     ],
-    "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -2832,74 +2659,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109004296001.html"
       }
     ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "ns-548174",
-    "jan": "4902370548174",
-    "title": "ナビつき! つくってわかる はじめてゲームプログラミング",
-    "genre": "テーブル・学習",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 200,
-    "aliases": [],
-    "releaseDate": "1623337200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4902370548174.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013338828",
-    "purchase": [
+    "sale": [
       {
-        "name": "Yahoo! Shopping",
-        "price": 2486,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013338828.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3113,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260425sk110338.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3190,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260725sk310187.html"
+        "name": "駿河屋",
+        "price": 2600,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004296"
       }
     ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "nsw-4-661068",
-    "jan": "4571237661068",
-    "title": "妖怪ウォッチ4++",
-    "genre": "RPG",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 198,
-    "aliases": [],
-    "releaseDate": "1575471600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4571237661068.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019351460",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6534,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019351460.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350005645.html"
-      }
-    ],
-    "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -2935,7 +2701,144 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019761728.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1400,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001798"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "ns-548174",
+    "jan": "4902370548174",
+    "title": "ナビつき! つくってわかる はじめてゲームプログラミング",
+    "genre": "テーブル・学習",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 200,
+    "aliases": [],
+    "releaseDate": "1623337200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4902370548174.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013338828",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 2486,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013338828.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3113,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260425sk110338.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3190,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260725sk310187.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1100,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001605"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "nsw-4-661068",
+    "jan": "4571237661068",
+    "title": "妖怪ウォッチ4++",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 198,
+    "aliases": [],
+    "releaseDate": "1575471600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4571237661068.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019351460",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6534,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019351460.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6980,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350005645.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 3800,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000767"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-x-x-2-hd-ff-b-010276",
+    "jan": "4988601010276",
+    "title": "スクウェア・エニックス (Switch)ファイナルファンタジー X/ X-2 HD リマスターFF ファイナルファンタジー",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 197,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601010276-54-40561.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601010276-54-40561",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 3500,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000461"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-pokken-tournament-dx-b-226064",
+    "jan": "4521329226064",
+    "title": "ポケモン (Switch)ポッ拳 POKKEN TOURNAMENT DX",
+    "genre": "格闘",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 196,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4521329226064-54-46582.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4521329226064-54-46582",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2600,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000038"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -3011,7 +2914,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F92123796-92.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2700,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004653"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -3092,7 +3001,13 @@ export const generatedGames = [
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fworldplus01%2Fzeruda4.html"
       }
     ],
-    "sale": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2500,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003813"
+      }
+    ],
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
@@ -3131,6 +3046,2040 @@ export const generatedGames = [
         "name": "Yahoo! Shopping",
         "price": 2629,
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260716sk240516.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 800,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003050"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-549003",
+    "jan": "4902370549003",
+    "title": "ポケットモンスター シャイニングパール",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 188,
+    "aliases": [],
+    "releaseDate": "1637247600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/toy24shop/4902370549003.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013370784",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 2486,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013370784.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 2780,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350012598.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 2986,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260727sk240440.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3313,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fentameoukoku%2F17086.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3509,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001231995.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4450,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fworldplus01%2Fpokemon.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1300,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001773"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-b-542400",
+    "jan": "4902370542400",
+    "title": "ヨッシークラフトワールド",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 187,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370542400-54-40560.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0012899926",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4970,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012899926.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5196,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012899926.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5445,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019201608.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5880,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000454001.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6589,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001232468.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 3000,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000454"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "nsw-2-862831",
+    "jan": "4974365862831",
+    "title": "ぷよぷよテトリス2 スペシャルプライス",
+    "genre": "パズル",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 185,
+    "aliases": [],
+    "releaseDate": "1668610800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4974365862831.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline_0019902080",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3267,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019902080.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3267,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019902080.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3913,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350013221.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1800,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002417"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-4-dx-114557",
+    "jan": "4988615114557",
+    "title": "戦国無双4 DX",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 184,
+    "aliases": [],
+    "releaseDate": "1552489200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615114557.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0012899843",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5422,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012899843.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5422,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012899843.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5940,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019200904.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6780,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000413001.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 3500,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000413"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "nsw-977430",
+    "jan": "4571577977430",
+    "title": "釣りスピリッツ 釣って遊べる水族館",
+    "genre": "スポーツ",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 183,
+    "aliases": [],
+    "releaseDate": "1666796400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4571577977430.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019892336",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5203,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019892336.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5203,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019892336.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5730,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fworldplus01%2Fturisupi.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5980,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350014495.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6528,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhotmeteor%2Fb0b7wck16n-a1aer6bjo66r9w-20260503.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2900,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002381"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "nsw-rpg-552461",
+    "jan": "4902370552461",
+    "title": "マリオ&ルイージRPG ブラザーシップ!",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 155,
+    "aliases": [],
+    "releaseDate": "1730905200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370552461.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0014003744",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 1989,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0014003744.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 2510,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350012228.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1200,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003815"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "ok-ns-356411",
+    "jan": "4573173356411",
+    "title": "ディズニー ツムツム フェスティバル",
+    "genre": "パーティー",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 180,
+    "aliases": [],
+    "releaseDate": "1570633200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573173356411.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013001893",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 2983,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013001893.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3509,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019321964.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3509,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019321964.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1600,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000688"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-2-553611",
+    "jan": "4902370553611",
+    "title": "スーパーマリオギャラクシー + スーパーマリオギャラクシー 2",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 178,
+    "aliases": [],
+    "releaseDate": "1759330800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370553611.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350013120",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6980,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350013120.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 7210,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109004641001.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 7623,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020688633.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 7980,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F234007302-234.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 7980,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F236008330-236.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 3800,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004641"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "nsw-542684",
+    "jan": "4902370542684",
+    "title": "ファイアーエムブレム 風花雪月",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 174,
+    "aliases": [],
+    "releaseDate": "1564066800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370542684.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/vivoage_260721sk380373",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6880,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260721sk380373.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 4200,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000488"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-vs-b-551877",
+    "jan": "4902370551877",
+    "title": "マリオvs.ドンキーコング",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 173,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370551877-54-46585.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350011439",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4000,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350011439.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4059,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001232465.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4356,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020222363.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4356,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0020222363.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1400,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003252"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-i-b-661242",
+    "jan": "4571237661242",
+    "title": "レベルファイブ (Switch)ファンタジーライフi グルグルの竜と時をぬすむ少女",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 164,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4571237661242-54-40561.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4571237661242-54-40561",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2000,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004258"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-xii-ff-b-010283",
+    "jan": "4988601010283",
+    "title": "スクウェア・エニックス (Switch)ファイナルファンタジーXII ザ ゾディアック エイジFF ファイナルファンタジー",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 162,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601010283-54-40561.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601010283-54-40561",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2200,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000462"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-model-debut2-nicola-2-b-236879",
+    "jan": "4562240236879",
+    "title": "フリュー (Switch)MODEL Debut2 #nicola/ モデルデビュー2 ニコラ",
+    "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 160,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4562240236879-54-40562.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4562240236879-54-40562",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 300,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001800"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-123-000093",
+    "jan": "4976219000093",
+    "title": "逆転裁判123 成歩堂セレクション",
+    "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 154,
+    "aliases": [],
+    "releaseDate": "1550674800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4976219000093.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0012884397",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 2983,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012884397.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3520,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019188704.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3520,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019188704.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1900,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000395"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-real-pro-b-911357",
+    "jan": "4560221911357",
+    "title": "ソニックパワード (Switch)鉄道にっぽん!Real Pro 特急走行!名古屋鉄道編",
+    "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 153,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4560221911357-54-46585.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4560221911357-54-46585",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 3400,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002445"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "ok-ns-342865",
+    "jan": "4573173342865",
+    "title": "塊魂アンコール",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 152,
+    "aliases": [],
+    "releaseDate": "1545231600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573173342865.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0012856373",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 2486,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012856373.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1100,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000364"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-7-with-dx-114403",
+    "jan": "4988615114403",
+    "title": "真・三國無双7 with 猛将伝 DX",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 149,
+    "aliases": [],
+    "releaseDate": "1545836400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615114403.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0012856317",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6213,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012856317.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6213,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012856317.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6930,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019164543.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 7420,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000393001.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 3800,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000393"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-minecraft-dungeons-ultimate-edition-187037",
+    "jan": "4549576187037",
+    "title": "Minecraft Dungeons Ultimate Edition",
+    "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 147,
+    "aliases": [],
+    "releaseDate": "1635174000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4549576187037.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013424295",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4292,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013424295.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4292,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013424295.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4719,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019739734.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4719,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019739734.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2400,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001784"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "ok-ns-sd-for-nintendo-switch-326087",
+    "jan": "4573173326087",
+    "title": "SDガンダム ジージェネレーション ジェネシス for Nintendo Switch",
+    "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 145,
+    "aliases": [],
+    "releaseDate": "1524668400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573173326087.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0012735499",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4744,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012735499.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4970,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012735499.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5360,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000129001.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5445,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019028407.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5445,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019028407.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2300,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000129"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "golf-world-switch-hac-p-blt8a-139091",
+    "jan": "4573608139091",
+    "title": "みんなのGOLF WORLD 【Switch】",
+    "genre": "スポーツ",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 171,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/yamada-denki/2820782012.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/yamada-denki_2820782012",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2400,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004468"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-551600",
+    "jan": "4902370551600",
+    "title": "超おどる メイド イン ワリオ",
+    "genre": "パーティー",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 143,
+    "aliases": [
+      "超おどる メイド イン ワリオ Switch用ソフト(パッケージ版)"
+    ],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/light-hikari/4902370551600.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013819883",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4292,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013819883.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4292,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013819883.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4960,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350011203.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4961,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0020157272.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4961,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020157272.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2000,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003049"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-2-hd-b-551938",
+    "jan": "4902370551938",
+    "title": "ルイージマンション2 HD",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 150,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370551938-54-40560.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350011754",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4000,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350011754.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4780,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fcokotokyo%2F14060.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4961,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020313783.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4961,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0020313783.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5780,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109003609001.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2700,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003609"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-sparking-zero-b-194168",
+    "jan": "4573608194168",
+    "title": "バンダイナムコエンターテインメント (Switch)ドラゴンボール Sparking! ZERO",
+    "genre": "格闘",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 144,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4573608194168-54-46582.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4573608194168-54-46582",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 3400,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004578"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "nsw-906423",
+    "jan": "4984995906423",
+    "title": "ユニコーンオーバーロード",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 139,
+    "aliases": [],
+    "releaseDate": "1709823600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4984995906423.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_223042062-223",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4200,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F223042062-223.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4518,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013895497.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4518,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350011807.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4518,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013895497.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4961,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020246713.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4961,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0020246713.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2400,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003274"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-b-180160",
+    "jan": "4510772180160",
+    "title": "アークシステムワークス (Switch)くにおくん ザ・ワールド クラシックスコレクションくにおくん",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 138,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4510772180160-54-40560.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4510772180160-54-40560",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 3300,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000338"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "ok-ns-x-393667",
+    "jan": "4582528393667",
+    "title": "スーパーロボット大戦X",
+    "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 137,
+    "aliases": [],
+    "releaseDate": "1578582000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4582528393667.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019369784",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5808,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019369784.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5808,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019369784.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5980,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350005705.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 7400,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000779001.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 3400,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000779"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-14-with-142215",
+    "jan": "4988615142215",
+    "title": "三國志14 with パワーアップキット",
+    "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 136,
+    "aliases": [],
+    "releaseDate": "1607526000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615142215.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013204988",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 8473,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013204988.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 8473,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013204988.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 9280,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350006856.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 9317,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019552734.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 9317,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019552734.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 9320,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109001169001.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 4100,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001169"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "ok-ns-598982",
+    "jan": "4904790598982",
+    "title": "プリパラ オールアイドルパーフェ クトステージ!",
+    "genre": "音楽・リズム",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 135,
+    "aliases": [],
+    "releaseDate": "1521644400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4904790598982.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350005718",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6680,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350005718.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6778,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012726269.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6778,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012726269.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 9317,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019002969.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 3500,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000121"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-b-862879",
+    "jan": "4974365862879",
+    "title": "セガ (Switch)ソニックフロンティア",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 134,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4974365862879-54-40560.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4974365862879-54-40560",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1300,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002409"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-b-539806",
+    "jan": "4902370539806",
+    "title": "進め!キノピオ隊長",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 132,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370539806-54-46585.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline_0019081456",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3025,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019081456.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3025,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019081456.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3103,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012784664.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3232,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012784664.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3265,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350004141.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3811,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260708rm380259.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1500,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000207"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-overcooked-480060",
+    "jan": "4580555480060",
+    "title": "Overcooked! - オーバークック 王国のフルコース -",
+    "genre": "パーティー",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 131,
+    "aliases": [],
+    "releaseDate": "1626793200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4580555480060.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4580555480060",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2700,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001623"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-lego-324754",
+    "jan": "4548967324754",
+    "title": "LEGO シティ アンダーカバー",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 130,
+    "aliases": [],
+    "releaseDate": "1498662000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4548967324754.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0018866624",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3872,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0018866624.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1400,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000015"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "undertale-180071",
+    "jan": "4589508180071",
+    "title": "UNDERTALE",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 129,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/esdigital/10785918.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350012661",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3495,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350012661.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4059,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001234419.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4356,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019109769.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4356,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019109769.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2000,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000297"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-b-549799",
+    "jan": "4902370549799",
+    "title": "マリオストライカーズ バトルリーグ",
+    "genre": "スポーツ",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 128,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370549799-54-40564.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019838131",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4719,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019838131.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2000,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109002072"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-for-nintendo-switch-b-930822",
+    "jan": "4904810930822",
+    "title": "タカラトミー (Switch)人生ゲーム for Nintendo Switch",
+    "genre": "パーティー",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 127,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4904810930822-54-46585.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4904810930822-54-46585",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2300,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003046"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-marvel-vs-capcom-b-130165",
+    "jan": "4976219130165",
+    "title": "カプコン (Switch)MARVEL vs. CAPCOM ファイティングコレクション アーケードクラシックス",
+    "genre": "格闘",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 126,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4976219130165-54-46582.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4976219130165-54-46582",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2800,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109004009"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "nsw-1-for-nintendo-switch-661174",
+    "jan": "4571237661174",
+    "title": "妖怪ウォッチ1 for Nintendo Switch レベルファイブ ザ ベスト",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 146,
+    "aliases": [],
+    "releaseDate": "1619017200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4571237661174.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019613078",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3520,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019613078.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1500,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109001500"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-6-2024-1-25-520175",
+    "jan": "4940261520175",
+    "title": "不思議のダンジョン 風来のシレン6 とぐろ島探検録(2024年1月25日発売)",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 17,
+    "aliases": [],
+    "releaseDate": "1706108400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74930.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74930",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 2100,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003322"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-490018",
+    "jan": "4582586490018",
+    "title": "オバケイドロ!",
+    "genre": "パズル",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 163,
+    "aliases": [],
+    "releaseDate": "1576681200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4582586490018.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4582586490018",
+    "purchase": [],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 900,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109000803"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-552300",
+    "jan": "4902370552300",
+    "title": "ファミコン探偵倶楽部 笑み男",
+    "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 40,
+    "aliases": [],
+    "releaseDate": "1724857200",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/toy24shop/4902370552300.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0013993671",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3103,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013993671.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3232,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013993671.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3509,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020371984.html"
+      }
+    ],
+    "sale": [
+      {
+        "name": "駿河屋",
+        "price": 1400,
+        "url": "https://www.suruga-ya.jp/kaitori/kaitori_detail/109003900"
+      }
+    ],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-173222",
+    "jan": "4988602173222",
+    "title": "桃太郎電鉄 〜昭和 平成 令和も定番!〜",
+    "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 249,
+    "aliases": [],
+    "releaseDate": "1605711600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988602173222.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_233014098-233",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4100,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F233014098-233.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4100,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F67705234-67.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4356,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019529839.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4356,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019529839.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4580,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350006849.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5159,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001235981.html"
+      }
+    ],
+    "sale": [],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "minecraft-094113",
+    "jan": "4549576094113",
+    "title": "Minecraft",
+    "genre": "アドベンチャー",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 240,
+    "aliases": [],
+    "releaseDate": "不明",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/esdigital/10777938.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0012770330",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3390,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012770330.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3580,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350011403.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3614,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012770330.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3800,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350005809.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3872,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019073638.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4772,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260729sk180701.html"
+      }
+    ],
+    "sale": [],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-142192",
+    "jan": "4988615142192",
+    "title": "ゼルダ無双 厄災の黙示録",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 234,
+    "aliases": [],
+    "releaseDate": "1605798000",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615142192.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013189538",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4518,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013189538.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4518,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350006623.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4518,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350013240.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4518,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013189538.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5500,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F78311092-239.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5600,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F223039836-223.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 5600,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F92124947-92.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6080,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fcokotokyo%2F11202.html"
+      }
+    ],
+    "sale": [],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-543896",
+    "jan": "4902370543896",
+    "title": "ポケットモンスター シールド",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 227,
+    "aliases": [],
+    "releaseDate": "1573743600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370543896.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013015417",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 2983,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013015417.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3256,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260729sk500527.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3267,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019334835.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3267,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350006897.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3300,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnaokichi%2Fsw-sf-hd-001.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3780,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350005411.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3850,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnext-hands-2%2F08021104mt.html"
+      }
+    ],
+    "sale": [],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-176490",
+    "jan": "4988602176490",
+    "title": "桃太郎電鉄ワールド 〜地球は希望でまわってる!〜",
+    "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 222,
+    "aliases": [],
+    "releaseDate": "1700060400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online/4988602176490.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_78311317-237",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4200,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F78311317-237.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4292,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013819930.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4356,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020157293.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4356,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0020157293.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4400,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F105040266-105.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4400,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F108200391-237.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4400,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350011204.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4400,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F39258389-237.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4400,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F49319060-237.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4400,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F92123233-92.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4518,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013819930.html"
+      }
+    ],
+    "sale": [],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-136718",
+    "jan": "4534530136718",
+    "title": "鬼滅の刃 ヒノカミ血風譚",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 218,
+    "aliases": [],
+    "releaseDate": "1654700400",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4534530136718.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013497471",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3232,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013497471.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 3980,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350014231.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4292,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350009344.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4400,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F38061054-38.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4580,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350008661.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4719,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019838140.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4719,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019838140.html"
+      }
+    ],
+    "sale": [],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "nsw-2-179248",
+    "jan": "4988602179248",
+    "title": "桃太郎電鉄2 〜あなたの町も きっとある〜 東日本編+西日本編",
+    "genre": "シミュレーション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 212,
+    "aliases": [],
+    "releaseDate": "1762959600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4988602179248.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_228020758-228",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6980,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F228020758-228.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6980,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F45119894-231.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6980,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F63188490-237.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 6980,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F92124626-92.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 7139,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020703919.html"
+      }
+    ],
+    "sale": [],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "switch-950049",
+    "jan": "4580635950049",
+    "title": "クレヨンしんちゃん「オラと博士の夏休み」〜おわらない七日間の旅〜",
+    "genre": "アクション",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 207,
+    "aliases": [],
+    "releaseDate": "1626274800",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4580635950049.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013309403",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 2983,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013309403.html"
+      }
+    ],
+    "sale": [],
+    "updatedAt": "2026-08-02T15:57:48.159Z"
+  },
+  {
+    "id": "nsw-xi-s-010825",
+    "jan": "4988601010825",
+    "title": "ドラゴンクエストXI 過ぎ去りし時を求めて S(新価格版)",
+    "genre": "RPG",
+    "platform": "Nintendo Switch",
+    "cover": "GM",
+    "searches": 203,
+    "aliases": [],
+    "releaseDate": "1607007600",
+    "verification": {
+      "source": "Yahoo! Shopping package category API",
+      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4988601010825.html",
+      "checkedAt": "2026-08-02"
+    },
+    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013204803",
+    "purchase": [
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4744,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013204803.html"
+      },
+      {
+        "name": "Yahoo! Shopping",
+        "price": 4744,
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013204803.html"
       }
     ],
     "sale": [],
@@ -3183,103 +5132,6 @@ export const generatedGames = [
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
-    "id": "switch-549003",
-    "jan": "4902370549003",
-    "title": "ポケットモンスター シャイニングパール",
-    "genre": "RPG",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 188,
-    "aliases": [],
-    "releaseDate": "1637247600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/toy24shop/4902370549003.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013370784",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2486,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013370784.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2780,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350012598.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2986,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260727sk240440.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3313,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fentameoukoku%2F17086.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3509,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001231995.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4450,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fworldplus01%2Fpokemon.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-b-542400",
-    "jan": "4902370542400",
-    "title": "ヨッシークラフトワールド",
-    "genre": "アクション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 187,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370542400-54-40560.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0012899926",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4970,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012899926.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5196,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012899926.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5445,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019201608.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5880,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000454001.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6589,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001232468.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
     "id": "switch-xenoblade3-3-b-550351",
     "jan": "4902370550351",
     "title": "Xenoblade3(ゼノブレイド3)",
@@ -3300,129 +5152,6 @@ export const generatedGames = [
         "name": "Yahoo! Shopping",
         "price": 4158,
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260727sk300240.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "nsw-2-862831",
-    "jan": "4974365862831",
-    "title": "ぷよぷよテトリス2 スペシャルプライス",
-    "genre": "パズル",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 185,
-    "aliases": [],
-    "releaseDate": "1668610800",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4974365862831.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline_0019902080",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3267,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019902080.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3267,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019902080.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3913,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350013221.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-4-dx-114557",
-    "jan": "4988615114557",
-    "title": "戦国無双4 DX",
-    "genre": "アクション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 184,
-    "aliases": [],
-    "releaseDate": "1552489200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615114557.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0012899843",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5422,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012899843.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5422,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012899843.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5940,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019200904.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6780,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000413001.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "nsw-977430",
-    "jan": "4571577977430",
-    "title": "釣りスピリッツ 釣って遊べる水族館",
-    "genre": "スポーツ",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 183,
-    "aliases": [],
-    "releaseDate": "1666796400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4571577977430.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019892336",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5203,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019892336.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5203,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019892336.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5730,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fworldplus01%2Fturisupi.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350014495.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6528,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhotmeteor%2Fb0b7wck16n-a1aer6bjo66r9w-20260503.html"
       }
     ],
     "sale": [],
@@ -3495,42 +5224,6 @@ export const generatedGames = [
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
-    "id": "ok-ns-356411",
-    "jan": "4573173356411",
-    "title": "ディズニー ツムツム フェスティバル",
-    "genre": "パーティー",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 180,
-    "aliases": [],
-    "releaseDate": "1570633200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573173356411.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013001893",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2983,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013001893.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3509,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019321964.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3509,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019321964.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
     "id": "switch-547924",
     "jan": "4902370547924",
     "title": "ミートピア",
@@ -3561,52 +5254,6 @@ export const generatedGames = [
         "name": "Yahoo! Shopping",
         "price": 4996,
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260727sk280647.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-2-553611",
-    "jan": "4902370553611",
-    "title": "スーパーマリオギャラクシー + スーパーマリオギャラクシー 2",
-    "genre": "アクション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 178,
-    "aliases": [],
-    "releaseDate": "1759330800",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4902370553611.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350013120",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350013120.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 7210,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109004641001.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 7623,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020688633.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 7980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F234007302-234.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 7980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F236008330-236.html"
       }
     ],
     "sale": [],
@@ -3658,73 +5305,6 @@ export const generatedGames = [
         "name": "Yahoo! Shopping",
         "price": 4719,
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001231455.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "nsw-542684",
-    "jan": "4902370542684",
-    "title": "ファイアーエムブレム 風花雪月",
-    "genre": "RPG",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 174,
-    "aliases": [],
-    "releaseDate": "1564066800",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370542684.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/vivoage_260721sk380373",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6880,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260721sk380373.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-vs-b-551877",
-    "jan": "4902370551877",
-    "title": "マリオvs.ドンキーコング",
-    "genre": "アクション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 173,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370551877-54-46585.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350011439",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4000,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350011439.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4059,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001232465.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020222363.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0020222363.html"
       }
     ],
     "sale": [],
@@ -3845,347 +5425,6 @@ export const generatedGames = [
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
-    "id": "nsw-rpg-552461",
-    "jan": "4902370552461",
-    "title": "マリオ&ルイージRPG ブラザーシップ!",
-    "genre": "RPG",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 155,
-    "aliases": [],
-    "releaseDate": "1730905200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4902370552461.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0014003744",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 1989,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0014003744.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2510,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350012228.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-123-000093",
-    "jan": "4976219000093",
-    "title": "逆転裁判123 成歩堂セレクション",
-    "genre": "アドベンチャー",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 154,
-    "aliases": [],
-    "releaseDate": "1550674800",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4976219000093.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0012884397",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2983,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012884397.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3520,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019188704.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3520,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019188704.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "ok-ns-342865",
-    "jan": "4573173342865",
-    "title": "塊魂アンコール",
-    "genre": "アクション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 152,
-    "aliases": [],
-    "releaseDate": "1545231600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573173342865.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0012856373",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 2486,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012856373.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-2-hd-b-551938",
-    "jan": "4902370551938",
-    "title": "ルイージマンション2 HD",
-    "genre": "アクション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 150,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370551938-54-40560.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350011754",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4000,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350011754.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4780,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fcokotokyo%2F14060.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4961,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020313783.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4961,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0020313783.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5780,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109003609001.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-7-with-dx-114403",
-    "jan": "4988615114403",
-    "title": "真・三國無双7 with 猛将伝 DX",
-    "genre": "アクション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 149,
-    "aliases": [],
-    "releaseDate": "1545836400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615114403.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0012856317",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6213,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012856317.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6213,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012856317.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6930,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019164543.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 7420,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000393001.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-minecraft-dungeons-ultimate-edition-187037",
-    "jan": "4549576187037",
-    "title": "Minecraft Dungeons Ultimate Edition",
-    "genre": "アドベンチャー",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 147,
-    "aliases": [],
-    "releaseDate": "1635174000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4549576187037.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013424295",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4292,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013424295.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4292,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013424295.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019739734.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019739734.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "nsw-1-for-nintendo-switch-661174",
-    "jan": "4571237661174",
-    "title": "妖怪ウォッチ1 for Nintendo Switch レベルファイブ ザ ベスト",
-    "genre": "RPG",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 146,
-    "aliases": [],
-    "releaseDate": "1619017200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4571237661174.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019613078",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3520,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019613078.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "ok-ns-sd-for-nintendo-switch-326087",
-    "jan": "4573173326087",
-    "title": "SDガンダム ジージェネレーション ジェネシス for Nintendo Switch",
-    "genre": "シミュレーション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 145,
-    "aliases": [],
-    "releaseDate": "1524668400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4573173326087.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0012735499",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4744,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012735499.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4970,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012735499.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5360,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000129001.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5445,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019028407.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5445,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019028407.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-551600",
-    "jan": "4902370551600",
-    "title": "超おどる メイド イン ワリオ",
-    "genre": "パーティー",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 143,
-    "aliases": [
-      "超おどる メイド イン ワリオ Switch用ソフト(パッケージ版)"
-    ],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/light-hikari/4902370551600.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013819883",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4292,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013819883.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4292,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013819883.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4960,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350011203.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4961,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0020157272.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4961,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020157272.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
     "id": "nsw-showtime-551891",
     "jan": "4902370551891",
     "title": "プリンセスピーチ Showtime!",
@@ -4211,334 +5450,6 @@ export const generatedGames = [
         "name": "Yahoo! Shopping",
         "price": 4356,
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020246680.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "nsw-906423",
-    "jan": "4984995906423",
-    "title": "ユニコーンオーバーロード",
-    "genre": "RPG",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 139,
-    "aliases": [],
-    "releaseDate": "1709823600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/updra/4984995906423.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/janpara_223042062-223",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4200,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F223042062-223.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4518,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013895497.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4518,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350011807.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4518,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013895497.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4961,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020246713.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4961,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0020246713.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "ok-ns-x-393667",
-    "jan": "4582528393667",
-    "title": "スーパーロボット大戦X",
-    "genre": "シミュレーション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 137,
-    "aliases": [],
-    "releaseDate": "1578582000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4582528393667.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019369784",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5808,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019369784.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5808,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019369784.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 5980,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350005705.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 7400,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109000779001.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-14-with-142215",
-    "jan": "4988615142215",
-    "title": "三國志14 with パワーアップキット",
-    "genre": "シミュレーション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 136,
-    "aliases": [],
-    "releaseDate": "1607526000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4988615142215.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff_0013204988",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 8473,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013204988.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 8473,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013204988.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 9280,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350006856.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 9317,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019552734.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 9317,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019552734.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 9320,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuruga-ya%2F109001169001.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "ok-ns-598982",
-    "jan": "4904790598982",
-    "title": "プリパラ オールアイドルパーフェ クトステージ!",
-    "genre": "音楽・リズム",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 135,
-    "aliases": [],
-    "releaseDate": "1521644400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/asakusa-mach/4904790598982.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350005718",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6680,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350005718.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6778,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012726269.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 6778,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012726269.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 9317,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019002969.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-b-539806",
-    "jan": "4902370539806",
-    "title": "進め!キノピオ隊長",
-    "genre": "アクション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 132,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370539806-54-46585.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline_0019081456",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3025,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019081456.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3025,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019081456.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3103,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012784664.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3232,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012784664.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3265,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350004141.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3811,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvivoage%2F260708rm380259.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-lego-324754",
-    "jan": "4548967324754",
-    "title": "LEGO シティ アンダーカバー",
-    "genre": "アクション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 130,
-    "aliases": [],
-    "releaseDate": "1498662000",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4548967324754.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0018866624",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3872,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0018866624.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "undertale-180071",
-    "jan": "4589508180071",
-    "title": "UNDERTALE",
-    "genre": "RPG",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 129,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/esdigital/10785918.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/excellar_1350012661",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3495,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fexcellar%2F1350012661.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4059,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmeikoya%2F1-240001234419.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline%2F0019109769.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4356,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019109769.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-b-549799",
-    "jan": "4902370549799",
-    "title": "マリオストライカーズ バトルリーグ",
-    "genre": "スポーツ",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 128,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4902370549799-54-40564.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/bookoffonline2_0019838131",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 4719,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0019838131.html"
       }
     ],
     "sale": [],
@@ -5376,42 +6287,6 @@ export const generatedGames = [
         "name": "Yahoo! Shopping",
         "price": 1989,
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013988379.html"
-      }
-    ],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-552300",
-    "jan": "4902370552300",
-    "title": "ファミコン探偵倶楽部 笑み男",
-    "genre": "アドベンチャー",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 40,
-    "aliases": [],
-    "releaseDate": "1724857200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/toy24shop/4902370552300.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/g/netoff2_t0013993671",
-    "purchase": [
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3103,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013993671.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3232,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013993671.html"
-      },
-      {
-        "name": "Yahoo! Shopping",
-        "price": 3509,
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776380&pid=892662186&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbookoffonline2%2F0020371984.html"
       }
     ],
     "sale": [],
@@ -6984,46 +7859,6 @@ export const generatedGames = [
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
-    "id": "switch-2-542868",
-    "jan": "4902370542868",
-    "title": "スーパーマリオメーカー2(新品)",
-    "genre": "アクション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 228,
-    "aliases": [],
-    "releaseDate": "1561647600",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/famicom-plaza/954921906.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/famicom-plaza_954921906",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-fit-boxing-2-b-103327",
-    "jan": "4965857103327",
-    "title": "イマジニア (Switch)Fit Boxing 2 -リズム&エクササイズ-",
-    "genre": "音楽・リズム",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 225,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4965857103327-54-46585.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4965857103327-54-46585",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
     "id": "new-u-switch-541281",
     "jan": "4902370541281",
     "title": "任天堂 New スーパーマリオブラザーズ U デラックス(パッケージ版)Switch用ソフト",
@@ -7064,26 +7899,6 @@ export const generatedGames = [
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
-    "id": "switch-2021-10-29-548433",
-    "jan": "4902370548433",
-    "title": "マリオパーティ スーパースターズ(2021年10月29日発売)",
-    "genre": "パーティー",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 210,
-    "aliases": [],
-    "releaseDate": "1635433200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74055.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74055",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
     "id": "switch-b-539455",
     "jan": "4902370539455",
     "title": "マリオテニス エーススーパーマリオ マリオ",
@@ -7119,46 +7934,6 @@ export const generatedGames = [
       "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/asakusa-mach_4582528473611",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-x-x-2-hd-ff-b-010276",
-    "jan": "4988601010276",
-    "title": "スクウェア・エニックス (Switch)ファイナルファンタジー X/ X-2 HD リマスターFF ファイナルファンタジー",
-    "genre": "RPG",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 197,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601010276-54-40561.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601010276-54-40561",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-pokken-tournament-dx-b-226064",
-    "jan": "4521329226064",
-    "title": "ポケモン (Switch)ポッ拳 POKKEN TOURNAMENT DX",
-    "genre": "格闘",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 196,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4521329226064-54-46582.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4521329226064-54-46582",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"
@@ -7264,26 +8039,6 @@ export const generatedGames = [
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
-    "id": "golf-world-switch-hac-p-blt8a-139091",
-    "jan": "4573608139091",
-    "title": "みんなのGOLF WORLD 【Switch】",
-    "genre": "スポーツ",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 171,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/yamada-denki/2820782012.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/yamada-denki_2820782012",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
     "id": "ok-ns-344975",
     "jan": "4573173344975",
     "title": "スーパードラゴンボールヒーローズ ワールドミッション★蔵出し★ご注文後のキャンセル不可",
@@ -7366,66 +8121,6 @@ export const generatedGames = [
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
-    "id": "switch-i-b-661242",
-    "jan": "4571237661242",
-    "title": "レベルファイブ (Switch)ファンタジーライフi グルグルの竜と時をぬすむ少女",
-    "genre": "RPG",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 164,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4571237661242-54-40561.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4571237661242-54-40561",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-490018",
-    "jan": "4582586490018",
-    "title": "オバケイドロ!",
-    "genre": "パズル",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 163,
-    "aliases": [],
-    "releaseDate": "1576681200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4582586490018.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4582586490018",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-xii-ff-b-010283",
-    "jan": "4988601010283",
-    "title": "スクウェア・エニックス (Switch)ファイナルファンタジーXII ザ ゾディアック エイジFF ファイナルファンタジー",
-    "genre": "RPG",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 162,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4988601010283-54-40561.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601010283-54-40561",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
     "id": "switch-3-b-011594",
     "jan": "4988601011594",
     "title": "スクウェア・エニックス (Switch)ドラゴンクエストモンスターズ3 魔族の王子とエルフの旅 通常版",
@@ -7441,26 +8136,6 @@ export const generatedGames = [
       "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4988601011594-54-40561",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-model-debut2-nicola-2-b-236879",
-    "jan": "4562240236879",
-    "title": "フリュー (Switch)MODEL Debut2 #nicola/ モデルデビュー2 ニコラ",
-    "genre": "シミュレーション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 160,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4562240236879-54-40562.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4562240236879-54-40562",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"
@@ -7526,26 +8201,6 @@ export const generatedGames = [
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
-    "id": "switch-real-pro-b-911357",
-    "jan": "4560221911357",
-    "title": "ソニックパワード (Switch)鉄道にっぽん!Real Pro 特急走行!名古屋鉄道編",
-    "genre": "シミュレーション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 153,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4560221911357-54-46585.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4560221911357-54-46585",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
     "id": "3d-nintendo-switch-546057",
     "jan": "4902370546057",
     "title": "『新品』スーパーマリオ 3Dコレクション [Nintendo Switch]",
@@ -7581,26 +8236,6 @@ export const generatedGames = [
       "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_73567",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-sparking-zero-b-194168",
-    "jan": "4573608194168",
-    "title": "バンダイナムコエンターテインメント (Switch)ドラゴンボール Sparking! ZERO",
-    "genre": "格闘",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 144,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4573608194168-54-46582.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4573608194168-54-46582",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"
@@ -7646,46 +8281,6 @@ export const generatedGames = [
     "updatedAt": "2026-08-02T15:57:48.159Z"
   },
   {
-    "id": "switch-b-180160",
-    "jan": "4510772180160",
-    "title": "アークシステムワークス (Switch)くにおくん ザ・ワールド クラシックスコレクションくにおくん",
-    "genre": "アクション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 138,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4510772180160-54-40560.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4510772180160-54-40560",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-b-862879",
-    "jan": "4974365862879",
-    "title": "セガ (Switch)ソニックフロンティア",
-    "genre": "アクション",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 134,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4974365862879-54-40560.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4974365862879-54-40560",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
     "id": "switch-the-2018-6-21-998278",
     "jan": "4527823998278",
     "title": "THE麻雀(ザマージャン)(2018年6月21日発売)",
@@ -7701,66 +8296,6 @@ export const generatedGames = [
       "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/193_73117",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-overcooked-480060",
-    "jan": "4580555480060",
-    "title": "Overcooked! - オーバークック 王国のフルコース -",
-    "genre": "パーティー",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 131,
-    "aliases": [],
-    "releaseDate": "1626793200",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/arc-online-mini/4580555480060.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/arc-online-mini_4580555480060",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-for-nintendo-switch-b-930822",
-    "jan": "4904810930822",
-    "title": "タカラトミー (Switch)人生ゲーム for Nintendo Switch",
-    "genre": "パーティー",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 127,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4904810930822-54-46585.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4904810930822-54-46585",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-marvel-vs-capcom-b-130165",
-    "jan": "4976219130165",
-    "title": "カプコン (Switch)MARVEL vs. CAPCOM ファイティングコレクション アーケードクラシックス",
-    "genre": "格闘",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 126,
-    "aliases": [],
-    "releaseDate": "不明",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/joshin/4976219130165-54-46582.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/joshin_4976219130165-54-46582",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"
@@ -9157,26 +9692,6 @@ export const generatedGames = [
       "checkedAt": "2026-08-02"
     },
     "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74954",
-    "purchase": [],
-    "sale": [],
-    "updatedAt": "2026-08-02T15:57:48.159Z"
-  },
-  {
-    "id": "switch-6-2024-1-25-520175",
-    "jan": "4940261520175",
-    "title": "不思議のダンジョン 風来のシレン6 とぐろ島探検録(2024年1月25日発売)",
-    "genre": "RPG",
-    "platform": "Nintendo Switch",
-    "cover": "GM",
-    "searches": 17,
-    "aliases": [],
-    "releaseDate": "1706108400",
-    "verification": {
-      "source": "Yahoo! Shopping package category API",
-      "sourceUrl": "https://store.shopping.yahoo.co.jp/1932/74930.html",
-      "checkedAt": "2026-08-02"
-    },
-    "imageUrl": "https://item-shopping.c.yimg.jp/i/j/1932_74930",
     "purchase": [],
     "sale": [],
     "updatedAt": "2026-08-02T15:57:48.159Z"

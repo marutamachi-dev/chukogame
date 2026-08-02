@@ -2,7 +2,8 @@ const excludedWords = [
   "\u30b8\u30e3\u30f3\u30af", "\u7bb1\u306a\u3057", "\u7279\u5178", "\u9650\u5b9a\u7248",
   "\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9", "\u6d77\u5916\u7248", "\u672c\u4f53", "\u5468\u8fba\u6a5f\u5668", "\u30bb\u30c3\u30c8", "\u540c\u68b1", "\u30d1\u30c3\u30af",
 ];
-const MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+const PURCHASE_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+const SALE_MAX_AGE_MS = 14 * 24 * 60 * 60 * 1000;
 
 export function normalizeTitle(value) {
   return value.normalize("NFKC").toLowerCase().replace(/[\s\u30fb:\uff1a!\uff01?\uff1f'"\u300c\u300d]/g, "");
@@ -10,7 +11,8 @@ export function normalizeTitle(value) {
 
 function isFresh(offer, now) {
   const observedAt = Date.parse(offer.observedAt);
-  return Number.isFinite(observedAt) && observedAt <= now.getTime() && now.getTime() - observedAt <= MAX_AGE_MS;
+  const maxAgeMs = offer.kind === "sale" ? SALE_MAX_AGE_MS : PURCHASE_MAX_AGE_MS;
+  return Number.isFinite(observedAt) && observedAt <= now.getTime() && now.getTime() - observedAt <= maxAgeMs;
 }
 
 function isDirectListing(offer) {
