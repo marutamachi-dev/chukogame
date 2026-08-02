@@ -31,3 +31,14 @@ test("does not replace a title unless the candidate demand is strictly greater",
   });
   assert.deepEqual(result, { removals: [], additions: [] });
 });
+
+test("replaces a low-demand Switch title with a higher-demand Switch 2 title", () => {
+  const result = planCatalogReplacement({
+    listed: [{ jan: "switch", platform: "Nintendo Switch", demandScore: 1, listedFrom: "2026-07-01" }],
+    candidates: [{ jan: "switch2", platform: "Nintendo Switch 2", demandScore: 2 }],
+    today: "2026-08-03",
+  });
+
+  assert.deepEqual(result.removals.map((game) => game.jan), ["switch"]);
+  assert.deepEqual(result.additions.map((game) => game.jan), ["switch2"]);
+});

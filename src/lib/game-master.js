@@ -1,6 +1,6 @@
 import { isSupportedGenre } from "./genre-classifier.js";
 
-export const GAME_COUNT = 300;
+export const GAME_COUNT = 500;
 export const CHUNK_SIZE = 50;
 export const CHUNK_COUNT = GAME_COUNT / CHUNK_SIZE;
 export const MASTER_SORTS = ["-review_count", "-score", "+price", "-price"];

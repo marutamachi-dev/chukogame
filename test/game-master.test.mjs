@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import {
   CHUNK_COUNT, GAME_COUNT, MASTER_QUERIES, MASTER_SORTS, cleanCatalogTitle, detectGamePlatform, hasExcludedProductName, isValidJan, validateGameMaster, splitIntoChunks, selectMasterCandidates,
   requestWithRateLimit,
@@ -54,11 +55,11 @@ test("uses independent official sort orders to widen the candidate pool", () => 
   assert.deepEqual(MASTER_QUERIES, ["", "ゲーム", "ソフト"]);
 });
 
-test("splits exactly 300 games into six stable chunks", () => {
-  const chunks = splitIntoChunks(Array.from({ length: 300 }, (_, index) => ({ id: `g-${index}` })));
-  assert.equal(GAME_COUNT, 300);
-  assert.equal(CHUNK_COUNT, 6);
-  assert.deepEqual(chunks.map((chunk) => chunk.length), Array(6).fill(50));
+test("splits exactly 500 games into ten stable chunks", () => {
+  const chunks = splitIntoChunks(Array.from({ length: 500 }, (_, index) => ({ id: `g-${index}` })));
+  assert.equal(GAME_COUNT, 500);
+  assert.equal(CHUNK_COUNT, 10);
+  assert.deepEqual(chunks.map((chunk) => chunk.length), Array(10).fill(50));
 });
 
 test("rejects duplicate identifiers, invalid records, and excluded editions", () => {
@@ -100,6 +101,13 @@ test("selects popular, recent, then coverage candidates without duplicate JANs",
 
   assert.deepEqual(selected.map((item) => item.jan), ["1", "2", "4", "5", "6"]);
   assert.deepEqual(selected.map((item) => item.selectionGroup), ["popular", "popular", "recent", "coverage", "coverage"]);
+});
+
+test("builds the master from one platform-neutral candidate pool", async () => {
+  const source = await readFile(new URL("../scripts/build-game-master.mjs", import.meta.url), "utf8");
+  assert.doesNotMatch(source, /switch2TargetCount/);
+  assert.doesNotMatch(source, /selectPlatformCandidates/);
+  assert.match(source, /selectMasterCandidates\(\{[\s\S]*popular,[\s\S]*recent,[\s\S]*coverage: allCandidates/);
 });
 
 test("waits and retries once after a 429 response", async () => {
