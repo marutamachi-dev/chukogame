@@ -8,11 +8,13 @@ const origin = "https://chukogame.vercel.app";
 const distDir = join(process.cwd(), "dist");
 const template = await readFile(join(distDir, "index.html"), "utf8");
 const updated = new Date(catalogUpdatedAt).toISOString().slice(0, 10);
+const platformFor = (game) => game?.platform || "Nintendo Switch";
+const supportedPlatforms = "Nintendo Switch 2 / Nintendo Switch";
 
 const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character]);
 const descriptionFor = (game) => game
-  ? `${game.title}の中古販売価格と買取価格の目安を比較。Nintendo Switch国内パッケージ版の実質プレイ費用を確認できます。`
-  : "Nintendo Switch中古ソフトの買う目安と売る目安を比較。実質プレイ費用が分かる中古ゲーム価格比較サイトです。";
+  ? `${game.title}の中古販売価格と買取価格の目安を比較。${platformFor(game)}国内パッケージ版の実質プレイ費用を確認できます。`
+  : "Nintendo Switch 2 / Nintendo Switch中古ソフトの買う目安と売る目安を比較。実質プレイ費用が分かる中古ゲーム価格比較サイトです。";
 
 function metadata({ path, title, description, schema, image }) {
   const canonical = `${origin}${path}`;
@@ -38,7 +40,7 @@ function staticGameContent(game) {
   const purchases = [...(game.purchase || [])].sort((a, b) => a.price - b.price).slice(0, 3);
   const sales = [...(game.sale || [])].sort((a, b) => b.price - a.price).slice(0, 3);
   const rows = (items, label) => items.length ? `<ul>${items.map((item) => `<li>${escapeHtml(item.name)}: ${Number(item.price).toLocaleString("ja-JP")}円</li>`).join("")}</ul>` : `<p>現在確認できる${label}価格がありません。</p>`;
-  return `<article><h1>${escapeHtml(game.title)}の中古価格・買取価格比較</h1><p>Nintendo Switch 国内パッケージ版 / JAN: ${escapeHtml(game.jan)}</p><h2>買う先を比較する</h2>${rows(purchases, "販売")}<h2>売る先を比較する</h2>${rows(sales, "買取")}<h2>価格の掲載基準</h2><p>買う目安は送料込み・通常中古品として確認できる販売価格です。売る目安は確認できる参考買取価格です。相場推移は複数販売先の販売価格の中央値を基準にします。</p></article>`;
+  return `<article><h1>${escapeHtml(game.title)}の中古価格・買取価格比較</h1><p>${platformFor(game)} 国内パッケージ版 / JAN: ${escapeHtml(game.jan)}</p><h2>買う先を比較する</h2>${rows(purchases, "販売")}<h2>売る先を比較する</h2>${rows(sales, "買取")}<h2>価格の掲載基準</h2><p>買う目安は送料込み・通常中古品として確認できる販売価格です。売る目安は確認できる参考買取価格です。相場推移は複数販売先の販売価格の中央値を基準にします。</p></article>`;
 }
 function pageHtml({ path, title, description, schema, image, body = "" }) {
   return template
@@ -66,16 +68,16 @@ const archivePages = archivedGames.filter((game) => !games.some((active) => acti
   schema: { "@context": "https://schema.org", "@type": "VideoGame", name: game.title, sku: game.jan, gamePlatform: "Nintendo Switch", inLanguage: "ja-JP" },
 }));
 const pages = [
-  { path: "/", title: "中古ゲーム価格ナビ | Switch中古ソフトの価格比較", description: descriptionFor(), schema: siteSchema },
-  { path: "/ranking", title: "実質プレイ費用が安いSwitchソフトランキング | 中古ゲーム価格ナビ", description: "実質プレイ費用が安いNintendo Switch中古ソフトのランキング。買う目安と売る目安の差額を比較できます。", schema: { "@context": "https://schema.org", "@type": "CollectionPage", name: "実質プレイ費用が安いSwitchソフトランキング", url: `${origin}/ranking`, inLanguage: "ja-JP" } },
-  { path: "/genres", title: "ジャンルから探す | 中古ゲーム価格ナビ", description: "Nintendo Switch中古ソフトをジャンル別に探し、中古価格を比較できます。", schema: { "@context": "https://schema.org", "@type": "CollectionPage", name: "ジャンルから探す", url: `${origin}/genres`, inLanguage: "ja-JP" } },
+  { path: "/", title: "中古ゲーム価格ナビ | Switch 2 / Switch中古ソフトの価格比較", description: descriptionFor(), schema: siteSchema },
+  { path: "/ranking", title: "実質プレイ費用が安いSwitch 2 / Switchソフトランキング | 中古ゲーム価格ナビ", description: `実質プレイ費用が安い${supportedPlatforms}中古ソフトのランキング。買う目安と売る目安の差額を比較できます。`, schema: { "@context": "https://schema.org", "@type": "CollectionPage", name: "実質プレイ費用が安いSwitch 2 / Switchソフトランキング", url: `${origin}/ranking`, inLanguage: "ja-JP" } },
+  { path: "/genres", title: "ジャンルから探す | 中古ゲーム価格ナビ", description: `${supportedPlatforms}中古ソフトをジャンル別に探し、中古価格を比較できます。`, schema: { "@context": "https://schema.org", "@type": "CollectionPage", name: "ジャンルから探す", url: `${origin}/genres`, inLanguage: "ja-JP" } },
   ...games.map((game) => ({
     path: `/games/${game.id}`,
     title: `${game.title}の中古価格・買取価格比較 | 中古ゲーム価格ナビ`,
     description: descriptionFor(game),
     body: staticGameContent(game),
     image: `/package-images/${game.id === "zelda-totk" || game.id === "minecraft" || game.id === "momotetsu" || game.id === "smash" ? `${game.id}${game.id === "minecraft" || game.id === "momotetsu" || game.id === "smash" ? ".jpg" : ".jpg"}` : `${game.id}.png`}`,
-    schema: { "@context": "https://schema.org", "@type": "VideoGame", name: game.title, sku: game.jan, gamePlatform: "Nintendo Switch", genre: game.genre, inLanguage: "ja-JP" },
+    schema: { "@context": "https://schema.org", "@type": "VideoGame", name: game.title, sku: game.jan, gamePlatform: platformFor(game), genre: game.genre, inLanguage: "ja-JP" },
   })),
 ];
 

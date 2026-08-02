@@ -8,7 +8,7 @@ import { fetchYahooOffers, yahooConfigured } from "./adapters/yahoo-shopping.mjs
 import { createRateLimitedFetch } from "./lib/rate-limited-fetch.mjs";
 
 const root = resolve(import.meta.dirname, "..");
-const gameMaster = rawGameMaster.map((game) => ({ ...game, cover: "GM" }));
+const gameMaster = rawGameMaster.map((game) => ({ ...game, platform: game.platform || "Nintendo Switch", cover: "GM" }));
 const chunkIndexes = selectRefreshChunks(process.env.GAME_CHUNK);
 const targetGames = chunkIndexes.flatMap((chunkIndex) => getGameChunk(gameMaster, chunkIndex));
 const sourcePath = resolve(root, "data/source-offers.json");

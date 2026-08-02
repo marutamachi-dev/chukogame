@@ -24,7 +24,7 @@ function isDirectListing(offer) {
 }
 
 export function isEligibleOffer(offer, now = new Date()) {
-  if (offer.platform !== "Nintendo Switch" || offer.format !== "package") return false;
+  if (!["Nintendo Switch", "Nintendo Switch 2"].includes(offer.platform) || offer.format !== "package") return false;
   if (offer.condition !== "used-standard" || offer.inStock !== true) return false;
   if (!isDirectListing(offer) || !isFresh(offer, now)) return false;
   if (!Number.isFinite(offer.kind === "purchase" ? offer.priceWithShipping : offer.price)) return false;
@@ -71,7 +71,7 @@ export function buildCatalog(rawOffers, now = new Date().toISOString(), gameMast
     const sale = group.sale.sort((a, b) => b.price - a.price);
     return {
       id: group.exemplar.id || group.exemplar.slug, jan: group.exemplar.jan ?? null, title: group.exemplar.title,
-      genre: group.exemplar.genre, cover: group.exemplar.cover, searches: group.exemplar.searches ?? 0,
+      genre: group.exemplar.genre, platform: group.exemplar.platform || "Nintendo Switch", cover: group.exemplar.cover, searches: group.exemplar.searches ?? 0,
       aliases: group.exemplar.aliases ?? [], releaseDate: group.exemplar.releaseDate ?? null,
       verification: group.exemplar.verification ?? null,
       imageUrl: purchase.find((offer) => offer.imageUrl)?.imageUrl ?? group.exemplar.imageUrl ?? null,

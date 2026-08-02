@@ -106,3 +106,14 @@ test("excludes a Switch 2 result with the expected JAN", async () => {
 
   assert.deepEqual(offers, []);
 });
+
+test("accepts a Switch 2 result only for a Switch 2 title", async () => {
+  const switch2Game = { ...game, title: "Sample Game", platform: "Nintendo Switch 2" };
+  const offers = await fetchYahooOffers(switch2Game, { YAHOO_SHOPPING_APP_ID: "test" }, async () => ({
+    ok: true,
+    json: async () => ({ hits: [{ ...validHit(switch2Game), name: "Sample Game Nintendo Switch 2 中古" }] }),
+  }));
+
+  assert.equal(offers.length, 1);
+  assert.equal(offers[0].platform, "Nintendo Switch 2");
+});

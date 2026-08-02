@@ -29,6 +29,13 @@ test("groups matching JAN records into one catalog game", () => {
   assert.equal(catalog[0].sale[0].price, 900);
 });
 
+test("keeps a Switch 2 game platform in the published catalog", () => {
+  const master = [{ ...eligible, id: "switch2", jan: "4902370536485", platform: "Nintendo Switch 2", aliases: [], verification: { sourceUrl: "https://example.com/master", checkedAt: "2026-08-02" }, chunk: 0 }];
+  const offers = [{ ...eligible, slug: "switch2", jan: "4902370536485", platform: "Nintendo Switch 2" }];
+  const [game] = buildCatalog(offers, "2026-08-02T00:00:00.000Z", master);
+  assert.equal(game.platform, "Nintendo Switch 2");
+});
+
 test("retains the first available package image URL", () => {
   const catalog = buildCatalog([{ ...eligible, imageUrl: "https://images.example.com/cover.jpg" }], "2026-07-20T00:00:00.000Z");
   assert.equal(catalog[0].imageUrl, "https://images.example.com/cover.jpg");

@@ -4,6 +4,13 @@ export const GAME_COUNT = 300;
 export const CHUNK_SIZE = 50;
 export const CHUNK_COUNT = GAME_COUNT / CHUNK_SIZE;
 export const MASTER_SORTS = ["-review_count", "-score", "+price", "-price"];
+export const SUPPORTED_PLATFORMS = ["Nintendo Switch", "Nintendo Switch 2"];
+
+export function detectGamePlatform(title) {
+  return /switch(?: |　)*2|\u30b9\u30a4\u30c3\u30c12/iu.test(String(title).normalize("NFKC"))
+    ? "Nintendo Switch 2"
+    : "Nintendo Switch";
+}
 export const MASTER_QUERIES = ["", "\u30b2\u30fc\u30e0", "\u30bd\u30d5\u30c8"];
 
 export function cleanCatalogTitle(value) {
@@ -59,8 +66,10 @@ export function splitIntoChunks(games, chunkSize = CHUNK_SIZE) {
 
 export function hasExcludedProductName(title) {
   const normalized = String(title).normalize("NFKC").toLowerCase();
-  return /switch\s*2|\u30b9\u30a4\u30c3\u30c12/.test(normalized)
-    || [...excludedProductWords, ...strictExcludedProductWords].some((word) => normalized.includes(word));
+  const platformMarkers = new Set(["switch 2", "switch2", "\u30b9\u30a4\u30c3\u30c12", "\u30cb\u30f3\u30c6\u30f3\u30c9\u30fc\u30b9\u30a4\u30c3\u30c12"]);
+  return [...excludedProductWords, ...strictExcludedProductWords]
+    .filter((word) => !platformMarkers.has(String(word).normalize("NFKC").toLowerCase()))
+    .some((word) => normalized.includes(word));
 }
 
 export function validateGameMaster(
@@ -79,6 +88,7 @@ export function validateGameMaster(
       if (!String(game?.[field] || "").trim()) errors.push(`${prefix}: missing ${field}`);
     }
     if (!isSupportedGenre(game?.genre)) errors.push(`${prefix}: unsupported genre ${game?.genre || ""}`);
+    if (game?.platform != null && !SUPPORTED_PLATFORMS.includes(game.platform)) errors.push(`${prefix}: unsupported platform ${game.platform}`);
     if (ids.has(game?.id)) errors.push(`${prefix}: duplicate id ${game?.id}`);
     ids.add(game?.id);
     if (!isValidJan(game?.jan)) errors.push(`${prefix}: invalid JAN ${game?.jan || ""}`);

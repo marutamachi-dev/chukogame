@@ -46,17 +46,19 @@ export async function fetchYahooOffers(game, env = process.env, fetchImpl = fetc
 }
 
 function toVerifiedOffers(items, game, observedAt) {
+  const platform = game.platform || "Nintendo Switch";
+  const isSwitch2Listing = (title) => /switch(?: |　)*2|\u30b9\u30a4\u30c3\u30c12/iu.test(title || "");
   return items.filter((item) => (
     String(item.janCode) === String(game.jan)
     && [game.title, ...(game.aliases || [])].some((title) => normalizeTitle(item.name || "").includes(normalizeTitle(title)))
-    && !/switch\s*2/i.test(item.name || "")
+    && (platform === "Nintendo Switch 2" ? isSwitch2Listing(item.name) : !isSwitch2Listing(item.name))
     && item.condition === "used"
     && item.inStock === true
     && Number(item.price) > 0
     && Number(item.shipping?.code) === 2
   )).map((item) => ({
     slug: game.id, jan: game.jan, title: item.name, genre: game.genre, cover: game.cover,
-    searches: game.searches, platform: "Nintendo Switch", format: "package", edition: "standard",
+    searches: game.searches, platform, format: "package", edition: "standard",
     condition: "used-standard",
     inStock: item.inStock === true, kind: "purchase", source: "Yahoo! Shopping",
     priceWithShipping: Number(item.price), shippingCode: Number(item.shipping.code), url: item.url,

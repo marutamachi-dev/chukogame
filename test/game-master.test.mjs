@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {
-  CHUNK_COUNT, GAME_COUNT, MASTER_QUERIES, MASTER_SORTS, cleanCatalogTitle, hasExcludedProductName, isValidJan, validateGameMaster, splitIntoChunks, selectMasterCandidates,
+  CHUNK_COUNT, GAME_COUNT, MASTER_QUERIES, MASTER_SORTS, cleanCatalogTitle, detectGamePlatform, hasExcludedProductName, isValidJan, validateGameMaster, splitIntoChunks, selectMasterCandidates,
   requestWithRateLimit,
 } from "../src/lib/game-master.js";
 
@@ -13,12 +13,17 @@ test("removes retailer and platform boilerplate from catalog titles", () => {
   assert.equal(cleanCatalogTitle("ゼルダの伝説 ティアーズ オブ ザ キングダム Switch用ソフト(パッケージ版)"), "ゼルダの伝説 ティアーズ オブ ザ キングダム");
 });
 
-test("excludes bundles, DLC-included editions, and accessories", () => {
+test("excludes bundles, DLC-included editions, and accessories while allowing Switch 2 software", () => {
   assert.equal(hasExcludedProductName("マリオカート8 デラックス+コース追加パス"), true);
   assert.equal(hasExcludedProductName("ポケットモンスター バイオレット+ゼロの秘宝"), true);
   assert.equal(hasExcludedProductName("Pokemon GO Plus+"), true);
-  assert.equal(hasExcludedProductName("\u30cb\u30f3\u30c6\u30f3\u30c9\u30fc\u30b9\u30a4\u30c3\u30c12\u30bd\u30d5\u30c8"), true);
-  assert.equal(hasExcludedProductName("Nintendo Switch 2 game"), true);
+  assert.equal(hasExcludedProductName("\u30cb\u30f3\u30c6\u30f3\u30c9\u30fc\u30b9\u30a4\u30c3\u30c12\u30bd\u30d5\u30c8"), false);
+  assert.equal(hasExcludedProductName("Nintendo Switch 2 game"), false);
+});
+
+test("classifies Switch 2 titles separately from Nintendo Switch titles", () => {
+  assert.equal(detectGamePlatform("マリオカート ワールド Nintendo Switch 2"), "Nintendo Switch 2");
+  assert.equal(detectGamePlatform("マリオカート8 デラックス Nintendo Switch"), "Nintendo Switch");
 });
 
 const game = (index, overrides = {}) => ({
@@ -26,6 +31,7 @@ const game = (index, overrides = {}) => ({
   title: `ゲーム ${index}`,
   jan: `490000000${String(index).padStart(3, "0")}0`,
   genre: "RPG",
+  platform: "Nintendo Switch",
   releaseDate: "2024-01-01",
   aliases: [],
   verification: {
@@ -70,6 +76,14 @@ test("rejects duplicate identifiers, invalid records, and excluded editions", ()
 
 test("accepts a complete verified record", () => {
   const errors = validateGameMaster([game(0, { jan: "4902370536485", chunk: 0 })], {
+    expectedCount: 1,
+    expectedChunkSize: null,
+  });
+  assert.deepEqual(errors, []);
+});
+
+test("accepts a complete verified Switch 2 record", () => {
+  const errors = validateGameMaster([game(0, { jan: "4902370536485", chunk: 0, platform: "Nintendo Switch 2" })], {
     expectedCount: 1,
     expectedChunkSize: null,
   });
