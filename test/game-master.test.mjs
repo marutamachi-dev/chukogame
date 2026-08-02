@@ -121,3 +121,16 @@ test("waits and retries once after a 429 response", async () => {
   assert.equal(response.status, 200);
   assert.deepEqual(waits, [65_000]);
 });
+
+test("waits and retries once after a temporary Yahoo 503 response", async () => {
+  const statuses = [503, 200];
+  const waits = [];
+  const response = await requestWithRateLimit(
+    async () => ({ ok: statuses[0] === 200, status: statuses.shift() }),
+    async (milliseconds) => waits.push(milliseconds),
+    { retryDelayMs: 65_000 },
+  );
+
+  assert.equal(response.status, 200);
+  assert.deepEqual(waits, [65_000]);
+});

@@ -148,7 +148,7 @@ export async function requestWithRateLimit(
 ) {
   for (let attempt = 0; attempt <= maxRetries; attempt += 1) {
     const response = await request();
-    if (response.status !== 429 || attempt === maxRetries) return response;
+    if (![429, 503].includes(response.status) || attempt === maxRetries) return response;
     await sleep(retryDelayMs);
   }
   throw new Error("unreachable rate-limit retry state");
