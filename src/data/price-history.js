@@ -36,6 +36,10 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-08-04",
+      "medianPurchasePrice": 4719
     }
   ],
   "4573564400020": [
@@ -112,6 +116,10 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 3201
+    },
+    {
+      "observedOn": "2026-08-04",
+      "medianPurchasePrice": 3326
     }
   ],
   "4582528403151": [
@@ -850,10 +858,6 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 4000
-    },
-    {
-      "observedOn": "2026-08-04",
-      "medianPurchasePrice": 4000
     }
   ],
   "4902370549454": [
@@ -891,10 +895,6 @@ export const priceHistoryByJan = {
     },
     {
       "observedOn": "2026-08-03",
-      "medianPurchasePrice": 4961
-    },
-    {
-      "observedOn": "2026-08-04",
       "medianPurchasePrice": 4961
     }
   ],
@@ -934,10 +934,6 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 4864.5
-    },
-    {
-      "observedOn": "2026-08-04",
-      "medianPurchasePrice": 4829
     }
   ],
   "4571442047442": [
@@ -1439,10 +1435,6 @@ export const priceHistoryByJan = {
     },
     {
       "observedOn": "2026-08-03",
-      "medianPurchasePrice": 4114
-    },
-    {
-      "observedOn": "2026-08-04",
       "medianPurchasePrice": 4114
     }
   ],
@@ -2034,10 +2026,6 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 5550
-    },
-    {
-      "observedOn": "2026-08-04",
-      "medianPurchasePrice": 5500
     }
   ],
   "4902370547924": [
@@ -2738,6 +2726,10 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 4719
+    },
+    {
+      "observedOn": "2026-08-04",
+      "medianPurchasePrice": 4719
     }
   ],
   "4549767138602": [
@@ -2891,6 +2883,10 @@ export const priceHistoryByJan = {
     },
     {
       "observedOn": "2026-08-03",
+      "medianPurchasePrice": 5445
+    },
+    {
+      "observedOn": "2026-08-04",
       "medianPurchasePrice": 5445
     }
   ],
@@ -3930,6 +3926,10 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 3025
+    },
+    {
+      "observedOn": "2026-08-04",
+      "medianPurchasePrice": 3025
     }
   ],
   "4984995905259": [
@@ -4034,6 +4034,36 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-03",
       "medianPurchasePrice": 5681
+    }
+  ],
+  "4580717790747": [
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3631
+    },
+    {
+      "observedOn": "2026-08-04",
+      "medianPurchasePrice": 3631
+    }
+  ],
+  "4589794580227": [
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 3267
+    },
+    {
+      "observedOn": "2026-08-04",
+      "medianPurchasePrice": 3267
+    }
+  ],
+  "4549767339863": [
+    {
+      "observedOn": "2026-08-03",
+      "medianPurchasePrice": 4961
+    },
+    {
+      "observedOn": "2026-08-04",
+      "medianPurchasePrice": 4961
     }
   ],
   "5060528036696": [
@@ -4220,36 +4250,6 @@ export const priceHistoryByJan = {
     {
       "observedOn": "2026-08-04",
       "medianPurchasePrice": 3509
-    }
-  ],
-  "4589794580227": [
-    {
-      "observedOn": "2026-08-03",
-      "medianPurchasePrice": 3267
-    },
-    {
-      "observedOn": "2026-08-04",
-      "medianPurchasePrice": 3267
-    }
-  ],
-  "4549767339863": [
-    {
-      "observedOn": "2026-08-03",
-      "medianPurchasePrice": 4961
-    },
-    {
-      "observedOn": "2026-08-04",
-      "medianPurchasePrice": 4961
-    }
-  ],
-  "4580717790747": [
-    {
-      "observedOn": "2026-08-03",
-      "medianPurchasePrice": 3631
-    },
-    {
-      "observedOn": "2026-08-04",
-      "medianPurchasePrice": 3631
     }
   ]
 };
